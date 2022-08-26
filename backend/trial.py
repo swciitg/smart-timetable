@@ -77,7 +77,7 @@ def get_courses_parsed(roll_number):
     all_rows = parsed_html.body.find_all('tr')
     for row in all_rows:
         descendants = list(row.descendants)
-        # Check if its the correct sem since all sem courses are displayed:
+        # Check if its Jan-May 2022 sem:
         if (sem_session in descendants and sem_year in descendants):
             course_code_list.append(
                 row.find('td', {"data-label": data_label}).text)

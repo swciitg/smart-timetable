@@ -15,7 +15,7 @@ def generate_all_courses_CSV(url):
         A dictionary message or None incase of an exception
     '''
     try:
-        tables = camelot.read_pdf(url, pages='1-end')
+        tables = camelot.read_pdf(url, pages='1-end', strip_text='\n')
         table_dfs = [table.df.iloc[1:, :] for table in tables]
         final_df = pd.concat(table_dfs, ignore_index=True)
         final_df.to_csv('data/courses_csv.csv', index=False)
@@ -39,6 +39,6 @@ def fetch_all_courses_DF():
     '''
     try:
         df = pd.read_csv('data/courses_csv.csv')
-        return df
+        return df.drop_duplicates('1')
     except Exception:
         return pd.DataFrame()
