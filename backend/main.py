@@ -78,7 +78,7 @@ def get_my_courses(data: request_my_courses):
             'course': return_empty_string(df_entry[2]),
             'ltpc': return_empty_string(df_entry[3]),
             'slot': return_empty_string(df_entry[8]),
-            'instructor': return_empty_string(df_entry[8]),
+            'instructor': return_empty_string(df_entry[11]),
             'midsem': return_empty_string(df_entry[9]),
             'endsem': return_empty_string(df_entry[10])
         }
