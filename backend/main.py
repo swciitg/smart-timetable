@@ -53,11 +53,228 @@ def generate_all_courses(data: request_generate):
 def return_empty_string(value):
     return '' if pd.isnull(value) else value
 
+def get_designfresher_courses(roll_number):
+    data_map=ocr.get_fresher_DF(roll_number)
+    # my_courses = {
+    #         'code': return_empty_string(df_entry[1]),
+    #         'course': return_empty_string(df_entry[2]),
+    #         'ltpc': return_empty_string(df_entry[3]),
+    #         'slot': return_empty_string(df_entry[8]),
+    #         'instructor': return_empty_string(df_entry[11]),
+    #         'midsem': return_empty_string(df_entry[9]),
+    #         'endsem': return_empty_string(df_entry[10])
+    #     }
+
+    # Correct for div 3
+    courses=[
+        {
+            'course':'EE 101',
+            'code':'EE101',
+            'slot':'C',
+            'instructor':'Lecture Hall 2',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+    ]
+    if data_map['Division']=='I' or data_map['Division']=='II':
+        for c in courses:
+            c['slot']=c['slot']+'1'
+    if data_map['Division']=='II' or data_map['Division']=='IV':
+        for c in courses:
+            c['instructor']='Lecture Hall 3'
+    tutorial=[
+        {
+            'course':'EE 101 Tutorial',
+            'code':'EE101',
+            'slot':'c',
+            'instructor':data_map['Location'],
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        }
+    ]
+    lab=[
+        {
+            'course':'CE 101 Lab',
+            'code':'CE110',
+            'slot':'AL5',
+            'instructor':'Drawing Hall Core 1',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        }
+    ]
+    
+    return courses+tutorial+lab
+
+def get_fresher_courses(roll_number):
+    data_map=ocr.get_fresher_DF(roll_number)
+    # my_courses = {
+    #         'code': return_empty_string(df_entry[1]),
+    #         'course': return_empty_string(df_entry[2]),
+    #         'ltpc': return_empty_string(df_entry[3]),
+    #         'slot': return_empty_string(df_entry[8]),
+    #         'instructor': return_empty_string(df_entry[11]),
+    #         'midsem': return_empty_string(df_entry[9]),
+    #         'endsem': return_empty_string(df_entry[10])
+    #     }
+
+    # Correct for div 3
+    courses=[
+        {
+            'course':'CE 101',
+            'code':'CE101',
+            'slot':'A',
+            'instructor':'Lecture Hall 2',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'MA 101',
+            'code':'MA101',
+            'slot':'B',
+            'instructor':'Lecture Hall 2',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'EE 101',
+            'code':'EE101',
+            'slot':'C',
+            'instructor':'Lecture Hall 2',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'CH 101',
+            'code':'CH101',
+            'slot':'D',
+            'instructor':'Lecture Hall 2',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'PH 101',
+            'code':'PH101',
+            'slot':'E',
+            'instructor':'Lecture Hall 2',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        }
+    ]
+    if data_map['Division']=='I' or data_map['Division']=='II':
+        for c in courses:
+            c['slot']=c['slot']+'1'
+    if data_map['Division']=='II' or data_map['Division']=='IV':
+        for c in courses:
+            c['instructor']='Lecture Hall 3'
+    tutorial=[
+        {
+            'course':'MA 101 Tutorial',
+            'code':'MA101',
+            'slot':'b',
+            'instructor':data_map['Location'],
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'EE 101 Tutorial',
+            'code':'EE101',
+            'slot':'c',
+            'instructor':data_map['Location'],
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'CH 101 Tutorial',
+            'code':'CH101',
+            'slot':'d',
+            'instructor':data_map['Location'],
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'PH 101 Tutorial',
+            'code':'PH101',
+            'slot':'e',
+            'instructor':data_map['Location'],
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        }
+    ]
+    lab=[
+        {
+            'course':'CH 110 Lab',
+            'code':'CH110',
+            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
+            'instructor':'Chemistry Lab Core 3',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'CE 101 Lab',
+            'code':'CE110',
+            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
+            'instructor':'Drawing Hall Core 1',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        },
+        {
+            'course':'ME 110 Lab' if data_map['Division'] in ['III','IV'] else 'PH 110 Lab',
+            'code':'ME110' if data_map['Division'] in ['III','IV'] else 'PH110',
+            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
+            'instructor':'Central Workshop' if data_map['Division'] in ['III','IV'] else 'Physics Lab Core 4',
+            'ltpc':' ',
+            'midesm':' ',
+            'endsem':' '
+        }
+    ]
+    if data_map['Lab']=='L6' or data_map['Lab']=='L1':
+        lab[0]['slot']=lab[0]['slot']+'1'
+        lab[1]['slot']=lab[1]['slot']+'2'
+        lab[2]['slot']=lab[2]['slot']+'4'
+    elif data_map['Lab']=='L7' or data_map['Lab']=='L2':
+        lab[0]['slot']=lab[0]['slot']+'3'
+        lab[1]['slot']=lab[1]['slot']+'4'
+        lab[2]['slot']=lab[2]['slot']+'1'
+    elif data_map['Lab']=='L8' or data_map['Lab']=='L3':
+        lab[0]['slot']=lab[0]['slot']+'5'
+        lab[1]['slot']=lab[1]['slot']+'1'
+        lab[2]['slot']=lab[2]['slot']+'3'
+    elif data_map['Lab']=='L9' or data_map['Lab']=='L4':
+        lab[0]['slot']=lab[0]['slot']+'2'
+        lab[1]['slot']=lab[1]['slot']+'3'
+        lab[2]['slot']=lab[2]['slot']+'5'
+    elif data_map['Lab']=='L10' or data_map['Lab']=='L5':
+        lab[0]['slot']=lab[0]['slot']+'4'
+        lab[1]['slot']=lab[1]['slot']+'5'
+        lab[2]['slot']=lab[2]['slot']+'2'
+    
+    return courses+tutorial+lab
+
+
 
 @app.post('/get-my-courses')
 def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
     courses_parsed = courses.get_courses_parsed(roll_number)
+    if roll_number.startswith('220205'):
+        return get_designfresher_courses(roll_number)
+    elif roll_number.startswith('220'):
+        return get_fresher_courses(roll_number)
+
 
     # Store all courses in a DF
     all_courses_df = ocr.fetch_all_courses_DF()
@@ -92,5 +309,5 @@ def get_my_courses(data: request_my_courses):
     return data
 
 
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=8000)
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)

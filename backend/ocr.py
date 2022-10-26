@@ -38,7 +38,14 @@ def fetch_all_courses_DF():
         A dataframe with all courses or an empty dataframe incase of an exception
     '''
     try:
-        df = pd.read_csv('data/courses_csv.csv')
+        df = pd.read_csv(r'data/courses_csv.csv')
         return df.drop_duplicates('1')
     except Exception:
         return pd.DataFrame()
+
+
+def get_fresher_DF(roll_number):
+    df = pd.read_csv(r'data/divisions.csv',dtype=object)
+    df = df.set_index('Roll no')
+    x=df.loc[roll_number]
+    return x.to_dict()
