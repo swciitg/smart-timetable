@@ -73,7 +73,7 @@ def get_designfresher_courses(roll_number):
             'slot':'C',
             'instructor':'Lecture Hall 2',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
     ]
@@ -90,7 +90,7 @@ def get_designfresher_courses(roll_number):
             'slot':'c',
             'instructor':data_map['Location'],
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         }
     ]
@@ -101,7 +101,7 @@ def get_designfresher_courses(roll_number):
             'slot':'AL5',
             'instructor':'Drawing Hall Core 1',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         }
     ]
@@ -128,7 +128,7 @@ def get_fresher_courses(roll_number):
             'slot':'A',
             'instructor':'Lecture Hall 2',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -137,7 +137,7 @@ def get_fresher_courses(roll_number):
             'slot':'B',
             'instructor':'Lecture Hall 2',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -146,7 +146,7 @@ def get_fresher_courses(roll_number):
             'slot':'C',
             'instructor':'Lecture Hall 2',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -155,7 +155,7 @@ def get_fresher_courses(roll_number):
             'slot':'D',
             'instructor':'Lecture Hall 2',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -164,7 +164,7 @@ def get_fresher_courses(roll_number):
             'slot':'E',
             'instructor':'Lecture Hall 2',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         }
     ]
@@ -181,7 +181,7 @@ def get_fresher_courses(roll_number):
             'slot':'b',
             'instructor':data_map['Location'],
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -190,7 +190,7 @@ def get_fresher_courses(roll_number):
             'slot':'c',
             'instructor':data_map['Location'],
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -199,7 +199,7 @@ def get_fresher_courses(roll_number):
             'slot':'d',
             'instructor':data_map['Location'],
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -208,7 +208,7 @@ def get_fresher_courses(roll_number):
             'slot':'e',
             'instructor':data_map['Location'],
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         }
     ]
@@ -219,7 +219,7 @@ def get_fresher_courses(roll_number):
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
             'instructor':'Chemistry Lab Core 3',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -228,7 +228,7 @@ def get_fresher_courses(roll_number):
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
             'instructor':'Drawing Hall Core 1',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         },
         {
@@ -237,7 +237,7 @@ def get_fresher_courses(roll_number):
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
             'instructor':'Central Workshop' if data_map['Division'] in ['III','IV'] else 'Physics Lab Core 4',
             'ltpc':' ',
-            'midesm':' ',
+            'midsem':' ',
             'endsem':' '
         }
     ]
@@ -310,4 +310,4 @@ def get_my_courses(data: request_my_courses):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8001)
