@@ -106,7 +106,10 @@ def get_designfresher_courses(roll_number):
         }
     ]
     
-    return courses+tutorial+lab
+    return {
+        'roll_number':roll_number,
+        'courses':courses+tutorial+lab
+    }
 
 def get_fresher_courses(roll_number):
     data_map=ocr.get_fresher_DF(roll_number)
@@ -262,7 +265,10 @@ def get_fresher_courses(roll_number):
         lab[1]['slot']=lab[1]['slot']+'5'
         lab[2]['slot']=lab[2]['slot']+'2'
     
-    return courses+tutorial+lab
+    return {
+        'roll_number':roll_number,
+        'courses':courses+tutorial+lab
+    }
 
 
 
@@ -310,4 +316,4 @@ def get_my_courses(data: request_my_courses):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8001)
+    uvicorn.run(app, host="0.0.0.0", port=8002)
