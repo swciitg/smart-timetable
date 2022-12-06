@@ -71,7 +71,7 @@ def get_designfresher_courses(roll_number):
             'course':'EE 101',
             'code':'EE101',
             'slot':'C',
-            'instructor':'Lecture Hall 2',
+            'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
@@ -82,7 +82,7 @@ def get_designfresher_courses(roll_number):
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
         for c in courses:
-            c['instructor']='Lecture Hall 3'
+            c['instructor']='5G2'
     tutorial=[
         {
             'course':'EE 101 Tutorial',
@@ -129,7 +129,7 @@ def get_fresher_courses(roll_number):
             'course':'CE 101',
             'code':'CE101',
             'slot':'A',
-            'instructor':'Lecture Hall 2',
+            'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
@@ -138,7 +138,7 @@ def get_fresher_courses(roll_number):
             'course':'MA 101',
             'code':'MA101',
             'slot':'B',
-            'instructor':'Lecture Hall 2',
+            'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
@@ -147,7 +147,7 @@ def get_fresher_courses(roll_number):
             'course':'EE 101',
             'code':'EE101',
             'slot':'C',
-            'instructor':'Lecture Hall 2',
+            'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
@@ -156,7 +156,7 @@ def get_fresher_courses(roll_number):
             'course':'CH 101',
             'code':'CH101',
             'slot':'D',
-            'instructor':'Lecture Hall 2',
+            'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
@@ -165,7 +165,7 @@ def get_fresher_courses(roll_number):
             'course':'PH 101',
             'code':'PH101',
             'slot':'E',
-            'instructor':'Lecture Hall 2',
+            'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
@@ -176,7 +176,7 @@ def get_fresher_courses(roll_number):
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
         for c in courses:
-            c['instructor']='Lecture Hall 3'
+            c['instructor']='5G2'
     tutorial=[
         {
             'course':'MA 101 Tutorial',
