@@ -297,7 +297,6 @@ def get_my_courses(data: request_my_courses):
 
     for i in range(0, len(my_courses_df)):
         df_entry = my_courses_df.iloc[i]
-        print(df_entry)
         my_courses = {
             'code': return_empty_string(df_entry[0]),
             'course': return_empty_string(df_entry[1]),
