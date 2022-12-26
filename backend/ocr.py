@@ -39,7 +39,7 @@ def fetch_all_courses_DF():
     '''
     try:
         df = pd.read_csv(r'data/courses_csv.csv')
-        return df.drop_duplicates('1')
+        return df.drop_duplicates('0')
     except Exception:
         return pd.DataFrame()
 

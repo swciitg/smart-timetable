@@ -3,11 +3,11 @@ import pandas as pd
 import os
 
 
-tables = camelot.read_pdf(
-    "coursesjan.pdf", pages='1-end', strip_text='\n')
-table_dfs = [table.df.iloc[:, :] for table in tables]
-final_df = pd.concat(table_dfs, ignore_index=True)
-final_df.to_csv('trycourses.csv', index=False)
+# tables = camelot.read_pdf(
+#     "jannew.pdf", pages='1-end', strip_text='\n')
+# table_dfs = [table.df.iloc[:, :] for table in tables]
+# final_df = pd.concat(table_dfs, ignore_index=True)
+# final_df.to_csv('jannew.csv', index=False)
 
 # tables = camelot.read_pdf(
 #     "freshers.pdf", pages='1-end', strip_text='\n')
@@ -42,3 +42,9 @@ final_df.to_csv('trycourses.csv', index=False)
 # # table_dfs = [table.df.iloc[1:, :] for table in tables]
 # # final_df = pd.concat(table_dfs, ignore_index=True)
 # # final_df.to_csv('location.csv', index=False)
+
+df = pd.read_csv("jan_2023.csv")
+df = df.drop_duplicates('0')
+print(df)
+print(df['0'].unique)
+print(df['1'].unique)

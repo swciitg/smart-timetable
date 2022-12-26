@@ -70,8 +70,8 @@ def get_courses_parsed(roll_number):
 
     # FIXME: Make sure to change/update this erroneous string later if needed
     data_label = 'Couse Code'
-    sem_session = 'July-Nov'
-    sem_year = '2022'
+    sem_session = 'Jan-May'
+    sem_year = '2023'
     parsed_html = BeautifulSoup(jsp_response)
 
     all_rows = parsed_html.body.find_all('tr')
@@ -79,7 +79,10 @@ def get_courses_parsed(roll_number):
         descendants = list(row.descendants)
         # Check if its the correct sem since all sem courses are displayed:
         if (sem_session in descendants and sem_year in descendants):
-            course_code_list.append(
+          # Add only if course is approved
+            approval_status = row.find_all('td',{"data-label": "Status"})[-1].text
+            if (approval_status == "Approved"):
+              course_code_list.append(
                 row.find('td', {"data-label": data_label}).text)
 
     return course_code_list
