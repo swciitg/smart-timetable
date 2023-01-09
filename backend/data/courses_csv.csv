@@ -352,11 +352,11 @@ CS 223,Computer Architecture and Organization,3-0-0-6,Compulsory,4,BTech,--,C,"J
 CS 224,Hardware Lab,0-1-4-6,Compulsory,4,BTech,--,,Aryabartta Sahu,asahu
 CS 245,Database Management Systems,3-0-0-6,Compulsory,4,BTech,--,D,Purandar Bhaduri,pbhaduri
 CS 246,Database Management Systems Lab,0-0-4-4,Compulsory,4,BTech,--,,"Jatindra Kumar Deka, V. Vijaya Saradhi","jatin,saradhi"
-CS 321,Smart Systems Laboratory,0-1-3-5,Department Elective,6,BTech,--,,"Pradip Kumar Das, Shivashankar B. Nair","pkdas,sbnair"
-CS 331,Programming Languages Lab,0-1-3-5,Department Elective,6,BTech,--,,"Pradip Kumar Das, Shivashankar B. Nair","pkdas,sbnair"
+CS 321,Smart Systems Laboratory,0-1-3-5,Department Elective,6,BTech,--,ML4,"Pradip Kumar Das, Shivashankar B. Nair","pkdas,sbnair"
+CS 331,Programming Languages Lab,0-1-3-5,Department Elective,6,BTech,--,ML3,"Pradip Kumar Das, Shivashankar B. Nair","pkdas,sbnair"
 CS 345,Software Engineering,2-0-0-4,Compulsory,6,BTech,--,E1,Samit Bhattacharya,samit
-CS 346,Software Engineering Lab,0-0-3-3,Compulsory,6,BTech,--,,Samit Bhattacharya,samit
-CS 348,Implementation of Programming Languages Lab,0-2-3-7,Compulsory,6,BTech,--,,Sukumar Nandi,sukumar
+CS 346,Software Engineering Lab,0-0-3-3,Compulsory,6,BTech,--,ML1,Samit Bhattacharya,samit
+CS 348,Implementation of Programming Languages Lab,0-2-3-7,Compulsory,6,BTech,--,ML2,Sukumar Nandi,sukumar
 CS 348,Implementation of Programming Languages Lab,0-2-3-7,Compulsory,2,Dual(MTech+PhD),--,,Sukumar Nandi,sukumar
 CS 350M,Computer Systems,3-0-0-6,Minor,6,BTech,--,G1,"John Jose, Tamarapalli Venkatesh","johnjose,t.venkat"
 CS 350M,Computer Systems,3-0-0-6,Minor,2,Dual(MTech+PhD),--,G1,"John Jose, Tamarapalli Venkatesh","johnjose,t.venkat"
