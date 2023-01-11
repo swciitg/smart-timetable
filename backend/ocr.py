@@ -38,8 +38,9 @@ def fetch_all_courses_DF():
         A dataframe with all courses or an empty dataframe incase of an exception
     '''
     try:
-        df = pd.read_csv(r'data/courses_csv.csv')
-        return df.drop_duplicates('0')
+        df = pd.read_csv(r'data/courses_csv.csv',dtype=str)
+        # return df.drop_duplicates('code')
+        return df  # Assume no duplicates
     except Exception:
         return pd.DataFrame()
 

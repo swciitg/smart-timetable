@@ -289,7 +289,7 @@ def get_my_courses(data: request_my_courses):
         return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
 
     # Find all course details given the course code list
-    my_courses_df = all_courses_df.loc[all_courses_df['0'].isin(
+    my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         courses_parsed)]
 
     data = {'roll_number': roll_number}
@@ -297,14 +297,18 @@ def get_my_courses(data: request_my_courses):
 
     for i in range(0, len(my_courses_df)):
         df_entry = my_courses_df.iloc[i]
-        my_courses = {
-            'code': return_empty_string(df_entry[0]),
-            'course': return_empty_string(df_entry[1]),
-            'ltpc': return_empty_string(df_entry[2]),
-            'slot': return_empty_string(df_entry[7]),
-            'instructor': return_empty_string(df_entry[8]),
+        my_courses_nullable = {
+            'code': return_empty_string(df_entry['code']),
+            'course': return_empty_string(df_entry['name']),
+            # 'ltpc': return_empty_string(df_entry[2]),
+            'slot': return_empty_string(df_entry['slot']),
+            'instructor': return_empty_string(df_entry['prof']),
+            'venue': df_entry['venue']
             # 'midsem': return_empty_string(df_entry[9]),
             # 'endsem': return_empty_string(df_entry[10])
+        }
+        my_courses = {
+            k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
         }
         my_courses_list.append(my_courses)
 
