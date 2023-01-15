@@ -325,6 +325,7 @@ def get_my_courses(data: request_my_courses):
 
 wrong_roll_numbers = {
     '190104017' : '190102110',
+    '190108012' : '190102099',
 }
 
 if __name__ == "__main__":
