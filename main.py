@@ -68,16 +68,25 @@ def get_designfresher_courses(roll_number):
     # Correct for div 3
     courses=[
         {
-            'course':'EE 101',
-            'code':'EE101',
-            'slot':'C',
+            'course':'ME 101',
+            'code':'ME101',
+            'slot':'A',
+            'instructor':'5G1',
+            'ltpc':' ',
+            'midsem':' ',
+            'endsem':' '
+        },
+        {
+            'course':'CS 101',
+            'code':'CS101',
+            'slot':'D',
             'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
     ]
-    if data_map['Division']=='I' or data_map['Division']=='II':
+    if data_map['Division']=='III' or data_map['Division']=='IV':
         for c in courses:
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
@@ -85,14 +94,14 @@ def get_designfresher_courses(roll_number):
             c['instructor']='5G2'
     tutorial=[
         {
-            'course':'EE 101 Tutorial',
-            'code':'EE101',
-            'slot':'c',
+            'course':'ME 101 Tutorial',
+            'code':'ME101',
+            'slot':'a',
             'instructor':data_map['Location'],
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
-        }
+        },
     ]
     lab=[
         {
@@ -126,8 +135,8 @@ def get_fresher_courses(roll_number):
     # Correct for div 3
     courses=[
         {
-            'course':'CE 101',
-            'code':'CE101',
+            'course':'ME 101',
+            'code':'ME101',
             'slot':'A',
             'instructor':'5G1',
             'ltpc':' ',
@@ -135,8 +144,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'MA 101',
-            'code':'MA101',
+            'course':'BT 101',
+            'code':'BT101',
             'slot':'B',
             'instructor':'5G1',
             'ltpc':' ',
@@ -144,8 +153,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'EE 101',
-            'code':'EE101',
+            'course':'MA 102',
+            'code':'MA102',
             'slot':'C',
             'instructor':'5G1',
             'ltpc':' ',
@@ -153,8 +162,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'CH 101',
-            'code':'CH101',
+            'course':'CS 101',
+            'code':'CS101',
             'slot':'D',
             'instructor':'5G1',
             'ltpc':' ',
@@ -162,8 +171,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'PH 101',
-            'code':'PH101',
+            'course':'PH 102',
+            'code':'PH102',
             'slot':'E',
             'instructor':'5G1',
             'ltpc':' ',
@@ -171,7 +180,7 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         }
     ]
-    if data_map['Division']=='I' or data_map['Division']=='II':
+    if data_map['Division']=='III' or data_map['Division']=='IV':
         for c in courses:
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
@@ -179,17 +188,17 @@ def get_fresher_courses(roll_number):
             c['instructor']='5G2'
     tutorial=[
         {
-            'course':'MA 101 Tutorial',
-            'code':'MA101',
-            'slot':'b',
+            'course':'ME 101 Tutorial',
+            'code':'ME101',
+            'slot':'a',
             'instructor':data_map['Location'],
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'EE 101 Tutorial',
-            'code':'EE101',
+            'course':'MA 102 Tutorial',
+            'code':'MA102',
             'slot':'c',
             'instructor':data_map['Location'],
             'ltpc':' ',
@@ -197,73 +206,64 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'CH 101 Tutorial',
-            'code':'CH101',
-            'slot':'d',
-            'instructor':data_map['Location'],
-            'ltpc':' ',
-            'midsem':' ',
-            'endsem':' '
-        },
-        {
-            'course':'PH 101 Tutorial',
-            'code':'PH101',
+            'course':'PH 102 Tutorial',
+            'code':'PH102',
             'slot':'e',
             'instructor':data_map['Location'],
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
-        }
+        },
     ]
     lab=[
         {
-            'course':'CH 110 Lab',
-            'code':'CH110',
-            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
-            'instructor':'Chemistry Lab Core 3',
+            'course':'CS 110 Lab',
+            'code':'CS110',
+            'slot':'ML' if data_map['Division'] in ['III','IV'] else 'AL',
+            'instructor':'Department of CSE, Academic Complex (AC) ',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'CE 101 Lab',
-            'code':'CE110',
-            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
-            'instructor':'Drawing Hall Core 1',
+            'course':'ME 110 Lab' if data_map['Division'] in ['II','I'] else 'PH 110 Lab',
+            'code':'ME110' if data_map['Division'] in ['II','I'] else 'PH110',
+            'slot':'ML' if data_map['Division'] in ['III','IV'] else 'AL',
+            'instructor':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['III','IV'] else 'Workshop (on the western side of Academic Complex (AC))',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'ME 110 Lab' if data_map['Division'] in ['III','IV'] else 'PH 110 Lab',
-            'code':'ME110' if data_map['Division'] in ['III','IV'] else 'PH110',
-            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
-            'instructor':'Central Workshop' if data_map['Division'] in ['III','IV'] else 'Physics Lab Core 4',
+            'course':'EE 102 Lab',
+            'code':'EE102',
+            'slot':'ML' if data_map['Division'] in ['III','IV'] else 'AL',
+            'instructor':'Department of EEE, Academic Complex (AC)',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
-        }
+        },
     ]
     if data_map['Lab']=='L6' or data_map['Lab']=='L1':
         lab[0]['slot']=lab[0]['slot']+'1'
-        lab[1]['slot']=lab[1]['slot']+'2'
-        lab[2]['slot']=lab[2]['slot']+'4'
+        lab[1]['slot']=lab[1]['slot']+'4'
+        lab[2]['slot']=lab[2]['slot']+'2'
     elif data_map['Lab']=='L7' or data_map['Lab']=='L2':
         lab[0]['slot']=lab[0]['slot']+'3'
-        lab[1]['slot']=lab[1]['slot']+'4'
-        lab[2]['slot']=lab[2]['slot']+'1'
+        lab[1]['slot']=lab[1]['slot']+'1'
+        lab[2]['slot']=lab[2]['slot']+'4'
     elif data_map['Lab']=='L8' or data_map['Lab']=='L3':
         lab[0]['slot']=lab[0]['slot']+'5'
-        lab[1]['slot']=lab[1]['slot']+'1'
-        lab[2]['slot']=lab[2]['slot']+'3'
+        lab[1]['slot']=lab[1]['slot']+'3'
+        lab[2]['slot']=lab[2]['slot']+'1'
     elif data_map['Lab']=='L9' or data_map['Lab']=='L4':
         lab[0]['slot']=lab[0]['slot']+'2'
-        lab[1]['slot']=lab[1]['slot']+'3'
-        lab[2]['slot']=lab[2]['slot']+'5'
+        lab[1]['slot']=lab[1]['slot']+'5'
+        lab[2]['slot']=lab[2]['slot']+'3'
     elif data_map['Lab']=='L10' or data_map['Lab']=='L5':
         lab[0]['slot']=lab[0]['slot']+'4'
-        lab[1]['slot']=lab[1]['slot']+'5'
-        lab[2]['slot']=lab[2]['slot']+'2'
+        lab[1]['slot']=lab[1]['slot']+'2'
+        lab[2]['slot']=lab[2]['slot']+'5'
     
     return {
         'roll_number':roll_number,
