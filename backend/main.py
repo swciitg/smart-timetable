@@ -135,8 +135,8 @@ def get_fresher_courses(roll_number):
     # Correct for div 3
     courses=[
         {
-            'course':'ME 101',
-            'code':'ME101',
+            'course':'CE 101',
+            'code':'CE101',
             'slot':'A',
             'instructor':'5G1',
             'ltpc':' ',
@@ -144,8 +144,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'BT 101',
-            'code':'BT101',
+            'course':'MA 101',
+            'code':'MA101',
             'slot':'B',
             'instructor':'5G1',
             'ltpc':' ',
@@ -153,8 +153,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'MA 102',
-            'code':'MA102',
+            'course':'EE 101',
+            'code':'EE101',
             'slot':'C',
             'instructor':'5G1',
             'ltpc':' ',
@@ -162,8 +162,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'CS 101',
-            'code':'CS101',
+            'course':'CH 101',
+            'code':'CH101',
             'slot':'D',
             'instructor':'5G1',
             'ltpc':' ',
@@ -171,8 +171,8 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'PH 102',
-            'code':'PH102',
+            'course':'PH 101',
+            'code':'PH101',
             'slot':'E',
             'instructor':'5G1',
             'ltpc':' ',
@@ -180,7 +180,7 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         }
     ]
-    if data_map['Division']=='III' or data_map['Division']=='IV':
+    if data_map['Division']=='I' or data_map['Division']=='II':
         for c in courses:
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
@@ -188,17 +188,17 @@ def get_fresher_courses(roll_number):
             c['instructor']='5G2'
     tutorial=[
         {
-            'course':'ME 101 Tutorial',
-            'code':'ME101',
-            'slot':'a',
+            'course':'MA 101 Tutorial',
+            'code':'MA101',
+            'slot':'b',
             'instructor':data_map['Location'],
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'MA 102 Tutorial',
-            'code':'MA102',
+            'course':'EE 101 Tutorial',
+            'code':'EE101',
             'slot':'c',
             'instructor':data_map['Location'],
             'ltpc':' ',
@@ -206,8 +206,17 @@ def get_fresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'PH 102 Tutorial',
-            'code':'PH102',
+            'course':'CH 101 Tutorial',
+            'code':'CH101',
+            'slot':'d',
+            'instructor':data_map['Location'],
+            'ltpc':' ',
+            'midsem':' ',
+            'endsem':' '
+        },
+        {
+            'course':'PH 101 Tutorial',
+            'code':'PH101',
             'slot':'e',
             'instructor':data_map['Location'],
             'ltpc':' ',
