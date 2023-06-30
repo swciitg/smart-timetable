@@ -68,8 +68,8 @@ def get_designfresher_courses(roll_number):
     # Correct for div 3
     courses=[
         {
-            'course':'ME 101',
-            'code':'ME101',
+            'course':'CE 101',
+            'code':'CE101',
             'slot':'A',
             'instructor':'5G1',
             'ltpc':' ',
@@ -77,9 +77,9 @@ def get_designfresher_courses(roll_number):
             'endsem':' '
         },
         {
-            'course':'CS 101',
-            'code':'CS101',
-            'slot':'D',
+            'course':'MA 101',
+            'code':'MA101',
+            'slot':'B',
             'instructor':'5G1',
             'ltpc':' ',
             'midsem':' ',
@@ -94,9 +94,9 @@ def get_designfresher_courses(roll_number):
             c['instructor']='5G2'
     tutorial=[
         {
-            'course':'ME 101 Tutorial',
-            'code':'ME101',
-            'slot':'a',
+            'course':'MA 101 Tutorial',
+            'code':'MA101',
+            'slot':'b',
             'instructor':data_map['Location'],
             'ltpc':' ',
             'midsem':' ',
@@ -105,14 +105,14 @@ def get_designfresher_courses(roll_number):
     ]
     lab=[
         {
-            'course':'CE 101 Lab',
+            'course':'CE 110 Lab',
             'code':'CE110',
-            'slot':'AL5',
-            'instructor':'Drawing Hall Core 1',
+            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
+            'instructor':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
-        }
+        },
     ]
     
     return {
@@ -226,28 +226,28 @@ def get_fresher_courses(roll_number):
     ]
     lab=[
         {
-            'course':'CS 110 Lab',
-            'code':'CS110',
-            'slot':'ML' if data_map['Division'] in ['III','IV'] else 'AL',
-            'instructor':'Department of CSE, Academic Complex (AC) ',
+            'course':'CH 110 Lab',
+            'code':'CH110',
+            'slot':'ML' if data_map['Division'] in ['II','I'] else 'AL',
+            'instructor':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'ME 110 Lab' if data_map['Division'] in ['II','I'] else 'PH 110 Lab',
-            'code':'ME110' if data_map['Division'] in ['II','I'] else 'PH110',
-            'slot':'ML' if data_map['Division'] in ['III','IV'] else 'AL',
-            'instructor':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['III','IV'] else 'Workshop (on the western side of Academic Complex (AC))',
+            'course':'PH 110 Lab' if data_map['Division'] in ['II','I'] else 'ME 110 Lab',
+            'code':'PH110' if data_map['Division'] in ['II','I'] else 'ME110',
+            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
+            'instructor':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['II','I'] else 'Workshop (on the western side of Academic Complex (AC))',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'EE 102 Lab',
-            'code':'EE102',
-            'slot':'ML' if data_map['Division'] in ['III','IV'] else 'AL',
-            'instructor':'Department of EEE, Academic Complex (AC)',
+            'course':'CE 110 Lab',
+            'code':'CE110',
+            'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
+            'instructor':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
@@ -286,9 +286,9 @@ def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
     courses_parsed = courses.get_courses_parsed(roll_number)
     # Handle 2022 freshers
-    if roll_number.startswith('220205'):
+    if roll_number.startswith('230205'):
         return get_designfresher_courses(roll_number)
-    elif roll_number.startswith('220'):
+    elif roll_number.startswith('230'):
         return get_fresher_courses(roll_number)
 
 
