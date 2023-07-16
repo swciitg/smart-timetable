@@ -49,10 +49,6 @@ def generate_all_courses(data: request_generate):
     else:
         return message
 
-
-def return_empty_string(value):
-    return '' if pd.isnull(value) else value
-
 def get_designfresher_courses(roll_number):
     data_map=ocr.get_fresher_DF(roll_number)
     # my_courses = {
@@ -114,7 +110,11 @@ def get_designfresher_courses(roll_number):
             'endsem':' '
         },
     ]
-    
+
+    for i in range(len(courses)):
+        courses[i]['midsem'] = get_midsem_time(courses[i]['slot'])
+        courses[i]['endsem'] = get_endsem_time(courses[i]['slot'])   
+ 
     return {
         'roll_number':roll_number,
         'courses':courses+tutorial+lab
@@ -274,18 +274,91 @@ def get_fresher_courses(roll_number):
         lab[1]['slot']=lab[1]['slot']+'2'
         lab[2]['slot']=lab[2]['slot']+'5'
     
+    for i in range(len(courses)):
+        courses[i]['midsem'] = get_midsem_time(courses[i]['slot'])
+        courses[i]['endsem'] = get_endsem_time(courses[i]['slot'])
+
     return {
         'roll_number':roll_number,
         'courses':courses+tutorial+lab
     }
 
+def return_empty_string(value):
+    return '' if pd.isnull(value) else value
 
+def get_midsem_time(slot):
+    if pd.isnull(slot):
+        return ""
+    else:
+        if slot == "A":
+            return "2023-09-18T09:00:00.000Z"
+        elif slot == "A1":
+            return "2023-09-18T14:00:00.000Z"
+        if slot == "B":
+            return "2023-09-19T09:00:00.000Z"
+        elif slot == "B1":
+            return "2023-09-19T14:00:00.000Z"
+        if slot == "C":
+            return "2023-09-20T09:00:00.000Z"
+        elif slot == "C1":
+            return "2023-09-20T14:00:00.000Z"
+        if slot == "D":
+            return "2023-09-21T09:00:00.000Z"
+        elif slot == "D1":
+            return "2023-09-21T14:00:00.000Z"
+        if slot == "E":
+            return "2023-09-22T09:00:00.000Z"
+        elif slot == "E1":
+            return "2023-09-22T14:00:00.000Z"
+        if slot == "F":
+            return "2023-09-23T09:00:00.000Z"
+        elif slot == "F1":
+            return "2023-09-23T14:00:00.000Z"
+        if slot == "G":
+            return "2023-09-24T09:00:00.000Z"
+        elif slot == "G1":
+            return "2023-09-24T14:00:00.000Z"
+
+def get_endsem_time(slot):
+    if pd.isnull(slot):
+        return ""
+    else:
+        if slot == "A":
+            return "2023-11-19T09:00:00.000Z"
+        elif slot == "A1":
+            return "2023-11-19T14:00:00.000Z"
+        if slot == "B":
+            return "2023-11-20T09:00:00.000Z"
+        elif slot == "B1":
+            return "2023-11-20T14:00:00.000Z"
+        if slot == "C":
+            return "2023-11-21T09:00:00.000Z"
+        elif slot == "C1":
+            return "2023-11-21T14:00:00.000Z"
+        if slot == "D":
+            return "2023-11-22T09:00:00.000Z"
+        elif slot == "D1":
+            return "2023-11-22T14:00:00.000Z"
+        if slot == "E":
+            return "2023-11-23T09:00:00.000Z"
+        elif slot == "E1":
+            return "2023-11-23T14:00:00.000Z"
+        if slot == "F":
+            return "2023-11-24T09:00:00.000Z"
+        elif slot == "F1":
+            return "2023-11-24T14:00:00.000Z"
+        if slot == "G":
+            return "2023-11-25T09:00:00.000Z"
+        elif slot == "G1":
+            return "2023-11-25T14:00:00.000Z"
+        
 
 @app.post('/get-my-courses')
 def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
     courses_parsed = courses.get_courses_parsed(roll_number)
-    # Handle 2022 freshers
+    print(courses_parsed)
+    # Handle 2023 freshers
     if roll_number.startswith('230205'):
         return get_designfresher_courses(roll_number)
     elif roll_number.startswith('230'):
@@ -309,12 +382,11 @@ def get_my_courses(data: request_my_courses):
         my_courses_nullable = {
             'code': return_empty_string(df_entry['code']),
             'course': return_empty_string(df_entry['name']),
-            # 'ltpc': return_empty_string(df_entry[2]),
             'slot': return_empty_string(df_entry['slot']),
             'instructor': return_empty_string(df_entry['prof']),
-            'venue': df_entry['venue']
-            # 'midsem': return_empty_string(df_entry[9]),
-            # 'endsem': return_empty_string(df_entry[10])
+            'venue': df_entry['venue'],
+            'midsem': get_midsem_time(df_entry['slot']),
+            'endsem': get_endsem_time(df_entry['slot']),
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
@@ -336,6 +408,8 @@ wrong_roll_numbers = {
     '190104017' : '190102110',
     '190108012' : '190102099',
 }
+
+
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8002)

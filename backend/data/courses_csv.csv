@@ -1,520 +1,470 @@
-code,name,slot,venue,prof,prof_id
-SP 697,Project -I,--,,Amit Kumar,amitkumar
-RT 692,Project Phase - II,--,,"Meena Khwairakpam, Pankaj Kalita, Uppaluri Ramgopal V. S.,Sanjukta Patra, Siddhartha Singha, Sudip Mitra","meena.kh,pankajk,ramgopalu,sanjukta,siddharthafp,sudipmitra"
-RT 520,Field Work and Communication,B,,"Meena Khwairakpam, Siddhartha Singha, Sudip Mitra","meena.kh,siddharthafp,sudipmitra"
-RT 517,Agri-horticultural Produce Processing Technology,F,,Siddhartha Singha,siddharthafp
-RT 514,Water Resources Management,C,,Meena Khwairakpam,meena.kh
-RT 512,Livelihood and Entrepreneurship,D,,"Siddhartha Singha, Sudip Mitra","siddharthafp,sudipmitra"
-RA 602,Control Engineering for Robotics,G1,,CPPC Secretary,cppcicps
-RA 599,Project Phase - II,--,,CPPC Secretary,cppcicps
-RA 506,Machine Learning,B,,Prithwijit Guha,pguha
-RA 505,Robot Sensing and Vision,A,,"Arijit Sur, Rishikesh Dilip Kulkarni","arijit,rishi.k"
-PH 708,Mini project,--,,Debasish Borah,dborah
-PH 706,Gravitation and Cosmology,E1,,Debaprasad Maity,debu
-PH 704,Guided and Fourier Wave Optics,D1,,Kanhaiya Pandey,kanhaiyapandey
-PH 702,Statistical methods in Condensed Matter Physics,C1,,Subhradip Ghosh,subhra
-PH 548,Atomistic Simulation Techniques,B1,,Padma K Padmanabhan,padmakumarp
-PH 544,High Energy Physics,F1,,Poulose Poulose,poulose
-PH 542,Phase Transitions and critical phenomena,D1,,Sitangshu Bikas Santra,santra
-PH 534,Fiber Optics,G1,,Sunil K Khijwania,skhijwania
-PH 527,Nanostructured Materials,C1,,Perumal Alagarsamy,perumal
-PH 523,Magnetism and Superconductivity,A1,,Subhash Thota,subhasht
-PH 518,Project-II,--,,D Pamu,pamu
-PH 516,Advance Physics Laboratory,--,,"Bosanta R Boruah, Pravat Kumar Giri","brboruah,giri"
-PH 466,Advanced Statistical Mechanics,D,,Pankaj Kumar Mishra,pankaj.mishra
-PH 464,Fundamentals of cosmology,C,,Malay Kumar Nandy,mknandy
-PH 463,Theory of relativity,A,,Bibhas Ranjan Majhi,bibhas.majhi
-PH 462,Quantum Technology and Phenomena in Macroscopicsystems,B,,Tarak Nath Dey,tarak.dey
-PH 458,Applied superconductivity,G,,Dilip Pal,dpal
-PH 446,Fundamentals of Astrophysics,F,,Santabrata Das,sbdas
-PH 441,Quantum Computation and Cryptography,F1,,Charudatt Y Kadolkar,charu
-PH 422,Project-II,--,,Debaprasad Maity,debu
-PH 412,General Physics Laboratory-I,--,,"Alika Khare, Charudatt Y Kadolkar","alika,charu"
-PH 410,Electrodynamics-I,B,,Pratima Agarwal,pratima
-PH 408,Measurement techniques,D,,Uday Narayan Maiti,udaymaiti
-PH 406,Quantum Mechanics-II,C,,Soumitra Nandi,soumitra.nandi
-PH 404,Statistical Mechanics,A,,Girish Sampath Setlur,gsetlur
-PH 402,Mathematical Physics-II,G,,Sayan Chakrabarti,sayan.chakrabarti
-PH 382M,Laser Physics,G1,,Gagan Kumar,gk
-PH 312,Mini Project,--,,Debaprasad Maity,debu
-PH 310,Advance Physics Laboratory,--,,"Debaprasad Maity, Subhash Thota","debu,subhasht"
-PH 308,Nuclear science & technology,D1,,Udit Raha,udit.raha
-PH 306,Lasers and Ultra Fast Optics,B1,,Ashwini Kumar Sharma,aksharma
-PH 304,Measurement techniques,C1,,Pravat Kumar Giri,giri
-PH 302,Solid state physics,A1,,Sovan Chakraborty,sovan
-PH 282M,Engineering optics,F,,Bosanta R Boruah,brboruah
-PH 210,General Physics Laboratory-I,--,,"Dilip Pal, Sitangshu Bikas Santra","dpal,santra"
-PH 208,Digital electronics & microprocessors,D,,Debasish Borah,dborah
-PH 206,Computational Physics,C,,Meduri C Kumar,mckumar
-PH 204,Quantum Mechanics-I,B,,Saurabh Basu,saurabh
-PH 202,Electromagnetics,A,,Alika Khare,alika
-PH 110,Physics Laboratory,--,,"Arunansu Sil, Bipul Bhuyan, Kanhaiya Pandey, Padma KPadmanabhan, Subhaditya Bhattacharya","asil,bhuyan,kanhaiyapandey,padmakumarp,subhab"
-PH 102,Physics 2,--,,"Ananthakrishnan Srinivasan, D Pamu, Sunil K Khijwania,Seenipandian Ravi","asrini,pamu,skhijwania,sravi"
-PH 002,Preparatory Course,--,,Amarendra Kumar Sarma,aksarma
-NT 705,Recent Advances in Nanotechnology,A1,,Arun Tej Mallajosyula,aruntej
-ME 696,Biomedical Devices and Systems,F,,S. Kanagaraj,kanagaraj
-ME 692,Gear Engineering,G,,S. Senthilvelan,ssvelan
-ME 688,Advanced machining processes,A,,R. K. Mittal,rkmittal
-ME 683,Computational Gas Dynamics,D,,Tapan Krishnakumar Mankodi,tapan.mankodi
-ME 682,Nonlinear Finite Element Methods,F1,,Sachin S. Gautam,ssg
-ME 670,Advanced Computational Fluid Dynamics,D,,Gavara Madhusudhana,gmadhu
-ME 657,Two Phase Flow and Heat Transfer,B,,Manmohan Pandey,manmohan
-ME 619,Fundamentals of Microfluidics,C,,Amaresh Dalal,amaresh
-ME 615,Rotor Dynamics,D,,Rajiv Tiwari,rtiwari
-ME 612,Nuclear Energy: Concepts and Applications,G,,Dipankar Narayan Basu,dnbasu
-ME 607,Introduction to Composite Materials,C,,Debabrata Chakraborty,chakra
-ME 605,Fracture Fatigue and Failure Analysis,E1,,K. S. R. Krishna Murthy,ksrkm
-ME 554,Rocket Propulsion,E1,,Vinayak Kulkarni,vinayak
-ME 553,Gas Dynamics,G,,Bhaskar Kumar,bhaskark
-ME 552,Aircraft Propulsion,A,,Ujjwal K. Saha,saha
-ME 544,Computational Mechanics Laboratory,--,,Bhaskar Kumar,bhaskark
-ME 542,Numerical Analysis,B,,Deepak Sharma,dsharma
-ME 541,Continuum Mechanics,A,,Arup Nandy,arupn
-ME 522,Convective Heat Transfer,E1,,Arnab Kumar De,akd
-ME 515,Manufacturing Laboratory,--,,Sajan Kapil,sajan.kapil
-ME 513,Physics of Deformation Processes,B,,Ramabadran Ganesh Narayanan,ganu
-ME 511,Engineering Materials and Characterization,C,,Sukhomay Pal,spal
-ME 505,MTP Phase II,--,,Karuna Kalita,karuna.kalita
-ME 499,Project-II,--,,Manas Das,manasdas
-ME 399,BTech Project-II,--,,Manas Das,manasdas
-ME 326,Mechanical Engineering Lab IV,--,,"Arnab Kumar De, Manmohan Pandey, Nelson Muthu,Shrikrishna N. Joshi, Satyajit Panda, S. Senthilvelan","akd,manmohan,nelsonm,snj,spanda,ssvelan"
-ME 325,Control Systems,F1,,"Karuna Kalita, Satyajit Panda","karuna.kalita,spanda"
-ME 324,Industrial Engineering and Operations Reseach.,D1,,Manas Das,manasdas
-ME 323,Mechanical Measurements,C1,,"Biranchi Panda, Satish Kumar Panda","pandabiranchi,skpanda"
-ME 322,Machine Design,B1,,"Poonam Kumari, Sashindra K. Kakoty","kpmech,sashin"
-ME 321,Applied Thermodynamics,A1,,"Niranjan Sahoo, Tapan Krishnakumar Mankodi","shock,tapan.mankodi"
-ME 302M,Fundamentals of Artificial Intelligence,G1,,Shyamanta M. Hazarika,s.m.hazarika
-ME 226,Mechanical Engineering Lab II,--,,"Arup Nandy, Atul K. Soti, Gavara Madhusudhana, SukhomayPal, Sachin S. Gautam, Vinayak Kulkarni","arupn,atulsoti,gmadhu,spal,ssg,vinayak"
-ME 225,Mechanical Workshop II,--,,"Ramabadran Ganesh Narayanan, Biranchi Panda","ganu,pandabiranchi"
-ME 224,Kinematics of Machinery,D,,"Sandeep Reddy Basireddy, Sajan Kapil","bsandeepr,sajan.kapil"
-ME 223,Solid Mechanics II,C,,"Nelson Muthu, Uday S. Dixit","nelsonm,uday"
-ME 222,Manufacturing Technology I,B,,"Prasenjit Khanikar, Swarup Bag","pkhanikar,swarupbag"
-ME 221,Fluid Mechanics II,A,,"Atul K. Soti, Pranab Kumar Mondal","atulsoti,pranabm"
-ME 202M,Mechatronics,F,,Shrikrishna N. Joshi,snj
-ME 110,Workshop I,--,,"Debabrata Chakraborty, S. Kanagaraj, Manas Das, Ujjwal K.Saha, Uday S. Dixit","chakra,kanagaraj,manasdas,saha,uday"
-ME 101,Engineering Mechanics,A,,"Atanu Banerjee, Santosha K. Dwivedy, Pankaj Biswas","atanub,dwivedy,pankaj.biswas"
-MA 733,Spectral Perturbation Theory for Matrices and Matrix Pencils,C1,,Shreemayee Bora,shbora
-MA 726,Number Theory,F,,Rupam Barman,rupam
-MA 699,Project,--,,Arup Chattopadhyay,arupchatt
-MA 683,Probability Theory,C,,Sriparna Bandopadhyay,sriparna
-MA 681,Applied Stochastic Processes,D1,,Chandan Pal,cpal
-MA 668,Algorithmic and High Frequency Trading,D,5003,Siddhartha Pratim Chakrabarty,pratim
-MA 664,Theory and Applications of Sobolev Spaces,G1,,Sweta Tiwari,swetatiwari
-MA 662,Differential Equations,C1,,Swaroop Nandan Bora,swaroop
-MA 654,Advanced Data Structures and Algorithms,E1,,Gautam K. Das,gkd
-MA 653,Network Science,F,,Ashok Singh Sairam,ashok
-MA 643,Algebraic Topology,E,,P. A. S. Sree Krishna,passkrishna
-MA 642,Real Analysis A,B1,,Rajesh Srivastava,rksri
-MA 641,Operator Theory in Hilbert Spaces,F1,,Arup Chattopadhyay,arupchatt
-MA 625,Linear Algebra-I,A1,,Sameer Kamal,skamal
-MA 619,Data Structures Lab,--,,Gautam K. Das,gkd
-MA 601,Graphs and Matrices,G,,Bikash Bhattacharjya,b.bikash
-MA 594,Statistical Decision Theory,D,,Ayon Ganguly,aganguly
-MA 592,Mathematical Finance,D1,,Subhamay Saha,saha.subhamay
-MA 591,Optimization Techniques,B,,Sukanta Pati,pati
-MA 590,Probability Theory,A,,Ayon Ganguly,aganguly
-MA 588,R Programming Lab,--,,Arabin Kumar Dey,arabin
-MA 573,Numerics of Partial Differential Equations,B1,,Natesan Srinivasan,natesan
-MA 571,Numerical Linear Algebra,C1,,Shreemayee Bora,shbora
-MA 550,Measure Theory,G1,,Bhaba Kumar Sarma,bks
-MA 547,Complex Analysis,G,,Anjan K. Chakrabarty,anjankc
-MA 542,Differential Equations,D,,Durga Charan Dalal,durga
-MA 519,Complexity Theory,A1,,K. V. Krishna,kvk
-MA 512,Data Structures and Algorithms,C,,Kalpesh Kapoor,kalpesh
-MA 506,Number Theory and Cryptography,F,,Anupam Saikia,a.saikia
-MA 499,Project II,--,,Chandan Pal,cpal
-MA 374,Financial Engineering Laboratory,--,,N. Selvaraju,nselvaraju
-MA 373,Financial Engineering II,D1,,N. Selvaraju,nselvaraju
-MA 351,Theory of Computation,A1,,Sagarmoy Dutta,sagarmoy
-MA 324,Statistical Inference and Multivariate Analysis,B1,,Palash Ghosh,palash.ghosh
-MA 322,Scientific Computing,C1,,Satyajit Pramanik,satyajitp
-MA 312M,Modern Algebra,G1,,Vinay Wagh,vinay.wagh
-MA 271,Financial Engineering I,E,,Arabin Kumar Dey,arabin
-MA 252,Design and Analysis of Algorithms,B,,H. Ramesh,ramesh_h
-MA 224,Real Analysis,A,,Pratyoosh Kumar,pratyoosh
-MA 212M,Mathematical Statistics,F,,K. V. Srikanth,kvsrikanth
-MA 102,Mathematics - 2,--,,"Rafikul Alam, Rajen Kumar Sinha, M. Guru Prem Prasad,Bhupen Deka","rafik,rajen,mgpp,bdeka"
-MA 002,Preparatory Mathematics II,--,,Jitendriya Swain,jitumath
-IK 601,Elements of Indian Knowledge Systems,E1,,T. V. Bharat,tvb
-IFST 020,Joint Degree Dissertation,--,,Chandan Das,cdas
-IFST 018,Joint Degree Dissertation,--,,Chandan Das,cdas
-HT 603,Advanced Immunology,A,,Subrata Pramanik,subrata.pramanik
-HT 602,Regulatory Affairs of Biomedical Devices,G,,"Chandan Mukherjee, Krishna Pada Bhabak","cmukherjee,kbhabak"
-HT 601,"Medical Diagnostic Devices, BioMEMS, and Biosensors",C,,"Raghvendra Gupta, Rajiv K. Kar","guptar,rajivkar"
-HT 508,Product Design and Prototyping Laboratory,--,,"Harshal B. Nemade, Gooh Pattader Partho Sarathi, Rajiv K. Kar,Subrata Pramanik","harshal,psgp,rajivkar,subrata.pramanik"
-HT 507,Diagnostics & Devices Laboratory,--,,"Akshai Kumar A. S, Dipankar Bandyopadhyay, Gooh PattaderPartho Sarathi, Rajiv K. Kar, Subrata Pramanik, Urmi RavindraSalve, Tapas K Mandal","akshaikumar,dipban,psgp,rajivkar,subrata.pramanik,urmi.salve,tapasche"
-HT 506,Biotechniques and Bioinstrumentation Laboratory,--,,"Harshal B. Nemade, Gooh Pattader Partho Sarathi, Rajiv K. Kar,Subrata Pramanik","harshal,psgp,rajivkar,subrata.pramanik"
-HS 784,Acoustic Analyses of Tone Languages,E1,,Priyankoo Sarmah,priyankoo
-HS 774,Development Planning and Official Statistics in India,--,,Rajshree Bedamatta,rajshree
-HS 754,Dynamic Methods in Economics,D1,,Bodhisattva Sengupta,bsengupta
-HS 749,Issues in Tone Languages,C1,,Priyankoo Sarmah,priyankoo
-HS 745,Phonological Acquisition,B1,,Shakuntala Mahanta,smahanta
-HS 737,Cognitive Linguistics: Theories and Methods,A1,,Bidisha Som,bidisha
-HS 734,Perspectives in Linguistics,E,,Bidisha Som,bidisha
-HS 727,Issues in Historical Research,D,,Vipul Dutta,vipul.dutta
-HS 703,Topics in Economics,C,,Rajshree Bedamatta,rajshree
-HS 702,Contemporary studies in Philosophy,F1,,Abhishek Kashyap,abhishek.kashyap
-HS 699,Dissertation,--,,Vasundhara Jairath,vasundharaj
-HS 603,International Trade and Development,C1,,"Amarjyoti Mahanta, Debarshi Das","amarjyoti,debarshidas"
-HS 563,Early Womens Writing in English,D,,Debapriya Basu,debapriya.basu
-HS 561,Historical Studies,G,,Vipul Dutta,vipul.dutta
-HS 559,Indian Literary Theory,G1,,Liza Das,liza
-HS 556,Introduction to Literary Studies,C,,"Debapriya Basu, Kiran Keshavamurthy, Liza Das, RohiniMokashi-Punekar","debapriya.basu,kirank,liza,rohini"
-HS 553,History and Philosophy of Science,E1,,Abhishek Kashyap,abhishek.kashyap
-HS 551,Foundational Linguistics,E1,,Shakuntala Mahanta,smahanta
-HS 525,India's Development: Issues and Debates,D1,,Vasundhara Jairath,vasundharaj
-HS 524,Qualitative Research Methods in Social Sciences,A1,,John Thomas,johnthomas
-HS 523,Economic Development: Theory and Practice,F,,Mrinal Kanti Dutta,mkdutta
-HS 517,Comparative Politics of Developing Countries,D,,Pahi Saikia,pahi
-HS 513,Transnationalism and Migration: Issues of Development,A1,,Sukanya Sharma,sukanya
-HS 506,Interrogating Modernity,B,,Sambit Mallick,sambit
-HS 503,Sociology of Development,A,,Sambit Mallick,sambit
-HS 320M,Literature and Film: The Word and the Image,G1,,Rohini Mokashi-Punekar,rohini
-HS 252,"Pandemics, Health and Society",G1,,Daksha Parmar,daksha.p
-HS 251,Social Choice and Welfare,G1,,Amarjyoti Mahanta,amarjyoti
-HS 248,Indian Literary Theory,G1,,Liza Das,liza
-HS 244,Indian Business History,G1,,Vipul Dutta,vipul.dutta
-HS 242,Transboundary Waters: Conflict and Cooperation,G1,,Anamika Barua,abarua
-HS 239,Economics of Uncertainty and Information,G1,,Bodhisattva Sengupta,bsengupta
-HS 235,Writing Systems of the World,G1,,Priyankoo Sarmah,priyankoo
-HS 233,History of Contemporary India,G1,,Arupjyoti Saikia,arupjyoti
-HS 232M,Linguistic Analysis,F,,Shakuntala Mahanta,smahanta
-HS 222,Philosophy of Science,G1,,Abhishek Kashyap,abhishek.kashyap
-HS 216,Investigating Justice in Detective Fiction,G1,,Debapriya Basu,debapriya.basu
-HS 207,Concepts and Ideologies in Social Life,G1,,Ngamjahao Kipgen,kipgen
-HS 161,The Novel and Magic Realism,G,,Kiran Keshavamurthy,kirank
-HS 156,Economics of Health and Education,G,,Rajshree Bedamatta,rajshree
-HS 155,Introductory Mathematical Economics,G,,Debarshi Das,debarshidas
-HS 138,Psychology of Well Being,G,,Dilwar Hussain,dhussain
-HS 136,Introduction to Indian Constitution and Political Processes,G,,Mithilesh Kumar Jha,jhamk21
-HS 135,Topics in Bilingualism,G,,Bidisha Som,bidisha
-HS 134,Introduction to Archaeology,G,,Sukanya Sharma,sukanya
-HS 128,Introduction to Psychology,G,,Naveen Kashyap,nkashyap
-HS 125,Introductory Macroeconomics,G,,Agnirup Sarkar,agnirupsarkar
-HS 116,Sociology of India: Conformities and Contradictions,G,,Sawmya Ray,sawmyaray
-EN 699,Project 3,--,,E S N Raju P,pesnraju88
-EN 697,Project 1,D,,"Harsh Chaturvedi, E S N Raju P, Ranjith Thangavel","harshc,pesnraju88,ranjith.t"
-EN 674,"Energy Economics, Planning and Management",C1,,"E S N Raju P, Ranjith Thangavel","pesnraju88,ranjith.t"
-EN 671,Solar Energy Conversion Technology,F,,Pankaj Kalita,pankajk
-EN 667,Advanced Energy Systems,E,,Farrukh Khalid,f.khalid
-EM 599,Project phase 3,--,,Karuna Kalita,karuna.kalita
-EE 721,Advanced Topics in Signal Processing,C1,,Sudarshan Mukherjee,smukherjee
-EE 699,MTP Phase II,--,,Secretary DPPC EEE,dppceee
-EE 676,Advanced Power System Monitoring,B1,,Sreenath J G,sreenathjg
-EE 665,Power Electronic Systems for Electric Vehicles,A1,,Chandan Kumar,chandank
-EE 647,Microsensors and Nanosensors,D1,,Ravindra Kumar Jha,jha
-EE 643,Silicon Photonics,B1,,Ramesh Kumar Sonkar,sonkar
-EE 640,Modeling & Simulation of Advanced Nanoscale Devices,A1,,Ankush Bag,ankushbag
-EE 633,Error Control Codes,A1,,Smarajit Das,dass
-EE 632,Advanced Topics in Communication Systems,B1,,Sarvendranath Rimalapudi,sarvendranath
-EE 626,Pattern Recognition and Machine Learning,D1,,Manoj BR,manojbr
-EE 624,Speech Technology,A1,,Rohit Sinha,rsinha
-EE 622,Biomedical Signal Processing,C1,,Samarendra Dandapat,samaren
-EE 620,Image Processing,F1,,M. K. Bhuyan,mkb
-EE 615,Advanced Photovoltics,C1,,Arun Tej Mallajosyula,aruntej
-EE 613,Radio Frequency Integrated Circuits,F1,,Mahima Arrawatia,mahimaarrawatia
-EE 602,Adaptive and Learning-based Control,C1,,Indrani Kar,indranik
-EE 596H,Optimization Techniques,E,,Kuntal Deka,kuntaldeka
-EE 595H,Stochastic Models,E,,Kuntal Deka,kuntaldeka
-EE 592,Detection and Estimation Theory,G,,Kalpana Dhaka,kalpana.dhaka
-EE 580,Electrical Machines and Drive Systems,F,,A. Ravindranath,ravindranath
-EE 572,Power Engineering Laboratory,--,,Sanjib Ganguly,sganguly
-EE 562,Power Electronics Applications in Power Systems,E,,Sanjib Ganguly,sganguly
-EE 557,Optimization,G,,Prabir Barooah,pbarooah
-EE 555,Automation Laboratory,--,,Parijat Bhowmick,parijat.bhowmick
-EE 554,Nonlinear Systems and Control,F,,Somanath Majhi,smajhi
-EE 553,Optimal Control,E,,Srinivasan Krishnaswamy,srinikris
-EE 549,Photonics Integrated Circuits,F,,Debabrata Sikdar,deb.sikdar
-EE 548,RF Laboratory,--,,Rakhesh Singh Kshetrimayum,krs
-EE 540,Advance Electromagnetic Theory and Antennas,G,,Rakhesh Singh Kshetrimayum,krs
-EE 535,Data Communication Network,F,,Sonali Chouhan,sonali
-EE 534,Communication System Design Lab,--,,Sonali Chouhan,sonali
-EE 533,Wireless Communications,E,,Salil Kashyap,salilkashyap
-EE 527,Machine Learning Laboratory,--,,Prithwijit Guha,pguha
-EE 526,Machine Learning,G,,Prithwijit Guha,pguha
-EE 525,Advanced Topics in Machine Learning,F,,Prithwijit Guha,pguha
-EE 522,Statistical Signal Processing,E,,Kannan Karthik,k.karthik
-EE 521,Digital Signal Processing Lab,--,,Shaik Rafi Ahamed,rafiahamed
-EE 518,VLSI Lab-III,--,,Gaurav Trivedi,trivedi
-EE 517,VLSI Lab-II,--,,Tanmay Dutta,tanmay.dutta
-EE 516,VLSI DSP,G,,Shaik Rafi Ahamed,rafiahamed
-EE 515,VLSI System Design,F,,Gaurav Trivedi,trivedi
-EE 512,Analog IC Design,E,,Tanmay Dutta,tanmay.dutta
-EE 499,B. Tech Project-IV,--,,Secretary DUPC EEE,dupceee
-EE 399,BTP II (New Curriculum),--,,Secretary DUPC EEE,dupceee
-EE 390,Data structure and algorithms,E1,,Anirban Dasgupta,anirban.dasgupta
-EE 381,Electrical Machines Lab,--,,Sreenath J G,sreenathjg
-EE 371,Advanced Electrical Engg Lab,--,,Praveen Tripathy,ptri
-EE 370,Electrical Power Systems,B1,,Sisir Kumar Nayak,sknayak
-EE 360,Power Electronics,A1,,Praveen Tripathy,ptri
-EE 352,Advanced Control System,C1,,Parijat Bhowmick,parijat.bhowmick
-EE 336,Modelling and Simulation of Stochastic Systems,C1,,Ribhu Chopra,ribhufec
-EE 335,Information Theory & Coding,D1,,A. Rajesh,rajesha
-EE 334,Computer networks,B1,,Arun B Aloshious,aloshious
-EE 333,Communication and DSP Laboratory,--,,Kalpana Dhaka,kalpana.dhaka
-EE 332,Digital Communication,A1,,Tony Jacob,tonyj
-EE 322M,Signal Processing,G1,,Manish Bhatt,manishb
-EE 313,Microelectronics Laboratory,--,,Arun Tej Mallajosyula,aruntej
-EE 253,Instrumentation Laboratory,--,,Harshal B. Nemade,harshal
-EE 252,Measurement and Instrumentation,C,,Rishikesh Dilip Kulkarni,rishi.k
-EE 250,Control Systems,D,,Chayan Bhawal,bhawal
-EE 230,Probability and Random Processes,B,,Hanumant Singh Shekhawat,h.s.shekhawat
-EE 213M,Digital Circuits,F,,Ashwini Sawant,ashwinisawant
-EE 207,Analog Circuits Laboratory,--,,Mahima Arrawatia,mahimaarrawatia
-EE 206,Analog Circuits,A,,Roy Paily Palathinkal,roypaily
-EE 102,Basic Electronics Lab,--,,Shabari Nath,snath
-DS 699,MTP Project-II,--,,Ayon Ganguly,aganguly
-DM 699,Project (Phase 3),--,,,cppcdm
-DM 697,Project Phase 1,--,,,cppcdm
-DM 515,Rehabilitation and Retrofitting of RC Structures,D,,Arunasis Chakraborty,arunasis
-DM 514,Financing for Disaster Risk Reduction (DRR),C,,Rajshree Bedamatta,rajshree
-DM 504,Research methodology and field visit,B,,"Budhaditya Hazra, Sudip Mitra","budhaditya.hazra,sudipmitra"
-DM 503,Hazards monitoring and prediction,A,,"Arup K. Sarma, Arindam Dey, Rishikesh Bharti, Sandip Das","aks,arindam.dey,rbharti,sandip.das"
-DD 710,Research-based Project,--,,"SANTOSH NAGNATH JAGTAP, Shakuntala Acharya","santosh.jagtap,shakuntala.a"
-DD 709,Design-based Project,--,,A. K. Das,dasak
-DD 705,Design Research Methods,C,,Debayan Dhar,debayan
-DD 607,Creativity and Innovation,B,,Mriganka Madhukailya,mriganka
-DD 606,Product Detailing,F,,A. K. Das,dasak
-DD 605,Thesis Project (Phase II),--,,Sougata Karmakar,karmakar.sougata
-DD 557,Fundamentals of Sensors and their Applications,B,,Ravindra Kumar Jha,jha
-DD 555,IoT Enabled Smart Grids,A,,Sreenath J G,sreenathjg
-DD 554,Pattern Recognition and Machine Learning,G,,"Manoj BR, Prabin Kumar Bora","manojbr,prabin"
-DD 552,Design of Embedded Systems,G,,Anirban Dasgupta,anirban.dasgupta
-DD 549,Systems thinking,C1,,"SANTOSH NAGNATH JAGTAP, Shakuntala Acharya","santosh.jagtap,shakuntala.a"
-DD 548,Embodiment Design,E,,Pankaj Upadhyay,pankaj.upadhyay
-DD 547,Design for Environmental Sustainability,D,,Sharmistha Banerjee,sharmistha
-DD 546,Product Form and Structures,--,,Supradip Das,supradip.das
-DD 536,Additive manufacturing,A,,Supradip Das,supradip.das
-DD 532,Motion Graphics,B,,Manoj Majhi,manojmaj
-DD 524,Graphic Design Studio,--,,D. Udaya Kumar,d.udaya
-DD 521,System Design For Sustainability,D,,Sharmistha Banerjee,sharmistha
-DD 517,Automobile Design,E,,Abhishek Singh,abhisheksingh11
-DD 509,Interaction Design,F,,Keyur Sorathia,keyur
-DD 507,Design Project,--,,Manoj Majhi,manojmaj
-DD 506,Graphic Design,--,,Utpal Barua,utpalb
-DD 505,Form Studies,--,,Supradip Das,supradip.das
-DD 499,BDes Project IV,--,,Sougata Karmakar,karmakar.sougata
-DD 411,Design and Entrepreneurship,A,,Pratul Chandra Kalita,pratulkalita
-DD 398,BDes Project II,--,,Sougata Karmakar,karmakar.sougata
-DD 326,(TD) Introduction to Automobile Design,--,,Abhishek Singh,abhisheksingh11
-DD 325,(VC) Graphic Communication,--,,D. Udaya Kumar,d.udaya
-DD 324,(PD) Plastics & Composites,E1,,A. K. Das,dasak
-DD 320M,Product Planning and Strategy,G1,,Sougata Karmakar,karmakar.sougata
-DD 312,Design Evaluation Methods,G1,,Shakuntala Acharya,shakuntala.a
-DD 311,Systems approach to Design,C1,,SANTOSH NAGNATH JAGTAP,santosh.jagtap
-DD 303,Typography and Grid Systems,--,,Shrivastava Abhishek,shri
-DD 302,Design Analysis,D1,,Shakuntala Acharya,shakuntala.a
-DD 220M,Introduction to Ergonomics,F,,Urmi Ravindra Salve,urmi.salve
-DD 215,Cognitive Ergonomics,E,,Sougata Karmakar,karmakar.sougata
-DD 214,Design Workshop,--,,Urmi Ravindra Salve,urmi.salve
-DD 213,Art and Aesthetics in Design,C,,Mriganka Madhukailya,mriganka
-DD 212,Visual Narratives,F,,Sheetal Madhav Gokhale,sheetalg
-DD 203,Materials and Processes,D,,Ajeet Kumar,ajeetkumar
-DD 113,Visualization and Illustrations,--,,Manoj Majhi,manojmaj
-DD 112,Principles of Visual Design,D1,,Utpal Barua,utpalb
-DD 111,"Forms, Order and Structure",C1,,Abhishek Singh,abhisheksingh11
-DA 671,Introduction to Reinforcement Learning,F1,,Arghyadip Roy,arghyadip
-DA 623,Computing with Signals,B,,Neeraj Kumar Sharma,neerajs
-DA 526,Image Processing with Machine Learning,A1,,Debanga Raj Neog,dneog
-DA 244,Applied Probability and Random Processes,C,,Rhythm Grover,rhythmgrover
-DA 243,Introduction to Optimization,E1,,Ratnajit Bhattacharjee,ratnajit
-DA 221M,Artificial Intelligence,F,,"Arghyadip Roy, Neeraj Kumar Sharma","arghyadip,neerajs"
-DA 221,Introduction to Artificial Intelligence,A,,"Arghyadip Roy, Neeraj Kumar Sharma","arghyadip,neerajs"
-DA 215,Database Management Systems Laboratory,--,,"Debanga Raj Neog, Ratnajit Bhattacharjee","dneog,ratnajit"
-DA 214,Database Management Systems,D,,Debanga Raj Neog,dneog
-DA 213,Python Programming Laboratory,--,,"Biplab Bose, Neeraj Kumar Sharma","biplabbose,neerajs"
-CS 699,Project II,--,,Ashish Anand,anand.ashish
-CS 595,Data Visualization Lab,--,,Ashish Anand,anand.ashish
-CS 577,C Based VLSI Design,F,,Chandan Karfa,ckarfa
-CS 570,Fundamentals Of Information Retrieval,C1,,Sanasam Ranbir Singh,ranbir
-CS 564,Computational Complexity,D1,,Deepanjan Kesh,deepkesh
-CS 558,Computer Systems Lab,--,,"Moumita Patra, Tamarapalli Venkatesh","moumita.patra,t.venkat"
-CS 549,Computer and Network Security,A1,5001,Manas Khatua,manaskhatua
-CS 528,High Performance Computing,B1,,Aryabartta Sahu,asahu
-CS 509,Computational Number Theory and Cryptography,F,,Benny George Kenkireth,ben
-CS 503,Randomized Algorithms,A,,Sushanta Karmakar,sushantak
-CS 499,Project II,--,,Sushanta Karmakar,sushantak
-CS 361,Machine Learning,D1,,Arijit Sur,arijit
-CS 350M,Computer Systems,G1,,"John Jose, Tamarapalli Venkatesh","johnjose,t.venkat"
-CS 348,Implementation of Programming Languages Lab,ML2,,Sukumar Nandi,sukumar
-CS 346,Software Engineering Lab,ML1,,Samit Bhattacharya,samit
-CS 345,Software Engineering,E1,,Samit Bhattacharya,samit
-CS 331,Programming Languages Lab,ML3,,"Pradip Kumar Das, Shivashankar B. Nair","pkdas,sbnair"
-CS 321,Smart Systems Laboratory,ML4,,"Pradip Kumar Das, Shivashankar B. Nair","pkdas,sbnair"
-CS 246,Database Management Systems Lab,--,,"Jatindra Kumar Deka, V. Vijaya Saradhi","jatin,saradhi"
-CS 245,Database Management Systems,D,,Purandar Bhaduri,pbhaduri
-CS 224,Hardware Lab,--,,Aryabartta Sahu,asahu
-CS 223,Computer Architecture and Organization,C,,"John Jose, Sukanta Bhattacharjee","johnjose,sukantab"
-CS 207,Design and Analysis of Algorithms,B,,R. Inkulu,rinkulu
-CS 206M,Datastructures and Algorithms,F,,Sajith Gopalan,sajith
-CS 205,"Formal Languages, Automata Theory, and Computation",A,,Diganta Goswami,dgoswami
-CS 110,Computing Laboratory,--,,"Jatindra Kumar Deka, V. Vijaya Saradhi","jatin,saradhi"
-CS 101,Introduction to Computing,--,,"Amit Chintamani Awekar, Hemangee Kalpesh Kapoor, PinakiMitra, Seela Veerabhadreswara Rao","awekar,hemangee,pinaki,svrao"
-CL 699,PROJECT II,--,,DPPC Chemical,dppc.chemical
-CL 654,Multiscale Modelling and Simulation,A1,,"Amit Kumar, Raghvendra Gupta","amitkumar,guptar"
-CL 653,Applications of Artificial Intelligence and Machine Learning inChemical Engineering,F1,,Senthilmurugan S,senthilmurugan
-CL 650,Quantum technologies in chemcial engineering,B,,Tapas K Mandal,tapasche
-CL 643,Computer aided applied optimization,F,,Kotecha Prakash,pkotecha
-CL 633,Applied Statistical Thermodynamics,D,,Tamal Banerjee,tamalb
-CL 628,Catalysis and adsorbents,F,,Mahuya De,mahuya
-CL 626,Energy Resources,B,,Vaibhav V. Goud,vvgoud
-CL 625,Fundamentals of micro-nanofluidics & microfabrication,F1,,Dipankar Bandyopadhyay,dipban
-CL 622,Molecular simulations: Principles and Applications,G,,Dasmahapatra Ashok Kumar,akdm
-CL 618,Natural Gas Engineering,A,,Pankaj Tiwari,pankaj.tiwari
-CL 617,Petrochemicals,G,,Vijay S. Moholkar,vmoholkar
-CL 612,Colloid and Interface Science,F1,,Pallab Ghosh,pallabg
-CL 599,Scientific Communications,--,,Vimal Katiyar,vkatiyar
-CL 598,Petroleum Laboratory,--,,"Abhijit Kakati, Pugazhenthi G.","abhijitkakati,pugal"
-CL 514,Fundamentals of Material Science & Engineering,F1,,Venkatesh R. Prasanna,rprasanna
-CL 506,Smart Materials,A1,,Gooh Pattader Partho Sarathi,psgp
-CL 505,Petroleum Production Engineering,F1,,Abhijit Kakati,abhijitkakati
-CL 504,Advanced reaction Engineering,C1,,Vairakannu Prabu,v.prabu
-CL 503,Advanced Thermodynamics,D1,,Omkar S. Deshmukh,o.deshmukh
-CL 499,Project II,--,,DUPC Chemical,dupc.chemical
-CL 399,General Learning of Chemical Engineering Research Project - II,--,,DPPC Chemical,dppcchemical
-CL 315H,Laboratory 6: Process Control,--,,"Prabirkumar Saha, Tapas K Mandal","p.saha,tapasche"
-CL 314H,Laboratory 5: Reaction Engineering,--,,"Animes Kumar Golder, Bishnupada Mandal","animes,bpmandal"
-CL 313,Laboratory 4: Mass Transfer,--,,"Chandan Das, Vairakannu Prabu","cdas,v.prabu"
-CL 312,Computer Aided Process Equipmen Design,--,,"Anandalakshmi R., Raghvendra Gupta, Tamal Banerjee","anandalakshmi,guptar,tamalb"
-CL 306,Process Engineering & Economics,D1,,Sumit Kumar,s_kumar
-CL 305,Transport Phenomena,A1,,Kishore Nanda,nkishore
-CL 304,Chemical Process Technology,C1,,Uppaluri Ramgopal V. S.,ramgopalu
-CL 211H,Laboratory 2: Heat Transfer,--,,"Animes Kumar Golder, Bishnupada Mandal","animes,bpmandal"
-CL 210H,Laboratory 1: Fluid Mechanics,--,,"Omkar S. Deshmukh, Venkatesh R. Prasanna","o.deshmukh,rprasanna"
-CL 209,Process Equipment Design I,E,,Mihir Kumar Purkait,mihir
-CL 208,Chemical Reaction Engineering I,C,,Peela Nageswara Rao,peelanr
-CL 207,Computer Aided Numerical Methods,D,,Anandalakshmi R.,anandalakshmi
-CL 206,Solid Fluid Operations,B,,Subrata K Majumder,skmaju
-CL 205,Mass Transfer Operations I,A,,Kaustubha Mohanty,kmohanty
-CH 644,Applied Quantum Chemistry,F,,Manabendra Sarma,msarma
-CH 639,Principles and Applications of Molecular Fluorescence,C,,"Kalyanasis Sahu, G Krishnamoorthy","ksahu,gkrishna"
-CH 631,Advanced Quantum Chemistry,D,,Ashish Kumar Gupta,gupta
-CH 629,Advances in Bio-organic Chemistry,F1,,Bhubaneswar Mandal,bmandal
-CH 627,New Reagents for Organic Synthesis,E1,,Pavan K Kancharla,pavankancharla
-CH 623,Supramolecular Chemistry,B,,Debapratim Das,ddas
-CH 621,Modern Reagents in Organic Synthesis,F,,Tharmalingam Punniyamurthy,tpunni
-CH 618,Bio-inorganic Chemistry,G1,,Biplab Mondal,biplab
-CH 617,Organometallics,B1,,Animesh Das,adas
-CH 613,Applied Inorganic Chemistry,A,,Kingsuk Mahata,kingsuk
-CH 600,Project,--,,DUPC Chemistry,dupcchemistry
-CH 500,Graduate Seminar,--,,Lal Mohan Kundu,lmkundu
-CH 499,Project - II,--,,DUPC Chemistry,dupcchemistry
-CH 438,Application to Statistical Mechanics to Chemistry,C,,Sumana Dutta,sumana
-CH 437,Chemical Approaches to Nanoscale Science and Technology,D,,"Arun Chattopadhyay, Uttam Manna","arun,umanna"
-CH 433,Applications of Spectroscopy,B,,"Sunanda Chatterjee, Chandan Mukherjee","sunanda.c,cmukherjee"
-CH 432,Chemical Dynamics and Electrochemistry,A,,Anumita Paul,anumita
-CH 428,Drug Design and Development,B,,Subhendu Sekhar Bag,ssbag75
-CH 425,Organic Chemistry Laboratory,--,,"Abu Taleb Khan, Chandan K. Jana","atk,ckjana"
-CH 421,Organic Reactions Mechanisms,D,,Dipankar Srimani,dsrimani
-CH 419,Consumer Chemistry,F1,,"Bhisma Kumar Patel, Parameswar Krishnan Iyer","patel,pki"
-CH 418,Biological Chemistry of Metal Ions,A,,Chivukula V Sastri,sastricv
-CH 411,Inorganic Reaction Mechanism and Organometallics,C,,"Manabendra Ray, Gopal Das","manabray,gdas"
-CH 400,Computers and Chemistry,F,,Sandip Paul,sandipp
-CH 335,Application of Nanomaterials,C1,,Mohd. Qureshi,mq
-CH 334,Chemical Technology Lab - III (Physical),--,,"Debasis Manna, Kalyan Raidongia","dmanna,k.raidongia"
-CH 332,Computational Chemistry,B1,,Aditya Narayan Panda,anp
-CH 323,Polymer Chemistry,D1,,A. S. Achalkumar,achalkumar
-CH 233,Spectroscopic Techniques in Chemistry,A,,Jubaraj Bikash Baruah,juba
-CH 224,Group Theory,B,,V Manivannan,mani
-CH 223,Chemical Technology Lab - I (Organic),--,,Anil Kumar Saikia,asaikia
-CH 222,Applied Organic Chemistry,D,,Krishna Pada Bhabak,kbhabak
-CH 211,Industrial Chemistry,E,,Shyam Prosad Biswas,sbiswas
-CH 002,Preparatory Chemistry II,--,,"Akshai Kumar A. S, Subhas Chandra Pan","akshaikumar,span"
-CE 699,Project and Thesis Phase II,--,,Abhishek Verma,abhi.verma
-CE 697,Project and Dissertation,--,,Abhishek Verma,abhi.verma
-CE 695,M Tech Project II,--,,Abhishek Verma,abhi.verma
-CE 693,Project and Thesis Phase II,--,,Abhishek Verma,abhi.verma
-CE 691,M Tech Project II,--,,Abhishek Verma,abhi.verma
-CE 662,Environmental Systems Engineering Laboratory,A,,Mohammad Jawed,jawed
-CE 661,Air Quality Modeling,F,,Sharad Gokhale,sharadbg
-CE 648,Applied Soil Mechanics,A1,,Sreedeep S.,srees
-CE 646,Rock Mechanics,G1,,Vivek Padmanabha,vivekp
-CE 643,Earthquake Geotechnical Engineering,F1,,Abhishek Kumar,abhiak
-CE 641,Reinforced Soil Structures,D1,,Arindam Dey,arindam.dey
-CE 628,Traffic Flow Modelling and Simulation,F1,,C. Mallikarjuna,c.mallikarjuna
-CE 623,"Pavement Evaluation, Rehabilitation and Maintenance",D1,,Rajan Choudhary,rajandce
-CE 622,Geometric Design of Transportation Facilities,C1,,Anjan Kumar S,sak
-CE 618,Mechanics of Unsaturated Soils,C1,,T. V. Bharat,tvb
-CE 616,Blast and Impact Resistant Design,F,,Hrishikesh Sharma,shrishi
-CE 615,Design of Masonry Structures,C1,,Hemant B. Kaushik,hemantbk
-CE 614,Financing Infrastructure Projects,A,,Laishram Boeing Singh,boeing
-CE 612,Advanced Concrete Technology,C,,Indu Siva Ranjani G,gindu
-CE 609,Computation Plasticity,B1,,Arbind K. Singh,arvind
-CE 608,Reliability based Structural Design,A1,,Arunasis Chakraborty,arunasis
-CE 607,Random Vibration,D,,Sandip Das,sandip.das
-CE 606,Earthquake Engineering,B,,Sajal K. Deb,skdeb
-CE 599,M Tech Project Phase II,--,,Abhishek Verma,abhi.verma
-CE 595,Advanced Techniques in Geosciences,E1,,Sayantan Chakraborty,sayantan_c
-CE 594,Geohazards Science and Engineering,C1,,"Rishikesh Bharti, Archana M Nair","rbharti,nair.archana"
-CE 585,Credit Seminar,--,,Rajan Choudhary,rajandce
-CE 584,Traffic Engineering,A1,,Akhilesh Kumar Maurya,maurya
-CE 583,Pavement Analysis and Design,B1,,Teiborlang L. Ryntathiang,lyngdoh
-CE 573,Seismic Evaluation and Retrofitting of Structures,C,,Romanbabu Oinam,romanbabu
-CE 570,River Engineering,D,,Bimlesh Kumar,bimk
-CE 562,Transient Flow Analysis,D1,,Sreeja P.,sreeja
-CE 559,Watershed Management and Remote Sensing Applications,F,,Subashisa Dutta,subashisa
-CE 556,Subsurface Hydrology,F1,,"Suresh A. Kartha, Gautam Barua","kartha,g_barua"
-CE 555,Principles of Water Quality and EIA,E,,Suresh A. Kartha,kartha
-CE 550,Project and Thesis Phase II,--,,Abhishek Verma,abhi.verma
-CE 544,Project Management Laboratory,--,,"Santu Kar, Sparsh Johari","skar,sparshjohari"
-CE 534,Seminar Course,--,,Kaling Taki,kaling.taki
-CE 533,Advance Foundation Engineering,B1,,Anil Kumar Mishra,anilmishra
-CE 525,Solids and Hazardous Waste,G,,Ajay Kalamdhad,kajay
-CE 524,Biological Process in Environmental Engineering,D,,Saswati Chakraborty,saswati
-CE 511,Analysis and Design of Bridges,E1,,Sudip Talukdar,staluk
-CE 510,Quality and Safety Management in Construction,B,,Sparsh Johari,sparshjohari
-CE 504,Advanced Structural Design,A,,Kaustubh Dasgupta,kd
-CE 499,BTP Phase II,--,,,dppccivil
-CE 324,Mathematical Concepts and Applications in Civil Engineering,E1,,Budhaditya Hazra,budhaditya.hazra
-CE 323,Transportation Engineering II - Laboratory,--,,"C. Mallikarjuna, Nipjyoti Bharadwaj","c.mallikarjuna,nbharadwaj"
-CE 322,Transportation Engineering II,A1,,RB. Sharmila,rb.sharmila
-CE 321,Hydrology Laboratory,--,,Rajib Kumar Bhattacharjya,rkbc
-CE 320,Engineering Hydrology,B1,,Rajib Kumar Bhattacharjya,rkbc
-CE 309,Design of Steel Structures,C1,,Amit Shelke,amitsh
-CE 308,Construction Technology and Management,D1,,Santu Kar,skar
-CE 223,Environmental Engineering I Lab,--,,Sharad Gokhale,sharadbg
-CE 222,Environmental Engineering I,D,,Pranab K. Ghosh,pkghosh
-CE 221,Hydraulics and Hydraulic Structures Laboratory,--,,Arup K. Sarma,aks
-CE 220,Hydraulics and Hydraulic Structures,E,,Arup K. Sarma,aks
-CE 215,Geotechnical Engineering Laboratory,--,,Baleshwar Singh,baleshwar
-CE 213,Surveying Laboratory,--,,Ajay Dashora,abd
-CE 206,Geotechnical Engineering,C,,Ravi K.,ravi.civil
-CE 205,Structural Analysis I,B,,Anjan Dutta,adutta
-CE 201,Surveying,A,,Ajay Dashora,abd
-BT 699,M. Tech Project II (MTP II),--,,Vishal Trivedi,vtrivedi
-BT 651,Quantum Chemistry of atoms and molecules,A1,,Rajaram Swaminathan,rsw
-BT 640,Neural Imaging and Signal Systems,B1,,Navin Gupta,cngupta
-BT 638,Cellular And Molecular Aspects of Aging,B,,Shirisha Nagotu,snagotu
-BT 634,Animal Models in Biomedical Research,D1,,A. B. Kunnumakkara,kunnumakkara
-BT 630,Physical Cell Biology,F,,B Anand,banand
-BT 624,Fluorescence Techniques in Biotechnology,F1,,Nitin Chaudhary,chaudhary
-BT 619,Essentials of Genetics,D1,,Rakhi Chaturvedi,rakhi_chaturvedi
-BT 616,Molecular Virology,B1,,Sachin Kumar,sachinku
-BT 608,Microbial Biotechnology,B,,"Arun Goyal, Gurvinder Kaur Saini","arungoyl,gurvinder"
-BT 607,Plant Biotechnology,A1,,Lingaraj Sahoo,ls
-BT 601,Analytical Biotechnology,G,,Siddhartha S. Ghosh,sghosh
-BT 540,Applied Bioengineering Lab,--,,"Bithiah G. Jaganathan, Lalit Mohan Pandey","bithiahgj,lalitpandey"
-BT 524,Bioinstrumentation & Control,A,,S Senthilkumar,senthilkumar
-BT 523,Metabolic Engineering,B,,Debasish Das,debasishd
-BT 522,Advanced Bioengineering,D,,"Biman B Mandal, Souptick Chanda","biman.mandal,csouptick"
-BT 520,Applied Biology and Bioengineering Lab,--,,Utpal Bora,ubora
-BT 504,Biomolecular and Cellular Process Engineering,D,,Kannan Pakshirajan,pakshi
-BT 502,Quantitative Biology,A,,"Anil Mukund Limaye, Shankar Prasad Kanaujia","amul,spkanaujia"
-BT 402,BTech Project-II,--,,Rajkumar P. Thummer,rthu
-BT 308,Bioengineering,D1,,"Biman B Mandal, Pranab Goswami","biman.mandal,pgoswami"
-BT 307,Biological Data Analysis,C1,,"Anil Mukund Limaye, Biplab Bose","amul,biplabbose"
-BT 306,Bioseparation Engineering,B1,,Aiyagari Ramesh,aramesh
-BT 305,Computational Biology,A1,,Vibin Ramakrishnan,vibin
-BT 302M,Bioprocess Technology,G1,,V. Venkata Dasu,veeranki
-BT 211,Basic Biotechnology Lab,--,,"Ranjan Tamuli, Vishal Trivedi","ranjantamuli,vtrivedi"
-BT 209,Bioreaction Engineering,B,,Soumen Kumar Maiti,soumenkm
-BT 208,Transport Phenomenon in Bioprocesses,A,,Narayanasamy Selvaraju,selva
-BT 207,Genetic Engineering,C,,Sanjukta Patra,sanjukta
-BT 206,Microbiology,D,,Manish Kumar,mkumar1
-BT 202M,Molecular Biotechnology,F,,"Nitin Chaudhary, Sachin Kumar","chaudhary,sachinku"
-BT 101,Introductory Biology,--,,"Souptick Chanda, Kusum K Singh, Priyadarshi Satpati,Rajkumar P. Thummer","csouptick,kusumsingh,psatpati,rthu"
-BM 515H,Strategic Management,E,,,skbishwas
-BM 514H,Organization Structure and Design,D,,"Abraham Cyril Issac, Nachiketa Tripathi","issacac,nachi"
-BM 513H,Business Communication,C,,"Kuldeep Baishya,","kuldeep.baishya,skbishwas"
-BM 512H,Computer-aided Operations Research,B,,", Kotecha Prakash","priyank.sinha,pkotecha"
-BM 511H,Corporate Finance,A,,"Abhay Pant, Siddhartha Pratim Chakrabarty","abhaypant,pratim"
+code,name,slot,venue,prof,prof_id,,,,,,,,
+BM 501H,Microeconomics,A,,SPPC SOB,sppc.sob,,,,,,,,
+BM 502H,Financial Systems,B,,SPPC SOB,sppc.sob,,,,,,,,
+BM 503H,Marketing Management,E,,SPPC SOB,sppc.sob,,,,,,,,
+BM 504H,Business Statistics and Data Analysis for Management,C,,SPPC SOB,sppc.sob,,,,,,,,
+BM 505H,Organizational Behaviour,D,,SPPC SOB,sppc.sob,,,,,,,,
+BM 521H,Business Ethics,A1,,SPPC SOB,sppc.sob,,,,,,,,
+BM 522H,Project Management,B1,,SPPC SOB,sppc.sob,,,,,,,,
+BM 609H,Bank Management and Financial Services,C1,,SPPC SOB,sppc.sob,,,,,,,,
+BM 625H,Negotiation and Conflict Management,D1,,SPPC SOB,sppc.sob,,,,,,,,
+BM 646H,Marketing Analytics and Metrics,E1,,SPPC SOB,sppc.sob,,,,,,,,
+BM 670H,Supply Chain Management,G1,,SPPC SOB,sppc.sob,,,,,,,,
+BT 201,Biochemical Process Calculations,D,,Soumen Kumar Maiti,soumenkm,,,,,,,,
+BT 201M,Essentials of Biochemistry,G,,"Anil Mukund Limaye,","amul, kunnumakkara",,,,,,,,
+BT 202,Bio-thermodynamics,B,,"Priyadarshi Satpati,","psatpati, selva",,,,,,,,
+BT 203,Biochemistry,C,,"Anil Mukund Limaye,","amul, kunnumakkara",,,,,,,,
+BT 204,Genetics,F,,"Rakhi Chaturvedi,","rakhi_chaturvedi, sachinku",,,,,,,,
+BT 205,Cell and Molecular Biology,E,,"Siddhartha S. Ghosh,","sghosh, snagotu",,,,,,,,
+BT 301,Biophysics,A1,,"Navin Gupta,","cngupta, rsw",,,,,,,,
+BT 301M,Cellular Biotechnology,E1,,"Lingaraj Sahoo,","ls, rthu",,,,,,,,
+BT 302,Bioinformatics,C1,,"B Anand,","banand, spkanaujia",,,,,,,,
+BT 303,Biochemical Engineering,D1,,Debasish Das,debasishd,,,,,,,,
+BT 304,Immunology,B1,,Manish Kumar,mkumar1,,,,,,,,
+BT 311,Biochemical Engineering Lab,,,"S Senthilkumar,","senthilkumar, veeranki",,,,,,,,
+BT 312,Analytical Biotechnology Lab,,,"Gurvinder Kaur Saini,","gurvinder, rthu",,,,,,,,
+BT 401,B.Tech Project I,,,Rajkumar P. Thummer,rthu,,,,,,,,
+BT 401M,Bioanalytical Techniques and Bioinformatics,G1,,Arun Goyal,arungoyl,,,,,,,,
+BT 501,Biotechniques,C,,"Nitin Chaudhary,","chaudhary, vibin",,,,,,,,
+BT 503,Advanced Genetic Engineering,A,,"Bithiah G. Jaganathan,","bithiahgj, sanjukta",,,,,,,,
+BT 510,Analytical Biotechnology Lab,,,Vishal Trivedi,vtrivedi,,,,,,,,
+BT 521,Advanced Bioreactor Engineering,A,,"Aiyagari Ramesh,","aramesh, senthilkumar",,,,,,,,
+BT 530,Experimental techniques in Bioengineering,,,"Nitin Chaudhary,","chaudhary, vibin",,,,,,,,
+BT 600,M.Tech Seminar,,,Navin Gupta,cngupta,,,,,,,,
+BT 612,Systems Biology,B,,Biplab Bose,biplabbose,,,,,,,,
+BT 615,Cell Signaling & Development,C1,,Ranjan Tamuli,ranjantamuli,,,,,,,,
+BT 618,Biomaterials,D1,,Biman B Mandal,biman.mandal,,,,,,,,
+BT 620,Biosensors,A1,,Pranab Goswami,pgoswami,,,,,,,,
+BT 623,Research Methodology,C,,Utpal Bora,ubora,,,,,,,,
+BT 637,Genome Editing and Engineering,B1,,Kusum K Singh,kusumsingh,,,,,,,,
+BT 641,Fundamentals Of Human Body Mechanics,G,,Souptick Chanda,csouptick,,,,,,,,
+BT 643,Biointerface Engineering,C1,,Lalit Mohan Pandey,lalitpandey,,,,,,,,
+BT 644,Biorefineries,B1,,Kannan Pakshirajan,pakshi,,,,,,,,
+BT 645,Introduction to IPR and Ethics,D,,Latha Rangan,lrangan,,,,,,,,
+BT 698,M. Tech Project I (MTP I),,,Vishal Trivedi,vtrivedi,,,,,,,,
+BT 700,M. Tech Project I (MTP I),,,Vishal Trivedi,vtrivedi,,,,,,,,
+CE 202,Solid Mechanics,D,,Hrishikesh Sharma,shrishi,,,,,,,,
+CE 203,Fluid Mechanics,B,,Subashisa Dutta,subashisa,,,,,,,,
+CE 207,Engineering Geology,C,,Archana M Nair,nair.archana,,,,,,,,
+CE 208,Engineering Geology Lab,,,Sayantan Chakraborty,sayantan_c,,,,,,,,
+CE 211,Civil Engineering Materials,E,,Bulu Pradhan,bulu,,,,,,,,
+CE 212,Civil Engineering Materials Laboratory,,,Indu Siva Ranjani G,gindu,,,,,,,,
+CE 214,Fluid Mechanics Lab,,,Subashisa Dutta,subashisa,,,,,,,,
+CE 302,Structural Analysis II,A1,,Romanbabu Oinam,romanbabu,,,,,,,,
+CE 303,Geotechnical Engg. II,B1,,Abhishek Kumar,abhiak,,,,,,,,
+CE 304,Transportation Engg. I,C1,,Anjan Kumar S,sak,,,,,,,,
+CE 305,Reinforced Concrete Design,D1,,Amit Shelke,amitsh,,,,,,,,
+CE 313,Geotechnical Engineering II Lab,,,Baleshwar Singh,baleshwar,,,,,,,,
+CE 314,Transportation Engineering I Lab,,,Teiborlang L. Ryntathiang,lyngdoh,,,,,,,,
+CE 316,Environmental Engineering II,G1,,Ajay Kalamdhad,kajay,,,,,,,,
+CE 411,Dynamic of structure,B,,Sajal K. Deb,skdeb,,,,,,,,
+CH 001,Preparatory Chemistry (Physical),,,Kalyan Raidongia,k.raidongia,,,,,,,,
+CH 101,Chemistry,D1,,"Chivukula V Sastri, , ,","sastricv, arun, span, cmukherjee",,,,,,,,
+CH 110,Chemistry Laboratory,,,"Debapratim Das, , , , Lal Mohan Kundu, , ,","ddas, patel, pki, dsrimani,lmkundu, ssbag75, pavankancharla, asaikia",,,,,,,,
+CH 212,Inorganic Chemistry,F,,Shyam Prosad Biswas,sbiswas,,,,,,,,
+CH 221,Organic Chemistry,B,,A. S. Achalkumar,achalkumar,,,,,,,,
+CH 231,Introduction to Quantum Chemistry,E,,Anumita Paul,anumita,,,,,,,,
+CH 301,Environmental Chemistry,B1,,"Gopal Das,","gdas, sastricv",,,,,,,,
+CH 302,Technical Report Presentation,,,Jubaraj Bikash Baruah,juba,,,,,,,,
+CH 314,Chemical Technology Lab II,,,"Jubaraj Bikash Baruah, ,","Juba, sbiswas, adas",,,,,,,,
+CH 316,Frontiers of Coordination Chemistry,C1,,Animesh Das,adas,,,,,,,,
+CH 331,Chemical Kinetics and Electrochemistry,A1,,Kalyanasis Sahu,ksahu,,,,,,,,
+CH 401,Modern Chemical Technology,E,,Sunanda Chatterjee,sunanda.c,,,,,,,,
+CH 410,Chemistry of p- and d-Block Elements,C,,Akshai Kumar A. S,akshaikumar,,,,,,,,
+CH 417,Organometallic Chemistry,B,,Kingsuk Mahata,kingsuk,,,,,,,,
+CH 420,Principles of Organic Chemistry,D,,"Pavan K Kancharla,","pavankancharla, asaikia",,,,,,,,
+CH 426,Green Chemistry and Technology,G1,,Abu Taleb Khan,atk,,,,,,,,
+CH 427,Medicinal Chemistry,C,,Krishna Pada Bhabak,kbhabak,,,,,,,,
+CH 429,Petroleums and Petrochemicals,G,,"Bhisma Kumar Patel,","patel, pki",,,,,,,,
+CH 430,Quantum Chemistry,A,,Manabendra Sarma,msarma,,,,,,,,
+CH 431,Group Theory and Spectroscopy,B,,G Krishnamoorthy,gkrishna,,,,,,,,
+CH 435,Physical Chemistry Laboratory,,,"Debasis Manna,","dmanna, umanna",,,,,,,,
+CH 498,Project - I,,,DUPC Chemistry,dupcchemistry,,,,,,,,
+CH 511,Principles of Bioinorganic Chemistry,C,,V Manivannan,mani,,,,,,,,
+CH 515,Inorganic Chemistry Laboratory,,,Biplab Mondal,biplab,,,,,,,,
+CH 520,Concepts in Organic Synthesis,D,,"Chandan K. Jana,","ckjana, dsrimani",,,,,,,,
+CH 521,Bio-organic Chemistry,B,,",","ssbag, lmkundu",,,,,,,,
+CH 530,Classical and Statistical Thermodynamics,A,,Sandip Paul,sandipp,,,,,,,,
+CH 601,Physical Methods in Chemistry,G,,Manabendra Ray,manabray,,,,,,,,
+CH 626,Art in Organic Synthesis,F,,Tharmalingam Punniyamurthy,tpunni,,,,,,,,
+CH 628,Chemistry of Biological Macromolecules,E,,Bhubaneswar Mandal,bmandal,,,,,,,,
+CH 633,Chemical Applications of Group Theory,D1,,Sumana Dutta,sumana,,,,,,,,
+CH 634,Time dependent Quantum Mechanics,B1,,Aditya Narayan Panda,anp,,,,,,,,
+CH 637,Computational Methods in Chemistry,A1,,Ashish Kumar Gupta,gupta,,,,,,,,
+CH 645,Scientific Writing and Presentation,C1,,Mohd. Qureshi,mq,,,,,,,,
+CL 201,Chemical Process Calculation,C,,"Animes Kumar Golder,","animes, vmoholkar",,,,,,,,
+CL 202,Fluid Mechanics,D,,"Raghvendra Gupta,","guptar, tapasche",,,,,,,,
+CL 203,Chemical Engineering Thermodynamics,E,,Amit Kumar,amitkumar,,,,,,,,
+CL 204,Heat Transfer,F,,Dipankar Bandyopadhyay,dipban,,,,,,,,
+CL 301,Mass Transfer II,C1,,Mahuya De,mahuya,,,,,,,,
+CL 302,Chemical Reaction Engineering - II,D1,,Dasmahapatra Ashok Kumar,akdm,,,,,,,,
+CL 303,Process Control and Instrumentation,B1,,Prabirkumar Saha,p.saha,,,,,,,,
+CL 310,Solid Fluid Operations Laboratory,,,"Kaustubha Mohanty,","kmohanty, peelanr",,,,,,,,
+CL 311,Technical Writing and Presentation,A1,,Uppaluri Ramgopal V. S.,ramgopalu,,,,,,,,
+CL 398,General Learning of Chemical Engineering Research Project - I,,,DUPC Chemical,dupc.chemical,,,,,,,,
+CL 498,Project I,,,DUPC Chemical,dupc.chemical,,,,,,,,
+CL 501,Advanced Transport Phenomena,C,,Anugrah Singh,anugrah,,,,,,,,
+CL 502,Computer Aided Numerical Methods,B,,"Anandalakshmi R.,","anandalakshmi, pkotecha",,,,,,,,
+CL 511,Petroleum Reservoir Engineering,D,,Pankaj Tiwari,pankaj.tiwari,,,,,,,,
+CL 512,Petroleum Refinery Engineering,A,,Pugazhenthi G.,pugal,,,,,,,,
+CL 513,Characterization of Materials,A,,Vaibhav V. Goud,vvgoud,,,,,,,,
+CL 612,Colloid and Interface Science,A1,,Omkar S. Deshmukh,o.deshmukh,,,,,,,,
+CL 614,Fluidization Engineering,B1,,Subrata K Majumder,skmaju,,,,,,,,
+CL 623,Polymer Science and Technology,G,,Vimal Katiyar,vkatiyar,,,,,,,,
+CL 629,Membranes,C1,,Bishnupada Mandal,bpmandal,,,,,,,,
+CL 630,Composites Materials,D1,,Chandan Das,cdas,,,,,,,,
+CL 634,Applied Rheology,F1,,Kishore Nanda,nkishore,,,,,,,,
+CL 635,Advanced Clean Fuel Technologies,G,,Vairakannu Prabu,v.prabu,,,,,,,,
+CL 636,Microelectronic fabrication,F,,Venkatesh R. Prasanna,rprasanna,,,,,,,,
+CL 640,Research Methodology and Scientific Writing,E1,,Mihir Kumar Purkait,mihir,,,,,,,,
+CL 643,Computer aided applied optimization,G1,,Kotecha Prakash,pkotecha,,,,,,,,
+CL 645,Applied Statistics for chemical engineers,A,,Pallab Ghosh,pallabg,,,,,,,,
+CL 652,Process Modelling and simulation lab,,,"Tamal Banerjee,","tamalb, senthilmurugan",,,,,,,,
+CL 655,Enhanced Oil Recovery,G1,,"Abhijit Kakati,","abhijitkakati, s_kumar",,,,,,,,
+CL 698,Project,,,DPPC Chemical,dppcchemical,,,,,,,,
+CS 201,Discrete Mathematics,A,,Sushanta Karmakar,sushantak,,,,,,,,
+CS 203,Algorithms and Data Structures,D,,R. Inkulu,rinkulu,,,,,,,,
+CS 204,Algorithms and Data Structures Laboratory,,,"Amit Chintamani Awekar,","awekar, saradhi",,,,,,,,
+CS 205M,Theoretical Foundations of Computer Science,G,,Benny George Kenkireth,ben,,,,,,,,
+CS 221,Digital Design,B,,"Hemangee Kalpesh Kapoor,","hemangee, sukantab",,,,,,,,
+CS 242,System Software Laboratory,,,Pinaki Mitra,pinaki,,,,,,,,
+CS 322M,Digital Logic and Computer Architecture,E1,,Jatindra Kumar Deka,jatin,,,,,,,,
+CS 341,Computer Networks,B1,,"Moumita Patra,","moumita.patra, t.venkat",,,,,,,,
+CS 342,Computer Networks Laboratory,,,"Moumita Patra,","moumita.patra, t.venkat",,,,,,,,
+CS 343,Operating Systems,C1,,Aryabartta Sahu,asahu,,,,,,,,
+CS 344,Operating Systems Lab.,,,V. Vijaya Saradhi,saradhi,,,,,,,,
+CS 441M,Software Engineering,A,,Samit Bhattacharya,samit,,,,,,,,
+CS 498,B Tech Project-I,,,Sushanta Karmakar,sushantak,,,,,,,,
+CS 499,Project II,--,,Sushanta Karmakar,sushantak,,,,,,,,
+CS 501,Parallel Algorithms,D,,Sajith Gopalan,sajith,,,,,,,,
+CS 502,Computational Geometry,E1,,Seela Veerabhadreswara Rao,svrao,,,,,,,,
+CS 512,Design and Analysis of Algorithms,E,,Deepanjan Kesh,deepkesh,,,,,,,,
+CS 513,Data Structures Lab,,,Sanasam Ranbir Singh,ranbir,,,,,,,,
+CS 514,Mathematics for Computer Science,F,,Ashish Anand,anand.ashish,,,,,,,,
+CS 522,Embedded Systems,G1,,Purandar Bhaduri,pbhaduri,,,,,,,,
+CS 525,Formal Methods For System Verification,A1,,Chandan Karfa,ckarfa,,,,,,,,
+CS 535,Hardware Security,B,,John Jose,johnjose,,,,,,,,
+CS 549,Computer and Network Security,D1,,Sukumar Nandi,sukumar,,,,,,,,
+CS 566,Speech Processing,B1,,Pradip Kumar Das,pkdas,,,,,,,,
+CS 578,Internet of Things,G,,Manas Khatua,manaskhatua,,,,,,,,
+CS 590,Deep Learning,G,,Arijit Sur,arijit,,,,,,,,
+CS 698,Project I,,,Ashish Anand,anand.ashish,,,,,,,,
+DA 211,Algorithms and Data Structure,C,,Sanasam Ranbir Singh,ranbir,,,,,,,,
+DA 212,Algorithms and Data Structure Lab,,,"Arghyadip Roy,","arghyadip, trivedi",,,,,,,,
+DA 231,Introduction to Data Science,A,,Debanga Raj Neog,dneog,,,,,,,,
+DA 241,Statistical Foundations for Data Science,B,,Rhythm Grover,rhythmgrover,,,,,,,,
+DA 241M,Mathematical Foundations of Data Science,G,,"Girish Sampath Setlur,","gsetlur, pratim",,,,,,,,
+DA 242,Discrete Mathematics,E,,K. V. Krishna,kvk,,,,,,,,
+DA 251,"Signals , Systems & Networks",D,,"Arghyadip Roy,","arghyadip, ratnajit",,,,,,,,
+DA 311,Machine Learning Laboratory,,,M. K. Bhuyan,mkb,,,,,,,,
+DA 321,Multi-modal Data Processing & Learning - I,C,,Neeraj Kumar Sharma,neerajs,,,,,,,,
+DA 321M,Machine Learning,E1,,"Arghyadip Roy,","arghyadip, h.s.shekhawat",,,,,,,,
+DA 322,Machine Learning,D,,"Debanga Raj Neog,","dneog, sureshsundaram",,,,,,,,
+DA 331,Big Data Analytics : Tools & Techniques,A,,Arabin Kumar Dey,arabin,,,,,,,,
+DA 341,Applied Time Series Analysis,B,,Prabirkumar Saha,p.saha,,,,,,,,
+DA 351,Computer Systems,E,,"Ratnajit Bhattacharjee,","ratnajit, trivedi",,,,,,,,
+DA 511H,Data Structures & Algorithms,A,,Gaurav Trivedi,trivedi,,,,,,,,
+DA 512 H,Databases,B,,Ashok Singh Sairam,ashok,,,,,,,,
+DA 513,Data structures and Databases Lab,,,Debanga Raj Neog,dneog,,,,,,,,
+DA 514,Python Programming Lab,,,Neeraj Kumar Sharma,neerajs,,,,,,,,
+DD 101,Introduction to Design,,,D. Udaya Kumar,d.udaya,,,,,,,,
+DD 102,Representation Techniques,,,Pankaj Upadhyay,pankaj.upadhyay,,,,,,,,
+DD 103,Elements of Design,A1,,Utpal Barua,utpalb,,,,,,,,
+DD 104,Applied Science for Design,D1,,Ajeet Kumar,ajeetkumar,,,,,,,,
+DD 105,Tinkering studio,C1,,A. K. Das,dasak,,,,,,,,
+DD 201,Form Studies,,,Abhishek Singh,abhisheksingh11,,,,,,,,
+DD 202,Photo and Video Communication,A,,Mriganka Madhukailya,mriganka,,,,,,,,
+DD 203,Materials and Processes,B,,Ajeet Kumar,ajeetkumar,,,,,,,,
+DD 204,Visual Communication Theory,C,,Sheetal Madhav Gokhale,sheetalg,,,,,,,,
+DD 205,Ergonomics in Design,D,,Sougata Karmakar,karmakar.sougata,,,,,,,,
+DD 206,User Research Methods,E,,Sharmistha Banerjee,sharmistha,,,,,,,,
+DD 216,BDes Project I,,,D. Udaya Kumar,d.udaya,,,,,,,,
+DD 301,Interaction Design,A1,,Shrivastava Abhishek,shri,,,,,,,,
+DD 302,Design Analysis,B1,,Sharmistha Banerjee,sharmistha,,,,,,,,
+DD 304,Tangible Interfaces,C1,,Keyur Sorathia,keyur,,,,,,,,
+DD 310M,Product Design,E1,,SANTOSH NAGNATH JAGTAP,santosh.jagtap,,,,,,,,
+DD 321,Modelling and SImulation Techniques,,,Abhishek Singh,abhisheksingh11,,,,,,,,
+DD 322,Animation Fundamentals,,,Manoj Majhi,manojmaj,,,,,,,,
+DD 401,Design Management,A,,Pratul Chandra Kalita,pratulkalita,,,,,,,,
+DD 402,Design Research and Technical Writing,B,,Urmi Ravindra Salve,urmi.salve,,,,,,,,
+DD 410M,Design Management,A,,Pratul Chandra Kalita,pratulkalita,,,,,,,,
+DD 498,Design Project III,,,Sougata Karmakar,karmakar.sougata,,,,,,,,
+DD 501,Design - An Introduction,D,,"Shakuntala Acharya, Shareka Iqbal","shakuntala.a,shareka.iqbal",,,,,,,,
+DD 502,Visual Design - Principles and Applications,E,,Utpal Barua,utpalb,,,,,,,,
+DD 503,Ergonomics,A,,Urmi Ravindra Salve,urmi.salve,,,,,,,,
+DD 504,Design Methods,B,,Supradip Das,supradip.das,,,,,,,,
+DD 508,Product Design Prototyping and Advanced Manufacturing,C1,,A. K. Das,dasak,,,,,,,,
+DD 515,Typography,A1,,D. Udaya Kumar,d.udaya,,,,,,,,
+DD 518,Representation Techniques for Animation,,,Manoj Majhi,manojmaj,,,,,,,,
+DD 527,Introduction to Toy Design,B1,,Supradip Das,supradip.das,,,,,,,,
+DD 539,Film Design,,,Sheetal Madhav Gokhale,sheetalg,,,,,,,,
+DD 542,Introduction to Industrial Design,D,,"Shakuntala Acharya, Shareka Iqbal","shakuntala.a,shareka.iqbal",,,,,,,,
+DD 543,Product Design Methods,B,,Debayan Dhar,debayan,,,,,,,,
+DD 544,Ergonomics in Product Design,A,,Urmi Ravindra Salve,urmi.salve,,,,,,,,
+DD 545,Rapid Prototyping and Development,,,Pankaj Upadhyay,pankaj.upadhyay,,,,,,,,
+DD 550,Image Processing with Machine Learning,C,,Debanga Raj Neog,dneog,,,,,,,,
+DD 553,Basics of Signal Processing,C,,Prabin Kumar Bora,prabin,,,,,,,,
+DD 560,Design for Development,E1,,SANTOSH NAGNATH JAGTAP,santosh.jagtap,,,,,,,,
+DD 601,Usability Engineering,D1,,Debayan Dhar,debayan,,,,,,,,
+DD 603,Thesis Project Phase I,,,Sougata Karmakar,karmakar.sougata,,,,,,,,
+DD 608,Thesis Project (Phase I),,,Prabin Kumar Bora,prabin,,,,,,,,
+DD 609,Expert Workshop,,,"Supradip Das, Pankaj Upadhyay","supradip.das,pankaj.upadhyay",,,,,,,,
+DD 611,Foundations for Electronic Product Design,A,,Prabin Kumar Bora,prabin,,,,,,,,
+DD 705,Design Research Methods,B1,,Debayan Dhar,debayan,,,,,,,,
+DD 709,Design-based Project,,,Sougata Karmakar,karmakar.sougata,,,,,,,,
+DD 710,Research-based Project,,,Sougata Karmakar,karmakar.sougata,,,,,,,,
+DD 712,Problem-based Learning through Design,D1,,Shakuntala Acharya,shakuntala.a,,,,,,,,
+DM 501,Fundamentals of disaster management,A,,"Hemant B. Kaushik,","hemantbk, sudipmitra",,,,,,,,
+DM 502,Socio-economic and policy aspects of disaster risk reduction,B,,Anamika Barua,abarua,,,,,,,,
+DM 698,Project Phase 2,,,Akhilesh Kumar Maurya,maurya,,,,,,,,
+DS 698,MTP Project - I,,,Ashish Anand,anand.ashish,,,,,,,,
+EE 101,Basic Electronics,C1,,A. Rajesh,rajesha,,,,,,,,
+EE 203,Semiconductor Devices,B,,Ankush Bag,ankushbag,,,,,,,,
+EE 204,Circuit Theory,C,,Sudarshan Mukherjee,smukherjee,,,,,,,,
+EE 205,Principles of Electrical Engineering,C,,Sanjib Ganguly,sganguly,,,,,,,,
+EE 210,Digital circuits,E,,Debabrata Sikdar,deb.sikdar,,,,,,,,
+EE 211,Digital circuits Laboratory,,,Shaik Rafi Ahamed,rafiahamed,,,,,,,,
+EE 211M,Analog Circuits,G,,Harshal B. Nemade,harshal,,,,,,,,
+EE 220,Signals and Systems,D,,Manish Bhatt,manishb,,,,,,,,
+EE 312,Embedded Systems,C1,,Gaurav Trivedi,trivedi,,,,,,,,
+EE 321,Digital Signal Processing,B1,,Shaik Rafi Ahamed,rafiahamed,,,,,,,,
+EE 331,Principles of Communication,A1,,Ribhu Chopra,ribhufec,,,,,,,,
+EE 340,Electromagnetic Theory,D1,,Mahima Arrawatia,mahimaarrawatia,,,,,,,,
+EE 340M,Electromagnetic Field Theory,E1,,Rakhesh Singh Kshetrimayum,krs,,,,,,,,
+EE 351,Control and Robotics Laboratory,,,Chayan Bhawal,bhawal,,,,,,,,
+EE 380,Electrical Machines,B1,,Sreenath J G,sreenathjg,,,,,,,,
+EE 398,BTech Project-I,,,Rishikesh Dilip Kulkarni,rishi.k,,,,,,,,
+EE 424M,Communication Systems,A,,Sonali Chouhan,sonali,,,,,,,,
+EE 498,Project I,,,Rishikesh Dilip Kulkarni,rishi.k,,,,,,,,
+EE 510,Semiconductor Device Modeling,G,,Arun Tej Mallajosyula,aruntej,,,,,,,,
+EE 519,Photonics and Microelectronics Laboratory,,,Ramesh Kumar Sonkar,sonkar,,,,,,,,
+EE 520,Signal Processing Algorithms and Architectures,C,,Anirban Dasgupta,anirban.dasgupta,,,,,,,,
+EE 523,Introduction to Machine Learning,D,,M. K. Bhuyan,mkb,,,,,,,,
+EE 524,Machine Learning Laboratory,,,M. K. Bhuyan,mkb,,,,,,,,
+EE 542,RF Circuits and Systems,F,,Ratnajit Bhattacharjee,ratnajit,,,,,,,,
+EE 547,Photonics Devices,E,,Ramesh Kumar Sonkar,sonkar,,,,,,,,
+EE 550,Linear Systems Theory,D,,Chitralekha Mahanta,chitra,,,,,,,,
+EE 551,Estimation and Identification,F,,Indrani Kar,indranik,,,,,,,,
+EE 552,Applied Control Lab,,,Parijat Bhowmick,parijat.bhowmick,,,,,,,,
+EE 556,Linear Algebra,G,,Chayan Bhawal,bhawal,,,,,,,,
+EE 560,Power Electronic Converters,E,,Chandan Kumar,chandank,,,,,,,,
+EE 561,Power Electronics Laboratory,,,A. Ravindranath,ravindranath,,,,,,,,
+,,,,,,,,,,,,,
+EE 570,Modern Power Systems,F,,Praveen Tripathy,ptri,,,,,,,,
+EE 571,Insulation and High Voltage Engineering,G,,Sisir Kumar Nayak,sknayak,,,,,,,,
+EE 590,Linear Algebra and Optimization,E,,Smarajit Das,dass,,,,,,,,
+EE 591,Probability and Stochastic Processes,F,,Samarendra Dandapat,samaren,,,,,,,,
+EE 601,Introduction to Distributed Control Systems,A1,,Parijat Bhowmick,parijat.bhowmick,,,,,,,,
+EE 610,Fundamentals of VLSI CAD,A1,,Gaurav Trivedi,trivedi,,,,,,,,
+EE 623,Speech Signal Processing and Coding,A1,,Rohit Sinha,rsinha,,,,,,,,
+EE 636,Selected Topics in Information Theory,A1,,Srinivasan Krishnaswamy,srinikris,,,,,,,,
+EE 644,"Plasmonic, nanophotonic and metamaterials",B1,,Ashwini Sawant,ashwinisawant,,,,,,,,
+EE 646,Optical Measurement Techniques and Applications,C1,,Rishikesh Dilip Kulkarni,rishi.k,,,,,,,,
+EE 653,Modeling and Simulation of Dynamic Systems,B1,,Somanath Majhi,smajhi,,,,,,,,
+EE 658,Optimization Techniques,E1,,Kuntal Deka,kuntaldeka,,,,,,,,
+EE 660,Modelling and Control of Power Electronic Converters,C1,,A. Ravindranath,ravindranath,,,,,,,,
+EE 677,Smart power grids for a sustainable future,D1,,Prabir Barooah,pbarooah,,,,,,,,
+EE 692,Detection and Estimation Theory,B1,,Kannan Karthik,k.karthik,,,,,,,,
+EE 693,Advanced Topics in Random Processes,G1,,A. Rajesh,rajesha,,,,,,,,
+EE 695,Data-Driven System Theory,E1,,Hanumant Singh Shekhawat,h.s.shekhawat,,,,,,,,
+EE 698,Project Phase I,--,,A. Ravindranath,ravindranath,,,,,,,,
+EM 502,"Modelling, Dynamics and Control of Evs",,,Karuna Kalita,karuna.kalita,,,,,,,,
+EM 598,Project Phase 2,,,Karuna Kalita,karuna.kalita,,,,,,,,
+EN 201,Electrical Machines and Power Electronics,A1,,E S N Raju P,pesnraju88,,,,,,,,
+EN 202,Engineering Thermodynamics,B1,,Farrukh Khalid,f.khalid,,,,,,,,
+EN 203,Fluid Mechanics and Fluid Machines,C1,,Pankaj Kalita,pankajk,,,,,,,,
+EN 204,Fuels and Combustion Engineering,D1,,Ranjith Thangavel,ranjith.t,,,,,,,,
+EN 205,Fuels and Combustion Laboratory,,,"Ranjith Thangavel,","ranjith.t, vvgoud",,,,,,,,
+EN 661,Renewable Energy Systems,B,,Pankaj Kalita,pankajk,,,,,,,,
+EN 663,Operation and instrumentation,,,Harsh Chaturvedi,harshc,,,,,,,,
+EN 672,Energy Storage Systems,E,,Ranjith Thangavel,ranjith.t,,,,,,,,
+EN 673,Fundamentals of Energy Engineering,C,,Farrukh Khalid,f.khalid,,,,,,,,
+EN 680,Distributed Energy Resources in Electric Grid,D,,E S N Raju P,pesnraju88,,,,,,,,
+EN 698,Project 2,,,Pankaj Kalita,pankajk,,,,,,,,
+HS 200,Sustainable Development Goals,,,,,,,,,,,,
+HS 231M,Comparative Drama,G,,Rohini Mokashi-Punekar,rohini,,,,,,,,
+HS 318M,Contemporary Literary Theory,E1,,Liza Das,liza,,,,,,,,
+HS 418M,Language and Thought,A,,Bidisha Som,bidisha,,,,,,,,
+HS 501,Essentials of Political Theory,A1,,Prabhu Venkataraman,vprabhu,,,,,,,,
+HS 506,Interrogating Modernity,A,,Sambit Mallick,sambit,,,,,,,,
+HS 515,Introduction to Economics,B1,,Amarjyoti Mahanta,amarjyoti,,,,,,,,
+HS 516,The Study of Society,C1,,Sawmya Ray,sawmyaray,,,,,,,,
+HS 519,Economic History of Colonial India,D1,,Arupjyoti Saikia,arupjyoti,,,,,,,,
+HS 522,Quantitative Research Methods in Social Sciences,E1,,Bodhisattva Sengupta,bsengupta,,,,,,,,
+HS 526,Conflict and Financial Diplomacy,B,,Vipul Dutta,vipul.dutta,,,,,,,,
+HS 554,Theories and Thinkers: The Concept of Culture,B1,,Sukanya Sharma,sukanya,,,,,,,,
+HS 555,Introduction to Liberal Studies,C1,,"Abhishek Kashyap, , , ,","abhishek.kashyap, jhamk21, liza, smahanta, vipul.dutta",,,,,,,,
+HS 558,Between History and Memory : Genres of Life Writing,D1,,Rohini Mokashi-Punekar,rohini,,,,,,,,
+HS 560,Race and the Novel,E1,,Kiran Keshavamurthy,kirank,,,,,,,,
+HS 566,Debates in Philosophy,B,,Abhishek Kashyap,abhishek.kashyap,,,,,,,,
+HS 568,Digital Humanities: Theories in Practice,C,,Debapriya Basu,debapriya.basu,,,,,,,,
+HS 569,"Language, Mind and Thought",D,,Bidisha Som,bidisha,,,,,,,,
+HS 570,Paths to Policymaking in India,G1,,Pahi Saikia,pahi,,,,,,,,
+HS 609,Globalization and Sustainable Development,C,,Agnirup Sarkar,agnirupsarkar,,,,,,,,
+HS 613,Statistical Method for Social Sciences,D,,"Amarjyoti Mahanta,","amarjyoti, bsengupta",,,,,,,,
+HS 618,Modern Political and Social Imaginaries,G,,Mithilesh Kumar Jha,jhamk21,,,,,,,,
+HS 621,Public Health and Development in India,E,,Daksha Parmar,daksha.p,,,,,,,,
+HS 696,Project I,,,DPPC HSS,dppchss,,,,,,,,
+HS 698,Project Phase 1,,,DPPC HSS,dppchss,,,,,,,,
+HS 714,Understanding Organizational Behaviour: Theory and Research,A,,Nachiketa Tripathi,nachi,,,,,,,,
+HS 716,Research Methodology in Psychology,B,,Naveen Kashyap,nkashyap,,,,,,,,
+HS 722,Cultural Anthropology,B,,Sukanya Sharma,sukanya,,,,,,,,
+HS 731,"Heritage, Identity and Archaeology",G,,Sukanya Sharma,sukanya,,,,,,,,
+HS 749,Issues in Tone Languages,D,,Priyankoo Sarmah,priyankoo,,,,,,,,
+HS 750,Mathematical Method for Economists,C,,Bodhisattva Sengupta,bsengupta,,,,,,,,
+HS 768,Bilingualism: language and cognition,B,,Bidisha Som,bidisha,,,,,,,,
+HS 769,RESEARCH METHODS IN LINGUISTICS,C,,Bidisha Som,bidisha,,,,,,,,
+HS 784,Acoustic Analyses of Tone Languages,A,,Priyankoo Sarmah,priyankoo,,,,,,,,
+HT 501,Introduction to Cellular Processes,A,,"Ranjan Tamuli, ,","ranjantamuli, sghosh, subrata.pramanik",,,,,,,,
+HT 502,Basic Physiology for Clinical Immersion,G1,,"Biman B Mandal, ,","biman.mandal, bithiahgj, subrata.pramanik",,,,,,,,
+HT 503,Introduction to Biomedical Electronics and Instrumentation,B,,"Ravindra Kumar Jha, , , , ,","jha, rajivkar, subrata.pramanik, tanmay.dutta, roypaily, harshal",,,,,,,,
+HT 504,Basics of Mathematical Modelling and Simulation,C,,"Raghvendra Gupta, , ,","guptar, palash.ghosh, rajivkar, selva",,,,,,,,
+HT 505,"Research Methodology, Ethics, IPR, Entrepreneurship and Biosafety",D,,"Akshai Kumar A. S, , , ,","akshaikumar, dipban, psgp, rajivkar, tapasche",,,,,,,,
+HT 598,Project-1,,,Raghvendra Gupta,guptar,,,,,,,,
+IFST 001,Advanced Food Processing,A,,"Anandalakshmi R.,","anandalakshmi, o.deshmukh",,,,,,,,
+IFST 002,International Joint Exercises in Food Science and Technology,,,Omkar S. Deshmukh,o.deshmukh,,,,,,,,
+IFST 003,International Joint Global Internship & Seminar-B,B,,Chandan Das,cdas,,,,,,,,
+IFST 005,Design thinking and Scientific Writing,E1,,Mihir Kumar Purkait,mihir,,,,,,,,
+IFST 019,Joint Degree Dissertation,,,Chandan Das,cdas,,,,,,,,
+MA 001,Preparatory Mathematics I,--,,Swaroop Nandan Bora,swaroop,,,,,,,,
+MA 101,Mathematics - I,B1,,"Ayon Ganguly, , ,","aganguly, jiten, saha.subhamay, shyamashree",,,,,,,,
+MA 201,Mathematics III,A,,"Arup Chattopadhyay, , ,","arupchatt, mgpp, satyajitp, swetatiwari",,,,,,,,
+MA 211M,Real Analysis,G,,Anjan K. Chakrabarty,anjankc,,,,,,,,
+MA 221,Discrete Mathematics,D,,K. V. Krishna,kvk,,,,,,,,
+MA 222,Elementary Number Theory and Algebra,F,,Vinay Wagh,vinay.wagh,,,,,,,,
+MA 225,Probability Theory and Random Processes,C,,P. A. S. Sree Krishna,passkrishna,,,,,,,,
+MA 251,Data Structures,E,,Partha Sarathi Mandal,psm,,,,,,,,
+MA 311M,Scientific Computing,E1,,Natesan Srinivasan,natesan,,,,,,,,
+MA 321,Optimization,D1,,Sriparna Bandopadhyay,sriparna,,,,,,,,
+MA 323,Monte Carlo Simulation,,,Palash Ghosh,palash.ghosh,,,,,,,,
+MA 372,Stochastic Calculus for Finance,A1,,Chandan Pal,cpal,,,,,,,,
+MA 411M,Differential Geometry,A,,K. V. Srikanth,kvsrikanth,,,,,,,,
+MA 423,Matrix Computations,D,,Rafikul Alam,rafik,,,,,,,,
+MA 473,Computational Finance,C,,Durga Charan Dalal,durga,,,,,,,,
+MA 498,Project-I,,,Palash Ghosh,palash.ghosh,,,,,,,,
+MA 501,Discrete Mathematics,A,,Sukanta Pati,pati,,,,,,,,
+MA 502,Graph Theory,B,,H. Ramesh,ramesh_h,,,,,,,,
+MA 506,Number Theory and Cryptography,E,,Sagarmoy Dutta,sagarmoy,,,,,,,,
+MA 509,Algebraic Number Theory,F1,,Rupam Barman,rupam,,,,,,,,
+MA 511,Computer Programming,E,,Ashok Singh Sairam,ashok,,,,,,,,
+MA 514,Theory of Computation,A1,,Gautam K. Das,gkd,,,,,,,,
+MA 518,Database Management Systems,D1,,Kalpesh Kapoor,kalpesh,,,,,,,,
+MA 521,Modern Algebra,C,,Rupam Barman,rupam,,,,,,,,
+MA 522,Linear Algebra,B,,Anupam Saikia,a.saikia,,,,,,,,
+MA 541,Real Analysis,D,,Bhaba Kumar Sarma,bks,,,,,,,,
+MA 543,Functional Analysis,B1,,Jitendriya Swain,jitumath,,,,,,,,
+MA 549,Topology,C1,,Rajesh Srivastava,rksri,,,,,,,,
+MA 572,Numerical Analysis,E1,,Bhupen Deka,bdeka,,,,,,,,
+MA 579H,Scientific Computing,B,,Shreemayee Bora,shbora,,,,,,,,
+MA 580H,Matrix Computations,B,,Shreemayee Bora,shbora,,,,,,,,
+MA 581,Numerical Computations Lab,,,Shreemayee Bora,shbora,,,,,,,,
+MA 589,Statistical Foundations for Data Science,A,,Arabin Kumar Dey,arabin,,,,,,,,
+MA 592,Mathematical Finance,G,,Siddhartha Pratim Chakrabarty,pratim,,,,,,,,
+MA 625,Linear Algebra-I,A1,,Bikash Bhattacharjya,b.bikash,,,,,,,,
+MA 642,Real Analysis-1,B1,,Pratyoosh Kumar,pratyoosh,,,,,,,,
+MA 662,Differential Equations,D1,,Rajen Kumar Sinha,rajen,,,,,,,,
+MA 683,Probability Theory,C1,,N. Selvaraju,nselvaraju,,,,,,,,
+MA 697,Seminar,,,Sukanta Pati,pati,,,,,,,,
+ME 110,Workshop I,,,"S. Kanagaraj, , , ,","kanagaraj, psr, spal, spanda, uday",,,,,,,,
+ME 201Mn,Manufacturing Technology,G,,Biranchi Panda,pandabiranchi,,,,,,,,
+ME 211,Thermodynamics,D,,Manmohan Pandey,manmohan,,,,,,,,
+ME 212,Solid Mechanics I,B,,"Arup Nandy, ,","arupn, kpmech, spanda",,,,,,,,
+ME 213,Engineering Materials,C,,"S. Kanagaraj,","kanagaraj, pkhanikar",,,,,,,,
+ME 214,Fluid Mechanics - I,E,,"Atul K. Soti,","atulsoti, vkb",,,,,,,,
+ME 215,Machine Drawing,,,"Karuna Kalita, , ,","karuna.kalita, kpmech, manasdas, snj",,,,,,,,
+ME 216,Mechanical Engg Laboratary- I,,,"Arnab Kumar De, , , , ,","akd, arupn, nelsonm, pandabiranchi, pkhanikar, saha",,,,,,,,
+ME 301M,Robotic Vision and Control,E1,,Shyamanta M. Hazarika,s.m.hazarika,,,,,,,,
+ME 311,Heat Transfer,A1,,"Arnab Kumar De,","akd, tapan.mankodi",,,,,,,,
+ME 312,Manufacturing Technology II,C1,,"R. K. Mittal ,","rkmittal, ukk",,,,,,,,
+ME 313,Dynamics of Machinery,D1,,"Rajiv Tiwari,","rtiwari, ssg",,,,,,,,
+ME 314,Design of Machine Elements,G1,,Debabrata Chakraborty,chakra,,,,,,,,
+ME 315,Mechanical Engineering Laboratory III,,,"Atanu Banerjee, , , ,","atanub, bsandeepr, rtiwari, shock, swarupbag",,,,,,,,
+ME 398,BTech Project-I,,,Manas Das,manasdas,,,,,,,,
+ME 401,Summer Training,,,Nelson Muthu,nelsonm,,,,,,,,
+ME 401M,Project,,,Sandeep Reddy Basireddy,bsandeepr,,,,,,,,
+ME 498,BTech Project-III,,,Manas Das,manasdas,,,,,,,,
+ME 499,Project-II,--,,Manas Das,manasdas,,,,,,,,
+ME 501,Advanced Engineering Mathematics,B1,,"Nelson Muthu,","nelsonm, sajan.kapil",,,,,,,,
+ME 502,Engineering Computing Laboratory,,,"Atul K. Soti, , , ,","atulsoti, dsharma, gmadhu, sajan.kapil, ssg",,,,,,,,
+ME 503,Technical Writing,F,,Ujjwal K. Saha,saha,,,,,,,,
+ME 504,MTP Phase I,,,Karuna Kalita,karuna.kalita,,,,,,,,
+ME 510,Subtractive Manufacturing,E1,,Manas Das,manasdas,,,,,,,,
+ME 512,Welding and Additive Manufacturing,D,,Pankaj Biswas,pankaj.biswas,,,,,,,,
+ME 520,Fluid Mechanics,E1,,Dipankar Narayan Basu,dnbasu,,,,,,,,
+ME 521,Conduction and Radiation,D,,"Amaresh Dalal,","amaresh, dnbasu",,,,,,,,
+ME 523,Advanced Thermodynamics,F1,,Niranjan Sahoo,shock,,,,,,,,
+ME 530,Advanced Mechanics of Solids,E1,,K. S. R. Krishna Murthy,ksrkm,,,,,,,,
+ME 531,Mechanical Vibrations,A1,,Santosha K. Dwivedy,dwivedy,,,,,,,,
+ME 532,Finite Element Methods in Engineering,F1,,Uday S. Dixit,uday,,,,,,,,
+ME 543,Computational Fluid Dynamics,C,,Amaresh Dalal,amaresh,,,,,,,,
+ME 550,Introduction to Aerospace Engineering,A1,,Gavara Madhusudhana,gmadhu,,,,,,,,
+ME 551,Aerodynamics,E1,,Bhaskar Kumar,bhaskark,,,,,,,,
+ME 606,Solidification Processing,F1,,P. S. Robi,psr,,,,,,,,
+ME 608,Computer Aided Design-Computer Aided Manufacturing,C,,Shrikrishna N. Joshi,snj,,,,,,,,
+ME 609,Optimization Methods in Engineering,B,,Deepak Sharma,dsharma,,,,,,,,
+ME 640,Robotics and Robot Application,G1,,Shyamanta M. Hazarika,s.m.hazarika,,,,,,,,
+ME 659,Tribology of Bearings,G1,,Sashindra K. Kakoty,sashin,,,,,,,,
+ME 674,Soft Computing in Engineering,C,,Sukhomay Pal,spal,,,,,,,,
+ME 678,Mechanics of Sheet Metal Forming,G1,,Ramabadran Ganesh Narayanan,ganu,,,,,,,,
+ME 679,Mechanical Behaviour of Materials,A1,,Swarup Bag,swarupbag,,,,,,,,
+ME 689,Smart Materials: Modelling and Applications,D,,Atanu Banerjee,atanub,,,,,,,,
+ME 698,Applied Nonlinear Control,G,,Sandeep Reddy Basireddy,bsandeepr,,,,,,,,
+NT 601,"Nano Device: Fabrication, Productization and Patent",,,Arun Tej Mallajosyula,aruntej,,,,,,,,
+NT 602,Laboratory Safety and Risk Management: Principles,,,Arun Tej Mallajosyula,aruntej,,,,,,,,
+NT 707,Frontiers in Nonoscience and Nanotechnology,,,Arun Tej Mallajosyula,aruntej,,,,,,,,
+PH 001,Preparatory Physics-I,,,Bosanta R Boruah,brboruah,,,,,,,,
+PH 101,Physics - I,,,"Amarendra Kumar Sarma, , ,","aksarma, asil, dpal, subhab",,,,,,,,
+PH 110,Physics Laboratory,,,"Ananthakrishnan Srinivasan, , , ,","asrini, debu, gk, poulose, subhra",,,,,,,,
+PH 201,Mathematical Physics,A,,Charudatt Y Kadolkar,charu,,,,,,,,
+PH 203,Classical Mechanics,C,,Malay Kumar Nandy,mknandy,,,,,,,,
+PH 205,Semiconductor Devices,F,,Pravat Kumar Giri,giri,,,,,,,,
+PH 207,Heat and Thermodynamics,E,,Subhradip Ghosh,subhra,,,,,,,,
+PH 209,Analog Electronics,B,,Uday Narayan Maiti,udaymaiti,,,,,,,,
+PH 211,Electronics Laboratory -I,,,"Sunil K Khijwania,","skhijwania, sovan",,,,,,,,
+PH 281M,Quantum Physics,G,,Gagan Kumar,gk,,,,,,,,
+PH 301,Statistical Mechanics,A1,,Padma K Padmanabhan,padmakumarp,,,,,,,,
+PH 303,Quantum Mechanics II,C1,,Bibhas Ranjan Majhi,bibhas.majhi,,,,,,,,
+PH 305,Engineering Optics,B1,,Sayan Chakrabarti,sayan.chakrabarti,,,,,,,,
+PH 307,Atomic and Molecular Spectroscopy,D1,,Pankaj Kumar Mishra,pankaj.mishra,,,,,,,,
+PH 309,Electronics Lab-II,,,"Charudatt Y Kadolkar,","charu, dborah",,,,,,,,
+PH 381M,Computational Physics,E1,,Sunil K Khijwania,skhijwania,,,,,,,,
+PH 401,Math Phy-I,A,,Debaprasad Maity,debu,,,,,,,,
+PH 403,Classical Mechanics,B,,Ashwini Kumar Sharma,aksharma,,,,,,,,
+PH 405,Quantum Mechanics-I,C,,Poulose Poulose,poulose,,,,,,,,
+PH 407,Computer programming and numerical methods,E,,Santabrata Das,sbdas,,,,,,,,
+PH 409,Electronics,D,,Alika Khare,alika,,,,,,,,
+PH 411,Electronics Lab,,,"Seenipandian Ravi,","sravi, subhasht",,,,,,,,
+PH 413,Nanoelectronics and Nanophotonics,B,,Ananthakrishnan Srinivasan,asrini,,,,,,,,
+PH 415,Simulation techniques in physical systems,C,,Sitangshu Bikas Santra,santra,,,,,,,,
+PH 419,Materials Science and Engineering,D,,Seenipandian Ravi,sravi,,,,,,,,
+PH 421,Project-I,,,Debaprasad Maity,debu,,,,,,,,
+PH 447,Smart Materials and Devices,G,,Perumal Alagarsamy,perumal,,,,,,,,
+PH 460,Electroceramics,E,,D Pamu,pamu,,,,,,,,
+PH 481M,Materials Science and Engineering,A,,Pratima Agarwal,pratima,,,,,,,,
+PH 501,Electrodynamics II,B1,,Alika Khare,alika,,,,,,,,
+PH 503,Atomic and Molecular Physics,C1,,Bipul Bhuyan,bhuyan,,,,,,,,
+PH 505,Solid State Physics,D1,,Soumitra Nandi,soumitra.nandi,,,,,,,,
+PH 507,Nuclear and Particle Physics,E1,,Meduri C Kumar,mckumar,,,,,,,,
+PH 509,Project-1,,,D Pamu,pamu,,,,,,,,
+PH 511,General Physics Laboratory II,,,"D Pamu,","pamu, tarak.dey",,,,,,,,
+PH 522,Physics of Semiconductors,A,,Subhash Thota,subhasht,,,,,,,,
+PH 536,Quantum Optics,E,,Tarak Nath Dey,tarak.dey,,,,,,,,
+PH 543,Quantum Field Theory,B,,Sovan Chakraborty,sovan,,,,,,,,
+PH 701,Advanced Condensed Matter Physics,A1,,Saurabh Basu,saurabh,,,,,,,,
+PH 703,Quantum Electronics,D1,,Kanhaiya Pandey,kanhaiyapandey,,,,,,,,
+PH 705,Quantum Field Theory and the Standard Model,C1,,Debasish Borah,dborah,,,,,,,,
+PH 707,Computational Physics,B1,,Girish Sampath Setlur,gsetlur,,,,,,,,
+RA 501,Fundamentals of Robotics,G1,,Santosha K. Dwivedy,dwivedy,,,,,,,,
+RA 502,Artificial Intelligence,,,Samarendra Dandapat,samaren,,,,,,,,
+RA 503,Robot Design Laboratory,,,Sandeep Reddy Basireddy,bsandeepr,,,,,,,,
+RA 504,Programming Laboratory,,,Samarendra Dandapat,samaren,,,,,,,,
+RA 507,Technical Writing,,,Ujjwal K. Saha,saha,,,,,,,,
+RA 598,Project Phase 1,,,Ravindra Kumar Jha,jha,,,,,,,,
+RA 602,Control Engineering for Robotics,--,,Parijat Bhowmick,parijat.bhowmick,,,,,,,,
+RA 603,CAD/CAM,C,,Shrikrishna N. Joshi,snj,,,,,,,,
+RT 504,Rural Water Supply and Sanitation,B,,Meena Khwairakpam,meena.kh,,,,,,,,
+RT 510,Research Methodology and Quantitative Techniques for Rural Development,C,,"Uppaluri Ramgopal V. S., ,","ramgopalu, siddharthafp, sudipmitra",,,,,,,,
+RT 516,Product and Process Development in Food and Bioprocessing industries,D,,Siddhartha Singha,siddharthafp,,,,,,,,
+RT 523,Rural Technology and Development,A,,"Siddhartha Singha,","siddharthafp, sudipmitra",,,,,,,,
+RT 691,Project Phase I,,,Siddhartha Singha,siddharthafp,,,,,,,,
+SP 698,Project -II,,,Amit Kumar,amitkumar,,,,,,,,
