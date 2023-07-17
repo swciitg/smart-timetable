@@ -64,7 +64,7 @@ def get_courses_parsed(roll_number):
     data_label = 'Couse Code'
     sem_session = 'July-Nov'
     sem_year = '2023'
-    parsed_html = BeautifulSoup(jsp_response)
+    parsed_html = BeautifulSoup(jsp_response, features="html.parser")
 
     all_rows = parsed_html.body.find_all('tr')
     for row in all_rows:
