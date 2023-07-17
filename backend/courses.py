@@ -8,14 +8,6 @@ headers = {
     'Content-Type': 'application/x-www-form-urlencoded'
 }
 
-# Locally stored PDF
-BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-COURSES_PDF_PATH = os.path.join(BASE_DIR, 'samples/courses.pdf')
-
-# URL stored PDF
-COURSES_URL = 'https://iitg.ac.in/acad/pdfs/Courses_Winter_2022.pdf'
-
-
 def get_courses(roll_number):
     '''
     Gets all courses taken by a person

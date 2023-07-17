@@ -1,7 +1,6 @@
 import camelot
 import pandas as pd
 
-
 def generate_all_courses_CSV(url):
     '''
     Generate CSV file corresponding to the PDF file
