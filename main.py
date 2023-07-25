@@ -62,8 +62,8 @@ def get_my_courses(data: request_my_courses):
 
     # Store all courses in a DF
     all_courses_df = ocr.fetch_all_courses_DF()
-    if (all_courses_df.empty):
-        return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
+    # if (all_courses_df.empty):
+    #     return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
 
     # Find all course details given the course code list
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
@@ -90,11 +90,11 @@ def get_my_courses(data: request_my_courses):
 
     data['courses'] = my_courses_list
 
-    if (len(my_courses_list) == 0):
-        if (data['roll_number'] in wrong_roll_numbers.keys()):
-            new_data = request_my_courses(roll_number=wrong_roll_numbers[data['roll_number']])
-            return get_my_courses(data=new_data)
-        return HTTPException(status_code=400, detail='Invalid roll number')
+    # if (len(my_courses_list) == 0):
+    #     if (data['roll_number'] in wrong_roll_numbers.keys()):
+    #         new_data = request_my_courses(roll_number=wrong_roll_numbers[data['roll_number']])
+    #         return get_my_courses(data=new_data)
+    #     return HTTPException(status_code=400, detail='Invalid roll number')
 
     return data
 
