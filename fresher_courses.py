@@ -38,9 +38,7 @@ def get_designfresher_courses(roll_number):
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
         for c in courses:
-            c['instructor']='5G2'
-    for c in courses:
-        c['instructor'] = ''
+            c['venue']='5G2'
     tutorial=[
         {
             'course':'MA 101 Tutorial',
@@ -133,9 +131,7 @@ def get_fresher_courses(roll_number):
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
         for c in courses:
-            c['instructor']='5G2'
-    for c in courses:
-        c['instructor'] = ''
+            c['venue']='5G2'
     tutorial=[
         {
             'course':'MA 101 Tutorial',
