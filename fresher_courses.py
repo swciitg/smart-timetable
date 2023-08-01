@@ -123,6 +123,7 @@ def get_fresher_courses(roll_number):
             'code':'PH101',
             'slot':'E',
             'venue':'5G1',
+            'instructor': '',
             'midsem':' ',
             'endsem':' '
         }
@@ -149,8 +150,8 @@ def get_fresher_courses(roll_number):
             'course':'EE 101 Tutorial',
             'code':'EE101',
             'slot':'c',
-            'venue': '',
-            'instructor':data_map['Location'],
+            'instructor': '',
+            'venue':data_map['Location'],
             'midsem':' ',
             'endsem':' '
         },
@@ -178,6 +179,7 @@ def get_fresher_courses(roll_number):
             'course':'CH 110 Lab',
             'code':'CH110',
             'slot':'ML' if data_map['Division'] in ['II','I'] else 'AL',
+            'instructor': '',
             'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
             'midsem':' ',
             'endsem':' '
@@ -186,6 +188,7 @@ def get_fresher_courses(roll_number):
             'course':'PH 110 Lab' if data_map['Division'] in ['II','I'] else 'ME 110 Lab',
             'code':'PH110' if data_map['Division'] in ['II','I'] else 'ME110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
+            'instructor': '',
             'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['II','I'] else 'Workshop (on the western side of Academic Complex (AC))',
             'midsem':' ',
             'endsem':' '
@@ -194,7 +197,8 @@ def get_fresher_courses(roll_number):
             'course':'CE 110 Lab',
             'code':'CE110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
-            'instructor':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
+            'instructor': '',
+            'venue':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
             'midsem':' ',
             'endsem':' '
         },
