@@ -14,21 +14,21 @@ def get_designfresher_courses(roll_number):
     # Correct for div 3
     courses=[
         {
-            'course':'CE 101',
+            'course':'Engineering Drawing',
             'code':'CE101',
             'slot':'A',
             'venue':'5G1',
-            'instructor': '',
+            'instructor': 'CE101',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'MA 101',
+            'course':'Mathematics - I',
             'code':'MA101',
             'slot':'B',
             'venue':'5G1',
-            'instructor': '',
+            'instructor': 'MA101',
             'midsem':' ',
             'endsem':' '
         },
@@ -55,10 +55,10 @@ def get_designfresher_courses(roll_number):
     ]
     lab=[
         {
-            'course':'CE 110 Lab',
+            'course':'Engineering Drawing Lab',
             'code':'CE110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
-            'instructor':'',
+            'instructor':'CE110',
             'venue':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
             'ltpc':' ',
             'midsem':' ',
@@ -81,49 +81,49 @@ def get_fresher_courses(roll_number):
     # Correct for div 3
     courses=[
         {
-            'course':'CE 101',
+            'course':'Engineering Drawing',
             'code':'CE101',
             'slot':'A',
             'venue':'5G1',
-            'instructor': '',
+            'instructor': 'CE101',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'MA 101',
+            'course':'Mathematics - I',
             'code':'MA101',
             'slot':'B',
             'venue':'5G1',
-            'instructor': '',
+            'instructor': 'MA101',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'EE 101',
+            'course':'Basic Electronics',
             'code':'EE101',
             'slot':'C',
             'venue':'5G1',
-            'instructor': '',
+            'instructor': 'EE101',
             'ltpc':' ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'CH 101',
+            'course':'Chemistry',
             'code':'CH101',
             'slot':'D',
             'venue':'5G1',
-            'instructor': '',
+            'instructor': 'CH101',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'PH 101',
+            'course':'Physics - I',
             'code':'PH101',
             'slot':'E',
             'venue':'5G1',
-            'instructor': '',
+            'instructor': 'PH101',
             'midsem':' ',
             'endsem':' '
         }
@@ -176,28 +176,28 @@ def get_fresher_courses(roll_number):
     ]
     lab=[
         {
-            'course':'CH 110 Lab',
+            'course':'Chemistry Laboratory',
             'code':'CH110',
             'slot':'ML' if data_map['Division'] in ['II','I'] else 'AL',
-            'instructor': '',
+            'instructor': 'CH110',
             'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'PH 110 Lab' if data_map['Division'] in ['II','I'] else 'ME 110 Lab',
+            'course':'Physics Laboratory' if data_map['Division'] in ['II','I'] else 'Workshop I',
             'code':'PH110' if data_map['Division'] in ['II','I'] else 'ME110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
-            'instructor': '',
+            'instructor': 'PH110' if data_map['Division'] in ['II','I'] else 'ME110',
             'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['II','I'] else 'Workshop (on the western side of Academic Complex (AC))',
             'midsem':' ',
             'endsem':' '
         },
         {
-            'course':'CE 110 Lab',
+            'course':'Engineering Drawing Lab',
             'code':'CE110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
-            'instructor': '',
+            'instructor': 'CE110',
             'venue':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
             'midsem':' ',
             'endsem':' '
