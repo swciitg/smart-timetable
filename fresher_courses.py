@@ -17,7 +17,7 @@ def get_designfresher_courses(roll_number):
             'course':'Engineering Drawing',
             'code':'CE101',
             'slot':'A',
-            'venue':'5G1',
+            'venue':'L2',
             'instructor': 'CE101',
             'ltpc':' ',
             'midsem':'',
@@ -27,7 +27,7 @@ def get_designfresher_courses(roll_number):
             'course':'Mathematics - I',
             'code':'MA101',
             'slot':'B',
-            'venue':'5G1',
+            'venue':'L2',
             'instructor': 'MA101',
       "midsem": "2023-09-19T14:00:00.000Z",
       "endsem": "2023-11-20T14:00:00.000Z"
@@ -38,14 +38,14 @@ def get_designfresher_courses(roll_number):
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
         for c in courses:
-            c['venue']='5G2'
+            c['venue']='L4'
     tutorial=[
         {
             'course':'MA 101 Tutorial',
             'code':'MA101',
             'slot':'b',
-            'venue':data_map['Location'],
-            'instructor':'',
+            'instructor':data_map['Location'],
+            'venue':'',
             'ltpc':' ',
             'midsem':'',
             'endsem':''
@@ -82,7 +82,7 @@ def get_fresher_courses(roll_number):
             'course':'Engineering Drawing',
             'code':'CE101',
             'slot':'A',
-            'venue':'5G1',
+            'venue':'L2',
             'instructor': 'CE101',
             'midsem':'',
             'endsem':''
@@ -91,7 +91,7 @@ def get_fresher_courses(roll_number):
             'course':'Mathematics - I',
             'code':'MA101',
             'slot':'B',
-            'venue':'5G1',
+            'venue':'L2',
             'instructor': 'MA101',
             'ltpc':' ',
       "midsem": "2023-09-19T14:00:00.000Z",
@@ -101,7 +101,7 @@ def get_fresher_courses(roll_number):
             'course':'Basic Electronics',
             'code':'EE101',
             'slot':'C',
-            'venue':'5G1',
+            'venue':'L2',
             'instructor': 'EE101',
             'ltpc':' ',
               "midsem": "2023-09-20T14:00:00.000Z",
@@ -111,7 +111,7 @@ def get_fresher_courses(roll_number):
             'course':'Chemistry',
             'code':'CH101',
             'slot':'D',
-            'venue':'5G1',
+            'venue':'L2',
             'instructor': 'CH101',
             "midsem": "2023-09-21T14:00:00.000Z",
             "endsem": "2023-11-22T14:00:00.000Z"
@@ -120,7 +120,7 @@ def get_fresher_courses(roll_number):
             'course':'Physics - I',
             'code':'PH101',
             'slot':'E',
-            'venue':'5G1',
+            'venue':'L2',
             'instructor': 'PH101',
        "midsem": "2023-09-22T14:00:00.000Z",
       "endsem": "2023-11-23T14:00:00.000Z"
@@ -131,14 +131,14 @@ def get_fresher_courses(roll_number):
             c['slot']=c['slot']+'1'
     if data_map['Division']=='II' or data_map['Division']=='IV':
         for c in courses:
-            c['venue']='5G2'
+            c['venue']='L4'
     tutorial=[
         {
             'course':'MA 101 Tutorial',
             'code':'MA101',
             'slot':'b',
-            'venue':data_map['Location'],
-            'instructor': '',
+            'instructor':data_map['Location'],
+            'venue': '',
             'midsem':'',
             'endsem':''
         },
@@ -146,17 +146,17 @@ def get_fresher_courses(roll_number):
             'course':'EE 101 Tutorial',
             'code':'EE101',
             'slot':'c',
-            'instructor': '',
-            'venue':data_map['Location'],
+            'venue': '',
+            'instructor':data_map['Location'],
             'midsem':'',
             'endsem':''
         },
         {
             'course':'CH 101 Tutorial',
             'code':'CH101',
-            'instructor': '',
+            'venue': '',
             'slot':'d',
-            'venue':data_map['Location'],
+            'instructor':data_map['Location'],
             'midsem':'',
             'endsem':''
         },
@@ -199,7 +199,7 @@ def get_fresher_courses(roll_number):
             'endsem':''
         },
     ]
-    if data_map['Lab']=='L6' or data_map['Lab']=='L1':
+    if data_map['Lab']=='L6' or data_map['Lab']=='L2':
         lab[0]['slot']=lab[0]['slot']+'1'
         lab[1]['slot']=lab[1]['slot']+'4'
         lab[2]['slot']=lab[2]['slot']+'2'
@@ -215,7 +215,7 @@ def get_fresher_courses(roll_number):
         lab[0]['slot']=lab[0]['slot']+'2'
         lab[1]['slot']=lab[1]['slot']+'5'
         lab[2]['slot']=lab[2]['slot']+'3'
-    elif data_map['Lab']=='L10' or data_map['Lab']=='L5':
+    elif data_map['Lab']=='L20' or data_map['Lab']=='L5':
         lab[0]['slot']=lab[0]['slot']+'4'
         lab[1]['slot']=lab[1]['slot']+'2'
         lab[2]['slot']=lab[2]['slot']+'5'
