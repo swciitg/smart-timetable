@@ -52,13 +52,12 @@ def generate_all_courses(data: request_generate):
 def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
     courses_parsed = courses.get_courses_parsed(roll_number)
-    print(courses_parsed)
+    
     # Handle 2023 freshers
     if roll_number.startswith('230205'):
         return fresher_courses.get_designfresher_courses(roll_number)
     elif roll_number.startswith('230'):
         return fresher_courses.get_fresher_courses(roll_number)
-
 
     # Store all courses in a DF
     all_courses_df = ocr.fetch_all_courses_DF()
@@ -82,6 +81,15 @@ def get_my_courses(data: request_my_courses):
             'venue': helper.return_empty_string(df_entry['venue']),
             'midsem': helper.get_midsem_time(df_entry['slot']),
             'endsem': helper.get_endsem_time(df_entry['slot']),
+            'time': {
+                'monday': helper.return_empty_string(df_entry['monday']),
+                'tuesday': helper.return_empty_string(df_entry['tuesday']),
+                'wednesday': helper.return_empty_string(df_entry['wednesday']),
+                'thursday': helper.return_empty_string(df_entry['thursday']),
+                'friday': helper.return_empty_string(df_entry['friday'])
+            },
+            'midVenue': '',
+            'endVenue': ''
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
