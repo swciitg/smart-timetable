@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  testsmarttimetable:
+    container_name: testsmarttimetable
+    restart: unless-stopped
+    build:
+      context: .
+    volumes:
+            - "./data:/code/data"
+    ports:
+      - "9021:5000"
+    environment:
+            - COMPOSE_PROJECT_NAME=testsmarttimetable
+
