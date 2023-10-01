@@ -1,0 +1,29 @@
+name: Deploy main server
+
+on:
+  workflow_dispatch:
+  push:
+      branches:
+      - "main"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Establish ssh connection
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        key: ${{ secrets.SSH_KEY }}
+        passphrase: ${{ secrets.SSH_PASSPHRASE }}
+        port: ${{ secrets.SSH_PORT }}
+        username: ${{ secrets.SSH_USERNAME }}
+        script: |
+            cd /webapps/smart-timetable
+            git fetch origin
+            git checkout main
+            git pull
+            git status
+            docker-compose -f docker-compose.yml up -d --build
