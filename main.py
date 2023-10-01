@@ -30,6 +30,10 @@ app.add_middleware(
 class request_generate(BaseModel):
     url: str
 
+class request_generate_venues(BaseModel):
+    url: str
+    sem: str
+
 class request_my_courses(BaseModel):
     roll_number: str
 
@@ -47,6 +51,17 @@ def generate_all_courses(data: request_generate):
         return HTTPException(status_code=400, detail='Invalid PDF or URL')
     else:
         return message
+
+@app.post('/generate-venues')
+def generate_venues(data: request_generate_venues):
+    url = data.url
+    sem = data.sem
+    message = ocr.generate_venue_CSV(url, sem)
+    if message == None:
+        return HTTPException(status_code=400, detail='Invalid PDF or URL')
+    else:
+        return message
+
 
 @app.post('/get-my-courses')
 def get_my_courses(data: request_my_courses):
@@ -69,11 +84,21 @@ def get_my_courses(data: request_my_courses):
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         courses_parsed)]
 
+    # Store venues in a DF
+    midsem_venues = ocr.fetch_venues_DF("midsem")
+    if (midsem_venues.empty):
+        return HTTPException(status_code=404, detail='Midsem venues CSV file not found. Please generate it first.')
+    endsem_venues = ocr.fetch_venues_DF("endsem")
+    if (endsem_venues.empty):
+        return HTTPException(status_code=404, detail='Endsem venues CSV file not found. Please generate it first.')
+
     data = {'roll_number': roll_number}
     my_courses_list = []
 
     for i in range(0, len(my_courses_df)):
         df_entry = my_courses_df.iloc[i]
+        midsem_row = midsem_venues[midsem_venues["code"]==df_entry['code']]
+        endsem_row = endsem_venues[endsem_venues["code"]==df_entry['code']]
         my_courses_nullable = {
             'code': helper.return_empty_string(df_entry['code']),
             'course': helper.return_empty_string(df_entry['name']),
@@ -82,6 +107,8 @@ def get_my_courses(data: request_my_courses):
             'venue': helper.return_empty_string(df_entry['venue']),
             'midsem': helper.get_midsem_time(df_entry['slot']),
             'endsem': helper.get_endsem_time(df_entry['slot']),
+            'midsem_venue': helper.return_venue(midsem_row, roll_number),
+            'endsem_venue': helper.return_venue(endsem_row, roll_number),
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
