@@ -7,10 +7,21 @@ import string
 import ocr
 import helper
 
+def get_fresher_tt_slots():
+    #Get tt json
+    tt_json = helper.read_tt()
+
+    #Adding tutorial slots
+    tt_json['b']['Friday'] = "8:00 - 8:55 AM"
+    tt_json['a']['Monday'] = "8:00 - 8:55 AM"
+    tt_json['e']['Tuesday'] = "8:00 - 8:55 AM"
+    tt_json['d']['Wednesday'] = "8:00 - 8:55 AM"
+    tt_json['c']['Thursday'] = "8:00 - 8:55 AM"
+    return tt_json
 
 def get_designfresher_courses(roll_number):
     data_map=ocr.get_fresher_DF(roll_number)
-
+    print(data_map)
     # Correct for div 3
     courses=[
         {
@@ -64,9 +75,43 @@ def get_designfresher_courses(roll_number):
         },
     ]
 
+    # Gettting lab slots
+    if data_map['Lab']=='L6' or data_map['Lab']=='L2':
+        lab[0]['slot']=lab[0]['slot']+'1'
+        lab[1]['slot']=lab[1]['slot']+'4'
+        lab[2]['slot']=lab[2]['slot']+'2'
+    elif data_map['Lab']=='L7' or data_map['Lab']=='L2':
+        lab[0]['slot']=lab[0]['slot']+'3'
+        lab[1]['slot']=lab[1]['slot']+'1'
+        lab[2]['slot']=lab[2]['slot']+'4'
+    elif data_map['Lab']=='L8' or data_map['Lab']=='L3':
+        lab[0]['slot']=lab[0]['slot']+'5'
+        lab[1]['slot']=lab[1]['slot']+'3'
+        lab[2]['slot']=lab[2]['slot']+'1'
+    elif data_map['Lab']=='L9' or data_map['Lab']=='L4':
+        lab[0]['slot']=lab[0]['slot']+'2'
+        lab[1]['slot']=lab[1]['slot']+'5'
+        lab[2]['slot']=lab[2]['slot']+'3'
+    elif data_map['Lab']=='L20' or data_map['Lab']=='L5':
+        lab[0]['slot']=lab[0]['slot']+'4'
+        lab[1]['slot']=lab[1]['slot']+'2'
+        lab[2]['slot']=lab[2]['slot']+'5'
     # for i in range(len(courses)):
     #     courses[i]['midsem'] = helper.get_midsem_time(courses[i]['slot'])
-    #     courses[i]['endsem'] = helper.get_endsem_time(courses[i]['slot'])   
+    #     courses[i]['endsem'] = helper.get_endsem_time(courses[i]['slot'])  
+
+    #Get tt json
+    tt_json = get_fresher_tt_slots()
+
+    # adding timings to tut, lab and courses
+    for c in courses:
+        c['timings'] = tt_json[c['slot']]
+    
+    for t in tutorial:
+        t['timings'] = tt_json[t['slot']]
+
+    for l in lab:
+        l['timings'] = tt_json[l['slot']]
  
     return {
         'roll_number':roll_number,
@@ -223,6 +268,19 @@ def get_fresher_courses(roll_number):
     # for i in range(len(courses)):
     #     courses[i]['midsem'] = helper.get_midsem_time(courses[i]['slot'])
     #     courses[i]['endsem'] = helper.get_endsem_time(courses[i]['slot'])
+
+    #Get tt json
+    tt_json = get_fresher_tt_slots()
+
+    # adding timings to tut, lab and courses
+    for c in courses:
+        c['timings'] = tt_json[c['slot']]
+    
+    for t in tutorial:
+        t['timings'] = tt_json[t['slot']]
+
+    for l in lab:
+        l['timings'] = tt_json[l['slot']]
 
     return {
         'roll_number':roll_number,
