@@ -71,7 +71,7 @@ def get_my_courses(data: request_my_courses):
     print(courses_parsed)
     # Handle 2023 freshers
     if roll_number.startswith('230205'):
-        return fresher_courses.get_designfresher_courses(roll_number)
+        return fresher_courses.get_fresher_courses(roll_number,True)
     elif roll_number.startswith('2301'):
         return fresher_courses.get_fresher_courses(roll_number)
 
