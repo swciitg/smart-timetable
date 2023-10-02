@@ -13,7 +13,6 @@ import ocr
 import courses
 import fresher_courses
 import helper
-import addCSVColumn
 
 app = FastAPI()
 
@@ -66,10 +65,7 @@ def get_my_courses(data: request_my_courses):
     if (all_courses_df.empty):
         return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
 
-    #? Add timings columns to course df - To be run manually only once
-    # all_courses_df = addCSVColumn.add_timings_to_course_csv("data/courses_csv.csv")
-    # if(all_courses_df.empty):
-    #     return HTTPException(status_code=404, detail='Error in adding timings to Courses CSV')
+    # Add timings columns to course df - To be run manually only once
     
     all_courses_df = all_courses_df.fillna('') # to avoid json errors due to nan
     # Find all course details given the course code list
