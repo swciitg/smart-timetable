@@ -28,11 +28,9 @@ app.add_middleware(
 
 # pydantic models
 class request_generate(BaseModel):
-    url: str
-
-class request_generate_venues(BaseModel):
-    url: str
-    sem: str
+    courses_url: str
+    mideem_venue_url: str
+    endsem_venue_url: str
 
 class request_my_courses(BaseModel):
     roll_number: str
@@ -45,20 +43,24 @@ def welcome():
 
 @app.post('/generate-all-courses')
 def generate_all_courses(data: request_generate):
-    url = data.url
-    message = ocr.generate_all_courses_CSV(url)
+    inval = []
+    courses_url = data.courses_url
+    message = ocr.generate_all_courses_CSV(courses_url)
     if message == None:
-        return HTTPException(status_code=400, detail='Invalid PDF or URL')
-    else:
-        return message
+        inval.append("Courses")
 
-@app.post('/generate-venues')
-def generate_venues(data: request_generate_venues):
-    url = data.url
-    sem = data.sem
-    message = ocr.generate_venue_CSV(url, sem)
+    midsem_venue_url = data.mideem_venue_url
+    message = ocr.generate_venue_CSV(midsem_venue_url, "midsem")
     if message == None:
-        return HTTPException(status_code=400, detail='Invalid PDF or URL')
+        inval.append("Midsem Venues")
+
+    endsem_venue_url = data.endsem_venue_url
+    message = ocr.generate_venue_CSV(endsem_venue_url, "endsem")
+    if message == None:
+        inval.append("Endsem Venues")
+
+    if inval:
+        return HTTPException(status_code=400, detail=f"Invalid {', '.join(inval)} PDF(s) or URL(s)")
     else:
         return message
 

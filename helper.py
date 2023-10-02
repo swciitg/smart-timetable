@@ -31,10 +31,10 @@ def read_tt():
 def return_empty_string(value):
     return '' if pd.isnull(value) else value
 
-def return_venue(row, roll):
-    if len(row) > 0:
-        rolls = row["roll"].str.split(',').to_numpy()[0]
-        if str(roll) in [r.strip() for r in rolls]:
+def return_venue(rows, roll):
+    if len(rows) > 0:
+        row = rows[rows["roll"].str.contains(roll)]
+        if len(row) > 0:
             return row["venue"].item()
     return ""
 

@@ -68,7 +68,8 @@ def generate_venue_CSV(url, sem):
         tables = camelot.read_pdf(url, pages='1-end', strip_text='\n')
         table_dfs = [table.df.iloc[1:, :] for table in tables]
         final_df = pd.concat(table_dfs, ignore_index=True)
-        final_df.to_csv(f'data/{sem}_venue.csv', index=False)
+        final_df.columns = ["code", "time", "session", "venue", "roll"]
+        final_df[["code", "venue", "roll"]].to_csv(f'data/{sem}_venue.csv', index=False)
         return {'message': 'Successfully converted and saved CSV file'}
     except Exception:
         return None
@@ -88,12 +89,8 @@ def fetch_venues_DF(sem):
         A dataframe with all courses or an empty dataframe incase of an exception
     '''
     try:
-        df = pd.read_csv(
-            f'data/{sem}_venue.csv',
-            dtype=str,
-            names=["code", "time", "session", "venue", "roll"]
-        )
-        return df[["code", "venue", "roll"]]
+        df = pd.read_csv(f'data/{sem}_venue.csv', dtype=str)
+        return df  # Assume no duplicates
         # return df.drop_duplicates('code')
     except Exception:
         return pd.DataFrame(columns=["code", "venue", "roll"])

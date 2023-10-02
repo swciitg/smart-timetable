@@ -1,3 +1,4 @@
+from typing import final
 import numpy as np
 import pandas as pd
 import re
@@ -26,7 +27,7 @@ def get_designfresher_courses(roll_number):
     courses=[
         {
             'course':'Engineering Drawing',
-            'code':'CE101',
+            'code':'CE 101',
             'slot':'A',
             'venue':'L2',
             'instructor': 'CE101',
@@ -36,7 +37,7 @@ def get_designfresher_courses(roll_number):
         },
         {
             'course':'Mathematics - I',
-            'code':'MA101',
+            'code':'MA 101',
             'slot':'B',
             'venue':'L2',
             'instructor': 'MA101',
@@ -53,7 +54,7 @@ def get_designfresher_courses(roll_number):
     tutorial=[
         {
             'course':'MA 101 Tutorial',
-            'code':'MA101',
+            'code':'MA 101',
             'slot':'b',
             'instructor':data_map['Location'],
             'venue':'',
@@ -65,7 +66,7 @@ def get_designfresher_courses(roll_number):
     lab=[
         {
             'course':'Engineering Drawing Lab',
-            'code':'CE110',
+            'code':'CE 110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
             'instructor':'CE110',
             'venue':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
@@ -113,9 +114,18 @@ def get_designfresher_courses(roll_number):
     for l in lab:
         l['timings'] = tt_json[l['slot']]
  
+    midsem_venues = ocr.fetch_venues_DF("midsem")
+    endsem_venues = ocr.fetch_venues_DF("endsem")
+    final_courses = courses+tutorial+lab
+    for course in final_courses:
+        midsem_row = midsem_venues[midsem_venues["code"]==course["code"]]
+        endsem_row = endsem_venues[endsem_venues["code"]==course["code"]]
+        course["midsem_venue"] = helper.return_venue(midsem_row, roll_number)
+        course["endsem_venue"] = helper.return_venue(endsem_row, roll_number)
+
     return {
         'roll_number':roll_number,
-        'courses':courses+tutorial+lab
+        'courses': final_courses
     }
 
 def get_fresher_courses(roll_number):
@@ -125,7 +135,7 @@ def get_fresher_courses(roll_number):
     courses=[
         {
             'course':'Engineering Drawing',
-            'code':'CE101',
+            'code':'CE 101',
             'slot':'A',
             'venue':'L2',
             'instructor': 'CE101',
@@ -134,7 +144,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'Mathematics - I',
-            'code':'MA101',
+            'code':'MA 101',
             'slot':'B',
             'venue':'L2',
             'instructor': 'MA101',
@@ -144,7 +154,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'Basic Electronics',
-            'code':'EE101',
+            'code':'EE 101',
             'slot':'C',
             'venue':'L2',
             'instructor': 'EE101',
@@ -154,7 +164,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'Chemistry',
-            'code':'CH101',
+            'code':'CH 101',
             'slot':'D',
             'venue':'L2',
             'instructor': 'CH101',
@@ -163,7 +173,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'Physics - I',
-            'code':'PH101',
+            'code':'PH 101',
             'slot':'E',
             'venue':'L2',
             'instructor': 'PH101',
@@ -180,7 +190,7 @@ def get_fresher_courses(roll_number):
     tutorial=[
         {
             'course':'MA 101 Tutorial',
-            'code':'MA101',
+            'code':'MA 101',
             'slot':'b',
             'instructor':data_map['Location'],
             'venue': '',
@@ -189,7 +199,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'EE 101 Tutorial',
-            'code':'EE101',
+            'code':'EE 101',
             'slot':'c',
             'venue': '',
             'instructor':data_map['Location'],
@@ -198,7 +208,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'CH 101 Tutorial',
-            'code':'CH101',
+            'code':'CH 101',
             'venue': '',
             'slot':'d',
             'instructor':data_map['Location'],
@@ -207,7 +217,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'PH 101 Tutorial',
-            'code':'PH101',
+            'code':'PH 101',
             'slot':'e',
             'venue': '',
             'instructor':data_map['Location'],
@@ -218,7 +228,7 @@ def get_fresher_courses(roll_number):
     lab=[
         {
             'course':'Chemistry Laboratory',
-            'code':'CH110',
+            'code':'CH 110',
             'slot':'ML' if data_map['Division'] in ['II','I'] else 'AL',
             'instructor': 'CH110',
             'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
@@ -227,7 +237,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'Physics Laboratory' if data_map['Division'] in ['II','I'] else 'Workshop I',
-            'code':'PH110' if data_map['Division'] in ['II','I'] else 'ME110',
+            'code':'PH 110' if data_map['Division'] in ['II','I'] else 'ME110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
             'instructor': 'PH110' if data_map['Division'] in ['II','I'] else 'ME110',
             'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['II','I'] else 'Workshop (on the western side of Academic Complex (AC))',
@@ -236,7 +246,7 @@ def get_fresher_courses(roll_number):
         },
         {
             'course':'Engineering Drawing Lab',
-            'code':'CE110',
+            'code':'CE 110',
             'slot':'AL' if data_map['Division'] in ['III','IV'] else 'ML',
             'instructor': 'CE110',
             'venue':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
@@ -282,7 +292,17 @@ def get_fresher_courses(roll_number):
     for l in lab:
         l['timings'] = tt_json[l['slot']]
 
+    midsem_venues = ocr.fetch_venues_DF("midsem")
+    endsem_venues = ocr.fetch_venues_DF("endsem")
+    final_courses = courses+tutorial+lab
+    for course in final_courses:
+        midsem_row = midsem_venues[midsem_venues["code"]==course["code"]]
+        endsem_row = endsem_venues[endsem_venues["code"]==course["code"]]
+        course["midsem_venue"] = helper.return_venue(midsem_row, roll_number)
+        course["endsem_venue"] = helper.return_venue(endsem_row, roll_number)
+
     return {
         'roll_number':roll_number,
-        'courses':courses+tutorial+lab
+        'courses': final_courses
+        # 'courses':courses+tutorial+lab
     }
