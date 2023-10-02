@@ -31,6 +31,13 @@ def read_tt():
 def return_empty_string(value):
     return '' if pd.isnull(value) else value
 
+def return_venue(row, roll):
+    rolls = row["roll"].str.split(',').to_numpy()[0]
+    if str(roll) in rolls:
+        return row["venue"].item()
+    else:
+        return ""
+
 def get_midsem_time(slot):
     if pd.isnull(slot):
         return ""
