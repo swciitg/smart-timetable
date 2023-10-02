@@ -28,7 +28,9 @@ app.add_middleware(
 
 # pydantic models
 class request_generate(BaseModel):
-    url: str
+    courses_url: str
+    mideem_venue_url: str
+    endsem_venue_url: str
 
 class request_my_courses(BaseModel):
     roll_number: str
@@ -41,13 +43,27 @@ def welcome():
 
 @app.post('/generate-all-courses')
 def generate_all_courses(data: request_generate):
-    url = data.url
-    message = ocr.generate_all_courses_CSV(url)
+    inval = []
+    courses_url = data.courses_url
+    message = ocr.generate_all_courses_CSV(courses_url)
     if message == None:
-        return HTTPException(status_code=400, detail='Invalid PDF or URL')
+        inval.append("Courses")
+
+    midsem_venue_url = data.mideem_venue_url
+    message = ocr.generate_venue_CSV(midsem_venue_url, "midsem")
+    if message == None:
+        inval.append("Midsem Venues")
+
+    endsem_venue_url = data.endsem_venue_url
+    message = ocr.generate_venue_CSV(endsem_venue_url, "endsem")
+    if message == None:
+        inval.append("Endsem Venues")
+
+    if inval:
+        return HTTPException(status_code=400, detail=f"Invalid {', '.join(inval)} PDF(s) or URL(s)")
     else:
         return message
-    
+
 @app.post('/get-my-courses')
 def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
@@ -72,6 +88,10 @@ def get_my_courses(data: request_my_courses):
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         courses_parsed)]
 
+    # Store venues in a DF
+    midsem_venues = ocr.fetch_venues_DF("midsem")
+    endsem_venues = ocr.fetch_venues_DF("endsem")
+
     data = {'roll_number': roll_number}
     my_courses_list = []
 
@@ -84,6 +104,8 @@ def get_my_courses(data: request_my_courses):
                 if df_entry[day]!="":
                     timing_json[day] = df_entry[day]
 
+        midsem_row = midsem_venues[midsem_venues["code"]==df_entry['code']]
+        endsem_row = endsem_venues[endsem_venues["code"]==df_entry['code']]
         my_courses_nullable = {
             'code': helper.return_empty_string(df_entry['code']),
             'course': helper.return_empty_string(df_entry['name']),
@@ -92,7 +114,9 @@ def get_my_courses(data: request_my_courses):
             'venue': helper.return_empty_string(df_entry['venue']),
             'midsem': helper.get_midsem_time(df_entry['slot']),
             'endsem': helper.get_endsem_time(df_entry['slot']),
-            'timings': timing_json
+            'timings': timing_json,
+            'midsem_venue': helper.return_venue(midsem_row, roll_number),
+            'endsem_venue': helper.return_venue(endsem_row, roll_number),
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
