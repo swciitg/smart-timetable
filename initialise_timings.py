@@ -3,6 +3,7 @@ import helper
 
 
 def add_timings_to_course_csv(url: str):
+    url = "data/courses_csv.csv"
     try:
         course_df = pd.read_csv(url)
 
