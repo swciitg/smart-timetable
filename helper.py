@@ -32,11 +32,11 @@ def return_empty_string(value):
     return '' if pd.isnull(value) else value
 
 def return_venue(row, roll):
-    rolls = row["roll"].str.split(',').to_numpy()[0]
-    if str(roll) in rolls:
-        return row["venue"].item()
-    else:
-        return ""
+    if len(row) > 0:
+        rolls = row["roll"].str.split(',').to_numpy()[0]
+        if str(roll) in [r.strip() for r in rolls]:
+            return row["venue"].item()
+    return ""
 
 def get_midsem_time(slot):
     if pd.isnull(slot):

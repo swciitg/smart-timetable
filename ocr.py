@@ -88,8 +88,12 @@ def fetch_venues_DF(sem):
         A dataframe with all courses or an empty dataframe incase of an exception
     '''
     try:
-        df = pd.read_csv(f'data/{sem}_venue.csv',dtype=str)
+        df = pd.read_csv(
+            f'data/{sem}_venue.csv',
+            dtype=str,
+            names=["code", "time", "session", "venue", "roll"]
+        )
+        return df[["code", "venue", "roll"]]
         # return df.drop_duplicates('code')
-        return df  # Assume no duplicates
     except Exception:
-        return pd.DataFrame()
+        return pd.DataFrame(columns=["code", "venue", "roll"])

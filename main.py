@@ -88,11 +88,7 @@ def get_my_courses(data: request_my_courses):
 
     # Store venues in a DF
     midsem_venues = ocr.fetch_venues_DF("midsem")
-    if (midsem_venues.empty):
-        return HTTPException(status_code=404, detail='Midsem venues CSV file not found. Please generate it first.')
     endsem_venues = ocr.fetch_venues_DF("endsem")
-    if (endsem_venues.empty):
-        return HTTPException(status_code=404, detail='Endsem venues CSV file not found. Please generate it first.')
 
     data = {'roll_number': roll_number}
     my_courses_list = []
