@@ -6,6 +6,7 @@ services:
     restart: unless-stopped
     build:
       context: .
+      dockerfile: Dockerfile-test
     volumes:
             - "./data:/code/data"
     ports:
