@@ -28,7 +28,9 @@ app.add_middleware(
 
 # pydantic models
 class request_generate(BaseModel):
-    url: str
+    courses_url: str
+    mideem_venue_url: str
+    endsem_venue_url: str
 
 class request_my_courses(BaseModel):
     roll_number: str
@@ -41,10 +43,24 @@ def welcome():
 
 @app.post('/generate-all-courses')
 def generate_all_courses(data: request_generate):
-    url = data.url
-    message = ocr.generate_all_courses_CSV(url)
+    inval = []
+    courses_url = data.courses_url
+    message = ocr.generate_all_courses_CSV(courses_url)
     if message == None:
-        return HTTPException(status_code=400, detail='Invalid PDF or URL')
+        inval.append("Courses")
+
+    midsem_venue_url = data.mideem_venue_url
+    message = ocr.generate_venue_CSV(midsem_venue_url, "midsem")
+    if message == None:
+        inval.append("Midsem Venues")
+
+    endsem_venue_url = data.endsem_venue_url
+    message = ocr.generate_venue_CSV(endsem_venue_url, "endsem")
+    if message == None:
+        inval.append("Endsem Venues")
+
+    if inval:
+        return HTTPException(status_code=400, detail=f"Invalid {', '.join(inval)} PDF(s) or URL(s)")
     else:
         return message
 
@@ -53,9 +69,10 @@ def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
     courses_parsed = courses.get_courses_parsed(roll_number)
     print(courses_parsed)
-    # Handle 2023 freshers
+
+    # Handle 2023 Btech and BDes freshers
     if roll_number.startswith('230205'):
-        return fresher_courses.get_designfresher_courses(roll_number)
+        return fresher_courses.get_fresher_courses(roll_number,True)
     elif roll_number.startswith('2301'):
         return fresher_courses.get_fresher_courses(roll_number)
 
@@ -65,6 +82,9 @@ def get_my_courses(data: request_my_courses):
     if (all_courses_df.empty):
         return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
 
+    # Add timings columns to course df - To be run manually only once
+    
+    all_courses_df = all_courses_df.fillna('') # to avoid json errors due to nan
     # Find all course details given the course code list
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         courses_parsed)]
@@ -74,6 +94,13 @@ def get_my_courses(data: request_my_courses):
 
     for i in range(0, len(my_courses_df)):
         df_entry = my_courses_df.iloc[i]
+        # Getting the timings json`
+        timing_json = {}
+        if "Monday" in all_courses_df.columns: #Checking if timings columns are there, if not there keep dict as empty
+            for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
+                if df_entry[day]!="":
+                    timing_json[day] = df_entry[day]
+
         my_courses_nullable = {
             'code': helper.return_empty_string(df_entry['code']),
             'course': helper.return_empty_string(df_entry['name']),
@@ -82,6 +109,9 @@ def get_my_courses(data: request_my_courses):
             'venue': helper.return_empty_string(df_entry['venue']),
             'midsem': helper.get_midsem_time(df_entry['slot']),
             'endsem': helper.get_endsem_time(df_entry['slot']),
+            'timings': timing_json,
+            'midsemVenue': helper.return_venue(df_entry['code'], roll_number, True),
+            'endsemVenue': helper.return_venue(df_entry['code'], roll_number, False),
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
