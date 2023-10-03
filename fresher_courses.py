@@ -33,8 +33,8 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'slot': 'A',
             'venue': 'L2',
             'instructor': 'CE101',
-            'midsem': '',
-            'endsem': ''
+            'midsem': "2023-09-18T14:00:00.000Z",
+            'endsem': "2023-11-19T14:00:00.000Z"
         },
         {
             'course': 'Mathematics - I',
