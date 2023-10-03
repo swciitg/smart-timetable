@@ -206,9 +206,6 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     else:
         lab[0]['slot'] = 'AL5'
 
-    # for i in range(len(courses)):
-    #     courses[i]['midsem'] = helper.get_midsem_time(courses[i]['slot'])
-    #     courses[i]['endsem'] = helper.get_endsem_time(courses[i]['slot'])
 
     # Get tt json
     tt_json = get_fresher_tt_slots()
@@ -224,14 +221,11 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     for l in lab:
         l['timings'] = tt_json[l['slot']]
 
-    midsem_venues = ocr.fetch_venues_DF("midsem")
-    endsem_venues = ocr.fetch_venues_DF("endsem")
+
     final_courses = courses+tutorial+lab
     for course in final_courses:
-        midsem_row = midsem_venues[midsem_venues["code"]==course["code"]]
-        endsem_row = endsem_venues[endsem_venues["code"]==course["code"]]
-        course["midsem_venue"] = helper.return_venue(midsem_row, roll_number)
-        course["endsem_venue"] = helper.return_venue(endsem_row, roll_number)
+        course["midsem_venue"] = helper.return_venue(course["code"], roll_number, True)
+        course["endsem_venue"] = helper.return_venue(course["code"], roll_number, False)
 
     return {
         'roll_number':roll_number,

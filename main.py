@@ -69,7 +69,8 @@ def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
     courses_parsed = courses.get_courses_parsed(roll_number)
     print(courses_parsed)
-    # Handle 2023 freshers
+
+    # Handle 2023 Btech and BDes freshers
     if roll_number.startswith('230205'):
         return fresher_courses.get_fresher_courses(roll_number,True)
     elif roll_number.startswith('2301'):
@@ -106,6 +107,7 @@ def get_my_courses(data: request_my_courses):
 
         midsem_row = midsem_venues[midsem_venues["code"]==df_entry['code']]
         endsem_row = endsem_venues[endsem_venues["code"]==df_entry['code']]
+
         my_courses_nullable = {
             'code': helper.return_empty_string(df_entry['code']),
             'course': helper.return_empty_string(df_entry['name']),
@@ -115,8 +117,8 @@ def get_my_courses(data: request_my_courses):
             'midsem': helper.get_midsem_time(df_entry['slot']),
             'endsem': helper.get_endsem_time(df_entry['slot']),
             'timings': timing_json,
-            'midsem_venue': helper.return_venue(midsem_row, roll_number),
-            'endsem_venue': helper.return_venue(endsem_row, roll_number),
+            'midsem_venue': helper.return_venue(df_entry['code'], roll_number, True),
+            'endsem_venue': helper.return_venue(df_entry['code'], roll_number, False),
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
