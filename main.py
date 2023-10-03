@@ -89,10 +89,6 @@ def get_my_courses(data: request_my_courses):
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         courses_parsed)]
 
-    # Store venues in a DF
-    midsem_venues = ocr.fetch_venues_DF("midsem")
-    endsem_venues = ocr.fetch_venues_DF("endsem")
-
     data = {'roll_number': roll_number}
     my_courses_list = []
 
@@ -104,9 +100,6 @@ def get_my_courses(data: request_my_courses):
             for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
                 if df_entry[day]!="":
                     timing_json[day] = df_entry[day]
-
-        midsem_row = midsem_venues[midsem_venues["code"]==df_entry['code']]
-        endsem_row = endsem_venues[endsem_venues["code"]==df_entry['code']]
 
         my_courses_nullable = {
             'code': helper.return_empty_string(df_entry['code']),
