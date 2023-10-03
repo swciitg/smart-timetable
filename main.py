@@ -110,8 +110,8 @@ def get_my_courses(data: request_my_courses):
             'midsem': helper.get_midsem_time(df_entry['slot']),
             'endsem': helper.get_endsem_time(df_entry['slot']),
             'timings': timing_json,
-            'midsem_venue': helper.return_venue(df_entry['code'], roll_number, True),
-            'endsem_venue': helper.return_venue(df_entry['code'], roll_number, False),
+            'midsemVenue': helper.return_venue(df_entry['code'], roll_number, True),
+            'endsemVenue': helper.return_venue(df_entry['code'], roll_number, False),
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)

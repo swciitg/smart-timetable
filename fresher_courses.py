@@ -224,8 +224,8 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
 
     final_courses = courses+tutorial+lab
     for course in final_courses:
-        course["midsem_venue"] = helper.return_venue(course["code"], roll_number, True)
-        course["endsem_venue"] = helper.return_venue(course["code"], roll_number, False)
+        course["midsemVenue"] = helper.return_venue(course["code"], roll_number, True)
+        course["endsemVenue"] = helper.return_venue(course["code"], roll_number, False)
 
     return {
         'roll_number':roll_number,
