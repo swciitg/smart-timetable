@@ -183,7 +183,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         }])
 
     if not isDesign:
-        if data_map['Lab'] == 'L6' or data_map['Lab'] == 'L2':
+        if data_map['Lab'] == 'L6' or data_map['Lab'] == 'L1':
             lab[1]['slot'] = lab[1]['slot']+'1'
             lab[2]['slot'] = lab[2]['slot']+'4'
             lab[0]['slot'] = lab[0]['slot']+'2'
@@ -199,7 +199,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             lab[1]['slot'] = lab[1]['slot']+'2'
             lab[2]['slot'] = lab[2]['slot']+'5'
             lab[0]['slot'] = lab[0]['slot']+'3'
-        elif data_map['Lab'] == 'L20' or data_map['Lab'] == 'L5':
+        elif data_map['Lab'] == 'L10' or data_map['Lab'] == 'L5':
             lab[1]['slot'] = lab[1]['slot']+'4'
             lab[2]['slot'] = lab[2]['slot']+'2'
             lab[0]['slot'] = lab[0]['slot']+'5'
