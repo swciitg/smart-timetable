@@ -213,6 +213,15 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     # adding timings to tut, lab and courses
     for c in courses:
         c['timings'] = tt_json[c['slot']]
+    
+    for c in courses:
+        tmp = []
+        for key in c['timings']:
+            if c['timings'][key] == "8:00 - 8:55 AM" or c['timings'][key] == "5:00 - 5:55 PM":
+                tmp.append(key)
+        
+        for key in tmp:
+            del c['timings'][key]
 
     for t in tutorial:
         t['timings'] = tt_json[t['slot']]
