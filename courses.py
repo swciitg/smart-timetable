@@ -73,7 +73,7 @@ def get_courses_parsed(roll_number):
         if (sem_session in descendants and sem_year in descendants):
           # Add only if course is approved
             approval_status = row.find_all('td',{"data-label": "Status"})[-1].text
-            if (approval_status == "Approved") or (approval_status == ""):
+            if (approval_status == "Approved"):
               course_code_list.append(
                 row.find('td', {"data-label": data_label}).text)
 
