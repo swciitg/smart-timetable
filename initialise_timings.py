@@ -10,7 +10,8 @@ def add_timings_to_course_csv(url: str):
         # Create new columns with empty string as default value
         for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
             course_df[day] = ""
-
+        
+        print("here1")
         # Read the time table json
         tt_json = helper.read_tt()
 
@@ -32,3 +33,5 @@ def add_timings_to_course_csv(url: str):
     except Exception as e:
         print(e)
         return pd.DataFrame()
+
+add_timings_to_course_csv("data/courses_csv.csv")
