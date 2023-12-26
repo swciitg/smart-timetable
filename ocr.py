@@ -49,3 +49,48 @@ def get_fresher_DF(roll_number):
     df = df.set_index('Roll no')
     x=df.loc[roll_number]
     return x.to_dict()
+
+
+def generate_venue_CSV(url, sem):
+    '''
+    Generate CSV file corresponding to the PDF file
+
+    This function generates a CSV file, given the URl of a PDF file. 
+    It makes use of camelot-py (https://pypi.org/project/camelot-py/)
+
+    Arguments:
+        url: a string
+        sem: a string, "midsem" or "endsem"
+    Returns:
+        A dictionary message or None incase of an exception
+    '''
+    try:
+        tables = camelot.read_pdf(url, pages='1-end', strip_text='\n')
+        table_dfs = [table.df.iloc[1:, :] for table in tables]
+        final_df = pd.concat(table_dfs, ignore_index=True)
+        final_df.columns = ["code", "time", "session", "venue", "roll"]
+        final_df[["code", "venue", "roll"]].to_csv(f'data/{sem}_venue.csv', index=False)
+        return {'message': 'Successfully converted and saved CSV file'}
+    except Exception:
+        return None
+
+
+def fetch_venues_DF(sem):
+    '''
+    Fetches all the venues from a saved CSV file
+
+    Since generation of CSV file takes time, this function
+    is useful to immediately extract data from CSV and store
+    in a pandas DataFrame
+
+    Arguments:
+        sem: a string, "midsem" or "endsem"
+    Returns:
+        A dataframe with all courses or an empty dataframe incase of an exception
+    '''
+    try:
+        df = pd.read_csv(f'data/{sem}_venue.csv', dtype=str)
+        return df  # Assume no duplicates
+        # return df.drop_duplicates('code')
+    except Exception:
+        return pd.DataFrame(columns=["code", "venue", "roll"])

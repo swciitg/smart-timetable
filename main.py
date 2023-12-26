@@ -28,7 +28,9 @@ app.add_middleware(
 
 # pydantic models
 class request_generate(BaseModel):
-    url: str
+    courses_url: str
+    mideem_venue_url: str
+    endsem_venue_url: str
 
 class request_my_courses(BaseModel):
     roll_number: str
@@ -41,19 +43,34 @@ def welcome():
 
 @app.post('/generate-all-courses')
 def generate_all_courses(data: request_generate):
-    url = data.url
-    message = ocr.generate_all_courses_CSV(url)
+    inval = []
+    courses_url = data.courses_url
+    message = ocr.generate_all_courses_CSV(courses_url)
     if message == None:
-        return HTTPException(status_code=400, detail='Invalid PDF or URL')
+        inval.append("Courses")
+
+    midsem_venue_url = data.mideem_venue_url
+    message = ocr.generate_venue_CSV(midsem_venue_url, "midsem")
+    if message == None:
+        inval.append("Midsem Venues")
+
+    endsem_venue_url = data.endsem_venue_url
+    message = ocr.generate_venue_CSV(endsem_venue_url, "endsem")
+    if message == None:
+        inval.append("Endsem Venues")
+
+    if inval:
+        return HTTPException(status_code=400, detail=f"Invalid {', '.join(inval)} PDF(s) or URL(s)")
     else:
         return message
-    
+
 @app.post('/get-my-courses')
 def get_my_courses(data: request_my_courses):
     roll_number = data.roll_number
     courses_parsed = courses.get_courses_parsed(roll_number)
     print(courses_parsed)
-    # Handle 2023 freshers
+
+    # Handle 2023 Btech and BDes freshers
     if roll_number.startswith('230205'):
         return fresher_courses.get_fresher_courses(roll_number,True)
     elif roll_number.startswith('2301'):
@@ -92,7 +109,9 @@ def get_my_courses(data: request_my_courses):
             'venue': helper.return_empty_string(df_entry['venue']),
             'midsem': helper.get_midsem_time(df_entry['slot']),
             'endsem': helper.get_endsem_time(df_entry['slot']),
-            'timings': timing_json
+            'timings': timing_json,
+            'midsemVenue': helper.return_venue(df_entry['code'], roll_number, True),
+            'endsemVenue': helper.return_venue(df_entry['code'], roll_number, False),
         }
         my_courses = {
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)

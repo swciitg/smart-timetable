@@ -1,6 +1,6 @@
 import pandas as pd
 from collections import defaultdict
-
+import ocr
 
 def read_tt():
     '''
@@ -30,6 +30,22 @@ def read_tt():
 
 def return_empty_string(value):
     return '' if pd.isnull(value) else value
+
+def return_venue(code, roll, isMid):
+
+    # Store venues in a DF
+    venues = ocr.fetch_venues_DF("endsem")
+
+    if isMid:
+        venues = ocr.fetch_venues_DF("midsem")
+        
+    rows = venues[venues["code"]==code]
+
+    if len(rows) > 0:
+        row = rows[rows["roll"].str.contains(roll)]
+        if len(row) > 0:
+            return row["venue"].item()
+    return ""
 
 def get_midsem_time(slot):
     if pd.isnull(slot):

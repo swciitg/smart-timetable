@@ -133,7 +133,7 @@ CS 201,Discrete Mathematics,A,5102,Sushanta Karmakar,sushantak,8:00 - 8:55 AM,9:
 CS 203,Algorithms and Data Structures,D,5102,R. Inkulu,rinkulu,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CS 204,Algorithms and Data Structures Laboratory,,,"Amit Chintamani Awekar,","awekar, saradhi",,,,,
 CS 205M,Theoretical Foundations of Computer Science,G,5102,Benny George Kenkireth,ben,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-CS 221,Digital Design,B,5G4,"Hemangee Kalpesh Kapoor,","hemangee, sukantab",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS 221,Digital Design,B,5G4,"Hemangee Kalpesh Kapoor,","hemangee, sukantab",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,
 CS 242,System Software Laboratory,,,Pinaki Mitra,pinaki,,,,,
 CS 322M,Digital Logic and Computer Architecture,E1,5102,Jatindra Kumar Deka,jatin,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 CS 341,Computer Networks,B1,5G4,"Moumita Patra,","moumita.patra, t.venkat",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
@@ -143,14 +143,14 @@ CS 344,Operating Systems Lab.,,,V. Vijaya Saradhi,saradhi,,,,,
 CS 441M,Software Engineering,A,L1,Samit Bhattacharya,samit,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CS 498,B Tech Project-I,,,Sushanta Karmakar,sushantak,,,,,
 CS 499,Project II,--,,Sushanta Karmakar,sushantak,,,,,
-CS 501,Parallel Algorithms,D,L1,Sajith Gopalan,sajith,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CS 501,Parallel Algorithms,D,L1,Sajith Gopalan,sajith,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
 CS 502,Computational Geometry,E1,L1,Seela Veerabhadreswara Rao,svrao,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 CS 512,Design and Analysis of Algorithms,E,5102,Deepanjan Kesh,deepkesh,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 CS 513,Data Structures Lab,,,Sanasam Ranbir Singh,ranbir,,,,,
 CS 514,Mathematics for Computer Science,F,5102,Ashish Anand,anand.ashish,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 CS 522,Embedded Systems,G1,5102,Purandar Bhaduri,pbhaduri,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-CS 525,Formal Methods For System Verification,A1,L1,Chandan Karfa,ckarfa,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CS 535,Hardware Security,B,L1,John Jose,johnjose,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS 525,Formal Methods For System Verification,A1,L1,Chandan Karfa,ckarfa,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
+CS 535,Hardware Security,B,L1,John Jose,johnjose,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,
 CS 549,Computer and Network Security,D1,L1,Sukumar Nandi,sukumar,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 CS 566,Speech Processing,B1,L1,Pradip Kumar Das,pkdas,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 CS 578,Internet of Things,G,5101,Manas Khatua,manaskhatua,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
@@ -233,10 +233,10 @@ EE 210,Digital circuits,E,,Debabrata Sikdar,deb.sikdar,,8:00 - 8:55 AM,9:00 - 9:
 EE 211,Digital circuits Laboratory,,,Shaik Rafi Ahamed,rafiahamed,,,,,
 EE 211M,Analog Circuits,G,,Harshal B. Nemade,harshal,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 EE 220,Signals and Systems,D,,Manish Bhatt,manishb,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EE 312,Embedded Systems,C1,,Gaurav Trivedi,trivedi,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 312,Embedded Systems,C1,,Gaurav Trivedi,trivedi,,2:00 - 2:55 PM,,,4:00 - 4:55 PM
 EE 321,Digital Signal Processing,B1,,Shaik Rafi Ahamed,rafiahamed,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EE 331,Principles of Communication,A1,,Ribhu Chopra,ribhufec,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 340,Electromagnetic Theory,D1,,Mahima Arrawatia,mahimaarrawatia,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 331,Principles of Communication,A1,,Ribhu Chopra,ribhufec,3:00 – 3:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 340,Electromagnetic Theory,D1,,Mahima Arrawatia,mahimaarrawatia,2:00 - 2:55 PM,,,4:00 - 4:55 PM,3:00 - 3:55 PM
 EE 340M,Electromagnetic Field Theory,E1,,Rakhesh Singh Kshetrimayum,krs,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 EE 351,Control and Robotics Laboratory,,,Chayan Bhawal,bhawal,,,,,
 EE 380,Electrical Machines,B1,,Sreenath J G,sreenathjg,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
@@ -262,15 +262,15 @@ EE 571,Insulation and High Voltage Engineering,G,,Sisir Kumar Nayak,sknayak,,,12
 EE 590,Linear Algebra and Optimization,E,,Smarajit Das,dass,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 EE 591,Probability and Stochastic Processes,F,,Samarendra Dandapat,samaren,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 EE 601,Introduction to Distributed Control Systems,A1,,Parijat Bhowmick,parijat.bhowmick,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 610,Fundamentals of VLSI CAD,A1,,Gaurav Trivedi,trivedi,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 610,Fundamentals of VLSI CAD,A1,,Gaurav Trivedi,trivedi,,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 623,Speech Signal Processing and Coding,A1,,Rohit Sinha,rsinha,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 636,Selected Topics in Information Theory,A1,,Srinivasan Krishnaswamy,srinikris,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 644,"Plasmonic, nanophotonic and metamaterials",B1,,Ashwini Sawant,ashwinisawant,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EE 646,Optical Measurement Techniques and Applications,C1,,Rishikesh Dilip Kulkarni,rishi.k,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 646,Optical Measurement Techniques and Applications,C1,,Rishikesh Dilip Kulkarni,rishi.k,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
 EE 653,Modeling and Simulation of Dynamic Systems,B1,,Somanath Majhi,smajhi,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EE 658,Optimization Techniques,E1,,Kuntal Deka,kuntaldeka,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 EE 660,Modelling and Control of Power Electronic Converters,C1,,A. Ravindranath,ravindranath,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EE 677,Smart power grids for a sustainable future,D1,,Prabir Barooah,pbarooah,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 677,Smart power grids for a sustainable future,D1,,Prabir Barooah,pbarooah,2:00 - 2:55 PM,,4:00 - 4:55 PM,4:00 - 4:55 PM,
 EE 692,Detection and Estimation Theory,B1,,Kannan Karthik,k.karthik,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EE 693,Advanced Topics in Random Processes,G1,,A. Rajesh,rajesha,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
 EE 695,Data-Driven System Theory,E1,,Hanumant Singh Shekhawat,h.s.shekhawat,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
