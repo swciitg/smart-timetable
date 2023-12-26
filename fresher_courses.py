@@ -34,8 +34,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'slot': 'A',
             'venue': 'L2',
             'instructor': 'ME101',
-            'midsem': '',
-            'endsem': ''
+            'ltpc': ' '
         },
         {
             'course': 'Introduction to Computing',
@@ -43,31 +42,8 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'slot': 'D',
             'venue': 'L2',
             'instructor': 'CS101',
-            'ltpc': ' ',
-            "midsem": "2023-09-19T14:00:00.000Z",
-            "endsem": "2023-11-20T14:00:00.000Z"
+            'ltpc': ' '
         },
-       
-        # {
-        #     'course': 'Mathematics - II',
-        #     'code': 'MA102',
-        #     'slot': 'B',
-        #     'venue': 'L2',
-        #     'instructor': 'MA102',
-        #     'ltpc': ' ',
-        #     "midsem": "2023-09-19T14:00:00.000Z",
-        #     "endsem": "2023-11-20T14:00:00.000Z"
-        # },
-        # {
-        #     'course': 'Introductory Biology',
-        #     'code': 'BT101',
-        #     'slot': 'C',
-        #     'venue': 'L2',
-        #     'instructor': 'BT101',
-        #     'ltpc': ' ',
-        #     "midsem": "2023-09-20T14:00:00.000Z",
-        #     "endsem": "2023-11-21T14:00:00.000Z"
-        # }
     ]
     if not isDesign:
         courses.extend([{
@@ -76,9 +52,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'slot': 'B',
             'venue': 'L2',
             'instructor': 'MA102',
-            'ltpc': ' ',
-            "midsem": "2023-09-19T14:00:00.000Z",
-            "endsem": "2023-11-20T14:00:00.000Z"
+            'ltpc': ' '
         },
         {
             'course': 'Introductory Biology',
@@ -86,9 +60,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'slot': 'C',
             'venue': 'L2',
             'instructor': 'BT101',
-            'ltpc': ' ',
-            "midsem": "2023-09-20T14:00:00.000Z",
-            "endsem": "2023-11-21T14:00:00.000Z"
+            'ltpc': ' '
         },
         {
             'course': 'Physics - II',
@@ -96,9 +68,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'slot': 'E',
             'venue': 'L2',
             'instructor': 'PH102',
-            'ltpc': ' ',
-            "midsem": "2023-09-20T14:00:00.000Z",
-            "endsem": "2023-11-21T14:00:00.000Z"
+            'ltpc': ' '
         }])
 
     # ? The else block is for adding design only courses
