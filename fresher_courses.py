@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import re
 import string
+import helper as hp
 from fastapi import HTTPException
 
 # created Python modules
@@ -258,6 +259,8 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     # adding timings to tut, lab and courses
     for c in courses:
         c['timings'] = tt_json[c['slot']]
+        c['midsem'] = hp.get_midsem_time(c['slot'])
+        c['endsem'] = hp.get_endsem_time(c['slot'])
 
     for t in tutorial:
         t['timings'] = tt_json[t['slot']]
