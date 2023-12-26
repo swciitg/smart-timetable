@@ -28,53 +28,76 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     # Correct for div 3
     courses = [
         {
-            'course': 'Engineering Drawing',
-            'code': 'CE101',
+            'course': 'Engineering Mechanics',
+            'code': 'ME101',
             'slot': 'A',
             'venue': 'L2',
-            'instructor': 'CE101',
+            'instructor': 'ME101',
             'midsem': '',
             'endsem': ''
         },
         {
-            'course': 'Mathematics - I',
-            'code': 'MA101',
+            'course': 'Introduction to Computing',
+            'code': 'CS101',
+            'slot': 'D',
+            'venue': 'L2',
+            'instructor': 'CS101',
+            'ltpc': ' ',
+            "midsem": "2023-09-19T14:00:00.000Z",
+            "endsem": "2023-11-20T14:00:00.000Z"
+        },
+       
+        # {
+        #     'course': 'Mathematics - II',
+        #     'code': 'MA102',
+        #     'slot': 'B',
+        #     'venue': 'L2',
+        #     'instructor': 'MA102',
+        #     'ltpc': ' ',
+        #     "midsem": "2023-09-19T14:00:00.000Z",
+        #     "endsem": "2023-11-20T14:00:00.000Z"
+        # },
+        # {
+        #     'course': 'Introductory Biology',
+        #     'code': 'BT101',
+        #     'slot': 'C',
+        #     'venue': 'L2',
+        #     'instructor': 'BT101',
+        #     'ltpc': ' ',
+        #     "midsem": "2023-09-20T14:00:00.000Z",
+        #     "endsem": "2023-11-21T14:00:00.000Z"
+        # }
+    ]
+    if not isDesign:
+        courses.extend([{
+            'course': 'Mathematics - II',
+            'code': 'MA102',
             'slot': 'B',
             'venue': 'L2',
-            'instructor': 'MA101',
+            'instructor': 'MA102',
             'ltpc': ' ',
             "midsem": "2023-09-19T14:00:00.000Z",
             "endsem": "2023-11-20T14:00:00.000Z"
         },
         {
-            'course': 'Basic Electronics',
-            'code': 'EE101',
+            'course': 'Introductory Biology',
+            'code': 'BT101',
             'slot': 'C',
             'venue': 'L2',
-            'instructor': 'EE101',
+            'instructor': 'BT101',
             'ltpc': ' ',
             "midsem": "2023-09-20T14:00:00.000Z",
             "endsem": "2023-11-21T14:00:00.000Z"
-        }
-    ]
-    if not isDesign:
-        courses.extend([{
-            'course': 'Chemistry',
-            'code': 'CH101',
-            'slot': 'D',
-            'venue': 'L2',
-            'instructor': 'CH101',
-            "midsem": "2023-09-21T14:00:00.000Z",
-            "endsem": "2023-11-22T14:00:00.000Z"
         },
-            {
-            'course': 'Physics - I',
-            'code': 'PH101',
+        {
+            'course': 'Physics - II',
+            'code': 'PH102',
             'slot': 'E',
             'venue': 'L2',
-            'instructor': 'PH101',
-            "midsem": "2023-09-22T14:00:00.000Z",
-            "endsem": "2023-11-23T14:00:00.000Z"
+            'instructor': 'PH102',
+            'ltpc': ' ',
+            "midsem": "2023-09-20T14:00:00.000Z",
+            "endsem": "2023-11-21T14:00:00.000Z"
         }])
 
     # ? The else block is for adding design only courses
@@ -104,28 +127,28 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     #         }
     #         courses.append(my_courses)
 
-    if data_map['Division'] == 'I' or data_map['Division'] == 'II':
+    if data_map['Division'] == 'III' or data_map['Division'] == 'IV':
         for c in courses:
             c['slot'] = c['slot']+'1'
     if data_map['Division'] == 'II' or data_map['Division'] == 'IV':
         for c in courses:
             c['venue'] = 'L4'
     tutorial = [
+        # {
+        #     'course': 'MA 102 Tutorial',
+        #     'code': 'MA102',
+        #     'slot': 'b',
+        #     'instructor': 'MA102',
+        #     'venue': '',
+        #     'midsem': '',
+        #     'endsem': ''
+        # },
         {
-            'course': 'MA 101 Tutorial',
-            'code': 'MA101',
-            'slot': 'b',
-            'instructor': 'MA101',
+            'course': 'ME 101 Tutorial',
+            'code': ' ME101',
+            'slot': 'a',
             'venue': '',
-            'midsem': '',
-            'endsem': ''
-        },
-        {
-            'course': 'EE 101 Tutorial',
-            'code': 'EE101',
-            'slot': 'c',
-            'venue': '',
-            'instructor': 'MA101',
+            'instructor': 'ME101',
             'midsem': '',
             'endsem': ''
         }
@@ -133,54 +156,73 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
 
     if not isDesign:
         tutorial.extend([{
-            'course': 'CH 101 Tutorial',
-            'code': 'CH101',
+            'course': 'MA 102 Tutorial',
+            'code': 'MA102',
+            'slot': 'b',
+            'instructor': 'MA102',
             'venue': '',
-            'slot': 'd',
-            'instructor': 'CH101',
             'midsem': '',
             'endsem': ''
         },
             {
-            'course': 'PH 101 Tutorial',
-            'code': 'PH101',
+            'course': 'PH 102 Tutorial',
+            'code': 'PH102',
             'slot': 'e',
             'venue': '',
-            'instructor': 'PH101',
+            'instructor': 'PH102',
             'midsem': '',
             'endsem': ''
         }])
+
     lab = [
         {
-            'course': 'Engineering Drawing Lab',
-            'code': 'CE110',
-            'slot': 'AL' if data_map['Division'] in ['III', 'IV'] else 'ML',
-            'instructor': 'CE110',
-            'venue':'Engineering Drawing (Practical): 1203 and 1204, Academic Complex (AC)',
+            'course': 'Basic Electronics Laboratory',
+            'code': 'EE102',
+            'slot': 'ML' if data_map['Division'] in ['III', 'IV'] else 'AL',
+            'instructor': 'EE102',
+            'venue':'Basic Electronics Laboratory: Department of EEE, Academic Complex (AC)',
+            'midsem':'',
+            'endsem':''
+        },
+        {
+            'course': 'Computing Laboratory',
+            'code': 'CS110',
+            'slot': 'ML' if data_map['Division'] in ['III', 'IV'] else 'AL',
+            'instructor': 'CS110',
+            'venue':'Computation Laboratory: Department of CSE, Academic Complex (AC)',
+            'midsem':'',
+            'endsem':''
+        },
+        {
+            'course': 'Physics Laboratory' if data_map['Division'] in ['III', 'IV'] else 'Workshop I',
+            'code':'PH110' if data_map['Division'] in ['III', 'IV'] else 'ME110',
+            'slot':'AL' if data_map['Division'] in ['I', 'II'] else 'ML',
+            'instructor': 'PH110' if data_map['Division'] in ['III', 'IV'] else 'ME110',
+            'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
             'midsem':'',
             'endsem':''
         }
     ]
 
-    if not isDesign:
-        lab.extend([{
-            'course': 'Chemistry Laboratory',
-            'code': 'CH110',
-            'slot': 'ML' if data_map['Division'] in ['II', 'I'] else 'AL',
-            'instructor': 'CH110',
-            'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
-            'midsem':'',
-            'endsem':''
-        },
-            {
-            'course': 'Physics Laboratory' if data_map['Division'] in ['II', 'I'] else 'Workshop I',
-            'code':'PH110' if data_map['Division'] in ['II', 'I'] else 'ME110',
-            'slot':'AL' if data_map['Division'] in ['III', 'IV'] else 'ML',
-            'instructor': 'PH110' if data_map['Division'] in ['II', 'I'] else 'ME110',
-            'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
-            'midsem':'',
-            'endsem':''
-        }])
+    # if not isDesign:
+    #     lab.extend([{
+    #         'course': 'Chemistry Laboratory',
+    #         'code': 'CH110',
+    #         'slot': 'ML' if data_map['Division'] in ['II', 'I'] else 'AL',
+    #         'instructor': 'CH110',
+    #         'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
+    #         'midsem':'',
+    #         'endsem':''
+    #     },
+    #         {
+    #         'course': 'Physics Laboratory' if data_map['Division'] in ['II', 'I'] else 'Workshop I',
+    #         'code':'PH110' if data_map['Division'] in ['II', 'I'] else 'ME110',
+    #         'slot':'AL' if data_map['Division'] in ['III', 'IV'] else 'ML',
+    #         'instructor': 'PH110' if data_map['Division'] in ['II', 'I'] else 'ME110',
+    #         'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
+    #         'midsem':'',
+    #         'endsem':''
+    #     }])
 
     if not isDesign:
         if data_map['Lab'] == 'L6' or data_map['Lab'] == 'L1':
@@ -204,7 +246,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             lab[2]['slot'] = lab[2]['slot']+'2'
             lab[0]['slot'] = lab[0]['slot']+'5'
     else:
-        lab[0]['slot'] = 'AL5'
+        lab[0]['slot'] = 'ML5'
 
     # for i in range(len(courses)):
     #     courses[i]['midsem'] = helper.get_midsem_time(courses[i]['slot'])
