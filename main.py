@@ -1,3 +1,5 @@
+#python -m uvicorn main:app --reload  -> To run the backend
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -117,7 +119,8 @@ def get_my_courses(data: request_my_courses):
             k:v for k,v in my_courses_nullable.items() if not pd.isna(v)
         }
         my_courses_list.append(my_courses)
-
+    
+    
     data['courses'] = my_courses_list
 
     if (len(my_courses_list) == 0):
