@@ -174,31 +174,31 @@ CL 654,Multiscale Modelling and Simulation,E1,,"Amit Kumar,","amitkumar, guptar"
 CL 699,PROJECT II,,,DPPC Chemical,dppcchemical,,,,,
 CS 101,Introduction to Computing,D1,,"John Jose, , ,","johnjose, rinkulu, sajith, t.venkat",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 CS 110,Computing Laboratory,,,"Sanasam Ranbir Singh,","ranbir, sbnair",,,,,
-CS 205,"Formal Languages, Automata Theory, and Computation",A,,Seela Veerabhadreswara Rao,svrao,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CS 205,"Formal Languages, Automata Theory, and Computation",A,5G4,Seela Veerabhadreswara Rao,svrao,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CS 206M,Datastructures and Algorithms,F,,Sushanta Karmakar,sushantak,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CS 207,Design and Analysis of Algorithms,B,,Benny George Kenkireth,ben,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CS 223,Computer Architecture and Organization,D,,"Hemangee Kalpesh Kapoor,","hemangee, sukantab",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CS 207,Design and Analysis of Algorithms,B,5G4,Benny George Kenkireth,ben,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS 223,Computer Architecture and Organization,D,5G4,"Hemangee Kalpesh Kapoor,","hemangee, sukantab",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CS 224,Hardware Lab,,,Chandan Karfa,ckarfa,,,,,
-CS 245,Database Management Systems,C,,Purandar Bhaduri,pbhaduri,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CS 245,Database Management Systems,C,5G4,Purandar Bhaduri,pbhaduri,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 CS 246,Database Management Systems Lab,,,V. Vijaya Saradhi,saradhi,,,,,
 CS 321,Smart Systems Laboratory,,,Jatindra Kumar Deka,jatin,,,,,
 CS 331,Programming Languages Lab,,,Sukumar Nandi,sukumar,,,,,
-CS 345,Software Engineering,E1,,Pradip Kumar Das,pkdas,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CS 345,Software Engineering,E1,5G4,Pradip Kumar Das,pkdas,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 CS 346,Software Engineering Lab,,,Pradip Kumar Das,pkdas,,,,,
 CS 348,Implementation of Programming Languages Lab,,,Pinaki Mitra,pinaki,,,,,
-CS 350M,Computer Systems,G1,,Manas Khatua,manaskhatua,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-CS 361,Machine Learning,D1,,Ashish Anand,anand.ashish,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CS 350M,Computer Systems,G1,5G4,Manas Khatua,manaskhatua,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+CS 361,Machine Learning,D1,5G4,Ashish Anand,anand.ashish,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 CS 499,Project II,--,,Sushanta Karmakar,sushantak,,,,,
-CS 508,Optimization Methods,D1,,Sukanta Bhattacharjee,sukantab,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CS 528,High Performance Computing,G,,Aryabartta Sahu,asahu,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-CS 544,Topics in Networks,B1,,Moumita Patra,moumita.patra,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CS 508,Optimization Methods,D1,5001,Sukanta Bhattacharjee,sukantab,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CS 528,High Performance Computing,G,5G4,Aryabartta Sahu,asahu,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+CS 544,Topics in Networks,B1,5G4,Moumita Patra,moumita.patra,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 CS 558,Computer Systems Lab,,,Arijit Sur,arijit,,,,,
-CS 560,Virtual and Augmented Reality Systems,A1,,Samit Bhattacharya,samit,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CS 561,Artificial Intelligence,C1,,Rashmi Dutta Baruah,r.duttabaruah,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CS 563,Neural Networks for NLP,F1,,Amit Chintamani Awekar,awekar,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CS 564,Computational Complexity,B,,Deepanjan Kesh,deepkesh,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CS 577,C Based VLSI Design,F,,Chandan Karfa,ckarfa,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CS 581,Blockchain science and technology,D,,Benny George Kenkireth,ben,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CS 560,Virtual and Augmented Reality Systems,A1,5G4,Samit Bhattacharya,samit,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CS 561,Artificial Intelligence,C1,5G4,Rashmi Dutta Baruah,r.duttabaruah,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CS 563,Neural Networks for NLP,F1,5G4,Amit Chintamani Awekar,awekar,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CS 564,Computational Complexity,B,5001,Deepanjan Kesh,deepkesh,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS 577,C Based VLSI Design,F,5G4,Chandan Karfa,ckarfa,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CS 581,Blockchain science and technology,D,5001,Benny George Kenkireth,ben,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CS 699,Project II,--,,Ashish Anand,anand.ashish,,,,,
 DA 213,Python Programming Laboratory,,,Teena Sharma,teena,,,,,
 DA 214,Database Management Systems,C,,Chiranjib Sur,chiranjib,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
