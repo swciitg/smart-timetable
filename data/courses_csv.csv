@@ -194,7 +194,7 @@ CS 528,High Performance Computing,G,5G4,Aryabartta Sahu,asahu,,,12:00 - 12:55 PM
 CS 544,Topics in Networks,B1,5G4,Moumita Patra,moumita.patra,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 CS 558,Computer Systems Lab,,,Arijit Sur,arijit,,,,,
 CS 560,Virtual and Augmented Reality Systems,A1,5G4,Samit Bhattacharya,samit,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CS 561,Artificial Intelligence,C1,5G4,Rashmi Dutta Baruah,r.duttabaruah,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CS 561,Artificial Intelligence,C1,5G4,Rashmi Dutta Baruah,r.duttabaruah,,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 CS 563,Neural Networks for NLP,F1,5G4,Amit Chintamani Awekar,awekar,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 CS 564,Computational Complexity,B,5001,Deepanjan Kesh,deepkesh,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 CS 577,C Based VLSI Design,F,5G4,Chandan Karfa,ckarfa,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
@@ -273,12 +273,12 @@ DM 697,Project Phase 1,E1,,Sandip Das,sandip.das,,5:00 - 5:55 PM,4:00 - 4:55 PM,
 DM 699,Project (Phase 3),F1,,Sandip Das,sandip.das,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 DS 699,MTP Project-II,--,,Ashish Anand,anand.ashish,,,,,
 EE 102,Basic Electronics Lab,,,Tony Jacob,tonyj,,,,,
-EE 206,Analog Circuits,A,,Mahima Arrawatia,mahimaarrawatia,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 206,Analog Circuits,A,5G3,Mahima Arrawatia,mahimaarrawatia,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 EE 207,Analog Circuits Laboratory,,,Ashwini Sawant,ashwinisawant,,,,,
-EE 213M,Digital Circuits,F,,Ashwini Sawant,ashwinisawant,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
-EE 230,Probability and Random Processes,B,,Hanumant Singh Shekhawat,h.s.shekhawat,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-EE 250,Control Systems,C,,Chayan Bhawal,bhawal,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-EE 252,Measurement and Instrumentation,D,,Ravindra Kumar Jha,jha,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+EE 213M,Digital Circuits,F,5G3,Ashwini Sawant,ashwinisawant,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
+EE 230,Probability and Random Processes,B,5G3,Hanumant Singh Shekhawat,h.s.shekhawat,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 250,Control Systems,C,5G3,Chayan Bhawal,bhawal,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+EE 252,Measurement and Instrumentation,D,5G3,Ravindra Kumar Jha,jha,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 EE 253,Instrumentation Laboratory,,,Rishikesh Dilip Kulkarni,rishi.k,,,,,
 EE 313,Microelectronics Laboratory,,,Arun Tej Mallajosyula,aruntej,,,,,
 EE 322M,Signal Processing,G1,,Rishikesh Dilip Kulkarni,rishi.k,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
@@ -322,7 +322,7 @@ EE 595H,Stochastic Models,G,,Kuntal Deka,kuntaldeka,,,12:00 - 12:55 PM,12:00 - 1
 EE 596H,Optimization Techniques,G,,Kuntal Deka,kuntaldeka,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 EE 602,Adaptive and Learning-based Control,D1,,Indrani Kar,indranik,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 EE 611,Organic Semiconductor Devices,D1,,Arun Tej Mallajosyula,aruntej,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 620,Image Processing,D1,,M. K. Bhuyan,mkb,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 620,Image Processing,D1,5G1,M. K. Bhuyan,mkb,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 EE 622,Biomedical Signal Processing,A1,,Samarendra Dandapat,samaren,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 624,Speech Technology,A1,,Rohit Sinha,rsinha,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 626,Pattern Recognition and Machine Learning,F1,L4,Suresh Sundaram,sureshsundaram,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
@@ -331,8 +331,8 @@ EE 633,Error Control Codes,C1,,A. Rajesh,rajesha,3:00 - 3:55 PM,2:00 - 2:55 PM,,
 EE 634,MIMO Wireless Communications: Fundamentals and Advances,B1,,Rakhesh Singh Kshetrimayum,krs,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EE 643,Silicon Photonics,A1,,Ramesh Kumar Sonkar,sonkar,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 659,Fuzzy Logic and Neural Networks,A1,,Chitralekha Mahanta,chitra,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 661,Power Electronics for Renewable Energy Systems,E1,,Shabari Nath,snath,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EE 665,Power Electronic Systems for Electric Vehicles,B1,,Chandan Kumar,chandank,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 661,Power Electronics for Renewable Energy Systems,E1,5201,Shabari Nath,snath,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EE 665,Power Electronic Systems for Electric Vehicles,B1,5G1,Chandan Kumar,chandank,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
 EE 676,Advanced Power System Monitoring,C1,,Sreenath J G,sreenathjg,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 EE 699,MTP Phase II,,,Secretary DPPC EEE,dppceee,,,,,
 EE 722,Video Analytics,E1,,Prithwijit Guha,pguha,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
