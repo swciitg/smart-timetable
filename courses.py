@@ -93,5 +93,5 @@ def get_courses_parsed(roll_number):
     
     tmp = get_hss_code_for_roll(roll_number)
     if tmp:
-      course_code_list.append(tmp)
+      course_code_list.append(tmp.strip())
     return course_code_list
