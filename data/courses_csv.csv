@@ -321,13 +321,16 @@ EE 580,Electrical Machines and Drive Systems,G,1006,A. Ravindranath,ravindranath
 EE 595H,Stochastic Models,G,1005,Kuntal Deka,kuntaldeka,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 EE 596H,Optimization Techniques,G,,Kuntal Deka,kuntaldeka,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 EE 602,Adaptive and Learning-based Control,D1,1101,Indrani Kar,indranik,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 605,Machine Learning Architectures,B1,5G3,Gaurav Trivedi,trivedi,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 607,Information Theory,C1,2102,Smarajit Das,dass,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 EE 611,Organic Semiconductor Devices,D1,1006,Arun Tej Mallajosyula,aruntej,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 620,Image Processing,D1,5G1,M. K. Bhuyan,mkb,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 619,Semiconductor material and device characterization,C1,1006,Tanmay Dutta,tanmay.dutta,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 620,Image Processing,D1,5G1,M. K. Bhuyan,mkb,2:00 - 2:55 PM,,,4:00 - 4:55 PM,3:00 - 3:55 PM
 EE 622,Biomedical Signal Processing,A1,1006,Samarendra Dandapat,samaren,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 624,Speech Technology,A1,1101,Rohit Sinha,rsinha,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 624,Speech Technology,A1,1101,Rohit Sinha,rsinha,,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 626,Pattern Recognition and Machine Learning,F1,5G3,Suresh Sundaram,sureshsundaram,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-EE 632,Advanced Topics in Communication Systems,C1,5G1,Manoj BR,manojbr,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EE 633,Error Control Codes,C1,1101,A. Rajesh,rajesha,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 632,Advanced Topics in Communication Systems,E1,5G1,Manoj BR,manojbr,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EE 633,Error Control Codes,C1,1101,A. Rajesh,rajesha,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
 EE 634,MIMO Wireless Communications: Fundamentals and Advances,B1,1006,Rakhesh Singh Kshetrimayum,krs,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EE 643,Silicon Photonics,A1,1101,Ramesh Kumar Sonkar,sonkar,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 659,Fuzzy Logic and Neural Networks,A1,1006,Chitralekha Mahanta,chitra,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
@@ -545,7 +548,7 @@ HS 125,Introductory Macroeconomics,G,L3,Agnirup Sarkar,agnirupsarkar,,,12:00 - 1
 HS 131,Introduction to Linguistics,G,L4,Shakuntala Mahanta,smahanta,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 HS 134,Introduction to Archaeology,G,5002,Sukanya Sharma,sukanya,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 HS 135,Topics in Bilingualism,G,5104,Bidisha Som,bidisha,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
-HS 136,Introduction to Indian Constitution and Political Processes,G,5G2,Mithilesh Kumar Jha ,jhamk21 ,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
+HS 136,Introduction to Indian Constitution and Political Processes,G,5G2,Mithilesh Kumar Jha ,jhamk21,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 HS 138,Psychology of Well Being,G,5101,Dilwar Hussain,Dhussain,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 HS 139,The Short Story: Theory and Perspectives,G,5001,Kiran Keshavamurthy,kirank,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 HS 156,Economics of Health and Education,G,5106,Rajshree Bedamatta,rajshree,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
