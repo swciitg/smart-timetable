@@ -160,8 +160,8 @@ CL 506,Smart Materials,A1,5106,Gooh Pattader Partho Sarathi,psgp,5:00 - 5:55 PM,
 CL 514,Fundamentals of Material Science & Engineering,E1,5106,Chandan Das,cdas,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 CL 598,Petroleum Laboratory,,,"Abhijit Kakati,","abhijitkakati, s_kumar",,,,,
 CL 599,Scientific Communications,,,Uppaluri Ramgopal V. S.,ramgopalu,,,,,
-CL 611,Advanced Process Control,D,5205,Prabirkumar Saha,p.saha,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CL 613,Computational Fluid Dynamics,D,5106,Anugrah Singh,anugrah,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CL 611,Advanced Process Control,D,5205,Prabirkumar Saha,p.saha,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
+CL 613,Computational Fluid Dynamics,D,5106,Anugrah Singh,anugrah,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
 CL 617,Petrochemicals,B,5205,Pugazhenthi G.,pugal,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 CL 619,Refinery process design,C,5205,Animes Kumar Golder,animes,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 CL 622,Molecular simulations: Principles and Applications,G,5205,Dasmahapatra Ashok Kumar,akdm,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
@@ -219,7 +219,7 @@ DA 526,Image Processing with Machine Learning,A,,Debanga Raj Neog,dneog,8:00 - 8
 DA 531,Data Visualization Lab,,,"Arabin Kumar Dey,","arabin, ayon.borthakur",,,,,
 DA 547,Introduction to Mathematical Biology,B,,Girish Sampath Setlur,gsetlur,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 DA 623,Computing with Signals,F,5002,Neeraj Kumar Sharma,neerajs,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
-DA 624,NLP with Large Language Models,D1,,Chiranjib Sur,chiranjib,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+DA 624,NLP with Large Language Models,D1,5002,Chiranjib Sur,chiranjib,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 DA 671,Introduction to Reinforcement Learning,A1,,Arghyadip Roy,arghyadip,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 DD 111,"Forms, Order and Structure",C1,,Abhishek Singh,abhisheksingh11,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 DD 112,Principles of Visual Design,B1,,Utpal Barua,utpalb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
@@ -467,7 +467,7 @@ ME 552,Aircraft Propulsion,C,,Ujjwal K. Saha,saha,10:00 - 10:55 AM,11:00 - 11:55
 ME 553,Gas Dynamics,E,,Bhaskar Kumar,bhaskark,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 ME 554,Rocket Propulsion,G,,Vinayak Kulkarni,vinayak,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 ME 605,Fracture Fatigue and Failure Analysis,G,,K. S. R. Krishna Murthy,ksrkm,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
-ME 607,Introduction to Composite Materials,D,,Debabrata Chakraborty,chakra,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+ME 607,Introduction to Composite Materials,D,L1,Debabrata Chakraborty,chakra,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 ME 609,Optimization Methods in Engineering,F,L1,Uday S. Dixit,uday,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
 ME 609,Optimization Methods in Engineering,B,L1,Uday S. Dixit,uday,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 ME 613,Nonlinear Vibration,B,L3,Santosha K. Dwivedy,dwivedy,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
