@@ -7,7 +7,7 @@ BM 515H,Strategic Management,F,,SPPC SOB,sppc.sob,12:00 - 12:55 PM,12:00 - 12:55
 BM 530H,Project Work-II,D,,SPPC SOB,sppc.sob,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 BM 602H,Financial Risk Management,E1,,SPPC SOB,sppc.sob,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 BM 643H,Consumer Behaviour,A1,,SPPC SOB,sppc.sob,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-BT 101,Introductory Biology,C1,,"Souptick Chanda, , ,","csouptick, kusumsingh, psatpati, rthu",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+BT 101,Introductory Biology,C1,,"Souptick Chanda, , ,","csouptick, kusumsingh, psatpati, rthu",3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
 BT 206,Microbiology,D,5004,"Manish Kumar,","mkumar1, sachinku",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 BT 207,Genetic Engineering,C,5004,Sanjukta Patra,sanjukta,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 BT 208,Transport Phenomenon in Bioprocesses,A,5004,Narayanasamy Selvaraju,selva,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
@@ -172,7 +172,7 @@ CL 643,Computer aided applied optimization,F1,L3,Kotecha Prakash,pkotecha,1:00 -
 CL 653,Applications of Artificial Intelligence and Machine Learning in Chemical Engineering,B1,5205,Senthilmurugan S,senthilmurugan,4:00 - 4:55 PM,2:00 - 3:55 PM,2:00 - 2:55 PM,,
 CL 654,Multiscale Modelling and Simulation,E1,5205,"Amit Kumar,","amitkumar, guptar",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 CL 699,PROJECT II,,,DPPC Chemical,dppcchemical,,,,,
-CS 101,Introduction to Computing,D1,,"John Jose, , ,","johnjose, rinkulu, sajith, t.venkat",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CS 101,Introduction to Computing,D1,,"John Jose, , ,","johnjose, rinkulu, sajith, t.venkat",2:00 - 2:55 PM,,,4:00 - 4:55 PM,3:00 - 3:55 PM
 CS 110,Computing Laboratory,,,"Sanasam Ranbir Singh,","ranbir, sbnair",,,,,
 CS 205,"Formal Languages, Automata Theory, and Computation",A,5G4,Seela Veerabhadreswara Rao,svrao,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CS 206M,Datastructures and Algorithms,F,,Sushanta Karmakar,sushantak,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
@@ -394,7 +394,7 @@ HT 511,Stem Cells and Therapeutics,D,,"Bithiah G. Jaganathan, , , , ,","bithiahg
 HT 601,"Medical Diagnostic Devices, BioMEMS, and Biosensors",C,,"Dipankar Bandyopadhyay, ,","dipban, guptar, rajivkar",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 HT 602,Regulatory Affairs of Biomedical Devices,B,,"Chandan Mukherjee,","cmukherjee, kbhabak",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 HT 603,Advanced Immunology,A,,Subrata Pramanik,subrata.pramanik,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-MA 102,Mathematics - 2,B1,,"Bikash Bhattacharjya, , ,","b.bikash, cpal, durga, swaroop",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+MA 102,Mathematics - 2,B1,,"Bikash Bhattacharjya, , ,","b.bikash, cpal, durga, swaroop",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
 MA 212M,Mathematical Statistics,F,5102,Shyamashree Upadhyay,shyamashree,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
 MA 224,Real Analysis,A,5102,Pratyoosh Kumar,pratyoosh,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 MA 252,Design and Analysis of Algorithms,B,5102,Partha Sarathi Mandal,psm,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
@@ -436,7 +436,7 @@ MA 683,Probability Theory,D,,Sriparna Bandopadhyay,sriparna,11:00 - 11:55 AM,,8:
 MA 684,Advanced Probability,D,2101,Sriparna Bandopadhyay,sriparna,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 MA 699,Project,,,Sukanta Pati,pati,,,,,
 MA 781,Statistical Methodologies for Modern Clinical Studies,E,,Palash Ghosh,palash.ghosh,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-ME 101,Engineering Mechanics,A1,,"Arup Nandy, ,","arupn, atanub, pankaj.biswas",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME 101,Engineering Mechanics,A1,,"Arup Nandy, ,","arupn, atanub, pankaj.biswas",,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 ME 110,Workshop I,,,"Debabrata Chakraborty, , , ,","chakra, gmadhu, kanagaraj, psr, uday",,,,,
 ME 202Mn,Thermodynamics,F,,Gavara Madhusudhana,gmadhu,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
 ME 221,Fluid Mechanics II,A,,Dipankar Narayan Basu,dnbasu,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
@@ -467,7 +467,7 @@ ME 552,Aircraft Propulsion,C,,Ujjwal K. Saha,saha,10:00 - 10:55 AM,11:00 - 11:55
 ME 553,Gas Dynamics,E,,Bhaskar Kumar,bhaskark,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 ME 554,Rocket Propulsion,G,,Vinayak Kulkarni,vinayak,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
 ME 605,Fracture Fatigue and Failure Analysis,G,,K. S. R. Krishna Murthy,ksrkm,,,12:00 - 12:55 PM,12:00 - 12:55 PM,12:00 - 12:55 PM
-ME 607,Introduction to Composite Materials,D,L1,Debabrata Chakraborty,chakra,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
+ME 607,Introduction to Composite Materials,D,L1,Debabrata Chakraborty,chakra,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 ME 609,Optimization Methods in Engineering,F,L1,Uday S. Dixit,uday,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
 ME 609,Optimization Methods in Engineering,B,L1,Uday S. Dixit,uday,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 ME 613,Nonlinear Vibration,B,L3,Santosha K. Dwivedy,dwivedy,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
@@ -484,7 +484,7 @@ ME 670,Advanced Computational Fluid Dynamics,C1,,Atul K. Soti,atulsoti,3:00 - 3:
 ME 692,Gear Engineering,C,,S. Senthilvelan,ssvelan,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 ME 696,Biomedical Devices and Systems,F,L2,S. Kanagaraj,kanagaraj,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
 PH 002,Preparatory Course,,,Sitangshu Bikas Santra,santra,,,,,
-PH 102,Physics 2,E1,,"Ashwini Kumar Sharma, , ,","aksharma, pamu, pankaj.mishra, subhasht",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+PH 102,Physics 2,E1,,"Ashwini Kumar Sharma, , ,","aksharma, pamu, pankaj.mishra, subhasht",,,4:00 - 4:55 PM,3:00 - 3:55 PM,
 PH 110,Physics Laboratory,,,"Ananthakrishnan Srinivasan, , , ,","asrini, debu, gk, kanhaiyapandey, malli",,,,,
 PH 202,Electromagnetics,A,,Alika Khare,alika,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 PH 204,Quantum Mechanics-I,B,,Poulose Poulose,poulose,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
