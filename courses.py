@@ -26,20 +26,6 @@ def get_courses(roll_number):
     response = requests.request("POST", url, headers=headers, data=payload)
     return response.text
 
-def get_hss_code_for_roll(target_roll):
-    try:
-        with open('data/hss.csv', 'r') as file:
-            reader = csv.DictReader(file)
-            for row in reader:
-                if row['roll'] == target_roll:
-                    return row['code']
-    except FileNotFoundError:
-        print(f"Error: File '{csv_file}' not found.")
-    except Exception as e:
-        print(f"Error: {e}")
-
-    return ""
-
 def get_courses_parsed(roll_number):
     '''
     Gets all courses with additional details in a JSON format
@@ -90,8 +76,5 @@ def get_courses_parsed(roll_number):
             if (approval_status == "Approved" or approval_status == ""):
               course_code_list.append(
                 row.find('td', {"data-label": data_label}).text)
-    
-    tmp = get_hss_code_for_roll(roll_number)
-    if tmp:
-      course_code_list.append(tmp.strip())
+
     return course_code_list
