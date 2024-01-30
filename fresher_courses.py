@@ -238,18 +238,6 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
 
     for l in lab:
         l['timings'] = tt_json[l['slot']]
-    
-    courses.append({
-            'course': 'SWC Orientation',
-            'code': 'SWC 101',
-            'slot': 'C',
-            'venue': 'L3',
-            'instructor': 'Students\' Web Committee',
-            'ltpc': ' ',
-            'timings': {'Wednesday': '6:30 - 7:30 PM',},
-        'midsem':'',
-        'endsem':''
-        })
 
     return {
         'roll_number': roll_number,
