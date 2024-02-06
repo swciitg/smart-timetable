@@ -137,11 +137,11 @@ CH 629,Advances in Bio-organic Chemistry,C1,3101,Subhendu Sekhar Bag,ssbag75,3:0
 CH 631,Advanced Quantum Chemistry,C,4006,Kalishankar Bhattacharyya,ksb,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 CH 639,Principles and Applications of Molecular Fluorescence,E,4006,G Krishnamoorthy,gkrishna,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 CH 644,Applied Quantum Chemistry,F,5101,Manabendra Sarma,msarma,12:00 - 12:55 PM,12:00 - 12:55 PM,,,11:00 - 11:55 AM
-CL 205,Mass Transfer Operations I,A,5005,"Bishnupada Mandal,","bpmandal, kmohanty",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CL 206,Solid Fluid Operations,B,5005,Subrata K Majumder,skmaju,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CL 207,Computer Aided Numerical Methods,D,5005,Anandalakshmi R.,anandalakshmi,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CL 208,Chemical Reaction Engineering I,C,5005,Peela Nageswara Rao,peelanr,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CL 209,Process Equipment Design I,E,5005,Mihir Kumar Purkait,mihir,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+CL 205,Mass Transfer Operations I,A,5005,"Bishnupada Mandal,","bpmandal, kmohanty",,9:00 - 9:55 AM,10:00 - 10:55 AM,10:00 - 11:55 AM,
+CL 206,Solid Fluid Operations,B,5005,Subrata K Majumder,skmaju,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,
+CL 207,Computer Aided Numerical Methods,D,5005,Anandalakshmi R.,anandalakshmi,11:00 - 11:55 AM,,,8:00 - 9:55 AM,8:00 - 9:55 AM
+CL 208,Chemical Reaction Engineering I,C,5005,Peela Nageswara Rao,peelanr,10:00 - 10:55 AM,11:00 - 11:55 AM,,,10:00 - 10:55 AM
+CL 209,Process Equipment Design I,E,5005,Mihir Kumar Purkait,mihir,,,9:00 - 9:55 AM,,3:00 - 4:55 PM
 CL 210H,Laboratory 1: Fluid Mechanics,,,"Raghvendra Gupta,","guptar, v.prabu",,,,,
 CL 211H,Laboratory 2: Heat Transfer,,,"Venkatesh R. Prasanna,","rprasanna, tapasche",,,,,
 CL 304,Chemical Process Technology,C1,5005,Vimal Katiyar,vkatiyar,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
