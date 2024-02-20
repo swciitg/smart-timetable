@@ -71,7 +71,8 @@ def generate_venue_CSV(url, sem):
         final_df.columns = ["code", "time", "session", "venue", "roll"]
         final_df[["code", "venue", "roll"]].to_csv(f'data/{sem}_venue.csv', index=False)
         return {'message': 'Successfully converted and saved CSV file'}
-    except Exception:
+    except Exception as e:
+        print(e)
         return None
 
 
