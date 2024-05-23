@@ -1,8 +1,9 @@
 import pandas as pd
 from collections import defaultdict
 import ocr
+from semester_constants import *
 
-def read_tt():
+def readTT():
     '''
     gets the tt json from tt_slot csv
     '''
@@ -28,16 +29,16 @@ def read_tt():
     return tt_json
 
 
-def return_empty_string(value):
+def ensureString(value):
     return '' if pd.isnull(value) else value
 
-def return_venue(code, roll, isMid):
+def examVenue(code, roll, isMid):
 
     # Store venues in a DF
-    venues = ocr.fetch_venues_DF("endsem")
-
     if isMid:
-        venues = ocr.fetch_venues_DF("midsem")
+        venues = ocr.fetchVenuesDF("midsem")
+    else:
+        venues = ocr.fetchVenuesDF("endsem")
         
     rows = venues[venues["code"]==code]
 
@@ -47,69 +48,15 @@ def return_venue(code, roll, isMid):
             return row["venue"].item()
     return ""
 
-def get_midsem_time(slot):
+def getMidsTime(slot):
     if pd.isnull(slot):
         return ""
     else:
-        if slot == "A":
-            return "2024-02-24T09:00:00.000Z"
-        elif slot == "A1":
-            return "2024-02-24T14:00:00.000Z"
-        if slot == "B":
-            return "2024-02-25T09:00:00.000Z"
-        elif slot == "B1":
-            return "2024-02-25T14:00:00.000Z"
-        if slot == "C":
-            return "2024-02-26T09:00:00.000Z"
-        elif slot == "C1":
-            return "2024-02-26T14:00:00.000Z"
-        if slot == "D":
-            return "2024-02-27T09:00:00.000Z"
-        elif slot == "D1":
-            return "2024-02-27T14:00:00.000Z"
-        if slot == "E":
-            return "2024-02-28T09:00:00.000Z"
-        elif slot == "E1":
-            return "2024-02-28T14:00:00.000Z"
-        if slot == "F":
-            return "2024-02-29T09:00:00.000Z"
-        elif slot == "F1":
-            return "2024-02-29T14:00:00.000Z"
-        if slot == "G":
-            return "2024-03-01T09:00:00.000Z"
-        elif slot == "G1":
-            return "2024-03-01T14:00:00.000Z"
+        return MID_TIMINGS[slot]
 
 
-def get_endsem_time(slot):
+def getEndsTime(slot):
     if pd.isnull(slot):
         return ""
     else:
-        if slot == "A":
-            return "2024-04-29T09:00:00.000Z"
-        elif slot == "A1":
-            return "2024-04-29T14:00:00.000Z"
-        if slot == "B":
-            return "2024-04-30T09:00:00.000Z"
-        elif slot == "B1":
-            return "2024-04-30T14:00:00.000Z"
-        if slot == "C":
-            return "2024-05-01T09:00:00.000Z"
-        elif slot == "C1":
-            return "2024-05-01T14:00:00.000Z"
-        if slot == "D":
-            return "2024-05-02T09:00:00.000Z"
-        elif slot == "D1":
-            return "2024-05-02T14:00:00.000Z"
-        if slot == "E":
-            return "2024-05-03T09:00:00.000Z"
-        elif slot == "E1":
-            return "2024-05-03T14:00:00.000Z"
-        if slot == "F":
-            return "2024-05-04T09:00:00.000Z"
-        elif slot == "F1":
-            return "2024-05-04T14:00:00.000Z"
-        if slot == "G":
-            return "2024-05-05T09:00:00.000Z"
-        elif slot == "G1":
-            return "2024-05-05T14:00:00.000Z"
+        return END_TIMINGS[slot]
