@@ -3,14 +3,14 @@
 The timetable of a student at IITG varies a lot. To help simplify his experience, we at SWC bring the smart timetable that automatically fetches the Timetable of a student according to his roll number.
 
 ## Technologies 🛠️
-![Python]()
 
-This project needs to be built using Python and FastAPI
+This project needs to be built using [Python](https://docs.python.org/3/tutorial/index.html) and [FastAPI](https://fastapi.tiangolo.com/tutorial/)
+
 
 ## Project details 😎
 
 - Create the courses csv from the pdf using camelot
-- Fetch user registered courses according to his roll number
+- Fetch user registered courses according to the desired roll number
 - Return course details of the current semester
 
 ## Setting up project on your machine ⚙️

@@ -1,5 +1,7 @@
 import requests
 import os
+import csv
+from semester_constants import *
 from bs4 import BeautifulSoup
 
 # POST request params
@@ -16,54 +18,39 @@ def get_courses(roll_number):
     https://academic.iitg.ac.in/sso/gen/student2.jsp and fetches all
     registered courses for an individual
 
+    Sample response can be found in data section as sample.html
+
     Arguments:
         roll_number: a string
     Returns:
-        A list of courses
+        A list of all courses of the person in HTML format
     '''
     payload = 'rno={}'.format(roll_number)
     response = requests.request("POST", url, headers=headers, data=payload)
     return response.text
 
-
-def get_courses_parsed(roll_number):
+def get_course_codes(roll_number):
     '''
-    Gets all courses with additional details in a JSON format
+    Gets all course codes of the user for the current semester
 
-    This function makes use of get_courses and generates all a JSON
-    with all courses of an individual. This is the sample response format.
-    {
-      roll_number: '180123062',
-      courses:[
-        {
-          code: 'BT202M',
-          course: 'Molecular Biotechnology',
-          ltpc: '3 0 0 6',
-          slot: 'G',
-          instructor: 'Dr. Jaganathan B. G'.
-        },
-        {
-          code: 'BT202M',
-          course: 'Molecular Biotechnology',
-          ltpc: '3 0 0 6',
-          slot: 'G',
-          instructor: 'Dr. Jaganathan B. G'.
-        }
-      ]
-    }
+    This function makes use of get_courses and generates all a list of
+    all courses of an individual. This is the sample response format.
+
+    ['CE 616', 'CS 508', 'CS 561', 'CS 581', 'HS 247', 'ME 620']
 
     Arguments:
         roll_number: a string
     Returns:
-        All courses taken by an individual with more details
+        All list of course codes taken by an individual
     '''
+
     jsp_response = get_courses(roll_number)
     course_code_list = []
 
     # FIXME: Make sure to change/update this erroneous string later if needed
     data_label = 'Couse Code'
-    sem_session = 'Jan-May'
-    sem_year = '2024'
+    sem_session = SEM_SESSION
+    sem_year = SEM_YEAR
     parsed_html = BeautifulSoup(jsp_response, features="html.parser")
 
     all_rows = parsed_html.body.find_all('tr')

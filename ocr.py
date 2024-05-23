@@ -1,7 +1,7 @@
 import camelot
 import pandas as pd
 
-def generate_all_courses_CSV(url):
+def generateAllCoursesCSV(url):
     '''
     Generate CSV file corresponding to the PDF file
 
@@ -23,7 +23,7 @@ def generate_all_courses_CSV(url):
         return None
 
 
-def fetch_all_courses_DF():
+def fetchCourseDF():
     '''
     Fetches all the courses from a saved CSV file
 
@@ -44,14 +44,14 @@ def fetch_all_courses_DF():
         return pd.DataFrame()
 
 
-def get_fresher_DF(roll_number):
+def fetchDivisionDF(roll_number):
     df = pd.read_csv(r'data/divisions.csv',dtype=object)
     df = df.set_index('Roll no')
     x=df.loc[roll_number]
     return x.to_dict()
 
 
-def generate_venue_CSV(url, sem):
+def generateVenueCSV(url, sem):
     '''
     Generate CSV file corresponding to the PDF file
 
@@ -71,11 +71,12 @@ def generate_venue_CSV(url, sem):
         final_df.columns = ["code", "time", "session", "venue", "roll"]
         final_df[["code", "venue", "roll"]].to_csv(f'data/{sem}_venue.csv', index=False)
         return {'message': 'Successfully converted and saved CSV file'}
-    except Exception:
+    except Exception as e:
+        print(e)
         return None
 
 
-def fetch_venues_DF(sem):
+def fetchVenuesDF(sem):
     '''
     Fetches all the venues from a saved CSV file
 
