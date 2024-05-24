@@ -29,9 +29,26 @@ def read_TT():
     return tt_json
 
 def ensure_string(value):
+    '''
+        Arguements:
+            value: a str
+        Output:
+            returns empty string if val is null else value
+    '''
     return '' if pd.isnull(value) else value
 
 def exam_venue(code, roll, isMid):
+    '''
+    Function that returns the exam venue of a student for given course
+
+    Arguements:
+        code:  A str course code
+        roll:  A str student roll number
+        isMid: A boolean to tell whether midsem or endsem
+    Response:
+        A str:
+            "" if no data found else the exam venue
+    '''
     # Store venues in a DF
     if isMid:
         venues = fetch_exam_venue_df("midsem")
