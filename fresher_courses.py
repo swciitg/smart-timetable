@@ -2,30 +2,28 @@ import numpy as np
 import pandas as pd
 import re
 import string
-import helper as hp
 from fastapi import HTTPException
 
 # created Python modules
-import ocr
-import helper
+from data import fetch_division_mapping
+import helper as hp
 
 
 def get_fresher_tt_slots():
     # Get tt json
-    tt_json = helper.read_tt()
+    ttJson = hp.read_TT()
 
     # Adding tutorial slots
-    tt_json['b']['Friday'] = "8:00 - 8:55 AM"
-    tt_json['a']['Monday'] = "8:00 - 8:55 AM"
-    tt_json['e']['Tuesday'] = "8:00 - 8:55 AM"
-    tt_json['d']['Wednesday'] = "8:00 - 8:55 AM"
-    tt_json['c']['Thursday'] = "8:00 - 8:55 AM"
-    return tt_json
-
+    ttJson['b']['Friday'] = "8:00 - 8:55 AM"
+    ttJson['a']['Monday'] = "8:00 - 8:55 AM"
+    ttJson['e']['Tuesday'] = "8:00 - 8:55 AM"
+    ttJson['d']['Wednesday'] = "8:00 - 8:55 AM"
+    ttJson['c']['Thursday'] = "8:00 - 8:55 AM"
+    return ttJson
 
 def get_fresher_courses(roll_number, isDesign: bool = False):
-    data_map = ocr.get_fresher_DF(roll_number)
-    print(data_map)
+    div_map = fetch_division_mapping(roll_number)
+
     # Correct for div 3
     courses = [
         {
@@ -74,7 +72,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     # ? The else block is for adding design only courses
     # else:
     #     # Adding DD courses
-    #     all_courses_df = ocr.fetch_all_courses_DF()
+    #     all_courses_df = data.fetch_courses_df()
     #     if (all_courses_df.empty):
     #         return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
     #     all_courses_df = all_courses_df.fillna('')
@@ -85,23 +83,23 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     #         # Getting design course details
     #         #! There are some errors in midsem and endsem timetable and class time table due to random times of design courses
     #         my_courses = {
-    #             'code': helper.return_empty_string(df_entry['code']),
-    #             'course': helper.return_empty_string(df_entry['name']),
-    #             'slot': helper.return_empty_string(df_entry['slot']),
-    #             'instructor': helper.return_empty_string(df_entry['prof']),
-    #             'venue': helper.return_empty_string(df_entry['venue']),
-    #             'midsem': helper.get_midsem_time(df_entry['slot']) if helper.return_empty_string(df_entry['code']) != "DD 105" else helper.get_midsem_time("E"),
-    #             'endsem': helper.get_endsem_time(df_entry['slot']) if helper.return_empty_string(df_entry['code']) != "DD 105" else helper.get_endsem_time("E"),
+    #             'code': helper.ensure_string(df_entry['code']),
+    #             'course': helper.ensure_string(df_entry['name']),
+    #             'slot': helper.ensure_string(df_entry['slot']),
+    #             'instructor': helper.ensure_string(df_entry['prof']),
+    #             'venue': helper.ensure_string(df_entry['venue']),
+    #             'midsem': helper.mid_time(df_entry['slot']) if helper.ensure_string(df_entry['code']) != "DD 105" else helper.mid_time("E"),
+    #             'endsem': helper.end_time(df_entry['slot']) if helper.ensure_string(df_entry['code']) != "DD 105" else helper.end_time("E"),
     #         }  # According to https://www.iitg.ac.in/acad/classtt/1st_year_Course_wise_Instructor_name_and_exam_schedule.pdf , DD 105 exam slot is different
     #         my_courses = {
     #         k:v for k,v in my_courses.items() if not pd.isna(v)
     #         }
     #         courses.append(my_courses)
 
-    if data_map['Division'] == 'III' or data_map['Division'] == 'IV':
+    if div_map['Division'] == 'III' or div_map['Division'] == 'IV':
         for c in courses:
             c['slot'] = c['slot']+'1'
-    if data_map['Division'] == 'II' or data_map['Division'] == 'IV':
+    if div_map['Division'] == 'II' or div_map['Division'] == 'IV':
         for c in courses:
             c['venue'] = 'L4'
     tutorial = [
@@ -149,7 +147,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         {
             'course': 'Basic Electronics Laboratory',
             'code': 'EE102',
-            'slot': 'ML' if data_map['Division'] in ['III', 'IV'] else 'AL',
+            'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
             'instructor': 'EE102',
             'venue':'Basic Electronics Laboratory: Department of EEE, Academic Complex (AC)',
             'midsem':'',
@@ -158,18 +156,18 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         {
             'course': 'Computing Laboratory',
             'code': 'CS110',
-            'slot': 'ML' if data_map['Division'] in ['III', 'IV'] else 'AL',
+            'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
             'instructor': 'CS110',
             'venue':'Computation Laboratory: Department of CSE, Academic Complex (AC)',
             'midsem':'',
             'endsem':''
         },
         {
-            'course': 'Physics Laboratory' if data_map['Division'] in ['III', 'IV'] else 'Workshop I',
-            'code':'PH110' if data_map['Division'] in ['III', 'IV'] else 'ME110',
-            'slot':'AL' if data_map['Division'] in ['I', 'II'] else 'ML',
-            'instructor': 'PH110' if data_map['Division'] in ['III', 'IV'] else 'ME110',
-            'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
+            'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
+            'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+            'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
+            'instructor': 'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+            'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
             'midsem':'',
             'endsem':''
         }
@@ -179,65 +177,61 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     #     lab.extend([{
     #         'course': 'Chemistry Laboratory',
     #         'code': 'CH110',
-    #         'slot': 'ML' if data_map['Division'] in ['II', 'I'] else 'AL',
+    #         'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
     #         'instructor': 'CH110',
     #         'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
     #         'midsem':'',
     #         'endsem':''
     #     },
     #         {
-    #         'course': 'Physics Laboratory' if data_map['Division'] in ['II', 'I'] else 'Workshop I',
-    #         'code':'PH110' if data_map['Division'] in ['II', 'I'] else 'ME110',
-    #         'slot':'AL' if data_map['Division'] in ['III', 'IV'] else 'ML',
-    #         'instructor': 'PH110' if data_map['Division'] in ['II', 'I'] else 'ME110',
-    #         'venue':'Department of Physics, Academic Complex (AC)' if data_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
+    #         'course': 'Physics Laboratory' if div_map['Division'] in ['II', 'I'] else 'Workshop I',
+    #         'code':'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
+    #         'slot':'AL' if div_map['Division'] in ['III', 'IV'] else 'ML',
+    #         'instructor': 'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
+    #         'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
     #         'midsem':'',
     #         'endsem':''
     #     }])
 
     if not isDesign:
-        if data_map['Lab'] == 'L6' or data_map['Lab'] == 'L1':
+        if div_map['Lab'] == 'L6' or div_map['Lab'] == 'L1':
             lab[1]['slot'] = lab[1]['slot']+'1'
             lab[2]['slot'] = lab[2]['slot']+'4'
             lab[0]['slot'] = lab[0]['slot']+'2'
-        elif data_map['Lab'] == 'L7' or data_map['Lab'] == 'L2':
+        elif div_map['Lab'] == 'L7' or div_map['Lab'] == 'L2':
             lab[1]['slot'] = lab[1]['slot']+'3'
             lab[2]['slot'] = lab[2]['slot']+'1'
             lab[0]['slot'] = lab[0]['slot']+'4'
-        elif data_map['Lab'] == 'L8' or data_map['Lab'] == 'L3':
+        elif div_map['Lab'] == 'L8' or div_map['Lab'] == 'L3':
             lab[1]['slot'] = lab[1]['slot']+'5'
             lab[2]['slot'] = lab[2]['slot']+'3'
             lab[0]['slot'] = lab[0]['slot']+'1'
-        elif data_map['Lab'] == 'L9' or data_map['Lab'] == 'L4':
+        elif div_map['Lab'] == 'L9' or div_map['Lab'] == 'L4':
             lab[1]['slot'] = lab[1]['slot']+'2'
             lab[2]['slot'] = lab[2]['slot']+'5'
             lab[0]['slot'] = lab[0]['slot']+'3'
-        elif data_map['Lab'] == 'L10' or data_map['Lab'] == 'L5':
+        elif div_map['Lab'] == 'L10' or div_map['Lab'] == 'L5':
             lab[1]['slot'] = lab[1]['slot']+'4'
             lab[2]['slot'] = lab[2]['slot']+'2'
             lab[0]['slot'] = lab[0]['slot']+'5'
     else:
         lab[0]['slot'] = 'ML5'
 
-    # for i in range(len(courses)):
-    #     courses[i]['midsem'] = helper.get_midsem_time(courses[i]['slot'])
-    #     courses[i]['endsem'] = helper.get_endsem_time(courses[i]['slot'])
-
     # Get tt json
-    tt_json = get_fresher_tt_slots()
+    ttJson = get_fresher_tt_slots()
 
     # adding timings to tut, lab and courses
     for c in courses:
-        c['timings'] = tt_json[c['slot']]
-        c['midsem'] = hp.get_midsem_time(c['slot'])
-        c['endsem'] = hp.get_endsem_time(c['slot'])
+        c['timings'] = ttJson[c['slot']]
+        c['midsem'] = hp.mid_time(c['slot'])
+        c['endsem'] = hp.end_time(c['slot'])
 
     for t in tutorial:
-        t['timings'] = tt_json[t['slot']]
-        t['venue'] = data_map['Location']
+        t['timings'] = ttJson[t['slot']]
+        t['venue'] = div_map['Location']
 
     for l in lab:
-        l['timings'] = tt_json[l['slot']]
+        l['timings'] = ttJson[l['slot']]
 
     return {
         'roll_number': roll_number,

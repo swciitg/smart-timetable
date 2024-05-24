@@ -1,6 +1,8 @@
 import pandas as pd
 import helper
 
+# Run this script only once you generate the courses_csv.csv
+# This script initialises the default times of each course according to its slot
 
 def add_timings_to_course_csv(url: str):
     url = "data/courses_csv.csv"
@@ -11,9 +13,8 @@ def add_timings_to_course_csv(url: str):
         for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
             course_df[day] = ""
         
-        print("here1")
         # Read the time table json
-        tt_json = helper.read_tt()
+        tt_json = helper.read_TT()
 
         # Getting the time and day of classes from df
         num_row, _ = course_df.shape
