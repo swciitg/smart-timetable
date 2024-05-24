@@ -1,9 +1,9 @@
 import pandas as pd
 from collections import defaultdict
-import ocr
+from data import fetch_exam_venue_df
 from semester_constants import *
 
-def readTT():
+def read_TT():
     '''
     gets the tt json from tt_slot csv
     '''
@@ -28,17 +28,15 @@ def readTT():
             tt_json[slot][week_map[str(day+1)]] = df.columns[time] # this will give the time slot
     return tt_json
 
-
-def ensureString(value):
+def ensure_string(value):
     return '' if pd.isnull(value) else value
 
-def examVenue(code, roll, isMid):
-
+def exam_venue(code, roll, isMid):
     # Store venues in a DF
     if isMid:
-        venues = ocr.fetchVenuesDF("midsem")
+        venues = fetch_exam_venue_df("midsem")
     else:
-        venues = ocr.fetchVenuesDF("endsem")
+        venues = fetch_exam_venue_df("endsem")
         
     rows = venues[venues["code"]==code]
 
@@ -48,14 +46,13 @@ def examVenue(code, roll, isMid):
             return row["venue"].item()
     return ""
 
-def getMidsTime(slot):
+def mid_time(slot):
     if pd.isnull(slot):
         return ""
     else:
         return MID_TIMINGS[slot]
 
-
-def getEndsTime(slot):
+def end_time(slot):
     if pd.isnull(slot):
         return ""
     else:

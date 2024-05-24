@@ -12,9 +12,9 @@ import re
 import string
 
 # importing helper modules
-import ocr
+from data import fetch_courses_df
 from courses import get_course_codes
-from fresher_courses import getFresherCourses
+from fresher_courses import get_fresher_courses
 from semester_constants import FRESHER_YEAR
 from helper import *
 
@@ -37,28 +37,28 @@ def welcome():
 
 # pydantic models
 class requestMyCourses(BaseModel):
-    rollNumber: str
+    roll_number: str
 
 @app.post('/get-my-courses')
-def getMyCourses(data: requestMyCourses):
-    rollNumber = data.rollNumber
+def get_my_courses(data: requestMyCourses):
+    roll_number = data.roll_number
 
     # Handle BDes and BTech freshers respectively
-    if rollNumber.startswith(FRESHER_YEAR+'0205'):
-        return getFresherCourses(rollNumber,True)
-    elif rollNumber.startswith(FRESHER_YEAR+'01'):
-        return getFresherCourses(rollNumber)
+    if roll_number.startswith(FRESHER_YEAR+'0205'):
+        return get_fresher_courses(roll_number,True)
+    elif roll_number.startswith(FRESHER_YEAR+'01'):
+        return get_fresher_courses(roll_number)
 
     # Acquire user course codes
-    course_codes = get_course_codes(rollNumber)
+    course_codes = get_course_codes(roll_number)
     print(course_codes)
     
     # Store all courses data in a DF 
-    all_courses_df = ocr.fetchCourseDF()
+    all_courses_df = fetch_courses_df()
     if (all_courses_df.empty):
         return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
 
-    # Add timings columns to course df - To be run manually only once
+    # Add timings columns to course df - To be run manually only once using initialise_timings script
 
     all_courses_df = all_courses_df.fillna('') # to avoid json errors due to nan
 
@@ -66,7 +66,7 @@ def getMyCourses(data: requestMyCourses):
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         course_codes)]
 
-    data = {'rollNumber': rollNumber}
+    data = {'roll_number': roll_number}
     my_courses_list = []
 
     for i in range(0, len(my_courses_df)):
@@ -79,16 +79,16 @@ def getMyCourses(data: requestMyCourses):
                     timing_json[day] = df_entry[day]
 
         my_courses_nullable = {
-            'code': ensureString(df_entry['code']),
-            'course': ensureString(df_entry['name']),
-            'slot': ensureString(df_entry['slot']),
-            'instructor': ensureString(df_entry['prof']),
-            'venue': ensureString(df_entry['venue']),
-            'midsem': getMidsTime(df_entry['slot']),
-            'endsem': getEndsTime(df_entry['slot']),
+            'code': ensure_string(df_entry['code']),
+            'course': ensure_string(df_entry['name']),
+            'slot': ensure_string(df_entry['slot']),
+            'instructor': ensure_string(df_entry['prof']),
+            'venue': ensure_string(df_entry['venue']),
+            'midsem': mid_time(df_entry['slot']),
+            'endsem': end_time(df_entry['slot']),
             'timings': timing_json,
-            'midsemVenue': examVenue(df_entry['code'], rollNumber, True),
-            'endsemVenue': examVenue(df_entry['code'], rollNumber, False),
+            'midsemVenue': exam_venue(df_entry['code'], roll_number, True),
+            'endsemVenue': exam_venue(df_entry['code'], roll_number, False),
         }
 
         my_courses = {
@@ -96,19 +96,16 @@ def getMyCourses(data: requestMyCourses):
         }
 
         my_courses_list.append(my_courses)
-    
-    
     data['courses'] = my_courses_list
 
     if (len(my_courses_list) == 0):
-        if (data['rollNumber'] in wrong_rollNumbers.keys()):
-            new_data = request_my_courses(rollNumber=wrong_rollNumbers[data['rollNumber']])
+        if (data['roll_number'] in wrong_roll_numbers.keys()):
+            new_data = request_my_courses(roll_number=wrong_roll_numbers[data['roll_number']])
             return get_my_courses(data=new_data)
         return HTTPException(status_code=400, detail='Invalid roll number')
-
     return data
 
-wrong_rollNumbers = {
+wrong_roll_numbers = {
     '190104017' : '190102110',
     '190108012' : '190102099',
 }

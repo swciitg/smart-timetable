@@ -18,7 +18,7 @@ def get_courses(roll_number):
     https://academic.iitg.ac.in/sso/gen/student2.jsp and fetches all
     registered courses for an individual
 
-    Sample response can be found in data section as sample.html
+    Sample response can be found in samples section as sample_response_get_courses.html
 
     Arguments:
         roll_number: a string

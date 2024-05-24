@@ -1,5 +1,3 @@
-# To run -> python initialise_timings.py
-
 import pandas as pd
 import helper
 
@@ -16,7 +14,7 @@ def add_timings_to_course_csv(url: str):
             course_df[day] = ""
         
         # Read the time table json
-        tt_json = helper.readTT()
+        tt_json = helper.read_TT()
 
         # Getting the time and day of classes from df
         num_row, _ = course_df.shape

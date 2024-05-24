@@ -5,13 +5,13 @@ import string
 from fastapi import HTTPException
 
 # created Python modules
-import ocr
+from data import fetch_division_mapping
 import helper as hp
 
 
-def getFresherTTSlots():
+def get_fresher_tt_slots():
     # Get tt json
-    ttJson = hp.readTT()
+    ttJson = hp.read_TT()
 
     # Adding tutorial slots
     ttJson['b']['Friday'] = "8:00 - 8:55 AM"
@@ -21,10 +21,9 @@ def getFresherTTSlots():
     ttJson['c']['Thursday'] = "8:00 - 8:55 AM"
     return ttJson
 
+def get_fresher_courses(roll_number, isDesign: bool = False):
+    div_map = fetch_division_mapping(roll_number)
 
-def getFresherCourses(roll_number, isDesign: bool = False):
-    dataMap = ocr.fetchDivisionDF(roll_number)
-    print(dataMap)
     # Correct for div 3
     courses = [
         {
@@ -73,7 +72,7 @@ def getFresherCourses(roll_number, isDesign: bool = False):
     # ? The else block is for adding design only courses
     # else:
     #     # Adding DD courses
-    #     all_courses_df = ocr.fetchCourseDF()
+    #     all_courses_df = data.fetch_courses_df()
     #     if (all_courses_df.empty):
     #         return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
     #     all_courses_df = all_courses_df.fillna('')
@@ -84,23 +83,23 @@ def getFresherCourses(roll_number, isDesign: bool = False):
     #         # Getting design course details
     #         #! There are some errors in midsem and endsem timetable and class time table due to random times of design courses
     #         my_courses = {
-    #             'code': helper.ensureString(df_entry['code']),
-    #             'course': helper.ensureString(df_entry['name']),
-    #             'slot': helper.ensureString(df_entry['slot']),
-    #             'instructor': helper.ensureString(df_entry['prof']),
-    #             'venue': helper.ensureString(df_entry['venue']),
-    #             'midsem': helper.getMidsTime(df_entry['slot']) if helper.ensureString(df_entry['code']) != "DD 105" else helper.getMidsTime("E"),
-    #             'endsem': helper.getEndsTime(df_entry['slot']) if helper.ensureString(df_entry['code']) != "DD 105" else helper.getEndsTime("E"),
+    #             'code': helper.ensure_string(df_entry['code']),
+    #             'course': helper.ensure_string(df_entry['name']),
+    #             'slot': helper.ensure_string(df_entry['slot']),
+    #             'instructor': helper.ensure_string(df_entry['prof']),
+    #             'venue': helper.ensure_string(df_entry['venue']),
+    #             'midsem': helper.mid_time(df_entry['slot']) if helper.ensure_string(df_entry['code']) != "DD 105" else helper.mid_time("E"),
+    #             'endsem': helper.end_time(df_entry['slot']) if helper.ensure_string(df_entry['code']) != "DD 105" else helper.end_time("E"),
     #         }  # According to https://www.iitg.ac.in/acad/classtt/1st_year_Course_wise_Instructor_name_and_exam_schedule.pdf , DD 105 exam slot is different
     #         my_courses = {
     #         k:v for k,v in my_courses.items() if not pd.isna(v)
     #         }
     #         courses.append(my_courses)
 
-    if dataMap['Division'] == 'III' or dataMap['Division'] == 'IV':
+    if div_map['Division'] == 'III' or div_map['Division'] == 'IV':
         for c in courses:
             c['slot'] = c['slot']+'1'
-    if dataMap['Division'] == 'II' or dataMap['Division'] == 'IV':
+    if div_map['Division'] == 'II' or div_map['Division'] == 'IV':
         for c in courses:
             c['venue'] = 'L4'
     tutorial = [
@@ -148,7 +147,7 @@ def getFresherCourses(roll_number, isDesign: bool = False):
         {
             'course': 'Basic Electronics Laboratory',
             'code': 'EE102',
-            'slot': 'ML' if dataMap['Division'] in ['III', 'IV'] else 'AL',
+            'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
             'instructor': 'EE102',
             'venue':'Basic Electronics Laboratory: Department of EEE, Academic Complex (AC)',
             'midsem':'',
@@ -157,18 +156,18 @@ def getFresherCourses(roll_number, isDesign: bool = False):
         {
             'course': 'Computing Laboratory',
             'code': 'CS110',
-            'slot': 'ML' if dataMap['Division'] in ['III', 'IV'] else 'AL',
+            'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
             'instructor': 'CS110',
             'venue':'Computation Laboratory: Department of CSE, Academic Complex (AC)',
             'midsem':'',
             'endsem':''
         },
         {
-            'course': 'Physics Laboratory' if dataMap['Division'] in ['III', 'IV'] else 'Workshop I',
-            'code':'PH110' if dataMap['Division'] in ['III', 'IV'] else 'ME110',
-            'slot':'AL' if dataMap['Division'] in ['I', 'II'] else 'ML',
-            'instructor': 'PH110' if dataMap['Division'] in ['III', 'IV'] else 'ME110',
-            'venue':'Department of Physics, Academic Complex (AC)' if dataMap['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
+            'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
+            'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+            'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
+            'instructor': 'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+            'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
             'midsem':'',
             'endsem':''
         }
@@ -178,62 +177,58 @@ def getFresherCourses(roll_number, isDesign: bool = False):
     #     lab.extend([{
     #         'course': 'Chemistry Laboratory',
     #         'code': 'CH110',
-    #         'slot': 'ML' if dataMap['Division'] in ['II', 'I'] else 'AL',
+    #         'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
     #         'instructor': 'CH110',
     #         'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
     #         'midsem':'',
     #         'endsem':''
     #     },
     #         {
-    #         'course': 'Physics Laboratory' if dataMap['Division'] in ['II', 'I'] else 'Workshop I',
-    #         'code':'PH110' if dataMap['Division'] in ['II', 'I'] else 'ME110',
-    #         'slot':'AL' if dataMap['Division'] in ['III', 'IV'] else 'ML',
-    #         'instructor': 'PH110' if dataMap['Division'] in ['II', 'I'] else 'ME110',
-    #         'venue':'Department of Physics, Academic Complex (AC)' if dataMap['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
+    #         'course': 'Physics Laboratory' if div_map['Division'] in ['II', 'I'] else 'Workshop I',
+    #         'code':'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
+    #         'slot':'AL' if div_map['Division'] in ['III', 'IV'] else 'ML',
+    #         'instructor': 'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
+    #         'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
     #         'midsem':'',
     #         'endsem':''
     #     }])
 
     if not isDesign:
-        if dataMap['Lab'] == 'L6' or dataMap['Lab'] == 'L1':
+        if div_map['Lab'] == 'L6' or div_map['Lab'] == 'L1':
             lab[1]['slot'] = lab[1]['slot']+'1'
             lab[2]['slot'] = lab[2]['slot']+'4'
             lab[0]['slot'] = lab[0]['slot']+'2'
-        elif dataMap['Lab'] == 'L7' or dataMap['Lab'] == 'L2':
+        elif div_map['Lab'] == 'L7' or div_map['Lab'] == 'L2':
             lab[1]['slot'] = lab[1]['slot']+'3'
             lab[2]['slot'] = lab[2]['slot']+'1'
             lab[0]['slot'] = lab[0]['slot']+'4'
-        elif dataMap['Lab'] == 'L8' or dataMap['Lab'] == 'L3':
+        elif div_map['Lab'] == 'L8' or div_map['Lab'] == 'L3':
             lab[1]['slot'] = lab[1]['slot']+'5'
             lab[2]['slot'] = lab[2]['slot']+'3'
             lab[0]['slot'] = lab[0]['slot']+'1'
-        elif dataMap['Lab'] == 'L9' or dataMap['Lab'] == 'L4':
+        elif div_map['Lab'] == 'L9' or div_map['Lab'] == 'L4':
             lab[1]['slot'] = lab[1]['slot']+'2'
             lab[2]['slot'] = lab[2]['slot']+'5'
             lab[0]['slot'] = lab[0]['slot']+'3'
-        elif dataMap['Lab'] == 'L10' or dataMap['Lab'] == 'L5':
+        elif div_map['Lab'] == 'L10' or div_map['Lab'] == 'L5':
             lab[1]['slot'] = lab[1]['slot']+'4'
             lab[2]['slot'] = lab[2]['slot']+'2'
             lab[0]['slot'] = lab[0]['slot']+'5'
     else:
         lab[0]['slot'] = 'ML5'
 
-    # for i in range(len(courses)):
-    #     courses[i]['midsem'] = helper.getMidsTime(courses[i]['slot'])
-    #     courses[i]['endsem'] = helper.getEndsTime(courses[i]['slot'])
-
     # Get tt json
-    ttJson = getFresherTTSlots()
+    ttJson = get_fresher_tt_slots()
 
     # adding timings to tut, lab and courses
     for c in courses:
         c['timings'] = ttJson[c['slot']]
-        c['midsem'] = hp.getMidsTime(c['slot'])
-        c['endsem'] = hp.getEndsTime(c['slot'])
+        c['midsem'] = hp.mid_time(c['slot'])
+        c['endsem'] = hp.end_time(c['slot'])
 
     for t in tutorial:
         t['timings'] = ttJson[t['slot']]
-        t['venue'] = dataMap['Location']
+        t['venue'] = div_map['Location']
 
     for l in lab:
         l['timings'] = ttJson[l['slot']]
