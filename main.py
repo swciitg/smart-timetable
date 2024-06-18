@@ -68,14 +68,12 @@ def get_my_courses(data: requestMyCourses):
     
     print(my_courses_df)
 
-    data = {'roll_number': roll_number}
+    data = {}
     my_courses_list = []
 
     for i in range(0, len(my_courses_df)):
-        print("A")
         df_entry = my_courses_df.iloc[i]
 
-        print("B")
         # Getting the timings json`
         timing_json = {}
         if "Monday" in all_courses_df.columns: # Checking if timings columns are there, if not there keep dict as empty
@@ -83,7 +81,6 @@ def get_my_courses(data: requestMyCourses):
                 if df_entry[day]!="":
                     timing_json[day] = df_entry[day]
         
-        print("C")
         my_courses_nullable = {
             'code': ensure_string(df_entry['code']),
             'course': ensure_string(df_entry['name']),
@@ -105,16 +102,8 @@ def get_my_courses(data: requestMyCourses):
     data['courses'] = my_courses_list
 
     if (len(my_courses_list) == 0):
-        if (data['roll_number'] in wrong_roll_numbers.keys()):
-            new_data = request_my_courses(roll_number=wrong_roll_numbers[data['roll_number']])
-            return get_my_courses(data=new_data)
         return HTTPException(status_code=400, detail='Invalid roll number')
     return data
-
-wrong_roll_numbers = {
-    '190104017' : '190102110',
-    '190108012' : '190102099',
-}
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8002)
