@@ -48,7 +48,7 @@ def get_my_courses(data: requestMyCourses):
         return get_fresher_courses(roll_number,True)
     elif roll_number.startswith(FRESHER_YEAR+'01'):
         return get_fresher_courses(roll_number)
-
+        
     # Acquire user course codes
     course_codes = get_course_codes(roll_number)
     print(course_codes)
@@ -65,19 +65,25 @@ def get_my_courses(data: requestMyCourses):
     # Find all course details given the course code list
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         course_codes)]
+    
+    print(my_courses_df)
 
     data = {'roll_number': roll_number}
     my_courses_list = []
 
     for i in range(0, len(my_courses_df)):
+        print("A")
         df_entry = my_courses_df.iloc[i]
+
+        print("B")
         # Getting the timings json`
         timing_json = {}
         if "Monday" in all_courses_df.columns: # Checking if timings columns are there, if not there keep dict as empty
             for day in ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]:
                 if df_entry[day]!="":
                     timing_json[day] = df_entry[day]
-
+        
+        print("C")
         my_courses_nullable = {
             'code': ensure_string(df_entry['code']),
             'course': ensure_string(df_entry['name']),

@@ -64,13 +64,13 @@ def exam_venue(code, roll, isMid):
     return ""
 
 def mid_time(slot):
-    if pd.isnull(slot):
+    if not slot:
         return ""
     else:
         return MID_TIMINGS[slot]
 
 def end_time(slot):
-    if pd.isnull(slot):
+    if not slot:
         return ""
     else:
         return END_TIMINGS[slot]
