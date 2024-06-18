@@ -35,7 +35,10 @@ def ensure_string(value):
         Output:
             returns empty string if val is null else value
     '''
-    return '' if pd.isnull(value) else value
+    if not value:
+        return ''
+    else:
+        return value
 
 def exam_venue(code, roll, isMid):
     '''
