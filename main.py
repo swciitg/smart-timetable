@@ -81,6 +81,7 @@ def get_my_courses(data: requestMyCourses):
                 if df_entry[day]!="":
                     timing_json[day] = df_entry[day]
         
+        print(df_entry['code'])
         my_courses_nullable = {
             'code': ensure_string(df_entry['code']),
             'course': ensure_string(df_entry['name']),

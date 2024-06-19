@@ -67,13 +67,13 @@ def exam_venue(code, roll, isMid):
     return ""
 
 def mid_time(slot):
-    if not slot:
-        return ""
-    else:
+    if slot in MID_TIMINGS:
         return MID_TIMINGS[slot]
+    else:
+        return ""
 
 def end_time(slot):
-    if not slot:
-        return ""
-    else:
+    if slot in END_TIMINGS:
         return END_TIMINGS[slot]
+    else:
+        return ""
