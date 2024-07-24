@@ -73,7 +73,7 @@ def get_course_codes(roll_number):
             print(row)
             roll_to_code[row['roll']] = row['code']
     
-    if roll_to_code[roll_number]:
+    if roll_number in roll_to_code:
         if roll_to_code[roll_number] not in course_code_list:
             course_code_list.append(roll_to_code[roll_number])
 
