@@ -15,8 +15,6 @@ def add_timings_to_course_csv(url: str):
         # Read the time table json
         tt_json = helper.read_TT()
 
-        print("appke")
-
         # Getting the time and day of classes from df
         num_row, _ = course_df.shape
         for row in range(num_row):
@@ -29,7 +27,6 @@ def add_timings_to_course_csv(url: str):
                 for day, time in day_dict.items():
                     course_df.loc[row, day] = time
         
-        print("ball")
         # Saving the CSV back
         course_df.to_csv(url, index=False)
         return course_df

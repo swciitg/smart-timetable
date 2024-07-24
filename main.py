@@ -102,8 +102,6 @@ def get_my_courses(data: requestMyCourses):
         my_courses_list.append(my_courses)
     data['courses'] = my_courses_list
 
-    if (len(my_courses_list) == 0):
-        return HTTPException(status_code=400, detail='Invalid roll number')
     return data
 
 if __name__ == "__main__":
