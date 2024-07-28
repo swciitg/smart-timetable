@@ -27,49 +27,91 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     # Correct for div 3
     courses = [
         {
-            'course': 'Engineering Mechanics',
-            'code': 'ME101',
+            'course': 'Engineering Drawing',
+            'code': 'CE101',
             'slot': 'A',
             'venue': 'L2',
-            'instructor': 'ME101',
+            'instructor': 'Baleshwar Singh',
             'ltpc': ' '
         },
         {
-            'course': 'Introduction to Computing',
-            'code': 'CS101',
-            'slot': 'D',
-            'venue': 'L2',
-            'instructor': 'CS101',
-            'ltpc': ' '
-        },
-    ]
-    if not isDesign:
-        courses.extend([{
-            'course': 'Mathematics - II',
-            'code': 'MA102',
-            'slot': 'B',
-            'venue': 'L2',
-            'instructor': 'MA102',
-            'ltpc': ' '
-        },
-        {
-            'course': 'Introductory Biology',
-            'code': 'BT101',
+            'course': 'Basic Electronics',
+            'code': 'EE101',
             'slot': 'C',
             'venue': 'L2',
-            'instructor': 'BT101',
+            'instructor': 'A. Rajesh',
             'ltpc': ' '
         },
-        {
-            'course': 'Physics - II',
-            'code': 'PH102',
-            'slot': 'E',
-            'venue': 'L2',
-            'instructor': 'PH102',
-            'ltpc': ' '
-        }])
+        # {
+        #     'course': 'Engineering Mechanics',
+        #     'code': 'ME101',
+        #     'slot': 'A',
+        #     'venue': 'L2',
+        #     'instructor': 'ME101',
+        #     'ltpc': ' '
+        # },
+        # {
+        #     'course': 'Introduction to Computing',
+        #     'code': 'CS101',
+        #     'slot': 'D',
+        #     'venue': 'L2',
+        #     'instructor': 'CS101',
+        #     'ltpc': ' '
+        # },
+    ]
+    if not isDesign:
+        courses.extend([
+            {
+                'course': 'Mathematics - I',
+                'code': 'MA101',
+                'slot': 'B',
+                'venue': 'L2',
+                'instructor': 'Bhupen Deka',
+                'ltpc': ' '
+            },
+            {
+                'course': 'Chemistry',
+                'code': 'CH101',
+                'slot': 'D',
+                'venue': 'L2',
+                'instructor': 'Animesh Das, Pavan K Kancharla, Arun Chattopadhyay, Chivukula V Sastri',
+                'ltpc': ' '
+            },
+            {
+                'course': 'Physics - I',
+                'code': 'PH101',
+                'slot': 'E',
+                'venue': 'L2',
+                'instructor': 'Arunansu Sil',
+                'ltpc': ' '
+            }
+            # {
+            #     'course': 'Mathematics - II',
+            #     'code': 'MA102',
+            #     'slot': 'B',
+            #     'venue': 'L2',
+            #     'instructor': 'MA102',
+            #     'ltpc': ' '
+            # },
+            # {
+            #     'course': 'Introductory Biology',
+            #     'code': 'BT101',
+            #     'slot': 'C',
+            #     'venue': 'L2',
+            #     'instructor': 'BT101',
+            #     'ltpc': ' '
+            # },
+            # {
+            #     'course': 'Physics - II',
+            #     'code': 'PH102',
+            #     'slot': 'E',
+            #     'venue': 'L2',
+            #     'instructor': 'PH102',
+            #     'ltpc': ' '
+            # }
+        ])
 
-    # ? The else block is for adding design only courses
+    # ? The else block is for adding design onl y courses
     # else:
     #     # Adding DD courses
     #     all_courses_df = data.fetch_courses_df()
@@ -96,7 +138,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     #         }
     #         courses.append(my_courses)
 
-    if div_map['Division'] == 'III' or div_map['Division'] == 'IV':
+    if div_map['Division'] == 'I' or div_map['Division'] == 'II':
         for c in courses:
             c['slot'] = c['slot']+'1'
     if div_map['Division'] == 'II' or div_map['Division'] == 'IV':
@@ -112,86 +154,127 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         #     'midsem': '',
         #     'endsem': ''
         # },
+        # {
+        #     'course': 'ME 101 Tutorial',
+        #     'code': ' ME101',
+        #     'slot': 'a',
+        #     'venue': '',
+        #     'instructor': 'ME101',
+        #     'midsem': '',
+        #     'endsem': ''
+        # }
         {
-            'course': 'ME 101 Tutorial',
-            'code': ' ME101',
-            'slot': 'a',
+            'course': 'EE 101 Tutorial',
+            'code': ' EE101',
+            'slot': 'C',
             'venue': '',
-            'instructor': 'ME101',
+            'instructor': '',
             'midsem': '',
             'endsem': ''
         }
     ]
 
     if not isDesign:
-        tutorial.extend([{
-            'course': 'MA 102 Tutorial',
-            'code': 'MA102',
-            'slot': 'b',
-            'instructor': 'MA102',
-            'venue': '',
-            'midsem': '',
-            'endsem': ''
-        },
+        tutorial.extend([
             {
-            'course': 'PH 102 Tutorial',
-            'code': 'PH102',
-            'slot': 'e',
-            'venue': '',
-            'instructor': 'PH102',
-            'midsem': '',
-            'endsem': ''
-        }])
+                'course': 'MA 101 Tutorial',
+                'code': 'MA101',
+                'slot': 'B',
+                'instructor': '',
+                'venue': '',
+                'midsem': '',
+                'endsem': ''
+            },
+            {
+                'course': 'PH 101 Tutorial',
+                'code': 'PH101',
+                'slot': 'E',
+                'venue': '',
+                'instructor': '',
+                'midsem': '',
+                'endsem': ''
+            }
+            # {
+            #     'course': 'MA 102 Tutorial',
+            #     'code': 'MA102',
+            #     'slot': 'b',
+            #     'instructor': 'MA102',
+            #     'venue': '',
+            #     'midsem': '',
+            #     'endsem': ''
+            # },
+            #     {
+            #     'course': 'PH 102 Tutorial',
+            #     'code': 'PH102',
+            #     'slot': 'e',
+            #     'venue': '',
+            #     'instructor': 'PH102',
+            #     'midsem': '',
+            #     'endsem': ''
+            # }
+        ])
+
+    # lab = [
+    #     {
+    #         'course': 'Basic Electronics Laboratory',
+    #         'code': 'EE102',
+    #         'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
+    #         'instructor': 'EE102',
+    #         'venue':'Basic Electronics Laboratory: Department of EEE, Academic Complex (AC)',
+    #         'midsem':'',
+    #         'endsem':''
+    #     },
+    #     {
+    #         'course': 'Computing Laboratory',
+    #         'code': 'CS110',
+    #         'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
+    #         'instructor': 'CS110',
+    #         'venue':'Computation Laboratory: Department of CSE, Academic Complex (AC)',
+    #         'midsem':'',
+    #         'endsem':''
+    #     },
+    #     {
+    #         'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
+    #         'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+    #         'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
+    #         'instructor': 'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+    #         'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
+    #         'midsem':'',
+    #         'endsem':''
+    #     }
+    # ]
 
     lab = [
         {
-            'course': 'Basic Electronics Laboratory',
-            'code': 'EE102',
-            'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
-            'instructor': 'EE102',
-            'venue':'Basic Electronics Laboratory: Department of EEE, Academic Complex (AC)',
-            'midsem':'',
-            'endsem':''
-        },
-        {
-            'course': 'Computing Laboratory',
-            'code': 'CS110',
-            'slot': 'ML' if div_map['Division'] in ['III', 'IV'] else 'AL',
-            'instructor': 'CS110',
-            'venue':'Computation Laboratory: Department of CSE, Academic Complex (AC)',
-            'midsem':'',
-            'endsem':''
-        },
-        {
-            'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
-            'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
-            'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
-            'instructor': 'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
-            'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
+            'course': 'Engineering Drawing (Practical)',
+            'code': 'CE101',
+            'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
+            'instructor': '',
+            'venue':'1203 and 1204, Academic Complex',
             'midsem':'',
             'endsem':''
         }
     ]
 
-    # if not isDesign:
-    #     lab.extend([{
-    #         'course': 'Chemistry Laboratory',
-    #         'code': 'CH110',
-    #         'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
-    #         'instructor': 'CH110',
-    #         'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
-    #         'midsem':'',
-    #         'endsem':''
-    #     },
-    #         {
-    #         'course': 'Physics Laboratory' if div_map['Division'] in ['II', 'I'] else 'Workshop I',
-    #         'code':'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
-    #         'slot':'AL' if div_map['Division'] in ['III', 'IV'] else 'ML',
-    #         'instructor': 'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
-    #         'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
-    #         'midsem':'',
-    #         'endsem':''
-    #     }])
+    if not isDesign:
+        lab.extend([{
+            'course': 'Chemistry Laboratory',
+            'code': 'CH110',
+            'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
+            'instructor': '',
+            'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
+            'midsem':'',
+            'endsem':''
+        },
+            {
+            'course': 'Physics Laboratory' if div_map['Division'] in ['II', 'I'] else 'Workshop I',
+            'code':'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
+            'slot':'AL' if div_map['Division'] in ['III', 'IV'] else 'ML',
+            'instructor': '' if div_map['Division'] in ['II', 'I'] else '',
+            'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
+            'midsem':'',
+            'endsem':''
+        }])
 
     if not isDesign:
         if div_map['Lab'] == 'L6' or div_map['Lab'] == 'L1':
@@ -215,7 +298,16 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             lab[2]['slot'] = lab[2]['slot']+'2'
             lab[0]['slot'] = lab[0]['slot']+'5'
     else:
-        lab[0]['slot'] = 'ML5'
+        if div_map['Lab'] == 'L6':
+            lab[0]['slot'] = lab[1]['slot']+'2'
+        elif div_map['Lab'] == 'L7':
+            lab[0]['slot'] = lab[0]['slot']+'4'
+        elif div_map['Lab'] == 'L8':
+            lab[0]['slot'] = lab[0]['slot']+'1'
+        elif div_map['Lab'] == 'L9':
+            lab[0]['slot'] = lab[0]['slot']+'3'
+        elif div_map['Lab'] == 'L10':
+            lab[0]['slot'] = lab[1]['slot']+'5'
 
     # Get tt json
     ttJson = get_fresher_tt_slots()
