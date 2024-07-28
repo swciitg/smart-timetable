@@ -74,7 +74,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 'code': 'CH101',
                 'slot': 'D',
                 'venue': 'L2',
-                'instructor': 'Animesh Das, Pavan K Kancharla, Arun Chattopadhyay, Chivukula V Sastri',
+                'instructor': 'A. Das, P. K. Kancharla, A. Chattopadhyay, C. V. Sastri',
                 'ltpc': ' '
             },
             {
@@ -166,7 +166,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         {
             'course': 'EE 101 Tutorial',
             'code': ' EE101',
-            'slot': 'C',
+            'slot': 'c',
             'venue': '',
             'instructor': '',
             'midsem': '',
@@ -179,7 +179,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             {
                 'course': 'MA 101 Tutorial',
                 'code': 'MA101',
-                'slot': 'B',
+                'slot': 'b',
                 'instructor': '',
                 'venue': '',
                 'midsem': '',
@@ -188,7 +188,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             {
                 'course': 'PH 101 Tutorial',
                 'code': 'PH101',
-                'slot': 'E',
+                'slot': 'e',
                 'venue': '',
                 'instructor': '',
                 'midsem': '',
