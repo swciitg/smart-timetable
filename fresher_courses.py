@@ -118,33 +118,33 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         ])
 
     # ? The else block is for adding design onl y courses
-    # else:
-    #     # Adding DD courses
-    #     all_courses_df = fetch_courses_df()
-    #     if (all_courses_df.empty):
-    #         return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
-    #     all_courses_df = all_courses_df.fillna('')
-    #     design_courses = ["DD "+str(num) for num in range(101, 106)]
-    #     design_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
-    #         design_courses)]
-    #     for _, df_entry in design_courses_df.iterrows():
-    #         # Getting design course details
-    #         #! There are some errors in midsem and endsem timetable and class time table due to random times of design courses
-    #         my_courses = {
-    #             'code': hp.ensure_string(df_entry['code']),
-    #             'course': hp.ensure_string(df_entry['name']),
-    #             'slot': hp.ensure_string(df_entry['slot']),
-    #             'instructor': hp.ensure_string(df_entry['prof']),
-    #             'venue': hp.ensure_string(df_entry['venue']),
-    #             'midsem': '',
-    #             'endsem': '',
-    #             # 'midsem': hp.mid_time(df_entry['slot']) if hp.ensure_string(df_entry['code']) != "DD 105" else hp.mid_time("E"),
-    #             # 'endsem': hp.end_time(df_entry['slot']) if hp.ensure_string(df_entry['code']) != "DD 105" else hp.end_time("E"),
-    #         }  # According to https://www.iitg.ac.in/acad/classtt/1st_year_Course_wise_Instructor_name_and_exam_schedule.pdf , DD 105 exam slot is different
-    #         my_courses = {
-    #         k:v for k,v in my_courses.items() if not pd.isna(v)
-    #         }
-    #         courses.append(my_courses)
+    else:
+        # Adding DD courses
+        all_courses_df = fetch_courses_df()
+        if (all_courses_df.empty):
+            return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
+        all_courses_df = all_courses_df.fillna('')
+        design_courses = ["DD "+str(num) for num in range(101, 106)]
+        design_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
+            design_courses)]
+        for _, df_entry in design_courses_df.iterrows():
+            # Getting design course details
+            #! There are some errors in midsem and endsem timetable and class time table due to random times of design courses
+            my_courses = {
+                'code': hp.ensure_string(df_entry['code']),
+                'course': hp.ensure_string(df_entry['name']),
+                'slot': hp.ensure_string(df_entry['slot']),
+                'instructor': hp.ensure_string(df_entry['prof']),
+                'venue': hp.ensure_string(df_entry['venue']),
+                'midsem': '',
+                'endsem': '',
+                # 'midsem': hp.mid_time(df_entry['slot']) if hp.ensure_string(df_entry['code']) != "DD 105" else hp.mid_time("E"),
+                # 'endsem': hp.end_time(df_entry['slot']) if hp.ensure_string(df_entry['code']) != "DD 105" else hp.end_time("E"),
+            }  # According to https://www.iitg.ac.in/acad/classtt/1st_year_Course_wise_Instructor_name_and_exam_schedule.pdf , DD 105 exam slot is different
+            my_courses = {
+            k:v for k,v in my_courses.items() if not pd.isna(v)
+            }
+            courses.append(my_courses)
 
     if div_map['Division'] == 'I' or div_map['Division'] == 'II':
         for c in courses:
