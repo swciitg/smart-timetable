@@ -13,6 +13,12 @@ def get_fresher_tt_slots():
     # Get tt json
     ttJson = hp.read_TT()
 
+    ttJson['B'].pop('Friday')
+    ttJson['A'].pop('Monday')
+    ttJson['E'].pop('Tuesday')
+    ttJson['D'].pop('Wednesday')
+    ttJson['C'].pop('Thursday')
+
     # Adding tutorial slots
     ttJson['b']['Friday'] = "8:00 - 8:55 AM"
     ttJson['a']['Monday'] = "8:00 - 8:55 AM"
