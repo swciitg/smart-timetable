@@ -192,9 +192,9 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 'endsem': ''
             },
             {
-                'course': 'PH 101 Tutorial',
-                'code': 'PH101',
-                'slot': 'e',
+                'course': 'CH 101 Tutorial',
+                'code': 'CH101',
+                'slot': 'd',
                 'venue': '',
                 'instructor': '',
                 'midsem': '',
