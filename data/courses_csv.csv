@@ -158,20 +158,20 @@ CL 502,Computer Aided Numerical Methods,B,,"Anandalakshmi R.,","anandalakshmi, p
 CL 511,Petroleum Reservoir Engineering,D,,Pankaj Tiwari,pankaj.tiwari,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CL 512,Petroleum Refinery Engineering,A,,Pugazhenthi G.,pugal,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CL 513,Characterization of Materials,A,,Vaibhav V. Goud,vvgoud,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CL 612,Colloid and Interface Science,A1,,Omkar S. Deshmukh,o.deshmukh,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
-CL 615,Optimization Techniques,C1,,Senthilmurugan S,senthilmurugan,3:00 - 3:55 PM,,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CL 623,Polymer Science and Technology,F,,Vimal Katiyar,vkatiyar,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CL 631,Smart Material,D1,,Mihir Kumar Purkait,mihir,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CL 634,Applied Rheology,C1,,Kishore Nanda,nkishore,3:00 - 3:55 PM,,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CL 635,Advanced Clean Fuel Technologies,A1,,Vairakannu Prabu,v.prabu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
-CL 636,Microelectronic fabrication,B1,,Venkatesh R. Prasanna,rprasanna,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
-CL 640,Research Methodology and Scientific Writing,E1,,Uppaluri Ramgopal V. S.,ramgopalu,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CL 641,Process Intensification and Integration,F1,,Peela Nageswara Rao,peelanr,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CL 643,Computer aided applied optimization,F1,,Kotecha Prakash,pkotecha,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CL 612,Colloid and Interface Science,A1,5104,Omkar S. Deshmukh,o.deshmukh,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
+CL 615,Optimization Techniques,C1,5104,Senthilmurugan S,senthilmurugan,3:00 - 3:55 PM,,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CL 623,Polymer Science and Technology,F,5G1,Vimal Katiyar,vkatiyar,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CL 631,Smart Material,D1,5104,Mihir Kumar Purkait,mihir,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CL 634,Applied Rheology,C1,5106,Kishore Nanda,nkishore,3:00 - 3:55 PM,,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CL 635,Advanced Clean Fuel Technologies,A1,5106,Vairakannu Prabu,v.prabu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
+CL 636,Microelectronic fabrication,B1,5106,Venkatesh R. Prasanna,rprasanna,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
+CL 640,Research Methodology and Scientific Writing,E1,5104,Uppaluri Ramgopal V. S.,ramgopalu,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CL 641,Process Intensification and Integration,F1,5106,Peela Nageswara Rao,peelanr,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CL 643,Computer aided applied optimization,F1,5G1,Kotecha Prakash,pkotecha,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 CL 645,Applied Statistics for chemical engineers,A,,Pallab Ghosh,pallabg,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CL 649,Polymer Soft Lithography,G1,,Gooh Pattader Partho Sarathi,psgp,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+CL 649,Polymer Soft Lithography,G1,5106,Gooh Pattader Partho Sarathi,psgp,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
 CL 652,Process Modelling and simulation lab,--,,"Senthilmurugan S,","senthilmurugan, tamalb",,,,,
-CL 655,Enhanced Oil Recovery,B1,,Sumit Kumar,s_kumar,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
+CL 655,Enhanced Oil Recovery,B1,5106,Sumit Kumar,s_kumar,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
 CL 698,Project,--,,DPPC Chemical,dppcchemical,,,,,
 CS 201,Discrete Mathematics,A,,Purandar Bhaduri,pbhaduri,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CS 203,Algorithms and Data Structures,D,,Deepanjan Kesh,deepkesh,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
