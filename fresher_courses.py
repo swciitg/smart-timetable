@@ -307,7 +307,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             lab[0]['slot'] = lab[0]['slot']+'5'
     else:
         if div_map['Lab'] == 'L6':
-            lab[0]['slot'] = lab[1]['slot']+'2'
+            lab[0]['slot'] = lab[0]['slot']+'2'
         elif div_map['Lab'] == 'L7':
             lab[0]['slot'] = lab[0]['slot']+'4'
         elif div_map['Lab'] == 'L8':
@@ -315,7 +315,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         elif div_map['Lab'] == 'L9':
             lab[0]['slot'] = lab[0]['slot']+'3'
         elif div_map['Lab'] == 'L10':
-            lab[0]['slot'] = lab[1]['slot']+'5'
+            lab[0]['slot'] = lab[0]['slot']+'5'
 
     # Get tt json
     ttJson = get_fresher_tt_slots()
