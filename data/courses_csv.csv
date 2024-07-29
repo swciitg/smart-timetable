@@ -323,19 +323,19 @@ EE 570,Modern Power Systems,E,,Praveen Tripathy,ptri,,8:00 - 8:55 AM,9:00 - 9:55
 EE 571,Insulation and High Voltage Engineering,C,,Sisir Kumar Nayak,sknayak,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 EE 590,Linear Algebra and Optimization,G,,Smarajit Das,dass,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 EE 591,Probability and Stochastic Processes,D,,Samarendra Dandapat,samaren,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EE 601,Introduction to Distributed Control Systems,E1,,Parijat Bhowmick,parijat.bhowmick,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EE 610,Fundamentals of VLSI CAD,A1,,Gaurav Trivedi,trivedi,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 616,Circuits for Sensor Signal Processing,D,,Mahima Arrawatia,mahimaarrawatia,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EE 623,Speech Signal Processing and Coding,D1,,Rohit Sinha,rsinha,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 627,Biometrics,E1,,Kannan Karthik,k.karthik,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EE 646,Optical Measurement Techniques and Applications,A1,,Rishikesh Dilip Kulkarni,rishi.k,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 647,Microsensors and Nanosensors,C1,,Ravindra Kumar Jha,jha,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EE 652,Digital Control,D1,,Chitralekha Mahanta,chitra,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 658,Optimization Techniques,B1,,Kuntal Deka,kuntaldeka,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EE 660,Modelling and Control of Power Electronic Converters,A1,,A. Ravindranath,ravindranath,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 677,Smart power grids for a sustainable future,B1,,Prabir Barooah,pbarooah,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EE 693,Advanced Topics in Random Processes,F1,,A. Rajesh,rajesha,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-EE 697,Medical Imaging,B1,,Manish Bhatt,manishb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 601,Introduction to Distributed Control Systems,E1,5001,Parijat Bhowmick,parijat.bhowmick,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EE 610,Fundamentals of VLSI CAD,A1,5G3,Gaurav Trivedi,trivedi,5:00 - 6:55 PM,4:00 - 4:55 PM,,,
+EE 616,Circuits for Sensor Signal Processing,D,5001,Mahima Arrawatia,mahimaarrawatia,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+EE 623,Speech Signal Processing and Coding,D1,5001,Rohit Sinha,rsinha,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 627,Biometrics,E1,5406,Kannan Karthik,k.karthik,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EE 646,Optical Measurement Techniques and Applications,A1,5406,Rishikesh Dilip Kulkarni,rishi.k,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 647,Microsensors and Nanosensors,C1,5001,Ravindra Kumar Jha,jha,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
+EE 652,Digital Control,D1,5G3,Chitralekha Mahanta,chitra,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 658,Optimization Techniques,B1,5406,Kuntal Deka,kuntaldeka,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
+EE 660,Modelling and Control of Power Electronic Converters,A1,5001,A. Ravindranath,ravindranath,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 677,Smart power grids for a sustainable future,B1,2101,Prabir Barooah,pbarooah,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 693,Advanced Topics in Random Processes,F1,5001,A. Rajesh,rajesha,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+EE 697,Medical Imaging,B1,2102,Manish Bhatt,manishb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EE 698,Project Phase I,--,,A. Ravindranath,ravindranath,,,,,
 EE 699,MTP Phase II,--,,Salil Kashyap,salilkashyap,,,,,
 EE 791,Stochastic Analysis of Wireless Networks,C1,,Sudarshan Mukherjee,smukherjee,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
@@ -465,7 +465,7 @@ MA 589,Statistical Foundations for Data Science,B,,Ayon Ganguly,aganguly,9:00 - 
 MA 625,Linear Algebra-I,A1,,Bikash Bhattacharjya,b.bikash,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 MA 642,Real Analysis-1,B1,,Bhaba Kumar Sarma,bks,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 MA 662,Differential Equations,C1,,Durga Charan Dalal,durga,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-MA 689,Applied Statistics,F,,Palash Ghosh,palash.ghosh,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+MA 689,Applied Statistics,F,2202,Palash Ghosh,palash.ghosh,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 MA 697,Seminar,--,,M. Guru Prem Prasad,mgpp,,,,,
 ME 110,Workshop I,--,,"S. Kanagaraj, , , ,","kanagaraj, pankaj.biswas, psr, tarkes.pallicity, uday",,,,,
 ME 201Mn,Manufacturing Technology,G,,Biranchi Panda,pandabiranchi,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
