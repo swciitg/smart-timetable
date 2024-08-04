@@ -488,7 +488,7 @@ ME 501,Advanced Engineering Mathematics,B1,,"Shyamanta M. Hazarika,","s.m.hazari
 ME 502,Engineering Computing Laboratory,--,,"Atul K. Soti, , , ,","atulsoti, dnbasu, gmadhu, sajan.kapil, ssg",,,,,
 ME 504,MTP Phase I,--,,Biranchi Panda,pandabiranchi,,,,,
 ME 505,MTP Phase II,--,,,-,,,,,
-ME 510,Subtractive Manufacturing,A1,,Manas Das,manasdas,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME 510,Subtractive Manufacturing,A1,,Manas Das,manasdas,4:00 - 4:55 PM,4:00 - 4:55 PM,,,5:00 - 5:55 PM
 ME 512,Welding and Additive Manufacturing,E,,Pankaj Biswas,pankaj.biswas,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 ME 520,Fluid Mechanics,A1,,Dipankar Narayan Basu,dnbasu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 ME 521,Conduction and Radiation,E,,Amaresh Dalal,amaresh,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
@@ -502,7 +502,7 @@ ME 550,Introduction to Aerospace Engineering,C,,Ujjwal K. Saha,saha,10:00 - 10:5
 ME 551,Aerodynamics,A1,,Gavara Madhusudhana,gmadhu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 ME 606,Solidification Processing,G1,,P. S. Robi,psr,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
 ME 609,Optimization Methods in Engineering,B,,Deepak Sharma,dsharma,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-ME 644,Modern Control,E,,Karuna Kalita,karuna.kalita,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+ME 644,Modern Control,E,,Karuna Kalita,karuna.kalita,5:00 - 5:55 PM,,9:00 - 9:55 AM,10:00 - 10:55 AM,
 ME 659,Tribology of Bearings,D1,,Sashindra K. Kakoty,sashin,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 ME 664,Theory of Elasticity,E,,Tarkes Dora Pallicity,tarkes.pallicity,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 ME 674,Soft Computing in Engineering,D,,Sukhomay Pal,spal,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
