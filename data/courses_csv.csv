@@ -69,10 +69,10 @@ CE 411,Dynamic of structure,D,,Hrishikesh Sharma,shrishi,11:00 - 11:55 AM,,8:00 
 CE 415,Prestressed Concrete and Industrial Structures,B1,,Sajal K. Deb,skdeb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 CE 416,Bridge Engineering,D1,,Kaustubh Dasgupta,kd,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 CE 498,Project,,,Secretary DUPC CE,dupccivil,,,,,
-CE 501,Continuum Mechanics,A,,Budhaditya Hazra,budhaditya.hazra,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CE 502,Finite Element Methods,B,,Arbind K. Singh,arvind,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CE 503,Structural Dynamics,C,,Sandip Das,sandip.das,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CE 512,Structural Engineering Laboratory,,,Konjengbam Darunkumar Singh,darun,,,,,
+CE 501,Continuum Mechanics,A,,Budhaditya Hazra,budhaditya.hazra,,5:00 - 5:55 PM,5:00 - 5:55 PM,4:00 - 4:55 PM,
+CE 502,Finite Element Methods,B,,Arbind K. Singh,arvind,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,
+CE 503,Structural Dynamics,C,,Sandip Das,sandip.das,10:00 - 10:55 AM,11:00 - 11:55 AM,,,9:00 - 9:55 AM
+CE 512,Structural Engineering Laboratory,,,Konjengbam Darunkumar Singh,darun,,2:00 - 04:55 PM,,,
 CE 514,"Plates, Shells and Elastic Stability",D,,Abhishek Verma,abhi.verma,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CE 521,Process Chemistry for Water and Wastewater Treatment,A,,Saswati Chakraborty,saswati,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CE 522,Physico Chemical Processes in Environmental Engineering,B,,Pranab K. Ghosh,pkghosh,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
@@ -97,7 +97,7 @@ CE 592,Exploration Geoscience,B1,,Archana M Nair,nair.archana,4:00 - 4:55 PM,3:0
 CE 593,Advanced Remote Sensing,C1,,Rishikesh Bharti,rbharti,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 CE 598,MTech Project- Phase I,,,Secretary DPPC CE,dppccivil,,,,,
 CE 601,Numerical Methods,E1,,Anjan Dutta,adutta,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CE 602,Optimization Methods,D1,,Rajib Kumar Bhattacharjya,rkbc,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CE 602,Optimization Methods,D1,,Rajib Kumar Bhattacharjya,rkbc,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
 CE 617,Discrete Choice Modelling,C,,C. Mallikarjuna,c.mallikarjuna,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 CE 626,Economic Evaluation and Analysis of Transportation Projects,A1,,Nipjyoti Bharadwaj,nbharadwaj,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 CE 642,Subsurface Invstigation and Instrumentation,E,,Kaling Taki,kaling.taki,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
@@ -216,7 +216,7 @@ DA 331,Big Data Analytics : Tools & Techniques,C1,,Chiranjib Sur,chiranjib,3:00 
 DA 341,Applied Time Series Analysis,D1,,Rhythm Grover,rhythmgrover,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 DA 351,Computer Systems,B1,,"Ratnajit Bhattacharjee,","ratnajit, ribhufec",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 DA 421,FATE in AI Models,D,,V. Vijaya Saradhi,saradhi,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-DA 421M,Multi-modal Data Processing and Learning,A,5305,Prashant W Patil,pwpatil,,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+DA 421M,Multi-modal Data Processing and Learning,A,5305,Prashant W Patil,pwpatil,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 DA 461,Bioinformatics,C,,Vibin Ramakrishnan,vibin,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 DA 462,Data Analytics for Finance,B,,"Arabin Kumar Dey,","arabin, pratim",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 DA 498,BTP Project I,--,,"SUPC, MFSDS&AI",supc_mfsdsai,,,,,
