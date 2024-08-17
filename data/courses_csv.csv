@@ -180,10 +180,10 @@ CS 205M,Theoretical Foundations of Computer Science,G,,Sajith Gopalan,sajith,,,1
 CS 221,Digital Design,B,,Sukanta Bhattacharjee,sukantab,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 CS 242,System Software Laboratory,--,,Aryabartta Sahu,asahu,,,,,
 CS 322M,Digital Logic and Computer Architecture,E1,,Jatindra Kumar Deka,jatin,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CS 341,Computer Networks,B1,,"Moumita Patra,","moumita.patra, t.venkat",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CS 342,Computer Networks Laboratory,--,,"Moumita Patra,","moumita.patra, t.venkat",,,,,
-CS 343,Operating Systems,C1,,Rashmi Dutta Baruah,r.duttabaruah,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CS 344,Operating Systems Lab.,--,,Rashmi Dutta Baruah,r.duttabaruah,,,,,
+CS 341,Computer Networks,B1,,"Moumita Patra,","moumita.patra, t.venkat",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
+CS 342,Computer Networks Laboratory,--,,"Moumita Patra,","moumita.patra, t.venkat",9:00 - 11:55 AM,,,,
+CS 343,Operating Systems,C1,,Rashmi Dutta Baruah,r.duttabaruah,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
+CS 344,Operating Systems Lab.,--,,Rashmi Dutta Baruah,r.duttabaruah,,,9:00 - 11:55 AM,,
 CS 441M,Software Engineering,A,,Rashmi Dutta Baruah,r.duttabaruah,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CS 498,B Tech Project-I,--,,Sushanta Karmakar,sushantak,,,,,
 CS 512,Design and Analysis of Algorithms,E,,Pinaki Mitra,pinaki,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
@@ -438,9 +438,9 @@ MA 222,Elementary Number Theory and Algebra,F,,Rupam Barman,rupam,12:00 - 12:55 
 MA 225,Probability Theory and Random Processes,C,,Subhamay Saha,saha.subhamay,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 MA 251,Data Structures,E,,Gautam K. Das,gkd,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 MA 311M,Scientific Computing,E1,,Jiten Chandra Kalita,jiten,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-MA 321,Optimization,D1,,Sriparna Bandopadhyay,sriparna,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-MA 323,Monte Carlo Simulation,--,,"Ayon Ganguly,","aganguly, nselvaraju",,,,,
-MA 372,Stochastic Calculus for Finance,A1,,N. Selvaraju,nselvaraju,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+MA 321,Optimization,D1,,Sriparna Bandopadhyay,sriparna,2:00 - 2:55 PM,,,4:00 - 4:55 PM,3:00 - 3:55 PM
+MA 323,Monte Carlo Simulation,--,,"Ayon Ganguly,","aganguly, nselvaraju",,,5:00 - 5:55 PM,10:00 - 11:55 AM,
+MA 372,Stochastic Calculus for Finance,A1,,N. Selvaraju,nselvaraju,,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 MA 411M,Differential Geometry,A,,K. V. Srikanth,kvsrikanth,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 MA 423,Matrix Computations,C,,Shreemayee Bora,shbora,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 MA 473,Computational Finance,E,,Natesan Srinivasan,natesan,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
