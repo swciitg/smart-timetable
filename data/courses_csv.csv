@@ -345,12 +345,12 @@ EN 202,Engineering Thermodynamics,B,,Farrukh Khalid,f.khalid,9:00 - 9:55 AM,10:0
 EN 203,Fluid Mechanics and Fluid Machines,E,,Pankaj Kalita,pankajk,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 EN 204,Fuels and Combustion Engineering,D,,Ranjith Thangavel,ranjith.t,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 EN 205,Fuels and Combustion Laboratory,--,,"Ranjith Thangavel,","ranjith.t, vvgoud",,,,,
-EN 301,"Power Generation, Transmission and Distribution",A1,,Kuldeep Kumar,kuldeepk,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EN 302,"Wind, Hydro and Ocean Technology",D1,,"Pankaj Kalita, Ajay Singh","pankajk,singhajay",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EN 303,Hydrogen and Fuel Cell Technology,B,,Ajay Singh,singhajay,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-EN 304,Energy Storage Systems,C1,,Ranjith Thangavel,ranjith.t,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EN 305,Wind and Hydro Energy Laboratory,--,,E S N Raju P,pesnraju88,,,,,
-EN 306,Modelling and Simulation Laboratory,--,,Farrukh Khalid,f.khalid,,,,,
+EN 301,"Power Generation, Transmission and Distribution",A1,5301,Kuldeep Kumar,kuldeepk,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EN 302,"Wind, Hydro and Ocean Technology",D1,5301,"Pankaj Kalita, Ajay Singh","pankajk,singhajay",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EN 303,Hydrogen and Fuel Cell Technology,B1,5301,Ajay Singh,singhajay,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EN 304,Energy Storage Systems,C1,5301,"Kuldeep Kumar, Ranjith Thangavel","kuldeepk, ranjith.t",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EN 305,Wind and Hydro Energy Laboratory,--,,E S N Raju P,pesnraju88,,,9:00 - 12:00 PM,,
+EN 306,Modelling and Simulation Laboratory,--,,Kuldeep Kumar,kuldeepk,9:00 - 12:00 PM,,,,
 EN 661,Renewable Energy Systems,B1,,Pankaj Kalita,pankajk,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EN 663,Operation and instrumentation,E1,,Vaibhav V. Goud,vvgoud,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
 EN 672,Energy Storage Systems,C1,,Ranjith Thangavel,ranjith.t,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
