@@ -201,13 +201,13 @@ CS 590,Deep Learning,C,,Arijit Sur,arijit,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:0
 CS 601,Mathematics for ML,C1,,Ashish Anand,anand.ashish,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 CS 666,Mobile Robotics,C1,,Shivashankar B. Nair,sbnair,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 CS 698,Project I,--,,DPPC CSE,dppccse,,,,,
-DA 211,Algorithms and Data Structure,A,,"Anirban Dasgupta,","anirban.dasgupta, arabin",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-DA 212,Algorithms and Data Structure Lab,--,,Gaurav Trivedi,trivedi,,,,,
+DA 211,Algorithms and Data Structure,A,,"Anirban Dasgupta,Sanasam Ranbir Singh","anirban.dasgupta,ranbir@iitg.ac.in",,,3:00 PM - 4:30 PM,3:00 PM - 4:30 PM,
+DA 212,Algorithms and Data Structure Lab,--,,Gaurav Trivedi,trivedi,2:00 PM - 5:00 PM,,,,
 DA 231,Introduction to Data Science,B,,Debanga Raj Neog,dneog,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DA 241,Statistical Foundations for Data Science,C,,"Amulya Kumar Mahto,","akmahto, rhythmgrover",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+DA 241,Statistical Foundations for Data Science,C,,"Amulya Kumar Mahto,","akmahto, rhythmgrover",10:00 - 10:55 AM,11:00 - 11:55 AM,,,9:00 - 9:55 AM
 DA 241M,Mathematical Foundations of Data Science,G,,Teena Sharma,teena,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 DA 242,Discrete Mathematics,E,,Amulya Kumar Mahto,akmahto,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-DA 251,"Signals , Systems & Networks",D,,Arghyadip Roy,arghyadip,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DA 251,"Signals , Systems & Networks",D,,Arghyadip Roy,arghyadip,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
 DA 311,Machine Learning Laboratory,--,,Ayon Borthakur,ayon.borthakur,,,,,
 DA 321,Multi-modal Data Processing & Learning - I,A1,,Neeraj Kumar Sharma,neerajs,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 DA 321M,Machine Learning,E1,,"Arghyadip Roy,","arghyadip, pwpatil",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
