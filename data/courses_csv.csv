@@ -1,4 +1,4 @@
-code,name,slot,venue,prof_id,Monday,Tuesday,Wednesday,Thursday,Friday
+code,name,slot,venue,prof,Monday,Tuesday,Wednesday,Thursday,Friday
 BM 511H,Corporate Finance,A,,sppc.sob,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 BM 512H,Computer-aided Operations Research,B,,"dsharma, pkotecha",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 BM 513H,Business Communication,C,,"kuldeep.baishya, skbishwas",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
