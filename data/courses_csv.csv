@@ -605,22 +605,22 @@ HS 240,Literature and Science Writing,G1,5105,debapriya.basu,,,1:00 - 1:55 PM,1:
 HS 248,Indian Literary Theory,G1,2202,liza,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
 HS 251,Social Choice and Welfare,G1,5G4,amarjyoti,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
 HS 257,Ethnography of speaking,G1,5102,bidisha,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-BT 624,Fluorescence Techniques in Biotechnology,F1,chaudhary@iitg.ac.in,5001,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CH 419,Consumer Chemistry,F1,"patel@iitg.ac.in,pki@iitg.ac.in",5G2,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CL 611,Advanced Process Control,F1,p.saha@iitg.ac.in,5106,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CL 625,Fundamentals of micro-nanofluidics & microfabrication,F,dipban@iitg.ac.in,5102,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CL 643,Computer aided applied optimization,F,pkotecha@iitg.ac.in,5201,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-EE 626,Pattern Recognition and Machine Learning,F1,sureshsundaram@iitg.ac.in,5G1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-EE 633,Error Control Codes,F1,rajesha@iitg.ac.in,5102,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-PH 465,Optoelectronics,F1,malli@iitg.ac.in,5203,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CE 610,Computational Structural Mechanics,B,budhaditya.hazra@iitg.ac.in,5202,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CS 561,Artificial Intelligence,B,sbnair@iitg.ac.in,5105,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-ME 696,Biomedical Devices and Systems,B,kanagaraj@iitg.ac.in,5G4,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-BT 633,Human Biology and Diseases,F,kunnumakkara@iitg.ac.in,5G2,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-BT 635,Chemo Informatics,F,vibin@iitg.ac.in,5106,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CE 616,Blast and Impact Resistant Design,F,shrishi@iitg.ac.in,5105,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CH 644,Applied Quantum Chemistry,F,msarma@iitg.ac.in,5G1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-DA 623,Computing with Signals,F,neerajs@iitg.ac.in,5205,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-MA 592,Mathematical Finance,F,saha.subhamay@iitg.ac.in,5G4,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-ME 613,Nonlinear Vibration,F,bsandeepr@iitg.ac.in,5202,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-PH 441,Quantum Computation and Cryptography,F,kanhaiyapandey@iitg.ac.in,5203,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+BT 624,Fluorescence Techniques in Biotechnology,F1,5001,chaudhary@iitg.ac.in,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CH 419,Consumer Chemistry,F1,5G2,"patel@iitg.ac.in,pki@iitg.ac.in",1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CL 611,Advanced Process Control,F1,5106,p.saha@iitg.ac.in,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CL 625,Fundamentals of micro-nanofluidics & microfabrication,F,5102,dipban@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CL 643,Computer aided applied optimization,F,5201,pkotecha@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+EE 626,Pattern Recognition and Machine Learning,F1,5G1,sureshsundaram@iitg.ac.in,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+EE 633,Error Control Codes,F1,5102,rajesha@iitg.ac.in,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+PH 465,Optoelectronics,F1,5203,malli@iitg.ac.in,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CE 610,Computational Structural Mechanics,B,5202,budhaditya.hazra@iitg.ac.in,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS 561,Artificial Intelligence,B,5105,sbnair@iitg.ac.in,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+ME 696,Biomedical Devices and Systems,B,5G4,kanagaraj@iitg.ac.in,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+BT 633,Human Biology and Diseases,F,5G2,kunnumakkara@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+BT 635,Chemo Informatics,F,5106,vibin@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CE 616,Blast and Impact Resistant Design,F,5105,shrishi@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CH 644,Applied Quantum Chemistry,F,5G1,msarma@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+DA 623,Computing with Signals,F,5205,neerajs@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+MA 592,Mathematical Finance,F,5G4,saha.subhamay@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+ME 613,Nonlinear Vibration,F,5202,bsandeepr@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+PH 441,Quantum Computation and Cryptography,F,5203,kanhaiyapandey@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
