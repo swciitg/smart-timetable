@@ -333,14 +333,13 @@ EE 580,Electrical Machines and Drive Systems,B,,ravindranath,9:00 - 9:55 AM,10:0
 EE 595H,Stochastic Models,B,,kuntaldeka,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 EE 596H,Optimization Techniques,B,,kuntaldeka,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 EE 602,Adaptive and Learning-based Control,A1,,indranik,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 605,Machine Learning Architectures,D1,,trivedi,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 605,Machine Learning Architectures,D1,,-,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 605,Machine Learning Architectures,D1,5G1,trivedi,,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 EE 606,Power semiconductor devices,A1,,ankushbag,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 607,Information Theory,C1,,aloshious,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 607,Information Theory,C1,1006,aloshious,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
 EE 611,Organic Semiconductor Devices,A1,,aruntej,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 EE 614,Modern Display Technologies,B1,,deb.sikdar,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EE 619,Semiconductor material and device characterization,E1,,tanmay.dutta,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EE 621,Computer Vision,A1,,mkb,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 621,Computer Vision,A1,5005,mkb,5:00 - 5:55 PM,,,12:00 - 12:55 PM,12:00 - 12:55 PM
 EE 622,Biomedical Signal Processing,B1,,samaren,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 EE 624,Speech Technology,C1,,rsinha,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 EE 632,Advanced Topics in Communication Systems,A1,,manojbr,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
