@@ -52,7 +52,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         {
             'course': 'Engineering Mechanics',
             'code': 'ME101',
-            'slot': 'A1',
+            'slot': 'A',
             'venue': '',
             'instructor': 'arupn, atanub, pankaj.biswas',
             'ltpc': ' '
@@ -60,7 +60,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         {
             'course': 'Introduction to Computing',
             'code': 'CS101',
-            'slot': 'D1',
+            'slot': 'D',
             'venue': '',
             'instructor': 'arijit, pinaki, ranbir, sushantak',
             'ltpc': ' '
@@ -95,7 +95,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             {
                 'course': 'Mathematics - II',
                 'code': 'MA102',
-                'slot': 'B1',
+                'slot': 'B',
                 'venue': '',
                 'instructor': 'kvsrikanth, natesan, shbora, vinay.wagh',
                 'ltpc': ' '
@@ -103,7 +103,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             {
                 'course': 'Introductory Biology',
                 'code': 'BT101',
-                'slot': 'C1',
+                'slot': 'C',
                 'venue': '',
                 'instructor': 'csouptick, kapgupta, rsw, singh',
                 'ltpc': ' '
@@ -111,7 +111,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             {
                 'course': 'Physics - II',
                 'code': 'PH102',
-                'slot': 'E1',
+                'slot': 'E',
                 'venue': '',
                 'instructor': 'debu, mckumar, sayan.chakrabarti, sovan',
                 'ltpc': ' '
@@ -157,7 +157,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         {
             'course': 'MA 102 Tutorial',
             'code': 'MA102',
-            'slot': 'b1',
+            'slot': 'b',
             'instructor': '',
             'venue': '',
             'midsem': '',
@@ -166,7 +166,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
         {
             'course': 'ME 101 Tutorial',
             'code': ' ME101',
-            'slot': 'a1',
+            'slot': 'a',
             'venue': '',
             'instructor': '',
             'midsem': '',
@@ -206,7 +206,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             {
                 'course': 'MA 102 Tutorial',
                 'code': 'MA102',
-                'slot': 'b1',
+                'slot': 'b',
                 'instructor': '',
                 'venue': '',
                 'midsem': '',
@@ -215,7 +215,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 {
                 'course': 'PH 102 Tutorial',
                 'code': 'PH102',
-                'slot': 'e1',
+                'slot': 'e',
                 'venue': '',
                 'instructor': '',
                 'midsem': '',
