@@ -53,7 +53,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'course': 'Engineering Mechanics',
             'code': 'ME101',
             'slot': 'A',
-            'venue': '',
+            'venue': 'L2',
             'instructor': 'arupn, atanub, pankaj.biswas',
             'ltpc': ' '
         },
@@ -61,7 +61,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'course': 'Introduction to Computing',
             'code': 'CS101',
             'slot': 'D',
-            'venue': '',
+            'venue': 'L2',
             'instructor': 'arijit, pinaki, ranbir, sushantak',
             'ltpc': ' '
         },
@@ -97,7 +97,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 'course': 'Mathematics - II',
                 'code': 'MA102',
                 'slot': 'B',
-                'venue': '',
+                'venue': 'L2',
                 'instructor': 'kvsrikanth, natesan, shbora, vinay.wagh',
                 'ltpc': ' '
             },
@@ -105,7 +105,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 'course': 'Introductory Biology',
                 'code': 'BT101',
                 'slot': 'C',
-                'venue': '',
+                'venue': 'L2',
                 'instructor': 'csouptick, kapgupta, rsw, singh',
                 'ltpc': ' '
             },
@@ -113,7 +113,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 'course': 'Physics - II',
                 'code': 'PH102',
                 'slot': 'E',
-                'venue': '',
+                'venue': 'L2',
                 'instructor': 'debu, mckumar, sayan.chakrabarti, sovan',
                 'ltpc': ' '
             }
@@ -147,12 +147,19 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             }
             courses.append(my_courses)
 
-    if div_map['Division'] == 'I' or div_map['Division'] == 'II':
+    if div_map['Division'] == 'III' or div_map['Division'] == 'IV':
         for c in courses:
             c['slot'] = c['slot']+'1'
     if div_map['Division'] == 'II' or div_map['Division'] == 'IV':
         for c in courses:
-            c['venue'] = 'L4'
+            c['venue'] = 'L4'    
+
+    # if div_map['Division'] == 'I' or div_map['Division'] == 'II':
+    #     for c in courses:
+    #         c['slot'] = c['slot']+'1'
+    # if div_map['Division'] == 'II' or div_map['Division'] == 'IV':
+    #     for c in courses:
+    #         c['venue'] = 'L4'
     tutorial = [
         {
             'course': 'MA 102 Tutorial',
