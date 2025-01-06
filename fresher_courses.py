@@ -250,16 +250,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'venue':'Computation Laboratory: Department of CSE, Academic Complex (AC)',
             'midsem':'',
             'endsem':''
-        },
-        # {
-        #     'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
-        #     'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
-        #     'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
-        #     'instructor': 'bhuyan, bkhazra, malli, saurabh, udaymaiti' if div_map['Division'] in ['III', 'IV'] else 'kanagaraj, psr, spanda, ssg',
-        #     'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
-        #     'midsem':'',
-        #     'endsem':''
-        # }
+        }
     ]
 
     # lab = [
@@ -275,25 +266,36 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     # ]
 
     # ONLY FOR BTECH
+    # if not isDesign:
+    #     lab.extend([{
+    #         'course': 'Chemistry Laboratory',
+    #         'code': 'CH110',
+    #         'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
+    #         'instructor': '',
+    #         'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
+    #         'midsem':'',
+    #         'endsem':''
+    #     },
+    #     {
+    #         'course': 'Physics Laboratory' if div_map['Division'] in ['II', 'I'] else 'Workshop I',
+    #         'code':'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
+    #         'slot':'AL' if div_map['Division'] in ['III', 'IV'] else 'ML',
+    #         'instructor': '' if div_map['Division'] in ['II', 'I'] else '',
+    #         'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
+    #         'midsem':'',
+    #         'endsem':''
+    #     }])
+
     if not isDesign:
         lab.extend([{
-        #     'course': 'Chemistry Laboratory',
-        #     'code': 'CH110',
-        #     'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
-        #     'instructor': '',
-        #     'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
-        #     'midsem':'',
-        #     'endsem':''
-        # },
-        # {
-            'course': 'Physics Laboratory' if div_map['Division'] in ['II', 'I'] else 'Workshop I',
-            'code':'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
-            'slot':'AL' if div_map['Division'] in ['III', 'IV'] else 'ML',
-            'instructor': 'bhuyan, bkhazra, malli, saurabh, udaymaiti' if div_map['Division'] in ['II', 'I'] else 'kanagaraj, psr, spanda, ss',
-            'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['II', 'I'] else 'Workshop (on the western side of Academic Complex (AC))',
+            'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
+            'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+            'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
+            'instructor': 'bhuyan, bkhazra, malli, saurabh, udaymaiti' if div_map['Division'] in ['III', 'IV'] else 'kanagaraj, psr, spanda, ss',
+            'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
             'midsem':'',
             'endsem':''
-        }])
+        }])    
 
     if not isDesign:
         if div_map['Lab'] == 'L6' or div_map['Lab'] == 'L1':
