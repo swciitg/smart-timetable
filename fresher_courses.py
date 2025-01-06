@@ -161,16 +161,9 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     # if div_map['Division'] == 'II' or div_map['Division'] == 'IV':
     #     for c in courses:
     #         c['venue'] = 'L4'
+    
+    # COMMON FOR BTECH & BDES
     tutorial = [
-        {
-            'course': 'MA 102 Tutorial',
-            'code': 'MA102',
-            'slot': 'b',
-            'instructor': '',
-            'venue': '',
-            'midsem': '',
-            'endsem': ''
-        },
         {
             'course': 'ME 101 Tutorial',
             'code': ' ME101',
