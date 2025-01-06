@@ -66,6 +66,7 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'ltpc': ' '
         },
     ]
+    # ONLY BTECH
     if not isDesign:
         courses.extend([
             # {
@@ -117,15 +118,14 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 'ltpc': ' '
             }
         ])
-
-    # ? The else block is for adding design only courses
+    # ONLY BDES
     else:
         # Adding DD courses
         all_courses_df = fetch_courses_df()
         if (all_courses_df.empty):
             return HTTPException(status_code=404, detail='Courses CSV file not found. Please generate it first.')
         all_courses_df = all_courses_df.fillna('')
-        design_courses = ["DD "+str(num) for num in range(111, 113)]
+        design_courses = ["DD "+str(num) for num in range(111, 114)] # CHANGE THIS ACCORDING TO SEMESTER
         design_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
             design_courses)]
         for _, df_entry in design_courses_df.iterrows():
@@ -222,7 +222,8 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
                 'endsem': ''
             }
         ])
-
+    
+    # COMMON LABS FOR BTECH & BDES
     lab = [
         {
             'course': 'Basic Electronics Laboratory',
@@ -242,15 +243,15 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
             'midsem':'',
             'endsem':''
         },
-        {
-            'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
-            'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
-            'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
-            'instructor': 'bhuyan, bkhazra, malli, saurabh, udaymaiti' if div_map['Division'] in ['III', 'IV'] else 'kanagaraj, psr, spanda, ssg',
-            'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
-            'midsem':'',
-            'endsem':''
-        }
+        # {
+        #     'course': 'Physics Laboratory' if div_map['Division'] in ['III', 'IV'] else 'Workshop I',
+        #     'code':'PH110' if div_map['Division'] in ['III', 'IV'] else 'ME110',
+        #     'slot':'AL' if div_map['Division'] in ['I', 'II'] else 'ML',
+        #     'instructor': 'bhuyan, bkhazra, malli, saurabh, udaymaiti' if div_map['Division'] in ['III', 'IV'] else 'kanagaraj, psr, spanda, ssg',
+        #     'venue':'Department of Physics, Academic Complex (AC)' if div_map['Division'] in ['III', 'IV'] else 'Workshop (on the western side of Academic Complex (AC))',
+        #     'midsem':'',
+        #     'endsem':''
+        # }
     ]
 
     # lab = [
@@ -265,17 +266,18 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     #     }
     # ]
 
+    # ONLY FOR BTECH
     if not isDesign:
         lab.extend([{
-            'course': 'Chemistry Laboratory',
-            'code': 'CH110',
-            'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
-            'instructor': '',
-            'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
-            'midsem':'',
-            'endsem':''
-        },
-            {
+        #     'course': 'Chemistry Laboratory',
+        #     'code': 'CH110',
+        #     'slot': 'ML' if div_map['Division'] in ['II', 'I'] else 'AL',
+        #     'instructor': '',
+        #     'venue':'Chemistry Laboratory: Department of Chemistry, Academic Complex (AC) ',
+        #     'midsem':'',
+        #     'endsem':''
+        # },
+        # {
             'course': 'Physics Laboratory' if div_map['Division'] in ['II', 'I'] else 'Workshop I',
             'code':'PH110' if div_map['Division'] in ['II', 'I'] else 'ME110',
             'slot':'AL' if div_map['Division'] in ['III', 'IV'] else 'ML',
