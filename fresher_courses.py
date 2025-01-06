@@ -149,7 +149,8 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
 
     if div_map['Division'] == 'III' or div_map['Division'] == 'IV':
         for c in courses:
-            c['slot'] = c['slot']+'1'
+            if c['code'].startswith('DD') == False:
+                c['slot'] = c['slot']+'1'
     if div_map['Division'] == 'II' or div_map['Division'] == 'IV':
         for c in courses:
             c['venue'] = 'L4'    
