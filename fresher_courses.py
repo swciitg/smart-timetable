@@ -12,12 +12,12 @@ import helper as hp
 def get_fresher_tt_slots():
     # Get tt json
     ttJson = hp.read_TT()
-
-    ttJson['B'].pop('Friday')
+    
     ttJson['A'].pop('Monday')
     ttJson['E'].pop('Tuesday')
     ttJson['D'].pop('Wednesday')
     ttJson['C'].pop('Thursday')
+    ttJson['B'].pop('Friday')
 
     # Adding tutorial slots
     ttJson['b']['Friday'] = "8:00 - 8:55 AM"
@@ -314,14 +314,31 @@ def get_fresher_courses(roll_number, isDesign: bool = False):
     else:
         if div_map['Lab'] == 'L6':
             lab[0]['slot'] = lab[0]['slot']+'2'
+            lab[1]['slot'] = lab[1]['slot']+'1'
         elif div_map['Lab'] == 'L7':
             lab[0]['slot'] = lab[0]['slot']+'4'
+            lab[1]['slot'] = lab[1]['slot']+'3'
         elif div_map['Lab'] == 'L8':
             lab[0]['slot'] = lab[0]['slot']+'1'
+            lab[1]['slot'] = lab[1]['slot']+'5'
         elif div_map['Lab'] == 'L9':
             lab[0]['slot'] = lab[0]['slot']+'3'
+            lab[1]['slot'] = lab[1]['slot']+'2'
         elif div_map['Lab'] == 'L10':
             lab[0]['slot'] = lab[0]['slot']+'5'
+            lab[1]['slot'] = lab[1]['slot']+'4'
+            
+    # else:
+    #     if div_map['Lab'] == 'L6':
+    #         lab[0]['slot'] = lab[0]['slot']+'2'
+    #     elif div_map['Lab'] == 'L7':
+    #         lab[0]['slot'] = lab[0]['slot']+'4'
+    #     elif div_map['Lab'] == 'L8':
+    #         lab[0]['slot'] = lab[0]['slot']+'1'
+    #     elif div_map['Lab'] == 'L9':
+    #         lab[0]['slot'] = lab[0]['slot']+'3'
+    #     elif div_map['Lab'] == 'L10':
+    #         lab[0]['slot'] = lab[0]['slot']+'5'
 
     # Get tt json
     ttJson = get_fresher_tt_slots()
