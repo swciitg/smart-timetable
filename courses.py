@@ -66,15 +66,15 @@ def get_course_codes(roll_number):
     
     # The following is a temporary measure since HSS do not update in sso soon
     # Comment the below once sso is updated
-    roll_to_code = {}
-    with open('data/hss.csv', 'r', newline='',encoding='utf-8-sig') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            print(row)
-            roll_to_code[row['roll']] = row['code']
+    # roll_to_code = {}
+    # with open('data/hss.csv', 'r', newline='',encoding='utf-8-sig') as csvfile:
+    #     reader = csv.DictReader(csvfile)
+    #     for row in reader:
+    #         print(row)
+    #         roll_to_code[row['roll']] = row['code']
     
-    if roll_number in roll_to_code:
-        if roll_to_code[roll_number] not in course_code_list:
-            course_code_list.append(roll_to_code[roll_number])
+    # if roll_number in roll_to_code:
+    #     if roll_to_code[roll_number] not in course_code_list:
+    #         course_code_list.append(roll_to_code[roll_number])
 
     return course_code_list

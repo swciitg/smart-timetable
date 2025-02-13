@@ -1,575 +1,606 @@
-code,name,slot,venue,prof,prof_id,Monday,Tuesday,Wednesday,Thursday,Friday
-BM 501H,Microeconomics,A,,Bodhisattva Sengupta,bsengupta,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-BM 502H,Financial Systems,A1,,Abhay Pant,abhaypant,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-BM 503H,Marketing Management,C,,Kuldeep Baishya,kuldeep.baishya,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-BM 504H,Business Statistics and Data Analysis for Management,D,,Budhaditya Hazra,budhaditya.hazra,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-BM 505H,Organizational Behaviour,B,,Sumant Kumar Bishwas,skbishwas,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-BM 521H,Business Ethics,G,,Abraham Cyril Issac,issacac,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-BM 522H,Project Management,B1,,Pratul Chandra Kalita,pratulkalita,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-BM 625H,Negotiation and Conflict Management,D1,,Abraham Cyril Issac,issacac,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-BM 627H,Performance and Compensation Management,F,,Sumant Kumar Bishwas,skbishwas,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-BM 646H,Marketing Analytics and Metrics,C1,,Kuldeep Baishya,kuldeep.baishya,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-BT 201,Biochemical Process Calculations,D,,Soumen Kumar Maiti,soumenkm,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-BT 201M,Essentials of Biochemistry,G,,Lalit Mohan Pandey,lalitpandey,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-BT 202,Bio-thermodynamics,B,,Narayanasamy Selvaraju,selva,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-BT 203,Biochemistry,C,,Anil Mukund Limaye,amul,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-BT 204,Genetics,F,,Rakhi Chaturvedi,rakhi_chaturvedi,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-BT 205,Cell and Molecular Biology,E,,Siddhartha S. Ghosh,sghosh,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-BT 301,Biophysics,A1,,Rajaram Swaminathan,rsw,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-BT 302,Bioinformatics,C1,,B Anand,banand,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-BT 303,Biochemical Engineering,D1,,Debasish Das,debasishd,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-BT 304,Immunology,B1,,Manish Kumar,mkumar1,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-BT 311,Biochemical Engineering Lab,--,,V. Venkata Dasu,veeranki,,,,,
-BT 312,Analytical Biotechnology Lab,--,,Gurvinder Kaur Saini,gurvinder,,,,,
-BT 401,B.Tech Project I,--,,Rajkumar P. Thummer,rthu,,,,,
-BT 401M,Bioanalytical Techniques and Bioinformatics,A,,"Arun Goyal,","arungoyl, snagotu",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-BT 501,Biotechniques,C,,"Nitin Chaudhary,","chaudhary, vibin",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-BT 503,Advanced Genetic Engineering,A,,Bithiah G. Jaganathan,bithiahgj,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-BT 510,Analytical Biotechnology Lab,--,,Vishal Trivedi,vtrivedi,,,,,
-BT 521,Advanced Bioreactor Engineering,A,,S Senthilkumar,senthilkumar,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-BT 530,Experimental techniques in Bioengineering,--,,"Nitin Chaudhary,","chaudhary, vibin",,,,,
-BT 600,M.Tech Seminar,--,,Himanshu Singh,singh,,,,,
-BT 604,Enzymology,B1,,"Arun Goyal,","arungoyl, snagotu",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-BT 605,Gene Therapy,B1,,Sachin Kumar,sachinku,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-BT 610,Frontiers in Biomolecular Simulation,D,,Shankar Prasad Kanaujia,spkanaujia,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-BT 612,Systems Biology,B,5205,Biplab Bose,biplabbose,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,
-BT 615,Cell Signaling & Development,B1,,Ranjan Tamuli,ranjantamuli,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-BT 618,Biomaterials,D1,,Biman B Mandal,biman.mandal,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-BT 620,Biosensors,D1,5206,Pranab Goswami,pgoswami,5:00 - 5:55 PM,,5:00 - 5:55 PM,,3:00 - 3:55 PM
-BT 621,Advances in Plant Genetic Engineering and Functional Genomics,B1,,"Lingaraj Sahoo,","ls, ubora",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-BT 623,Research Methodology,D,5304,"Utpal Bora","Lingaraj Sahoo",11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
-BT 634,Animal Models in Biomedical Research,D1,,A. B. Kunnumakkara,kunnumakkara,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-BT 636,Tissue Engineering & Regenerative medicines,D1,,Rajkumar P. Thummer,rthu,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-BT 637,Genome Editing and Engineering,C1,,Kusum K Singh,kusumsingh,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-BT 640,Neural Imaging and Signal Systems,C1,,Navin Gupta,cngupta,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-BT 641,Fundamentals Of Human Body Mechanics,F,,Souptick Chanda,csouptick,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-BT 643,Biointerface Engineering,C1,,Lalit Mohan Pandey,lalitpandey,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-BT 644,Biorefineries,C1,,Kannan Pakshirajan,pakshi,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-BT 645,Introduction to IPR and Ethics,D,,Latha Rangan,lrangan,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-BT 651,Quantum Chemistry of atoms and molecules,D,,Priyadarshi Satpati,psatpati,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-BT 698,M. Tech Project I (MTP I),--,,Vishal Trivedi,vtrivedi,,,,,
-BT 700,M. Tech Project I (MTP I),--,,Vishal Trivedi,vtrivedi,,,,,
-CE 101,Engineering Drawing,A1,,"Baleshwar Singh, ,","baleshwar, skar, vivekp",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CE 202,Solid Mechanics,D,,Arunasis Chakraborty,arunasis,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CE 203,Fluid Mechanics,B,,Sreeja P.,sreeja,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CE 207,Engineering Geology,C,,"Archana M Nair, Rishikesh Bharti","nair.archana,rbharti",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CE 208,Engineering Geology Lab,,,Sayantan Chakraborty,sayantan_c,,,,,
-CE 211,Civil Engineering Materials,E,,Indu Siva Ranjani G,"gindu,",,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-CE 212,Civil Engineering Materials Laboratory,,,Bulu Pradhan,bulu,,,,,
-CE 214,Fluid Mechanics Lab,,,Subashisa Dutta,subashisa,,,,,
-CE 302,Structural Analysis II,A1,,Romanbabu Oinam,romanbabu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CE 303,Geotechnical Engg. II,B1,,Abhishek Kumar,abhiak,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CE 304,Transportation Engg. I,C1,,Anjan Kumar S,sak,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CE 305,Reinforced Concrete Design,D1,,Amit Shelke,amitsh,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CE 313,Geotechnical Engineering II Lab,,,Ravi K.,ravi.civil,,,,,
-CE 314,Transportation Engineering I Lab,,,Teiborlang L. Ryntathiang,lyngdoh,,,,,
-CE 316,Environmental Engineering II,F1,,Ajay Kalamdhad,kajay,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CE 402,Design Project,C1,,Hemant B. Kaushik,hemantbk,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CE 411,Dynamic of structure,D,,Hrishikesh Sharma,shrishi,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CE 415,Prestressed Concrete and Industrial Structures,B1,,Sajal K. Deb,skdeb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CE 416,Bridge Engineering,D1,,Kaustubh Dasgupta,kd,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CE 498,Project,,,Secretary DUPC CE,dupccivil,,,,,
-CE 501,Continuum Mechanics,A,,Budhaditya Hazra,budhaditya.hazra,,5:00 - 5:55 PM,5:00 - 5:55 PM,4:00 - 4:55 PM,
-CE 502,Finite Element Methods,B,,Arbind K. Singh,arvind,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,
-CE 503,Structural Dynamics,C,,Sandip Das,sandip.das,10:00 - 10:55 AM,11:00 - 11:55 AM,,,9:00 - 9:55 AM
-CE 512,Structural Engineering Laboratory,,,Konjengbam Darunkumar Singh,darun,,2:00 - 04:55 PM,,,
-CE 514,"Plates, Shells and Elastic Stability",D,,Abhishek Verma,abhi.verma,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CE 521,Process Chemistry for Water and Wastewater Treatment,A,,Saswati Chakraborty,saswati,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CE 522,Physico Chemical Processes in Environmental Engineering,B,,Pranab K. Ghosh,pkghosh,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CE 523,Air and Noise Pollution,C,,Sharad Gokhale,sharadbg,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CE 527,Design of Environmental Engineering Systems,D,,Mohammad Jawed,jawed,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CE 531,Advanced Soil Mechanics,A,,T. V. Bharat,tvb,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CE 532,Dynamics of Soil and Foundations,B,,Arindam Dey,arindam.dey,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CE 541,Infrastructure Planning,A1,,Laishram Boeing Singh,boeing,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CE 542,Project Management in Construction,B1,,"Laishram Boeing Singh, Sparsh Johari","boeing,sparshjohari",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CE 543,Infrastructure Projects - Construction Methods and Equipment Management,C1,,Sparsh Johari,sparshjohari,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CE 549,Project and Thesis Phase-I,,,Secretary DPPC CE,dppccivil,,,,,
-CE 551,Surface Water Hydrology,A,,Subashisa Dutta,subashisa,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CE 553,Advanced Hydraulic Engineering,B,,Arup K. Sarma,aks,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CE 554,Advanced Fluid Mechanics,C,,Suresh A. Kartha,kartha,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CE 560,Computational Methods in Hydraulics and Environmental Engineering Applications,F,,Gautam Barua,g_barua,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CE 567,Sediment Dynamics in Fluvial Systems,G,,Bimlesh Kumar,bimk,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-CE 581,Urban Transportation Systems Planning,G,,RB. Sharmila,rb.sharmila,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-CE 582,Pavement Materials,F,,Rajan Choudhary,rajandce,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CE 587,Expansive Soil,C,,Anil Kumar Mishra,anilmishra,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CE 591,Earth System Dynamics,A1,,Sayantan Chakraborty,sayantan_c,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CE 592,Exploration Geoscience,B1,,Archana M Nair,nair.archana,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CE 593,Advanced Remote Sensing,C1,,Rishikesh Bharti,rbharti,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CE 598,MTech Project- Phase I,,,Secretary DPPC CE,dppccivil,,,,,
-CE 601,Numerical Methods,E1,,Anjan Dutta,adutta,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CE 602,Optimization Methods,D1,,Rajib Kumar Bhattacharjya,rkbc,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
-CE 617,Discrete Choice Modelling,C,,C. Mallikarjuna,c.mallikarjuna,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CE 626,Economic Evaluation and Analysis of Transportation Projects,A1,,Nipjyoti Bharadwaj,nbharadwaj,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CE 642,Subsurface Invstigation and Instrumentation,E,,Kaling Taki,kaling.taki,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-CE 650,Geotechnical Practice for Waste Disposal,F,,Sreedeep S.,srees,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CE 651,Road Safety Engineering,B,,Akhilesh Kumar Maurya,maurya,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CE 652,Precision Remote Sensing,G1,,Ajay Dashora,abd,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-CE 690,Project and Thesis Phase-I,,,Secretary DPPC CE,dppccivil,,,,,
-CE 692,Project & Thesis PhaseI,,,Secretary DPPC CE,dppccivil,,,,,
-CE 694,MTech Project-I,,,Secretary DPPC CE,dppccivil,,,,,
-CE 696,Project and ThesisPhase - I,,,Secretary DPPC CE,dppccivil,,,,,
-CE 698,MTech Project-I,,,Secretary DPPC CE,dppccivil,,,,,
-CH 101,Chemistry,D1,,"Animesh Das, Pavan K Kancharla, Arun Chattopadhyay, Chivukula V Sastri","adas,pavankancharla,arun,sastricv",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CH 110,Chemistry Laboratory,,,"Uttam Manna, Anil Kumar Saikia, Subhas Chandra Pan, Parameswar Krishnan Iyer, Bhisma Kumar Patel, Tharmalingam Punniyamurthy, Krishna Pada Bhabak, Subhendu Sekhar Bag, Debapratim Das, A. S. Achalkumar, Debdas Dhabal","umanna,asaikia,span,pki,patel,tpunni,kbhabak,ssbag75,ddas,achalkumar,ddhabal",,,,,
-CH 212,Inorganic Chemistry,F,,Manabendra Ray,manabray,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CH 221,Organic Chemistry,B,,"Anil Kumar Saikia, Subhas Chandra Pan","asaikia,span",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CH 231,Introduction to Quantum Chemistry,E,,Aditya Narayan Panda,anp,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-CH 301,Environmental Chemistry,B 1,,Samir Kumar Sarkar,sksarkar,,,,,
-CH 302,Technical Report Presentation,,,A. S. Achalkumar,achalkumar,,,,,
-CH 314,Chemical Technology Lab II,,,"Akshai Kumar A. S, Shyam Prosad Biswas","akshaikumar,sbiswas",,,,,
-CH 316,Frontiers of Coordination Chemistry,C1,,V Manivannan,mani,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CH 331,Chemical Kinetics and Electrochemistry,A1,,"Anumita Paul, Kalyanasis Sahu","anumita,ksahu",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CH 401,Modern Chemical Technology,E,,Lal Mohan Kundu,lmkundu,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-CH 410,Chemistry of p- and d-Block Elements,C,,"Akshai Kumar A. S, Shyam Prosad Biswas","akshaikumar,sbiswas",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CH 417,Organometallic Chemistry,B,,Kingsuk Mahata,kingsuk,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CH 420,Principles of Organic Chemistry,D,,"Tharmalingam Punniyamurthy, Krishna Pada Bhabak","tpunni,kbhabak",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CH 426,Green Chemistry and Technology,F1,,Abu Taleb Khan,atk,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CH 427,Medicinal Chemistry,C,,Bhubaneswar Mandal,bmandal,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CH 429,Petroleums and Petrochemicals,F,,"Parameswar Krishnan Iyer, Bhisma Kumar Patel","pki,patel",12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CH 430,Quantum Chemistry,A,,Kalishankar Bhattacharyya,ksb,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CH 431,Group Theory and Spectroscopy,B,,G Krishnamoorthy,gkrishna,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CH 435,Physical Chemistry Laboratory,,,"Kalyan Raidongia, Debasis Manna","k.raidongia,dmanna",,,,,
-CH 498,Project - I,,,DUPC Chemistry,dupcchemistry,,,,,
-CH 511,Principles of Bioinorganic Chemistry,C,,Biplab Mondal,biplab,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CH 515,Inorganic Chemistry Laboratory,,,Chandan Mukherjee,cmukherjee,,,,,
-CH 520,Concepts in Organic Synthesis,D,,Chandan K. Jana,ckjana,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CH 521,Bio-organic Chemistry,B,,"Subhendu Sekhar Bag, Debapratim Das","ssbag75,ddas",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CH 530,Classical and Statistical Thermodynamics,A,,Manabendra Sarma,msarma,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CH 601,Physical Methods in Chemistry,G,,Mohd. Qureshi,mq,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-CH 614,Supramolecules: Concepts and Applications,A,,Gopal Das,gdas,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CH 626,Art in Organic Synthesis,B1,,Dipankar Srimani,dsrimani,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CH 628,Chemistry of Biological Macromolecules,D,,Sunanda Chatterjee,sunanda.c,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CH 633,Chemical Applications of Group Theory,E1,,Ashish Kumar Gupta,gupta,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CH 637,Computational Methods in Chemistry,F,,Debdas Dhabal,ddhabal,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CH 645,Scientific Writing and Presentation,C1,,Jubaraj Bikash Baruah,juba,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CL 201,Chemical Process Calculation,C,,"Animes Kumar Golder,","animes, vmoholkar",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CL 202,Fluid Mechanics,D,,"Raghvendra Gupta,","guptar, tapasche",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CL 203,Chemical Engineering Thermodynamics,E,,"Amit Kumar,","amitkumar, tamalb",,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-CL 204,Heat Transfer,F,,Dipankar Bandyopadhyay,dipban,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CL 301,Mass Transfer II,C1,,"Bishnupada Mandal,","bpmandal, cdas",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CL 302,Chemical Reaction Engineering - II,D1,,Dasmahapatra Ashok Kumar,akdm,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CL 303,Process Control and Instrumentation,A1,,Prabirkumar Saha,p.saha,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-CL 310,Solid Fluid Operations Laboratory,--,,"Kishore Nanda,","nkishore, peelanr",,,,,
-CL 311,Technical Writing and Presentation,--,,"Chandan Das,","cdas, ramgopalu",,,,,
-CL 398,General Learning of Chemical Engineering Research Project - I,--,,DUPC Chemical,dupc.chemical,,,,,
-CL 498,Project I,--,,DUPC Chemical,dupc.chemical,,,,,
-CL 501,Advanced Transport Phenomena,C,,Anugrah Singh,anugrah,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CL 502,Computer Aided Numerical Methods,B,,"Anandalakshmi R.,","anandalakshmi, pkotecha",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CL 511,Petroleum Reservoir Engineering,D,,Pankaj Tiwari,pankaj.tiwari,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CL 512,Petroleum Refinery Engineering,A,,Pugazhenthi G.,pugal,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CL 513,Characterization of Materials,A,,Vaibhav V. Goud,vvgoud,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CL 612,Colloid and Interface Science,A1,5104,Omkar S. Deshmukh,o.deshmukh,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
-CL 615,Optimization Techniques,C1,5104,Senthilmurugan S,senthilmurugan,3:00 - 3:55 PM,,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CL 623,Polymer Science and Technology,F,5G1,Vimal Katiyar,vkatiyar,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CL 631,Smart Material,D1,5104,Mihir Kumar Purkait,mihir,,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CL 634,Applied Rheology,C1,5106,Kishore Nanda,nkishore,3:00 - 3:55 PM,,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CL 635,Advanced Clean Fuel Technologies,A1,5106,Vairakannu Prabu,v.prabu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
-CL 636,Microelectronic fabrication,B1,5106,Venkatesh R. Prasanna,rprasanna,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
-CL 640,Research Methodology and Scientific Writing,E1,5104,Uppaluri Ramgopal V. S.,ramgopalu,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CL 641,Process Intensification and Integration,F1,5106,Peela Nageswara Rao,peelanr,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CL 643,Computer aided applied optimization,F1,5G1,Kotecha Prakash,pkotecha,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CL 645,Applied Statistics for chemical engineers,A,,Pallab Ghosh,pallabg,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CL 649,Polymer Soft Lithography,G1,5106,Gooh Pattader Partho Sarathi,psgp,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-CL 652,Process Modelling and simulation lab,--,,"Senthilmurugan S,","senthilmurugan, tamalb",,,,,
-CL 655,Enhanced Oil Recovery,B1,5106,Sumit Kumar,s_kumar,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
-CL 698,Project,--,,DPPC Chemical,dppcchemical,,,,,
-CS 201,Discrete Mathematics,A,,Purandar Bhaduri,pbhaduri,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CS 203,Algorithms and Data Structures,D,,Deepanjan Kesh,deepkesh,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CS 204,Algorithms and Data Structures Laboratory,--,,V. Vijaya Saradhi,saradhi,,,,,
-CS 205M,Theoretical Foundations of Computer Science,G,,Sajith Gopalan,sajith,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-CS 221,Digital Design,B,,Sukanta Bhattacharjee,sukantab,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-CS 242,System Software Laboratory,--,,Aryabartta Sahu,asahu,,,,,
-CS 322M,Digital Logic and Computer Architecture,E1,,Jatindra Kumar Deka,jatin,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CS 341,Computer Networks,B1,,"Moumita Patra,","moumita.patra, t.venkat",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
-CS 342,Computer Networks Laboratory,--,,"Moumita Patra,","moumita.patra, t.venkat",9:00 - 11:55 AM,,,,
-CS 343,Operating Systems,C1,,Rashmi Dutta Baruah,r.duttabaruah,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
-CS 344,Operating Systems Lab.,--,,Rashmi Dutta Baruah,r.duttabaruah,,,9:00 - 11:55 AM,,
-CS 441M,Software Engineering,A,,Rashmi Dutta Baruah,r.duttabaruah,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CS 498,B Tech Project-I,--,,Sushanta Karmakar,sushantak,,,,,
-CS 512,Design and Analysis of Algorithms,E,,Pinaki Mitra,pinaki,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-CS 513,Data Structures Lab,--,,Sushanta Karmakar,sushantak,,,,,
-CS 514,Mathematics for Computer Science,F,,R. Inkulu,rinkulu,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-CS 515,Computational Finance,F1,,Benny George Kenkireth,ben,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CS 523,Advanced Computer Architecture,E1,,John Jose,johnjose,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CS 525,Formal Methods For System Verification,A1,5G1,Chandan Karfa,ckarfa,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,,
-CS 529,Topics and Tools in Social Media Data Mining,D,,Sanasam Ranbir Singh,ranbir,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-CS 542,Distributed Systems,B,5G1,Diganta Goswami,dgoswami,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,
-CS 549,Computer and Network Security,D1,,Sukumar Nandi,sukumar,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-CS 566,Speech Processing,B1,,Pradip Kumar Das,pkdas,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CS 578,Internet of Things,E1,,Manas Khatua,manaskhatua,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CS 590,Deep Learning,C,,Arijit Sur,arijit,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-CS 601,Mathematics for ML,C1,,Ashish Anand,anand.ashish,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CS 666,Mobile Robotics,C1,,Shivashankar B. Nair,sbnair,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-CS 698,Project I,--,,DPPC CSE,dppccse,,,,,
-DA 211,Algorithms and Data Structure,A,,"Anirban Dasgupta,Sanasam Ranbir Singh","anirban.dasgupta,ranbir@iitg.ac.in",,,3:00 PM - 4:30 PM,3:00 PM - 4:30 PM,
-DA 212,Algorithms and Data Structure Lab,--,,Gaurav Trivedi,trivedi,2:00 PM - 5:00 PM,,,,
-DA 231,Introduction to Data Science,B,,Debanga Raj Neog,dneog,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DA 241,Statistical Foundations for Data Science,C,,"Amulya Kumar Mahto,","akmahto, rhythmgrover",10:00 - 10:55 AM,11:00 - 11:55 AM,,,9:00 - 9:55 AM
-DA 241M,Mathematical Foundations of Data Science,G,,Teena Sharma,teena,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-DA 242,Discrete Mathematics,E,,Amulya Kumar Mahto,akmahto,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-DA 251,"Signals , Systems & Networks",D,,Arghyadip Roy,arghyadip,11:00 - 11:55 AM,,,9:00 - 9:55 AM,10:00 - 10:55 AM
-DA 311,Machine Learning Laboratory,--,,Ayon Borthakur,ayon.borthakur,,,,,
-DA 321,Multi-modal Data Processing & Learning - I,A1,,Neeraj Kumar Sharma,neerajs,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-DA 321M,Machine Learning,E1,,"Arghyadip Roy,","arghyadip, pwpatil",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-DA 322,Machine Learning,F1,,Ayon Borthakur,ayon.borthakur,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-DA 331,Big Data Analytics : Tools & Techniques,C1,,Chiranjib Sur,chiranjib,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-DA 341,Applied Time Series Analysis,D1,,Rhythm Grover,rhythmgrover,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-DA 351,Computer Systems,B1,,"Ratnajit Bhattacharjee,","ratnajit, ribhufec",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-DA 421,FATE in AI Models,D,,V. Vijaya Saradhi,saradhi,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-DA 421M,Multi-modal Data Processing and Learning,A,5305,Prashant W Patil,pwpatil,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-DA 461,Bioinformatics,C,,Vibin Ramakrishnan,vibin,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DA 462,Data Analytics for Finance,B,,"Arabin Kumar Dey,","arabin, pratim",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DA 498,BTP Project I,--,,"SUPC, MFSDS&AI",supc_mfsdsai,,,,,
-DA 511H,Data Structures and Algorithms,C,,Gaurav Trivedi,trivedi,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DA 513,Data structures and Databases Lab,--,,Debanga Raj Neog,dneog,,,,,
-DA 514,Python Programming Lab,--,,Neeraj Kumar Sharma,neerajs,,,,,
-DA 626,Recommendation System Design Using Deep Learning,F,,Chiranjib Sur,chiranjib,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-DA 675,Fuzzy Systems and Applications,E,,Teena Sharma,teena,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-DD 101,Introduction to Design,,,D. Udaya Kumar,d.udaya,,,,,
-DD 102,Representation Techniques,,,Shrivastava Abhishek,shri,,,,,
-DD 103,Elements of Design,B1,,Utpal Barua,utpalb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-DD 104,Applied Science for Design,A1,,Ajeet Kumar,ajeetkumar,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-DD 105,Tinkering studio,C1,,A. K. Das,dasak,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-DD 201,Form Studies,,,Abhishek Singh,abhisheksingh11,,,,,
-DD 202,Photo and Video Communication,A,,Mriganka Madhukailya,mriganka,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-DD 203,Materials and Processes,B,,Ajeet Kumar,ajeetkumar,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DD 204,Visual Communication Theory,C,,Sheetal Madhav Gokhale,sheetalg,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DD 205,Ergonomics in Design,D,,Sougata Karmakar,karmakar.sougata,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-DD 206,User Research Methods,E,,Sharmistha Banerjee,sharmistha,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-DD 210M,Introduction to Design,--,,Supradip Das,supradip.das,,,,,
-DD 216,BDes Project I,,,Sougata Karmakar,karmakar.sougata,,,,,
-DD 301,Interaction Design,A1,,Shrivastava Abhishek,shri,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-DD 302,Design Analysis,B1,,Sharmistha Banerjee,sharmistha,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-DD 304,Tangible Interfaces,C1,,Keyur Sorathia,keyur,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-DD 310M,Product Design,--,,SANTOSH NAGNATH JAGTAP,santosh.jagtap,,,,,
-DD 321,Modelling and SImulation Techniques,,,Abhishek Singh,abhisheksingh11,,,,,
-DD 322,Animation Fundamentals,,,Manoj Majhi,manojmaj,,,,,
-DD 398,BDes Project II,--,,D. Udaya Kumar,d.udaya,,,,,
-DD 401,Design Management,C,,Pratul Chandra Kalita,pratulkalita,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DD 402,Design Research and Technical Writing,B,,Keyur Sorathia,keyur,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DD 410M,Design Management,A,,Pratul Chandra Kalita,pratulkalita,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-DD 498,Design Project III,,,Sougata Karmakar,karmakar.sougata,,,,,
-DD 499,BDes Project IV,--,,Sougata Karmakar,karmakar.sougata,,,,,
-DD 501,Design - An Introduction,E1,,Shakuntala Acharya,shakuntala.a,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-DD 502,Visual Design - Principles and Applications,C,,Utpal Barua,utpalb,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DD 503,Ergonomics,A1,,Ravi Mokashi Punekar,mokashi,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-DD 504,Design Methods,B,,A. K. Das,dasak,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DD 512,New Media Studies,C1,,Mriganka Madhukailya,mriganka,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-DD 515,Typography,D1,,D. Udaya Kumar,d.udaya,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-DD 518,Representation Techniques for Animation,,,Manoj Majhi,manojmaj,,,,,
-DD 521,System Design For Sustainability,C1,,Sharmistha Banerjee,sharmistha,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-DD 539,Film Design,,,Sheetal Madhav Gokhale,sheetalg,,,,,
-DD 542,Introduction to Industrial Design,E1,,Shakuntala Acharya,shakuntala.a,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-DD 543,Product Design Methods,B,,A. K. Das,dasak,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DD 544,Ergonomics in Product Design,A1,,Ravi Mokashi Punekar,mokashi,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-DD 545,Rapid Prototyping and Development,,,Pankaj Upadhyay,pankaj.upadhyay,,,,,
-DD 550,Image Processing with Machine Learning,C,,Prabin Kumar Bora,prabin,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DD 560,Design for Development,B1,,SANTOSH NAGNATH JAGTAP,santosh.jagtap,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-DD 603,Thesis Project Phase I,,,Pankaj Upadhyay,pankaj.upadhyay,,,,,
-DD 608,Thesis Project (Phase I),,,Prabin Kumar Bora,prabin,,,,,
-DD 609,Expert Workshop,,,Ravi Mokashi Punekar,mokashi,,,,,
-DD 611,Foundations for Electronic Product Design,A,,Prabin Kumar Bora,prabin,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-DD 616,Information Visualization Using Storytelling,B1,,Debayan Dhar,debayan,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-DD 705,Design Research Methods,E1,,Debayan Dhar,debayan,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-DD 709,Design-based Project,,,Supradip Das,supradip.das,,,,,
-DD 711,Strategic Design Management,A,,Pratul Chandra Kalita,pratulkalita,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-DD 712,Problem-based Learning through Design,D1,,Shakuntala Acharya,shakuntala.a,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-DM 501,Fundamentals of disaster management,A,,"Hemant B. Kaushik,","hemantbk, sudipmitra",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-DM 502,Socio-economic and policy aspects of disaster risk reduction,B,,Rajshree Bedamatta,rajshree,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DM 512,Ergonomics in Product and Facility Design,C,,Sougata Karmakar,karmakar.sougata,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DM 698,Project Phase 2,D,,,cppcdm,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-DM 699,Project (Phase 3),E,,,cppcdm,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-DS 698,MTP Project - I,--,,Deepanjan Kesh,deepkesh,,,,,
-EE 101,Basic Electronics,C1,,A. Rajesh,rajesha,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EE 203,Semiconductor Devices,B,,Ankush Bag,ankushbag,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-EE 204,Circuit Theory,E,,Srinivasan Krishnaswamy,srinikris,10:00 - 10:55 AM,11:00 - 11:55 AM,,,9:00 - 9:55 AM
-EE 205,Principles of Electrical Engineering,E,,Sanjib Ganguly,sganguly,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 210,Digital circuits,C,,Debabrata Sikdar,deb.sikdar,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 211,Digital circuits Laboratory,,,Shaik Rafi Ahamed,rafiahamed,,,,,
-EE 211M,Analog Circuits,G,,Harshal B. Nemade,harshal,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-EE 220,Signals and Systems,D,,Manish Bhatt,manishb,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EE 312,Embedded Systems,D1,,Sonali Chouhan,sonali,,,,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 321,Digital Signal Processing,B1,,Shaik Rafi Ahamed,rafiahamed,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
-EE 331,Principles of Communication,A1,,Ribhu Chopra,ribhufec,2:00 - 2:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 340,Electromagnetic Theory,C1,,Ashwini Sawant,ashwinisawant,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,
-EE 340M,Electromagnetic Field Theory,E1,,Rakhesh Singh Kshetrimayum,krs,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EE 351,Control and Robotics Laboratory,,,Chayan Bhawal,bhawal,,,,,
-EE 380,Electrical Machines,B1,,Sreenath J G,sreenathjg,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EE 398,BTech Project-I,--,,Rishikesh Dilip Kulkarni,rishi.k,,,,,
-EE 424M,Communication Systems,A,,Kuntal Deka,kuntaldeka,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-EE 498,Project I,--,,Rishikesh Dilip Kulkarni,rishi.k,,,,,
-EE 510,Semiconductor Device Modeling,G,,Arun Tej Mallajosyula,aruntej,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-EE 511,Nano-devices: physics and modelling,G,,Tanmay Dutta,tanmay.dutta,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-EE 513,Nanoelectronics Fabrication Technology,F,,Ravindra Kumar Jha,jha,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-EE 514,Digital IC Design,E,,Roy Paily Palathinkal,roypaily,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 518,Digital IC design Lab,,,Gaurav Trivedi,trivedi,,,,,
-EE 519,Photonics and Microelectronics Laboratory,,,Ramesh Kumar Sonkar,sonkar,,,,,
-EE 520,Signal Processing Algorithms and Architectures,E,,Anirban Dasgupta,anirban.dasgupta,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 523,Introduction to Machine Learning,F,,M. K. Bhuyan,mkb,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-EE 524,Machine Learning Laboratory,,,M. K. Bhuyan,mkb,,,,,
-EE 530n,Digital Communications,G,,Manoj BR,manojbr,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-EE 531n,Random Processes for Communications,F,,Salil Kashyap,salilkashyap,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-EE 532,Matrix Theory for Communications,E,,Arun B Aloshious,aloshious,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 534n,Simulation Methods for Communications,D,,Kalpana Dhaka,kalpana.dhaka,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EE 542,RF Circuits and Systems,E,,Ratnajit Bhattacharjee,ratnajit,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 547,Photonics Devices,F,,Ramesh Kumar Sonkar,sonkar,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-EE 550,Linear Systems Theory,G,,Chayan Bhawal,bhawal,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-EE 551,Estimation and Identification,F,,Hanumant Singh Shekhawat,h.s.shekhawat,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-EE 552,Applied Control Lab,,,Parijat Bhowmick,parijat.bhowmick,,,,,
-EE 556,Linear Algebra,E,,Indrani Kar,indranik,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 560,Power Electronic Converters,F,,Chandan Kumar,chandank,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-EE 561,Power Electronics Laboratory,,,A. Ravindranath,ravindranath,,,,,
-EE 570,Modern Power Systems,E,,Praveen Tripathy,ptri,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EE 571,Insulation and High Voltage Engineering,C,,Sisir Kumar Nayak,sknayak,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-EE 590,Linear Algebra and Optimization,G,,Smarajit Das,dass,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-EE 591,Probability and Stochastic Processes,D,,Samarendra Dandapat,samaren,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EE 601,Introduction to Distributed Control Systems,E1,5001,Parijat Bhowmick,parijat.bhowmick,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EE 610,Fundamentals of VLSI CAD,A1,5G3,Gaurav Trivedi,trivedi,5:00 - 6:55 PM,4:00 - 4:55 PM,,,
-EE 616,Circuits for Sensor Signal Processing,D,5001,Mahima Arrawatia,mahimaarrawatia,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EE 623,Speech Signal Processing and Coding,D1,5001,Rohit Sinha,rsinha,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 627,Biometrics,E1,5406,Kannan Karthik,k.karthik,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EE 646,Optical Measurement Techniques and Applications,A1,5406,Rishikesh Dilip Kulkarni,rishi.k,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 647,Microsensors and Nanosensors,C1,5001,Ravindra Kumar Jha,jha,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
-EE 652,Digital Control,D1,5G3,Chitralekha Mahanta,chitra,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EE 658,Optimization Techniques,B1,5406,Kuntal Deka,kuntaldeka,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,
-EE 660,Modelling and Control of Power Electronic Converters,A1,5001,A. Ravindranath,ravindranath,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EE 677,Smart power grids for a sustainable future,B1,2101,Prabir Barooah,pbarooah,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EE 693,Advanced Topics in Random Processes,F1,5001,A. Rajesh,rajesha,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-EE 697,Medical Imaging,B1,2102,Manish Bhatt,manishb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EE 698,Project Phase I,--,,A. Ravindranath,ravindranath,,,,,
-EE 699,MTP Phase II,--,,Salil Kashyap,salilkashyap,,,,,
-EE 791,Stochastic Analysis of Wireless Networks,C1,,Sudarshan Mukherjee,smukherjee,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EM 598,Project Phase 2,--,,"Karuna Kalita,","karuna.kalita, pbarooah",,,,,
-EN 201,Electrical Machines and Power Electronics,C,,E S N Raju P,pesnraju88,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-EN 202,Engineering Thermodynamics,B,,Farrukh Khalid,f.khalid,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-EN 203,Fluid Mechanics and Fluid Machines,E,,Pankaj Kalita,pankajk,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-EN 204,Fuels and Combustion Engineering,D,,Ranjith Thangavel,ranjith.t,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-EN 205,Fuels and Combustion Laboratory,--,,"Ranjith Thangavel,","ranjith.t, vvgoud",,,,,
-EN 301,"Power Generation, Transmission and Distribution",A1,5301,Kuldeep Kumar,kuldeepk,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EN 302,"Wind, Hydro and Ocean Technology",D1,5301,"Pankaj Kalita, Ajay Singh","pankajk,singhajay",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EN 303,Hydrogen and Fuel Cell Technology,B1,5301,Ajay Singh,singhajay,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EN 304,Energy Storage Systems,C1,5301,"Kuldeep Kumar, Ranjith Thangavel","kuldeepk, ranjith.t",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EN 305,Wind and Hydro Energy Laboratory,--,,E S N Raju P,pesnraju88,,,9:00 - 12:00 PM,,
-EN 306,Modelling and Simulation Laboratory,--,,Kuldeep Kumar,kuldeepk,9:00 - 12:00 PM,,,,
-EN 661,Renewable Energy Systems,B1,,Pankaj Kalita,pankajk,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-EN 663,Operation and instrumentation,E1,,Vaibhav V. Goud,vvgoud,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-EN 672,Energy Storage Systems,C1,,Ranjith Thangavel,ranjith.t,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-EN 673,Fundamentals of Energy Engineering,D1,,Farrukh Khalid,f.khalid,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-EN 680,Distributed Energy Resources in Electric Grid,A1,,E S N Raju P,pesnraju88,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-EN 698,Project 2,--,,DPPC Energy,dppcenergy,,,,,
-HS 119,Sociology of Science,G1,5G1,Sambit Mallick,sambit@iitg.ac.in,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-HS 126,International Economics,G1,5G2,Bhaskar Jyoti Neog,bhaskar.neog@iitg.ac.in,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-HS 128,Introduction to Psychology,G1,5G3,Naveen Kashyap,nkashyap@iitg.ac.in,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-HS 129,Economic Theory: An Introduction,G1,L1,Agnirup Sarkar,agnirupsarkar@iitg.ac.in,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-HS 133,Introduction to Phonetics,G1,L2,Priyankoo Sarmah,priyankoo@iitg.ac.in,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-HS 147,War and Peace: India’s Military History,G1,L3,Vipul Dutta,vipul.dutta@iitg.ac.in,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-HS 158,Introduction to Language Acquisition,G1,L4,Bidisha Som,bidisha@iitg.ac.in,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-HS 211,Sound Structure of Language and Speech Analysis,G,5G1,Shakuntala Mahanta,smahanta@iitg.ac.in,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 213,Psychology of Health and Adjustment,G,5G2,Dilwar Hussain,dhussain@iitg.ac.in,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 214,Industrial Organization,G,5G3,Amarjyoti Mahanta,amarjyoti@iitg.ac.in,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 217,Social History of Technology in Modern India,G,L1,John Thomas,johnthomas@iitg.ac.in,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 231,Sociology of Communication,G,L2,Rituparna Patgiri,rituparnapatgiri@iitg.ac.in,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 236,Sociological Perspectives on Modernity,G,L3,Visakh MS,visakhms@iitg.ac.in,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 239,Economics of Uncertainty and Information,G,L4,Bodhisattva Sengupta,bsengupta@iitg.ac.in,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 231M,Comparative Drama,G,,Rohini Mokashi-Punekar,rohini,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS 418M,Language and Thought,A,,Bidisha Som,bidisha,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-HS 501,Essentials of Political Theory,A,,Prabhu Venkataraman,vprabhu,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-HS 506,Interrogating Modernity,A1,,"Ngamjahao Kipgen,","kipgen, sambit",,,3:00 - 3:55 PM,3:00 - 3:55 PM,3:00 - 3:55 PM
-HS 513,Transnationalism and Migration: Issues of Development,D1,,Sukanya Sharma,sukanya,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-HS 514,Agriculture and Rural Development,B1,,Mrinal Kanti Dutta,mkdutta,,,10:00 - 10:55 AM,10:00 - 10:55 AM,10:00 - 10:55 AM
-HS 515,Introduction to Economics,B,,Rajshree Bedamatta,rajshree,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-HS 516,The Study of Society,C,,Sawmya Ray,sawmyaray,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-HS 519,Economic History of Colonial India,D,,Arupjyoti Saikia,arupjyoti,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-HS 520,Environment and Development,C1,,Ngamjahao Kipgen,kipgen,2:00 - 2:55 PM,2:00 - 2:55 PM,2:00 - 2:55 PM,,
-HS 522,Quantitative Research Methods in Social Sciences,E,,Bodhisattva Sengupta,bsengupta,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HS 553,History and Philosophy of Science,E1,,Abhishek Kashyap,abhishek.kashyap,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-HS 554,Theories and Thinkers: The Concept of Culture,B,,Sukanya Sharma,sukanya,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-HS 555,Introduction to Liberal Studies,C,,"Abhishek Kashyap, , , ,","abhishek.kashyap, jhamk21, liza, smahanta, vipul.dutta",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-HS 558,Between History and Memory : Genres of Life Writing,D,,Rohini Mokashi-Punekar,rohini,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-HS 560,Race and the Novel,E,,Kiran Keshavamurthy,kirank,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HS 566,Debates in Philosophy,B1,,Abhishek Kashyap,abhishek.kashyap,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-HS 568,Digital Humanities: Theories in Practice,C1,,Debapriya Basu,debapriya.basu,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-HS 570,Paths to Policymaking in India,F,,Pahi Saikia,pahi,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-HS 618,Modern Political and Social Imaginaries,D1,,Mithilesh Kumar Jha,jhamk21,3:00 - 3:55 PM,,,5:00 - 5:55 PM,5:00 - 5:55 PM
-HS 620,Political Economy of Agrarian Development,E1,,Debarshi Das,debarshidas,4:00 - 4:55 PM,3:00 - 3:55 PM,4:00 - 4:55 PM,,
-HS 625,Environment History of India,B1,,Arupjyoti Saikia,arupjyoti,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-HS 630,Causal Inference in Development Economics,F1,,Amarjyoti Mahanta,amarjyoti,5:00 - 5:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,4:00 - 4:55 PM
-HS 696,Project I,--,,DPPC HSS,dppchss,,,,,
-HS 698,Project Phase 1,--,,DPPC HSS,dppchss,,,,,
-HS 706,Topics in Economics,F,,Amarjyoti Mahanta,amarjyoti,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-HS 707,Invisible Exchanges,B,,Liza Das,liza,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-HS 713,Criticism: Theory and Application,E,,Liza Das,liza,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HS 714,Understanding Organizational Behaviour: Theory and Research,E,,Nachiketa Tripathi,nachi,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HS 716,Research Methodology in Psychology,F,,Naveen Kashyap,nkashyap,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-HS 723,Methods in Historical Research,D,,John Thomas,johnthomas,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-HS 729,Sociological Theory,D,,Vishakh M S,visakhms,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-HS 730,Research Methods in Sociology,A,,Rituparna Patgiri,rituparnapatgiri,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-HS 735,Experimental Phonology,B,,Shakuntala Mahanta,smahanta,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-HS 737,Cognitive Linguistics: Theories and Methods,C,,Bidisha Som,bidisha,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-HS 738,"Perspectives on Science, Technology and Society",B,,Sambit Mallick,sambit,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-HS 744,Labour Markets in Developing Countries,B,,Rajshree Bedamatta,rajshree,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-HS 745,Phonological Acquisition,F,,Shakuntala Mahanta,smahanta,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-HS 749,Issues in Tone Languages,E,,Priyankoo Sarmah,priyankoo,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HS 754,Dynamic Methods in Economics,E,,Bodhisattva Sengupta,bsengupta,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HS 757,Sociology of Religion,C,,Ngamjahao Kipgen,kipgen,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-HS 763,Research Methods in Political Science,E,,"Pahi Saikia, Mithilesh Kumar Jha","pahi,jhamk21",,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HS 768,Bilingualism: language and cognition,F,,Bidisha Som,bidisha,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-HS 784,Acoustic Analyses of Tone Languages,F,,Priyankoo Sarmah,priyankoo,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-HT 501,Introduction to Cellular Processes,A,,"Ranjan Tamuli, ,","ranjantamuli, sghosh, subrata.pramanik",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-HT 502,Basic Physiology for Clinical Immersion,A1,,"Biman B Mandal, ,","biman.mandal, bithiahgj, subrata.pramanik",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-HT 503,Introduction to Biomedical Electronics and Instrumentation,B,,"Arun Tej Mallajosyula, , , , ,","aruntej, harshal, rajivkar, roypaily, subrata.pramanik, tanmay.dutta",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-HT 504,Basics of Mathematical Modelling and Simulation,C,,"Raghvendra Gupta, , ,","guptar, palash.ghosh, rajivkar, selva",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-HT 505,"Research Methodology, Ethics, IPR, Entrepreneurship and Biosafety",D,,"Akshai Kumar A. S, , , ,","akshaikumar, dipban, psgp, rajivkar, tapasche",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-HT 598,Project-1,A,,Dipankar Bandyopadhyay,dipban,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-IFST 001,Advanced Food Processing,C,,"Anandalakshmi R.,","anandalakshmi, o.deshmukh",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-IFST 002,International Joint Exercises in Food Science and Technology,--,,Omkar S. Deshmukh,o.deshmukh,,,,,
-IFST 003,International Joint Global Internship & Seminar-B,B,,Chandan Das,cdas,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-IFST 005,Design thinking and Scientific Writing,E1,,Uppaluri Ramgopal V. S.,ramgopalu,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-IFST 019,Joint Degree Dissertation,--,,Chandan Das,cdas,,,,,
-IK 601,Elements of Indian Knowledge Systems,F,,T. V. Bharat,tvb,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-LS 501,Mathematics and Statistics,D,,"Budhaditya Hazra,","budhaditya.hazra, rsinha",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-LS 551,Introduction to Linguistic Science,E,,Priyankoo Sarmah,priyankoo,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-MA 001,Preparatory Mathematics I,--,,M. Guru Prem Prasad,mgpp,,,,,
-MA 101,Mathematics - I,B1,,"Bhupen Deka, , ,","bdeka, cpal, passkrishna, swetatiwari",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-MA 201,Mathematics III,A,,"Jitendriya Swain, , ,","jitumath, pratim, rksri, satyajitp",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-MA 211M,Real Analysis,G,,Anjan K. Chakrabarty,anjankc,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-MA 221,Discrete Mathematics,D,,Partha Sarathi Mandal,psm,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-MA 222,Elementary Number Theory and Algebra,F,,Rupam Barman,rupam,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-MA 225,Probability Theory and Random Processes,C,,Subhamay Saha,saha.subhamay,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-MA 251,Data Structures,E,,Gautam K. Das,gkd,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-MA 311M,Scientific Computing,E1,,Jiten Chandra Kalita,jiten,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-MA 321,Optimization,D1,,Sriparna Bandopadhyay,sriparna,2:00 - 2:55 PM,,,4:00 - 4:55 PM,3:00 - 3:55 PM
-MA 323,Monte Carlo Simulation,--,,"Ayon Ganguly,","aganguly, nselvaraju",,,5:00 - 5:55 PM,10:00 - 11:55 AM,
-MA 372,Stochastic Calculus for Finance,A1,,N. Selvaraju,nselvaraju,,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-MA 411M,Differential Geometry,A,,K. V. Srikanth,kvsrikanth,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-MA 423,Matrix Computations,C,,Shreemayee Bora,shbora,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-MA 473,Computational Finance,E,,Natesan Srinivasan,natesan,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-MA 498,Project-I,--,,Rafikul Alam,rafik,,,,,
-MA 501,Discrete Mathematics,C,,Sukanta Pati,pati,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-MA 502,Graph Theory,B,,K. V. Krishna,kvk,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-MA 509,Algebraic Number Theory,G1,,"Anupam Saikia,","a.saikia, rupam",,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-MA 511,Computer Programming,E,,H. Ramesh,ramesh_h,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-MA 514,Theory of Computation,B1,,Sagarmoy Dutta,sagarmoy,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-MA 518,Database Management Systems,C1,,Ashok Singh Sairam,ashok,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-MA 521,Modern Algebra,B,,Vinay Wagh,vinay.wagh,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-MA 522,Linear Algebra,D,,Anupam Saikia,a.saikia,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-MA 541,Real Analysis,A,,Pratyoosh Kumar,pratyoosh,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-MA 543,Functional Analysis,A1,,Arup Chattopadhyay,arupchatt,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-MA 550,Measure Theory,D1,,Shyamashree Upadhyay,shyamashree,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-MA 567,Partial Differential Equations,B1,,Swaroop Nandan Bora,swaroop,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-MA 572,Numerical Analysis,E1,,Rajen Kumar Sinha,rajen,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-MA 579H,Scientific Computing,A,,Rafikul Alam,rafik,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-MA 580H,Matrix Computations,A,,Rafikul Alam,rafik,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-MA 581,Numerical Computations Lab,--,,Rafikul Alam,rafik,,,,,
-MA 589,Statistical Foundations for Data Science,B,,Ayon Ganguly,aganguly,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-MA 625,Linear Algebra-I,A1,,Bikash Bhattacharjya,b.bikash,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-MA 642,Real Analysis-1,B1,,Bhaba Kumar Sarma,bks,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-MA 662,Differential Equations,C1,,Durga Charan Dalal,durga,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-MA 689,Applied Statistics,F,2202,Palash Ghosh,palash.ghosh,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-MA 697,Seminar,--,,M. Guru Prem Prasad,mgpp,,,,,
-ME 110,Workshop I,--,,"S. Kanagaraj, , , ,","kanagaraj, pankaj.biswas, psr, tarkes.pallicity, uday",,,,,
-ME 201Mn,Manufacturing Technology,G,,Biranchi Panda,pandabiranchi,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-ME 211,Thermodynamics,D,,Niranjan Sahoo,shock,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-ME 212,Solid Mechanics I,B,,"Arup Nandy, ,","arupn, kpmech, spanda",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-ME 213,Engineering Materials,C,,"S. Kanagaraj,","kanagaraj, pkhanikar",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-ME 214,Fluid Mechanics - I,E,,"Anoop K. Dass,","anoop, vkb",,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-ME 215,Machine Drawing,--,,"Debabrata Chakraborty, , ,","chakra, karuna.kalita, kpmech, snj",,,,,
-ME 216,Mechanical Engg Laboratary- I,--,,"Amaresh Dalal, , , , ,","amaresh, arupn, pandabiranchi, pkhanikar, saha, spanda",,,,,
-ME 311,Heat Transfer,A1,,Arnab Kumar De,akd,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-ME 312,Manufacturing Technology II,C1,,"R. K. Mittal ,","rkmittal, ukk",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-ME 313,Dynamics of Machinery,D1,,"Rajiv Tiwari,","rtiwari, ssg",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-ME 314,Design of Machine Elements,F1,,"Sandeep Reddy Basireddy,","bsandeepr, chakra",1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-ME 315,Mechanical Engineering Laboratory III,--,,"Atanu Banerjee, , , , ,","atanub, manasdas, rtiwari, s.m.hazarika, sashin, swarupbag",,,,,
-ME 399,BTech Project-II,,,,,,,,,
-ME 401,Summer Training,--,,Tarkes Dora Pallicity,tarkes.pallicity,,,,,
-ME 401M,Project,--,,Sandeep Reddy Basireddy,bsandeepr,,,,,
-ME 498,BTech Project-III,--,,Manas Das,manasdas,,,,,
-ME 501,Advanced Engineering Mathematics,B1,,"Shyamanta M. Hazarika,","s.m.hazarika, sajan.kapil",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-ME 502,Engineering Computing Laboratory,--,,"Atul K. Soti, , , ,","atulsoti, dnbasu, gmadhu, sajan.kapil, ssg",,,,,
-ME 504,MTP Phase I,--,,Biranchi Panda,pandabiranchi,,,,,
-ME 505,MTP Phase II,--,,,-,,,,,
-ME 510,Subtractive Manufacturing,A1,,Manas Das,manasdas,4:00 - 4:55 PM,4:00 - 4:55 PM,,,5:00 - 5:55 PM
-ME 512,Welding and Additive Manufacturing,E,,Pankaj Biswas,pankaj.biswas,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-ME 520,Fluid Mechanics,A1,,Dipankar Narayan Basu,dnbasu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-ME 521,Conduction and Radiation,E,,Amaresh Dalal,amaresh,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-ME 522,Convective Heat Transfer,C1,,Amaresh Dalal,amaresh,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-ME 523,Advanced Thermodynamics,G1,,Tapan Krishnakumar Mankodi,tapan.mankodi,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-ME 530,Advanced Mechanics of Solids,A1,,Atanu Banerjee,atanub,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-ME 531,Mechanical Vibrations,C,,Santosha K. Dwivedy,dwivedy,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-ME 532,Finite Element Methods in Engineering,F,,Uday S. Dixit,uday,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-ME 543,Computational Fluid Dynamics,D,,Atul K. Soti,atulsoti,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-ME 550,Introduction to Aerospace Engineering,C,,Ujjwal K. Saha,saha,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-ME 551,Aerodynamics,A1,,Gavara Madhusudhana,gmadhu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-ME 606,Solidification Processing,G1,,P. S. Robi,psr,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-ME 609,Optimization Methods in Engineering,B,,Deepak Sharma,dsharma,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-ME 644,Modern Control,E,,Karuna Kalita,karuna.kalita,5:00 - 5:55 PM,,9:00 - 9:55 AM,10:00 - 10:55 AM,
-ME 659,Tribology of Bearings,D1,,Sashindra K. Kakoty,sashin,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-ME 664,Theory of Elasticity,E,,Tarkes Dora Pallicity,tarkes.pallicity,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-ME 674,Soft Computing in Engineering,D,,Sukhomay Pal,spal,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-ME 678,Mechanics of Sheet Metal Forming,D1,,Ramabadran Ganesh Narayanan,ganu,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-ME 679,Mechanical Behaviour of Materials,D,,Swarup Bag,swarupbag,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-ME 686,Micro manufacturing,C,,Shrikrishna N. Joshi,snj,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-ME 690,Hydrodynamic Stability and Transition to Turbulence,D1,,Bhaskar Kumar,bhaskark,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-NT 601,"Nano Device: Fabrication, Productization and Patent",A1,,"Ankush Bag, , ,","ankushbag, aruntej, rajivkar, tanmay.dutta",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-NT 602,Laboratory Safety and Risk Management: Principles,B1,,"Ankush Bag, , ,","ankushbag, aruntej, rajivkar, tanmay.dutta",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-NT 705,Recent Advances in Nanotechnology,C1,,"Ankush Bag, , ,","ankushbag, aruntej, rajivkar, tanmay.dutta",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-PH 001,Preparatory Physics-I,A,,Bosanta R Boruah,brboruah,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-PH 101,Physics - I,E1,,"Arunansu Sil, , , , ,","asil, bhuyan, debu, sbdas, soumitra.nandi, tarak.dey",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-PH 110,Physics Laboratory,--,,"Gagan Kumar, , , ,","gk, malli, rsingha, s.bhaumik, skhijwania",,,,,
-PH 201,Mathematical Physics,A,,Poulose Poulose,poulose,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-PH 203,Classical Mechanics,B,,Malay Kumar Nandy,mknandy,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-PH 205,Semiconductor Devices,C,,Pravat Kumar Giri,giri,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-PH 207,Heat and Thermodynamics,E,,Subhradip Ghosh,subhra,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH 209,Analog Electronics,F,,Uday Narayan Maiti,udaymaiti,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-PH 211,Electronics Laboratory -I,--,,"Alika Khare, ,","alika, asil, dpal",,,,,
-PH 281M,Quantum Physics,G,,Gagan Kumar,gk,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-PH 301,Statistical Mechanics,A1,,Sitangshu Bikas Santra,santra,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-PH 303,Quantum Mechanics II,B1,,Bibhas Ranjan Majhi,bibhas.majhi,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-PH 305,Engineering Optics,C1,,Sayan Chakrabarti,sayan.chakrabarti,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-PH 307,Atomic and Molecular Spectroscopy,D1,,Pankaj Kumar Mishra,pankaj.mishra,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-PH 309,Electronics Lab-II,--,,"Charudatt Y Kadolkar,","charu, dborah",,,,,
-PH 381M,Computational Physics,E1,,Dilip Pal,dpal,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-PH 401,Math Phy-I,A,,Charudatt Y Kadolkar,charu,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-PH 403,Classical Mechanics,B,,Ashwini Kumar Sharma,aksharma,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-PH 405,Quantum Mechanics-I,C,,Saurabh Basu,saurabh,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-PH 407,Computer programming and numerical methods,D,,"Malleswararao Tangi,","malli, rsingha",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-PH 409,Electronics,E,,Binoy Krishna Hazra,bkhazra,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH 411,Electronics Lab,--,,"Bipul Bhuyan, ,","bhuyan, bkhazra, gsetlur",,,,,
-PH 413,Nanoelectronics and Nanophotonics,B,,Saikat Bhaumik,s.bhaumik,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-PH 415,Simulation techniques in physical systems,C,,Vibhav Bharadwaj Shivakumar,vibhav9,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-PH 419,Materials Science and Engineering,D,,Seenipandian Ravi,sravi,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-PH 421,Project-I,--,,Debaprasad Maity,debu,,,,,
-PH 445,Optical Communication Systems,F,,Sunil K Khijwania,skhijwania,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-PH 460,Electroceramics,E,,D Pamu,pamu,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH 481M,Materials Science and Engineering,A,,Pratima Agarwal,pratima,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-PH 499,Project II,--,,,dupcphy,,,,,
-PH 501,Electrodynamics II,A1,,Alika Khare,alika,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-PH 503,Atomic and Molecular Physics,B1,,Udit Raha,udit.raha,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-PH 505,Solid State Physics,C1,,Perumal Alagarsamy,perumal,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
-PH 507,Nuclear and Particle Physics,D1,,Meduri C Kumar,mckumar,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
-PH 509,Project-1,--,,D Pamu,pamu,,,,,
-PH 511,General Physics Laboratory II,--,,"Pankaj Kumar Mishra, ,","pankaj.mishra, rmaiti, sovan",,,,,
-PH 522,Physics of Semiconductors,E1,,Subhash Thota,subhasht,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-PH 532,Laser Spectroscopy,F1,,Rishi Maiti,rmaiti,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-PH 543,Quantum Field Theory,G1,,Sovan Chakraborty,sovan,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
-PH 701,Advanced Condensed Matter Physics,A,,Girish Sampath Setlur,gsetlur,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-PH 703,Quantum Electronics,B,,Amarendra Kumar Sarma,aksarma,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-PH 705,Quantum Field Theory and the Standard Model,C,,Subhaditya Bhattacharya,subhab,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-PH 707,Computational Physics,D,,Kanhaiya Pandey,kanhaiyapandey,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-RA 501,Fundamentals of Robotics,A,,Santosha K. Dwivedy,dwivedy,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-RA 502,Artificial Intelligence,B,,"Anirban Dasgupta, Prithwijit Guha","anirban.dasgupta,pguha",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-RA 503,Robot Design Laboratory,AL1,,Sandeep Reddy Basireddy,bsandeepr,2:00 - 4:55 PM,,,,
-RA 504,Programming Laboratory,AL5,,Prithwijit Guha,pguha,,,,,2:00 - 4:55 PM
-RA 507,Technical Writing,A1,,Uday S. Dixit,uday,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-RA 602,Control Engineering for Robotics,E1,,"Parijat Bhowmick, Chayan Bhawal","parijat.bhowmick,bhawal",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-RT 504,Rural Water Supply and Sanitation,A,,Meena Khwairakpam,meena.kh,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-RT 510,Research Methodology and Quantitative Techniques for Rural Development,B,,"Sudip Mitra, Siddhartha Singha, Risha Mal, Dipankar Mandal, Sagar Surendra Deshmukh","sudipmitra,siddharthafp,risha,dmandal,sagarsd",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-RT 516,Product and Process Development in Food and Bioprocessing industries,D,,Siddhartha Singha,siddharthafp,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-RT 523,Rural Technology and Development,E,,"Sudip Mitra, Siddhartha Singha, Risha Mal, Dipankar Mandal, Sagar Surendra Deshmukh","sudipmitra,siddharthafp,risha,dmandal,sagarsd",,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-RT 691,Project Phase I,--,,"Meena Khwairakpam,","meena.kh, siddharthafp",,,,,
-SP 501,Introduction to Sustainable Polymers,B1,,Vimal Katiyar,vkatiyar,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-SP 502,Polymer Processing and Rheology,A1,,"Amit Kumar,","amitkumar, ukk",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-SP 503,Polymer Synthesis and Characterization,C,,"A. S. Achalkumar,","achalkumar, amitkumar",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-SP 511,Polymer Processing and Rheology Laboratory,--,,Amit Kumar,amitkumar,,,,,
-SP 512,Polymer Synthesis and Characterization Laboratory,--,,"A. S. Achalkumar,","achalkumar, vkatiyar",,,,,
-SP 698,Project -II,--,,Dasmahapatra Ashok Kumar,akdm,,,,,
+code,name,slot,venue,prof,Monday,Tuesday,Wednesday,Thursday,Friday
+BM 511H,Corporate Finance,A,,sppc.sob,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+BM 512H,Computer-aided Operations Research,B,,"dsharma, pkotecha",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+BM 513H,Business Communication,C,,"kuldeep.baishya, skbishwas",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+BM 514H,Organization Structure and Design,D,,issacac,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+BM 515H,Strategic Management,E,,sppc.sob,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+BM 530H,Project Work-II,B1,,-,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+BM 622H,HR Analytics,F1,,"chiranjib, skbishwas",1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+BM 628H,Personality and Assessment,A1,,issacac,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+BM 650H,Sales and Distribution Management,E1,,kuldeep.baishya,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+BM 666H,Quality Management and Control,D1,,sparshjohari,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+BT 101,Introductory Biology,C1,"L2 (Div I & III), L4 (Div II & IV)","csouptick, kapgupta, rsw, singh",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+BT 206,Microbiology,D,5001,Kumar Manish,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+BT 207,Genetic Engineering,C,5001,"Bora Utpal, Tamuli R.",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+BT 208,Transport Phenomenon in Bioprocesses,A,5001,"Selvaraju N., Senthilkumar S.",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+BT 209,Bioreaction Engineering,B,5001,Maiti S. K.,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+BT 211,Basic Biotechnology Lab,,,lrangan,,,,,
+BT 305,Computational Biology,A1,5001,Satpati. P,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+BT 306,Bioseparation Engineering,E1,5001,"Goswami Pranab, Das Debasish",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+BT 307,Biological Data Analysis,C1,5001,Bose Biplab,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+BT 308,Bioengineering,B,5001,"Mandal B. B., Goswami Pranab",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+BT 402,BTech Project-II,--,,-,,,,,
+BT 502,Quantitative Biology,C,4202,"Kanaujia S. P., Limaye A. M.",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+BT 504,Biomolecular and Cellular Process Engineering,D,4202,Pakshirajan K.,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+BT 520,Applied Biology and Bioengineering Lab,,,"ranjantamuli, ubora",,,,,
+BT 522,Advanced Bioengineering,B,5402,"Mandal B. B., Chanda Souptick",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+BT 523,Metabolic Engineering,D,5402,Dasu V. V.,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+BT 524,Bioinstrumentation & Control,C,5402,Gupta Navin,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+BT 540,Applied Bioengineering Lab,,,"bithiahgj, rthu",,,,,
+BT 601,Analytical Biotechnology,C,5201,Ghosh S. S.,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+BT 607,Plant Biotechnology,A1,4202,Sahoo L.,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+BT 608,Microbial Biotechnology,A,5201,Kaur Gurvinder,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+BT 609,Bioprocess Engineering,C1,5201,Pandey L. M.,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+BT 616,Molecular Virology,A1,5402,Kumar Sachin,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+BT 617,Proteomics: Methods & Applications,C1,5402,Trivedi Vishal,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+BT 619,Essentials of Genetics,A1,5201,Chaturvedi R.,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+BT 624,Fluorescence Techniques in Biotechnology,F1,5001,Chaudhary N,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+BT 630,Physical Cell Biology,D1,5201,Anand B,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+BT 631,"Protein Structure, Function and Crystallography",C1,4202,Goyal Arun,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+BT 632,"Stem Cells, Cancer and Therapy",B1,5201,"Jaganathan Bithiah G., Thummer R. P.",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+BT 633,Human Biology and Diseases,F,5G2,Kunnumakkara A.,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+BT 635,Chemo Informatics,F,5106,Ramakrishnan Vibin,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+BT 638,Cellular And Molecular Aspects of Aging,D1,4202,Nagotu Shirisha,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+BT 642,Alternative Splicing and Diseases,B1,5402,Singh Kusum K.,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+BT 699,M. Tech Project II (MTP II),--,,-,,,,,
+BT 701,M. Tech Project II (MTP II),--,,-,,,,,
+CE 201,Surveying,E,,abd,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+CE 205,Structural Analysis I,A,,abhi.verma,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CE 206,Geotechnical Engineering,B,,ravi.civil,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CE 213,Surveying Laboratory,,,abd,,,,,
+CE 215,Geotechnical Engineering Laboratory,,,arindam.dey,,,,,
+CE 220,Hydraulics and Hydraulic Structures,D,,bimk,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CE 221,Hydraulics and Hydraulic Structures Laboratory,,,bimk,,,,,
+CE 222,Environmental Engineering I,C,,sharadbg,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CE 223,Environmental Engineering I Lab,,,kajay,,,,,
+CE 308,Construction Technology and Management,C1,,skar,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CE 309,Design of Steel Structures,A1,,amitsh,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CE 320,Engineering Hydrology,D1,,kartha,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CE 321,Hydrology Laboratory,,,kartha,,,,,
+CE 322,Transportation Engineering II,F1,,nbharadwaj,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CE 323,Transportation Engineering II - Laboratory,,,rb.sharmila,,,,,
+CE 324,Mathematical Concepts and Applications in Civil Engineering,B1,,sandip.das,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CE 499,BTP Phase II,,,dupccivil,,,,,
+CE 504,Advanced Structural Design,B1,,darun,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CE 510,Quality and Safety Management in Construction,C,,sparshjohari,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CE 511,Analysis and Design of Bridges,D1,,adutta,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CE 516,Seismic Evaluation and Retrofitting of Structures,A1,,romanbabu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CE 516,Seismic Evaluation and Retrofitting of Structures,A1,,-,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CE 524,Biological Process in Environmental Engineering,A,,jawed,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CE 525,Solids and Hazardous Waste,B,,kajay,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CE 533,Advance Foundation Engineering,A1,,baleshwar,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CE 534,Seminar Course,,,arindam.dey,,,,,
+CE 537,Removal and Recovery of Contaminants from Wastewater,--,,-,,,,,
+CE 544,Project Management Laboratory,,,sparshjohari,,,,,
+CE 550,Project and Thesis Phase II,,,dppccivil,,,,,
+CE 552,"Water Resources Systems Analysis, planning & Management",A,,aks,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CE 552,"Water Resources Systems Analysis, planning & Management",A,,-,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CE 556,Subsurface Hydrology,C,,rkbc,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CE 562,Transient Flow Analysis,D,,sreeja,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CE 564,Stochastic Hydrology,B,,g_barua,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CE 583,Pavement Analysis and Design,A,,lyngdoh,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CE 584,Traffic Engineering,B,,maurya,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CE 585,Credit Seminar,,,rb.sharmila,,,,,
+CE 594,Geohazards Science and Engineering,A1,,"rbharti,nair.archana",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CE 595,Advanced Techniques in Geosciences,C1,,sayantan_c,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CE 599,M Tech Project Phase II,,,dppccivil,,,,,
+CE 606,Earthquake Engineering,C1,,skdeb,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CE 609,Computation Plasticity,E1,,arvind,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CE 612,Advanced Concrete Technology,B,,"bulu,gindu",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CE 612,Advanced Concrete Technology,B,,bulu,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CE 614,Financing Infrastructure Projects,A,,boeing,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CE 615,Design of Masonry Structures,G1,,hemantbk,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+CE 615,Design of Masonry Structures,G1,,-,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+CE 618,Mechanics of Unsaturated Soils,C1,,tvb,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CE 620,Advanced Quantitative Techniques in Construction Management,D,,skar,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CE 623,"Pavement Evaluation, Rehabilitation and Maintenance",D,,rajandce,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CE 624,Highway construction practise,C,,sak,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CE 628,Traffic Flow Modelling and Simulation,E,,c.mallikarjuna,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+CE 646,Rock Mechanics,B1,,vivekp,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CE 647,Environmental Geotechnology,F1,,anilmishra,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CE 648,Applied Soil Mechanics,D1,,srees,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CE 649,Ground improvement techniques,E1,,kaling.taki,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CE 649,Ground improvement techniques,E1,,-,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CE 664,Industrial Wastewater Pollution Control,C,,saswati,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CE 668,Applied seismology,D1,,-,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CE 675,Wind Turbine Analysis and Design,F1,,arunasis,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CE 691,M Tech Project II,,,dppccivil,,,,,
+CE 693,Project and Thesis Phase II,,,dppccivil,,,,,
+CE 695,M Tech Project II,,,dppccivil,,,,,
+CE 697,Project and Dissertation,,,dppccivil,,,,,
+CE 699,Project and Thesis Phase II,,,dppccivil,,,,,
+CH 211,Industrial Chemistry,B,5006,SKS+SPB,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CH 222,Applied Organic Chemistry,D,5006,KPB,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CH 223,Chemical Technology Lab - I (Organic),,,SCP,,,,,
+CH 224,Group Theory,C,5006,SD,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CH 233,Spectroscopic Techniques in Chemistry,A,5006,GK,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CH 323,Polymer Chemistry,E,5006,ASA,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+CH 332,Computational Chemistry,,5006,KB+DD,,,,,
+CH 334,Chemical Technology Lab - III (Physical),,,KB+DD+KR,,,,,
+CH 335,Application of Nanomaterials,B1,5006,KR+MQ,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CH 400,Computers and Chemistry,B,3003,ANP,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CH 411,Inorganic Reaction Mechanism and Organometallics,G,3003,CM+AKAS,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+CH 418,Biological Chemistry of Metal Ions,A,5106,MR,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CH 421,Organic Reactions Mechanisms,D,3003,AKS+DS,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CH 425,Organic Chemistry Laboratory,,,CKJ+LMK,,,,,
+CH 428,Drug Design and Development,D,5106,BHM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CH 432,Chemical Dynamics and Electrochemistry,C,3003,AP,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CH 433,Applications of Spectroscopy,A,3003,GD+SC,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CH 437,Chemical Approaches to Nanoscale Science and Technology,B,5106,AC+UM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CH 438,Application to Statistical Mechanics to Chemistry,C,5106,SP,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CH 499,Project - II,,,dupcchemistry,,,,,
+CH 500,Graduate Seminar,,3003,JBB,,,,,
+CH 600,Project,,,dppcchemistry,,,,,
+CH 612,Inorganic Clusters,F,4005,VM,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CH 613,Applied Inorganic Chemistry,A,4005,KM,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CH 617,Organometallics,D1,5106,AD,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CH 618,Bio-inorganic Chemistry,A1,5106,BM,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CH 621,Modern Reagents in Organic Synthesis,C,4005,PKK,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CH 623,Supramolecular Chemistry,D,4005,DPD,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CH 625,Advances in Biological Macromolecules,E1,5106,DM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CH 627,New Reagents for Organic Synthesis,B1,5106,TP,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CH 629,Advances in Bio-organic Chemistry,C1,5106,SSB,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CH 631,Advanced Quantum Chemistry,E,4005,AKG,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+CH 639,Principles and Applications of Molecular Fluorescence,B,4005,KS,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CH 644,Applied Quantum Chemistry,F,5G1,MS,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CL 205,Mass Transfer Operations I,A,,"bpmandal, kmohanty",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CL 206,Solid Fluid Operations,B,,skmaju,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CL 207,Computer Aided Numerical Methods,D,,pkotecha,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CL 208,Chemical Reaction Engineering I,C,,"nkishore, peelanr",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CL 209,Process Equipment Design I,E,,mihir,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+CL 210H,Laboratory 1: Fluid Mechanics,,,"cdas, guptar",,,,,
+CL 211H,Laboratory 2: Heat Transfer,,,"animes, tapasche",,,,,
+CL 304,Chemical Process Technology,E1,,vkatiyar,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CL 305,Transport Phenomena,A1,,anandalakshmi,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CL 306,Process Engineering & Economics,D1,,s_kumar,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CL 312,Computer Aided Process Equipmen Design,,,"anugrah, tamalb",,,,,
+CL 313,Laboratory 4: Mass Transfer,,,"akdm, ramgopalu",,,,,
+CL 314H,Laboratory 5: Reaction Engineering,,,"v.prabu, rprasanna",,,,,
+CL 315H,Laboratory 6: Process Control,,,"amitkumar, pankaj.tiwari",,,,,
+CL 399,General Learning of Chemical Engineering Research Project - II,,,dupc.chemical,,,,,
+CL 499,Project II,,,dupc.chemical,,,,,
+CL 503,Advanced Thermodynamics,D1,,o.deshmukh,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CL 504,Advanced reaction Engineering,C1,,"v.prabu, rprasanna",3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CL 505,Petroleum Production Engineering,A1,,abhijitkakati,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CL 506,Smart Materials,A1,,psgp,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CL 506,Smart Materials,A1,,-,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CL 514,Fundamentals of Material Science & Engineering,E1,,cdas,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CL 598,Petroleum Laboratory,,,"abhijitkakati, s_kumar",,,,,
+CL 599,Scientific Communications,,,"o.deshmukh, senthilmurugan",,,,,
+CL 611,Advanced Process Control,F1,,-,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CL 612,Colloid and Interface Science,G,,pallabg,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+CL 613,Computational Fluid Dynamics,D,,anugrah,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CL 613,Computational Fluid Dynamics,D,,-,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CL 617,Petrochemicals,B,,pugal,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CL 619,Refinery process design,C,,animes,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CL 622,Molecular simulations: Principles and Applications,A,,akdm,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CL 625,Fundamentals of micro-nanofluidics & microfabrication,B,,dipban,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CL 633,Applied Statistical Thermodynamics,C,,tamalb,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CL 640,Research Methodology and Scientific Writing,G1,,ramgopalu,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+CL 643,Computer aided applied optimization,F,,-,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CL 650,Quantum technologies in chemcial engineering,B,,tapasche,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CL 653,Applications of Artificial Intelligence and Machine Learning in Chemical Engineering,B1,,senthilmurugan,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CL 654,Multiscale Modelling and Simulation,E1,,"amitkumar, guptar",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CL 656,Chemical Process Safety,D,,"pankaj.tiwari, guptar",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CL 699,PROJECT II,,,dppc.chemical,,,,,
+CS 101,Introduction to Computing,D1,"L2 (Div I & III), L4 (Div II & IV)",Susanta Karmakar + A Sur & Sanasam Ranbir Singh +Pinaki Mitra,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CS 110,Computing Laboratory,,,anand.ashish,,,,,
+CS 205,"Formal Languages, Automata Theory, and Computation",A,5G2,R. Inkulu,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CS 206M,Datastructures and Algorithms,F,5004,Diganta Goswami,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CS 207,Design and Analysis of Algorithms,B,5G2,G. Sajith,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS 223,Computer Architecture and Organization,D,5G2,John Jose,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+CS 224,Hardware Lab,,"5004 (tutorial slot, E1)",Chandan Karfa + Sukanta Bhattacharjee,,,,,
+CS 245,Database Management Systems,C,5G2,Benny George K,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CS 246,Database Management Systems Lab,,,V. Vijaya Saradhi,,,,,
+CS 331,Programming Languages Lab,,"5004(D), tutorial slot",Aryabartta Sahu,,,,,
+CS 345,Software Engineering,E1,5G2,P. K. Das + Rashmi Dutta Baruah,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+CS 346,Software Engineering Lab,,,P. K. Das + Rashmi Dutta Baruah,,,,,
+CS 348,Implementation of Programming Languages Lab,,"5004 (A), 5G2€ tutorial",Sukumar Nandi,,,,,
+CS 350M,Computer Systems,G1,5004,Manas Khatua,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+CS 361,Machine Learning,D1,5G2,Ashish Anand + V. Saradhi,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+CS 499,Project II,,,ckarfa,,,,,
+CS 527,Parallel Computer Architecture,C1,5004,Jatindra K. Deka,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+CS 528,High Performance Computing,A1,5G2,Phrangboklang L Thangkiew,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CS 533,ML for Electronic Design Automation,G,5G2,Chandan Karfa + Sukanta Bhattacharjee,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+CS 556,"Performance Modeling, Analysis and Evaluation",F1,5004,Moumita Patra,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CS 558,Computer Systems Lab,,"5004 (B), tutorial slot",T. Venkatesh,,,,,
+CS 564,Computational Complexity,A1,5004,Deepanjan Kesh,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+CS 579,"Automata, Logic and Games",B1,5G2,Purandar Bhaduri,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+CS 699,Project II,,,deepkesh,,,,,
+DA 213,Python Programming Laboratory,,Lab,teena,,,,,
+DA 214,Database Management Systems,D,5205,chiranjib,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DA 215,Database Management Systems Laboratory,,Lab,chiranjib,,,,,
+DA 221,Introduction to Artificial Intelligence,C,5205+Lab,teena,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+DA 221M,Artificial Intelligence,F,5305,teena,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+DA 243,Introduction to Optimization,A,5205,akmahto,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+DA 244,Applied Probability and Random Processes,E,5205,rhythmgrover,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+DA 312,Advanced Machine Learning Laboratory,,Lab,chiranjib,,,,,
+DA 322M,Deep Learning,G1,5305,"ayon.borthakur, pwpatil",,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+DA 323,Multi-modal Data Processing and Learning - II,A1,5205,neerajs,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+DA 324,Data Mining,B1,5205,ayon.borthakur,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+DA 325,Deep Learning,C1,5205,pwpatil,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+DA 332,Data Visualization,F1,5205+Lab,dneog,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+DA 352,Privacy and Information Security,D1,5205,srinikris,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+DA 353,Internet of Things,E1,5205+Lab,"arghyadip, ratnajit",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+DA 499,BTP Project II,,,supc_mfsdsai,,,,,
+DA 526,Image Processing with Machine Learning,C,5305,dneog,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+DA 531,Data Visualization Lab,,Lab,rhythmgrover,,,,,
+DA 623,Computing with Signals,F,5205,neerajs,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+DA 651,Artificial Intelligence for Next-Generation Wireless Systems,D,5305,ratnajit,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DA 674,Advanced Topics in Reinforcement Learning,A,5305,arghyadip,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+DD 111,"Forms, Order and Structure",C1,,abhisheksingh11,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+DD 112,Principles of Visual Design,B1,,utpalb,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+DD 113,Visualization and Illustrations,,,shri,,,,,
+DD 212,Visual Narratives,A,,sheetalg,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+DD 213,Art and Aesthetics in Design,B,,mriganka,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+DD 214,Design Workshop,,,urmi.salve,,,,,
+DD 215,Cognitive Ergonomics,C,,karmakar.sougata,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+DD 216.,Typography and Grid Systems,,,d.udaya,,,,,
+DD 220M,Introduction to Ergonomics,F,,urmi.salve,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+DD 311,Systems approach to Design,A1,,santosh.jagtap,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+DD 312,Design Evaluation Methods,B1,,debayan,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+DD 320M,Product Planning and Strategy,G1,,shareka.iqbal,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+DD 324,(PD) Plastics & Composites,C1,,ajeetkumar,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+DD 325,(VC) Graphic Communication,,,d.udaya,,,,,
+DD 326,(TD) Introduction to Automobile Design,,,abhisheksingh11,,,,,
+DD 398,BDes Project II,,,shakuntala.a,,,,,
+DD 411,Design and Entrepreneurship,A,,pratulkalita,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+DD 499,BDes Project IV,,,sheetalg,,,,,
+DD 505,Form Studies,,,supradip.das,,,,,
+DD 506,Graphic Design,,,utpalb,,,,,
+DD 507,Design Project,,,mokashi,,,,,
+DD 509,Interaction Design,C,,keyur,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+DD 517,Automobile Design,D,,abhisheksingh11,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DD 517,Automobile Design,D,,-,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DD 523,Creative Furniture Design,D,,shareka.iqbal,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DD 532,Motion Graphics,B,,manojmaj,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+DD 532,Motion Graphics,B,,-,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+DD 533,Auditory and Voice User Interaction Design,C,,shri,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+DD 537,Introduction to Service Design,B1,,mokashi,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+DD 546,Product Form and Structures,,,supradip.das,,,,,
+DD 547,Design for Environmental Sustainability,B,,Sharmistha,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+DD 547,Design for Environmental Sustainability,B,,-,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+DD 548,Embodiment Design,A,,pankaj.upadhyay,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+DD 549,Systems thinking,A1,,santosh.jagtap,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+DD 554,Pattern Recognition and Machine Learning,E,,prabin,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+DD 558,Design for Social Innovation,B,,pankaj.upadhyay,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+DD 559,Design for Additive Manufacturing (DfAM),E1,,ajeetkumar,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+DD 605,Thesis Project (Phase II),,,karmakar.sougata,,,,,
+DD 606,Product Detailing,C,,dasak,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+DD 607,Creativity and Innovation,B1,,mriganka,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+DD 610,Project (Phase II),,,prabin,,,,,
+DD 705,Design Research Methods,E1,,debayan,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+DD 709,Design-based Project,,,shakuntala.a,,,,,
+DD 712,Problem-based Learning through Design,D1,,shakuntala.a,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+DM 503,Hazards monitoring and prediction,A,,-,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+DM 504,Research methodology and field visit,B,,-,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+DM 515,Rehabilitation and Retrofitting of RC Structures,D,,-,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DM 697,Project Phase 1,G1,,-,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+DM 699,Project (Phase 3),G1,,-,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+DT 603,Scientific Exploration and Investigation by Drones,A,,-,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 102,Basic Electronics Lab,,"ECL-01, 02",TJ,,,,,
+EE 206,Analog Circuits,B,5G1,MA,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 207,Analog Circuits Laboratory,,ESL,"AB, AS, HN",,,,,
+EE 213M,Digital Circuits,F,3101,AS,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+EE 230,Probability and Random Processes,A,5G1,RI,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 250,Control Systems,C,5G1,CB,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+EE 252,Measurement and Instrumentation,D,5G1,RKJ,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+EE 253,Instrumentation Laboratory,,CIL-II,"RDK, HN, PRB",,,,,
+EE 313,Microelectronics Laboratory,,SSL,"TD, RKJ",,,,,
+EE 322M,Signal Processing,G1,3101,RDK,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+EE 332,Digital Communication,D1,5005,"SLK, DJ",2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 333,Communication and DSP Laboratory,,HFL,"ABA, SLK",,,,,
+EE 334,Computer networks,C1,5G1,RB,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 335,Information Theory & Coding,A1,5G1,SJD,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 337,Fundamentals of Wireless Communications,B1,1102,KD,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 338,Advanced Analog Circuits,A1,1102,MA,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 339,Blockchain Science and Technology,B1,5G1,TJ,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 360,Power Electronics,D1,3102,PT,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 370,Electrical Power Systems,C1,3102,SKN,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 371,Advanced Electrical Engg Lab,,PSL/PEL,"CK, PT",,,,,
+EE 381,Electrical Machines Lab,,EML,"RA, SJG",,,,,
+EE 390,Data structure and algorithms,E1,"5G1, ESL",AD,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EE 396,Design Lab,,CIL-II,DUPC,,,,,
+EE 399,BTP II (New Curriculum),,,dupceee,,,,,
+EE 499,B. Tech Project-IV,,,dupceee,,,,,
+EE 512,Analog IC Design,A,"3101, 3102",RP,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 515,Foundation of VLSI architectures,B,"3101, 3102",SRA,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 516,System hardware design,C,"3101, 3102, SSL",GT,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+EE 517,Analog VLSI Lab,,SSL,RP,,,,,
+EE 521,Digital Signal Processing Lab,,SSL,SRA,,,,,
+EE 522,Statistical Signal Processing,A,1006,KK,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 525,Advanced Topics in Machine Learning,B,1006,MB,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 526,Machine Learning,A,5306,PG,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 527,Machine Learning Laboratory,,SSL,PG,,,,,
+EE 533,Wireless Communications,A,1102,SDM,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 535,Data Communication Network,B,1102,SC,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 536,Wireless Communications Design Lab,,ESL,SC,,,,,
+EE 540,Advance Electromagnetic Theory and Antennas,B,1006,KRS,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 548,RF Laboratory,,HFL,KRS,,,,,
+EE 549,Photonics Integrated Circuits,C,5005,RKS,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+EE 553,Optimal Control,C,3102,SK,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+EE 554,Nonlinear Systems and Control,B,3102,SM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 555,Automation Laboratory,,CIL-II,PB,,,,,
+EE 557,Optimization,A,3102,PRB,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 562,Power Electronics Applications in Power Systems,A,3101,SG,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EE 572,Power Engineering Laboratory,,SSL,SG,,,,,
+EE 580,Electrical Machines and Drive Systems,B,3101,RA,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 595H,Stochastic Models,B,5306,KND,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 596H,Optimization Techniques,B,5306,KND,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EE 602,Adaptive and Learning-based Control,A1,3101,IK,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 605,Machine Learning Architectures,D1,5G1,GT,,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 606,Power semiconductor devices,A1,3102,ABA,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 607,Information Theory,C1,1006,ABA,3:00 - 3:55 PM,2:00 - 2:55 PM,,,4:00 - 4:55 PM
+EE 611,Organic Semiconductor Devices,A1,5005,ATM,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 614,Modern Display Technologies,B1,5005,DS,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 619,Semiconductor material and device characterization,E1,5005,TD,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EE 621,Computer Vision,A1,5005,MKB,5:00 - 5:55 PM,,,12:00 - 12:55 PM,12:00 - 12:55 PM
+EE 622,Biomedical Signal Processing,B1,5005,SD,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 624,Speech Technology,C1,1102,RS,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 632,Advanced Topics in Communication Systems,A1,1102,MBR,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EE 640,Introduction to Electronic Systems Packaging,D1,1102,ATM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 643,Silicon Photonics,C1,3102,RKS,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 656,Robust Control,B1,3101,PB,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EE 659,Fuzzy Logic and Neural Networks,C1,5005,CM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 661,Power Electronics for Renewable Energy Systems,C1,3101,SN,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+EE 665,Power Electronic Systems for Electric Vehicles,D1,3101,CK,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 676,Advanced Power System Monitoring,E1,3101,SJG,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EE 692,Detection and Estimation Theory,D1,1006,HSS,2:00 - 2:55 PM,,,4:00 - 4:55 PM,3:00 - 3:55 PM
+EE 699,MTP Phase II,--,,-,,,,,
+EM 599,Project phase 3,--,,-,,,,,
+EN 206,Heat and Mass Transfer,C,5301,"pankajk, saket",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+EN 207,"Biomass, Biofuels and Biorefinery",A,5301,vvgoud,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EN 208,Control and Instrumentation,B,5301,kuldeepk,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+EN 209,Energy and Sustainability,D,5301,f.khalid,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+EN 210,Thermo-Fluid and Heat Transfer Laboratory,--,"Thermo-Fluid and Heat Transfer Laboratory, Energy (J) Block (Ground Floor)",vvgoud & pankajk,,,,,
+EN 211,Community Engagement and Entrepreneurship Program,E,5301 (L),f.khalid,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+EN 307,Materials Science for Energy Applications,D,5301,singhajay,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+EN 308,Solar Energy Technology,E1,5301,pankajk,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+EN 309,Numerical Methods,B1,5301,anandalakshmi,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+EN 310,Energy Economics and Auditing,A1,5301,vmoholkar & kuldeepk,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+EN 312,Solar Energy Laboratory,--,"Solar & Wind Energy Laboratory, J Block, Energy Building (Second Floor)",pesnraju88,,,,,
+EN 313,Energy Materials and Device Fabrication Laboratory,--,"Energy Materials and Device Fabrication Laboratory, J Block, Energy Building (Ground Floor)","singhajay, saket",,,,,
+EN 671,Solar Energy Conversion Technology,D,5302,pankajk,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+EN 674,"Energy Economics, Planning and Management",A,5302,pesnraju88,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+EN 697,Project 1,--,,-,,,,,
+EN 699,Project 3,--,,-,,,,,
+HS 232M,Linguistic Analysis,F,,smahanta,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+HS 503,Sociology of Development,A,5405,Prof S Mallick,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+HS 517,Comparative Politics of Developing Countries,B,5405,Prof P Saikia,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+HS 523,Economic Development: Theory and Practice,C,5405,Prof D Das,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HS 524,Qualitative Research Methods in Social Sciences,D,5405,Dr J Thomas,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HS 525,India,E,5405,"Dr V Jairath, Dr Visakh M S",,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+HS 551,Foundational Linguistics,B,5406,Prof S Mahanta,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+HS 552,Critical Reasoning,E,5406,Dr A Kashyap,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+HS 556,Introduction to Literary Studies,A,5406,"Prof R M Punekar, Prof L Das, Dr K Keshavamurthy, Dr D Basu",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+HS 559,Indian Literary Theory,D,5406,Prof L Das,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HS 561,Historical Studies,C,5406,Dr V Dutta,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HS 562,International Relations and Diplomacy,E1,5406,Prof P Saikia,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+HS 563,Early Womens Writing in English,F,5406,Dr D Basu,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+HS 567,Cultural Studies: Key Concepts and Theories,D1,5406,Dr K Keshavamurthy,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+HS 569,"Language, Mind and Thought",C1,5406,Prof B Som,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+HS 631,Food and Culture in Contemporary Society,C1,5405,Dr R Patgiri,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+HS 632,Social Epistemology of Science,B1,5406,Dr A Kashyap,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+HS 633,Religion and Modernity,D1,5405,Dr Visakh M S,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+HS 634,Rhetoric in Western Science Writing,A1,5406,Dr D Basu,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+HS 697,Project II,G,,dppchss,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 699,Dissertation,G,,dppchss,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 704,Crossing Cultures,B,,liza,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+HS 706,Topics in Economics,A,,bsengupta,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+HS 715,Seminar course (Psychology),D,,-,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HS 720,Cultural Theory and Interpretation,A,,-,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+HS 722,Cultural Anthropology,A,,sukanya,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+HS 726,History of Assam,C,,arupjyoti,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HS 727,Issues in Historical Research,A,,johnthomas,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+HS 731,"Heritage, Identity and Archaeology",B,,sukanya,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+HS 733,Issues in Phonological Theory,C,,smahanta,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HS 734,Perspectives in Linguistics,C,,bidisha,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HS 736,Approaches to Prosodic Structure,D,,smahanta,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HS 749,Issues in Tone Languages,C,,priyankoo,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HS 751,Advanced Public Economics,B,,bsengupta,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+HS 752,Positive Psychology,C,,-,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HS 753,Topics in International Relations,F,,pahi,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+HS 769,RESEARCH METHODS IN LINGUISTICS,D,,bidisha,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HS 771,Key Texts in Modern Political Thought,E,,jhamk21,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+HS 781,Approaches to Diplomatic and Military History,B,,vipul.dutta,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+HS 784,Acoustic Analyses of Tone Languages,D,,priyankoo,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HT 506,Biotechniques and Bioinstrumentation Laboratory,--,Lab at Centre Centre For Nanotechnology Building and CIF,Subrata Pramanik,,,,,
+HT 507,Diagnostics & Devices Laboratory,--,Lab at Centre Centre For Nanotechnology Building and CIF,Rajiv K. Kar,,,,,
+HT 508,Product Design and Prototyping Laboratory,--,Lab at Centre Centre For Nanotechnology Building and CIF,"Erwin Fuhrer, Subramani Kanagaraj, Subrata Pramanik",,,,,
+HT 509,Regenerative Medicine and Stem Cells Laboratory,--,Lab at Centre Centre For Nanotechnology Building and CIF,"Subrata Pramanik, Biman B Mandal",,,,,
+HT 510,Tissue Engineering and Regenerative Medicine,E1,5401,"Rajkumar P. Thummer, Biman B Mandal",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+HT 511,Stem Cells and Therapeutics,D,5401,"Rajiv K. Kar, Bithiah Grace Jaganathan, Subrata Pramanik",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HT 599,Project - II,--,,-,,,,,
+HT 601,"Medical Diagnostic Devices, BioMEMS, and Biosensors",C,5401,"Rajiv K. Kar, Raghvendra Gupta",10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HT 602,Regulatory Affairs of Biomedical Devices,B,5401,Erwin Fuhrer,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+HT 603,Advanced Immunology,A,5401,Subrata Pramanik,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+IFST 018,Joint Degree Dissertation,,,cdas,,,,,
+IFST 020,Joint Degree Dissertation,,,cdas,,,,,
+MA 002,Preparatory Mathematics II,,1202,jitumath,,,,,
+MA 102,Mathematics - 2,B1,"L2 (Div I & III), L4 (Div II & IV)","vinay.wagh, kvsrikanth, natesan, shbora, mgpp",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+MA 212M,Mathematical Statistics,F,5104,shyamashree,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+MA 224,Real Analysis,B,5104,anjankc,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+MA 252,Design and Analysis of Algorithms,E,5104,ramesh_h,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+MA 271,Financial Engineering I,A,5104,pratim,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+MA 312M,Modern Algebra,G1,2204,passkrishna,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+MA 322,Scientific Computing,B1,5104,durga,3:00 - 3:55 PM,9:00 - 10:55 AM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+MA 324,Statistical Inference and Multivariate Analysis,E1,5104,palash.ghosh,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+MA 351,Theory of Computation,C1,5104,kvk,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+MA 373,Financial Engineering II,A1,5104,nselvaraju,,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+MA 374,Financial Engineering Laboratory,,,"nselvaraju, pratim",9:00 - 11:55 AM,,,,
+MA 499,Project   II,,,,,,,,
+MA 512,Data Structures and Algorithms,E,1G1,sagarmoy,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+MA 542,Differential Equations,C,1G1,swaroop,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+MA 547,Complex Analysis,A,1G1,rksri,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+MA 548,Ordinary Differential Equations,C,2204,sweta.tiwari,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+MA 549,Topology,G,1G1,bks,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+MA 561,Fluid Dynamics,E,2204,jiten,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+MA 571,Numerical Linear Algebra,B1,2204,rafik,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+MA 573,Numerics of Partial Differential Equations,C1,2204,rajen,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+MA 575,Mathematical Methods,E1,2204,"mgpp, natesan",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+MA 588,R Programming Lab,,,"aganguly, palash.ghosh",,,,,
+MA 590,Probability Theory,D,1G1,cpal,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+MA 591,Optimization Techniques,B,1G1,pati,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+MA 592,Mathematical Finance,F,,-,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+MA 599,Project,,,,,,,,
+MA 601,Graphs and Matrices,A,2204,b.bikash,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+MA 617,Design and Analysis of Algorithms,A1,1G1,psm,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+MA 618,Mathematics for Computer Science,B1,2202,"gkd, ashok",4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+MA 619,Data Structures Lab,,2202,psm,,,,,
+MA 621,Rings and Modules,D,2202,a.saikia,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+MA 622,Galois Theory,C,2202,rupam,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+MA 625,Linear Algebra-I,B1,1G1,arupchatt,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+MA 640,Topology and Calculus of Surfaces,A1,2202,"kvsrikanth, passkrishna",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+MA 641,Operator Theory in Hilbert Spaces,E1,2202,anjankc,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+MA 642,Real Analysis-1,C1,1G1,pratyoosh,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+MA 653,Network Science,D,2204,ashok,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+MA 654,Advanced Data Structures and Algorithms,D1,2204,gkd,,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+MA 662,Differential Equations,D1,1G1,satyajitp,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+MA 671,Finite Element Methods for Partial Differential Equations,B,2204,bdeka,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+MA 690,Understanding Statistical Learning Theory,A1,2204,aganguly,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME 101,Engineering Mechanics,A1,"L2 (Div I & III), L4 (Div II & IV)","arupn, pankaj.biswas, atanub",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME 110,Workshop I,,Central Workshop,"ssg, psr, kanagaraj, spanda, IPDF",,,,,
+ME 202Mn,Thermodynamics,F,,gmadhu,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+ME 221,Fluid Mechanics II,A,"5102, 5103","dnbasu, pranabm",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+ME 222,Manufacturing Technology I,B,"5102, 5103","swarupbag, pkhanikar",9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+ME 223,Solid Mechanics II,C,5102,tarkes.pallicity,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+ME 224,Kinematics of Machinery,D,"5102, 5103","sajan.kapil, dwivedy",11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+ME 225,Mechanical Workshop II,,Central Workshop,"spal, manasdas, IPDF",,,,,
+ME 226,Mechanical Engineering Lab II,,,"dwivedy, atulsoti, rtiwari, chakra, pranabm, s.m.hazarika",,,,,
+ME 321,Applied Thermodynamics,A1,"5102, 5103","shock, tapan.mankodi",5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME 322,Machine Design,B1,5102,kpmech,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+ME 323,Mechanical Measurements,C1,5102,pandabiranchi,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+ME 324,Industrial Engineering and Operations Reseach.,E1,5102,uday,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+ME 325,Control Systems,F1,"5102, 5103","karuna.kalita, spanda",1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+ME 326,Mechanical Engineering Lab IV,,,"ssvelan, amaresh, snj, IPDF, IPDF, akd, IPDF, dsharma",,,,,
+ME 499,Project-II,,,ukk,,,,,
+ME 503,Technical Writing,F1,1G2,psr,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+ME 505,MTP Phase II,,,pandabiranchi,,,,,
+ME 511,Engineering Materials and Characterization,G,5103,spal,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+ME 513,Physics of Deformation Processes,A,1201,ganu,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+ME 515,Manufacturing Laboratory,,,"sajan.kapil, IPDF",,,,,
+ME 522,Convective Heat Transfer,A,1G2,akd,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+ME 541,Continuum Mechanics,E,1G2,nipaldeka,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+ME 542,Numerical Analysis,D,1G2 + CADLAB,dsharma,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+ME 544,Computational Mechanics Laboratory,,CADLAB,bhaskark,,,,,
+ME 552,Aircraft Propulsion,G,1003,"saha, gmadhu",,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+ME 553,Gas Dynamics,C,1003,bhaskark,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+ME 554,Rocket Propulsion,A,1003,saha,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+ME 607,Introduction to Composite Materials,G,5103,chakra,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+ME 608,Computer Aided Design-Computer Aided Manufacturing,D,1003,snj,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+ME 613,Nonlinear Vibration,F,5202,bsandeepr,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+ME 615,Rotor Dynamics,B1,1G2,rtiwari,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+ME 617,Manufacturing of Polymers and Polymer Composites,B1,1201,ukk,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+ME 619,Fundamentals of Microfluidics,G,1G2,amaresh,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+ME 622,Fundamentals of Fusion Energy Generation and Tokamaks,C,5103,vkb,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+ME 623,Dynamics of Machining Processes,D,1201,rkmittal,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+ME 640,Robotics and Robot Application,C,1G2,s.m.hazarika,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+ME 657,Two Phase Flow and Heat Transfer,D,3202,manmohan,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+ME 670,Advanced Computational Fluid Dynamics,B1,5103,atulsoti,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+ME 682,Nonlinear Finite Element Methods,B1,1003,ssg,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+ME 683,Computational Gas Dynamics,E,1201,tapan.mankodi,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+ME 688,Advanced machining processes,C,1201,manasdas,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+ME 692,Gear Engineering,E,1003,ssvelan,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+ME 696,Biomedical Devices and Systems,B,5G4,kanagaraj,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+PH 002,Preparatory Course,A,1202,dpal,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+PH 102,Physics 2,E1,"L2 (Div I & III), L4 (Div II & IV)","debu, mckumar, sayan.chakrabarti, sovan",,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+PH 110,Physics Laboratory,,,"bkhazra, malli, bhuyan, saurabh, udaymaiti",,,,,
+PH 202,Electromagnetics,A,5203,bkhazra,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+PH 204,Quantum Mechanics-I,B,5203,mknandy,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+PH 206,Computational Physics,C,5203,sbdas,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+PH 208,Digital electronics & microprocessors,D,5203,udaymaiti,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+PH 210,General Physics Laboratory-I,,5203,"tarak.dey, rmaiti",,,,,
+PH 302,Solid state physics,A1,5203,subhasht,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+PH 304,Measurement techniques,B1,5203,giri,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+PH 306,Lasers and Ultra Fast Optics,C1,5203,aksharma,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+PH 308,Nuclear Science and Engineering,D1,5203,subhab,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+PH 310,Advance Physics Laboratory,,5203,"subhasht, pankaj.mishra",,,,,
+PH 382M,Laser Physics and Technology,G1,5203,brboruah,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+PH 402,Mathematical Physics-II,A,4G2,bhuyan,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+PH 404,Statistical Mechanics,B,4G2,gsetlur,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+PH 406,Quantum Mechanics-II,C,4G2,udit.raha,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+PH 408,Measurement techniques,E,4G2,perumal,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH 410,Electrodynamics-I,D,4G2,alika,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+PH 412,General Physics Laboratory-I,,4G2,"alika, bibhas.majhi, s.bhaumik",,,,,
+PH 422,Project-II,--,4205,debu,,,,,
+PH 455,Microwave Theory and Application,A,4205,aksarma,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+PH 456,Physics of Carbon-Based Materials,B,4205,s.bhaumik,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+PH 458,Applied superconductivity,C,4205,rsingha,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+PH 459,Nonlinear Fiber optics and applications,D,4205,vibhav9,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+PH 462,Quantum Technology and Phenomena in Macroscopic systems,E,4205,tarak.dey,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH 464,Fundamentals of cosmology,A1,4205,asil,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+PH 466,Advanced Statistical Mechanics,B1,4205,santra,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+PH 516,Advance Physics Laboratory,,4209,"mckumar, sayan.chakrabarti, sovan, debu, aksarma, aksharma",,,,,
+PH 518,Project-II,--,4209,aksharma,,,,,
+PH 521,Topics in Condensed Matter Physics,A1,4209,pankaj.mishra,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+PH 523,Magnetism and Superconductivity,B1,4209,sravi,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
+PH 525,Optoelectronics Materials and Devices,C1,4209,pratima,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
+PH 527,Nanostructured Materials,D1,4209,pamu,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
+PH 531,Laser Physics,E1,4209,gk,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
+PH 541,Quantum computation & Quantum information,F1,4209,charu,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+PH 544,High Energy Physics,G1,4209,soumitra.nandi,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+PH 702,Statistical methods in Condensed Matter Physics,B,4G2,subhra,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+PH 704,Guided and Fourier Wave Optics,C,4G2,rmaiti,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+PH 706,Gravitation and Cosmology,A,4209,bibhas.majhi,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+PH 708,Mini project,--,4G2,pankaj.mishra,,,,,
+RT 512,Livelihood and Entrepreneurship,G,1002,Dr. Sagar S Deshmukh; Dr. Siddhartha Singha,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+RT 514,Water Resources Management,F,1002,Dr. Meena Khwairakpam,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+RT 515,Natural Resources Management,C,1002,Prof. Sudip Mitra,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+RT 517,Agri-horticultural Produce Processing Technology,B,1002,Dr. Siddhartha Singha,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+RT 520,Field Work and Communication,A,1002,"Dr. Dipankar Mandal, Dr. Risha Mal, Prof. Sudip Mitra",8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+RT 691,Project Phase I,--,,-,,,,,
+RT 692,Project Phase - II,,,,,,,,
+SA 101,SA 101,,,,,,,,
+SA 102,SA 102,,,,,,,,
+SA 103,SA 103,,,,,,,,
+SA 104,SA 104,,,,,,,,
+SA 106,SA 106,,,,,,,,
+SA 107,SA 107,,,,,,,,
+SA 110,SA 110,,,,,,,,
+SA 116,SA 116,,,,,,,,
+SA 201,SA 201,,,,,,,,
+SA 202,SA 202,,,,,,,,
+SA 203,SA 203,,,,,,,,
+SA 204,SA 204,,,,,,,,
+SA 205,SA 205,,,,,,,,
+SA 206,SA 206,,,,,,,,
+SA 207,SA 207,,,,,,,,
+SA 210,SA 210,,,,,,,,
+SA 216,SA 216,,,,,,,,
+SA 217,SA 217,,,,,,,,
+SP 697,Project -I,--,,-,,,,,
+SP 699,Project -III,--,,-,,,,,
+HS 115,Leadership And Communication in Historical Drama,G,L2,rohini,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 116,Sociology of India: Conformities and Contradictions,G,L4,sawmyaray,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 121,Understanding Psychology: Individual and Work Settings,G,5001,nkashyap,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 125,Introductory Macroeconomics,G,5106,agnirupsarkar,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 134,Introduction to Archaeology,G,5004,sukanya,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 136,Introduction to Indian Constitution and Political Processes,G,5105,jhamk21,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 138,Psychology of Well Being,G,5202,dhussain,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 139,The Short Story: Theory and Perspectives,G,5205,kirank,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 148,Development and its Discontents,G,5G4,vasundharaj,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 155,Introductory Mathematical Economics,G,5102,debarshidas,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 156,Economics of Health and Education,G,2202,rajshree,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 163,Basic Econometrics,G,2101,bhaskar.neog,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS 212,Public Economics,G1,L2,bsengupta,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 218,Ecology and Society,G1,L4,kipgen,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 229,Environmental Economics,G1,5001,mkdutta,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 232,Economics of Climate Change,G1,5106,abarua,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 233,History of Contemporary India,G1,2101,arupjyoti,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 235,Writing Systems of the World,G1,5202,priyankoo,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 240,Literature and Science Writing,G1,5105,debapriya.basu,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 248,Indian Literary Theory,G1,5G2,liza,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 251,Social Choice and Welfare,G1,5G4,amarjyoti,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+HS 257,Ethnography of speaking,G1,5102,bidisha,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
+CH 419,Consumer Chemistry,F1,5G2,BKP+PKI,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CL 611,Advanced Process Control,F1,5106,p.saha@iitg.ac.in,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CL 625,Fundamentals of micro-nanofluidics & microfabrication,F,5102,dipban@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+CL 643,Computer aided applied optimization,F,5201,pkotecha@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+EE 626,Pattern Recognition and Machine Learning,F1,5G1,SS,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+EE 633,Error Control Codes,F1,5102,AR,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+PH 465,Optoelectronics,F1,5203,malli,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
+CE 610,Computational Structural Mechanics,B,5202,budhaditya.hazra@iitg.ac.in,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS 561,Artificial Intelligence,B,5105,S B Nair,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CE 616,Blast and Impact Resistant Design,F,5G2,shrishi@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+MA 592,Mathematical Finance,F,5G4,saha.subhamay@iitg.ac.in,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+PH 441,Quantum Computation and Cryptography,F,5203,kanhaiyapandey,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
