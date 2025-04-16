@@ -27,4 +27,4 @@ jobs:
             git pull
             git status
             docker-compose -f docker-compose.prod.yaml up -d --build
-            mongo ${{ secrets.ONESTOP_DB_NAME }} --eval 'db.lastupdates.updateOne({},{$set:{timetable: new Date()}})'
+            mongosh ${{ secrets.ONESTOP_DB_NAME }} --eval 'db.lastupdates.updateOne({},{$set:{timetable: new Date()}})'
