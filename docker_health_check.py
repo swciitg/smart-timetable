@@ -31,12 +31,12 @@ def check_csv_file():
         print("❌ enrolled_courses.csv not found")
         return False
     
-    # Check if file is recent (within 3 hours to account for cron schedule)
+    # Check if file is recent (within 25 hours to account for daily cron schedule)
     mod_time = datetime.fromtimestamp(os.path.getmtime(csv_path))
     now = datetime.now()
     time_diff = now - mod_time
     
-    if time_diff > timedelta(hours=3):
+    if time_diff > timedelta(hours=25):
         print(f"⚠️ CSV file is old (last modified: {mod_time})")
         return False
     else:

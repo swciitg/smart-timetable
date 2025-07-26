@@ -31,8 +31,8 @@ COPY . .
 # Create necessary directories
 RUN mkdir -p /code/data /code/logs
 
-# Set up cron job for enrollment updates
-RUN echo "0 * * * * cd /code && python3 enrollment_fetcher.py >> /code/logs/cron.log 2>&1" | crontab -
+# Set up cron job for enrollment updates (runs daily at midnight)
+RUN echo "0 0 * * * cd /code && python3 enrollment_fetcher.py >> /code/logs/cron.log 2>&1" | crontab -
 
 # Create a startup script that starts both cron and the web server
 RUN echo '#!/bin/bash\n\

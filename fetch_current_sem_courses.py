@@ -129,6 +129,13 @@ def save_to_csv(df, filename="data/courses_csv.csv"):
     # Clean up data
     df_final = df_final.fillna('')  # Replace NaN with empty strings
     
+    # Remove duplicates based on course code (keep first occurrence)
+    initial_count = len(df_final)
+    df_final = df_final.drop_duplicates(subset=['code'], keep='first')
+    duplicates_removed = initial_count - len(df_final)
+    if duplicates_removed > 0:
+        print(f"🔄 Removed {duplicates_removed} duplicate course codes")
+    
     # Save to CSV
     df_final.to_csv(filename, index=False)
     print(f"💾 Data saved to '{filename}' with required columns only")
