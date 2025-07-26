@@ -2295,7 +2295,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2752,Yash Puniya,220103120,EE 639,,--,Approved,,2025,July-Nov
 2753,Yash Puniya,220103120,HS 203,,--,Approved,,2025,July-Nov
 2754,Yash Puniya,220103120,ME 401,,--,Approved,,2025,July-Nov
-2755,Yash Puniya,220103120,ME 531,,--,Approved,,2025,July-Nov
 2756,Yash Puniya,220103120,ME 609,,--,Approved,,2025,July-Nov
 2757,Yash Puniya,220103120,ME 628,,--,Approved,,2025,July-Nov
 2758,Yash Puniya,220103120,ME 660,,--,Approved,,2025,July-Nov
@@ -9310,6 +9309,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 10865,Aditya Jain,230108002,HS 141,,--,Approved,,2025,July-Nov
 10866,Akhilesh Arun Reddy,230108003,EE 312,,--,Approved,,2025,July-Nov
 10867,Akhilesh Arun Reddy,230108003,EE 331,,--,Approved,,2025,July-Nov
+10868,Akhilesh Arun Reddy,230108003,EE 339,,--,Approved,,2025,July-Nov
 10869,Akhilesh Arun Reddy,230108003,EE 340,,--,Approved,,2025,July-Nov
 10870,Akhilesh Arun Reddy,230108003,EE 351,,--,Approved,,2025,July-Nov
 10871,Akhilesh Arun Reddy,230108003,EE 380,,--,Approved,,2025,July-Nov
@@ -11434,6 +11434,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13375,Yash Sarveish Kharangate,230150032,DA 341,,--,Approved,,2025,July-Nov
 13376,Yash Sarveish Kharangate,230150032,DA 351,,--,Approved,,2025,July-Nov
 13378,Advaith Giridhar,230108077,CS 322M,,--,Approved,,2025,July-Nov
+13379,Advaith Giridhar,230108077,CS 452,,--,Approved,,2025,July-Nov
 13380,Advaith Giridhar,230108077,EE 312,,--,Approved,,2025,July-Nov
 13381,Advaith Giridhar,230108077,EE 331,,--,Approved,,2025,July-Nov
 13382,Advaith Giridhar,230108077,EE 340,,--,Approved,,2025,July-Nov
@@ -11449,6 +11450,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13393,Arjun Verma,230102125,EE 351,,--,Approved,,2025,July-Nov
 13394,Arjun Verma,230102125,EE 398,,--,Approved,,2025,July-Nov
 13395,Arjun Verma,230102125,HS 119,,--,Approved,,2025,July-Nov
+13396,Basina Adityatrived,230108076,CH 426,,--,Approved,,2025,July-Nov
 13397,Basina Adityatrived,230108076,CS 322M,,--,Approved,,2025,July-Nov
 13398,Basina Adityatrived,230108076,EE 312,,--,Approved,,2025,July-Nov
 13399,Basina Adityatrived,230108076,EE 331,,--,Approved,,2025,July-Nov
@@ -11457,6 +11459,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13402,Basina Adityatrived,230108076,EE 380,,--,Approved,,2025,July-Nov
 13403,Basina Adityatrived,230108076,HS 147,,--,Approved,,2025,July-Nov
 13404,Chandrabhatla Sriram Satvik,230108074,CS 322M,,--,Approved,,2025,July-Nov
+13405,Chandrabhatla Sriram Satvik,230108074,CS 352,,--,Approved,,2025,July-Nov
 13406,Chandrabhatla Sriram Satvik,230108074,EE 312,,--,Approved,,2025,July-Nov
 13407,Chandrabhatla Sriram Satvik,230108074,EE 331,,--,Approved,,2025,July-Nov
 13408,Chandrabhatla Sriram Satvik,230108074,EE 340,,--,Approved,,2025,July-Nov
@@ -11471,6 +11474,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13418,Harsh Kumar,230102116,EE 351,,--,Approved,,2025,July-Nov
 13419,Harsh Kumar,230102116,HS 141,,--,Approved,,2025,July-Nov
 13421,Kritagya,230108075,CS 322M,,--,Approved,,2025,July-Nov
+13422,Kritagya,230108075,CS 352,,--,Approved,,2025,July-Nov
 13423,Kritagya,230108075,EE 312,,--,Approved,,2025,July-Nov
 13424,Kritagya,230108075,EE 331,,--,Approved,,2025,July-Nov
 13425,Kritagya,230108075,EE 340,,--,Approved,,2025,July-Nov
@@ -11540,6 +11544,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13495,Abhishek Jha,230107100,CS 452,,--,Approved,,2025,July-Nov
 13496,Abhishek Jha,230107100,HS 164,,--,Approved,,2025,July-Nov
 13497,Arkaprava Paul,230108071,CS 322M,,--,Approved,,2025,July-Nov
+13498,Arkaprava Paul,230108071,CS 452,,--,Approved,,2025,July-Nov
 13499,Arkaprava Paul,230108071,EE 312,,--,Approved,,2025,July-Nov
 13500,Arkaprava Paul,230108071,EE 331,,--,Approved,,2025,July-Nov
 13501,Arkaprava Paul,230108071,EE 340,,--,Approved,,2025,July-Nov
@@ -11570,10 +11575,12 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13527,Pratyush Kumar,230108066,DA 321M,,--,Approved,,2025,July-Nov
 13528,Pratyush Kumar,230108066,EE 312,,--,Approved,,2025,July-Nov
 13529,Pratyush Kumar,230108066,EE 331,,--,Approved,,2025,July-Nov
+13530,Pratyush Kumar,230108066,EE 339,,--,Approved,,2025,July-Nov
 13531,Pratyush Kumar,230108066,EE 340,,--,Approved,,2025,July-Nov
 13532,Pratyush Kumar,230108066,EE 351,,--,Approved,,2025,July-Nov
 13533,Pratyush Kumar,230108066,EE 380,,--,Approved,,2025,July-Nov
 13534,Pratyush Kumar,230108066,HS 123,,--,Approved,,2025,July-Nov
+13535,Rupangkan Mazumdar,230108069,CH 426,,--,Approved,,2025,July-Nov
 13536,Rupangkan Mazumdar,230108069,CS 322M,,--,Approved,,2025,July-Nov
 13537,Rupangkan Mazumdar,230108069,EE 312,,--,Approved,,2025,July-Nov
 13538,Rupangkan Mazumdar,230108069,EE 331,,--,Approved,,2025,July-Nov
@@ -11590,6 +11597,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13549,Sanket Prakash,230103121,ME 314,,--,Approved,,2025,July-Nov
 13550,Sanket Prakash,230103121,ME 315,,--,Approved,,2025,July-Nov
 13551,Satvik Singh,230108065,CS 322M,,--,Approved,,2025,July-Nov
+13552,Satvik Singh,230108065,CS 352,,--,Approved,,2025,July-Nov
 13553,Satvik Singh,230108065,EE 312,,--,Approved,,2025,July-Nov
 13554,Satvik Singh,230108065,EE 331,,--,Approved,,2025,July-Nov
 13555,Satvik Singh,230108065,EE 340,,--,Approved,,2025,July-Nov
@@ -11597,12 +11605,14 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13557,Satvik Singh,230108065,EE 380,,--,Approved,,2025,July-Nov
 13558,Satvik Singh,230108065,HS 158,,--,Approved,,2025,July-Nov
 13560,Shubham Singhal,230108063,CS 322M,,--,Approved,,2025,July-Nov
+13561,Shubham Singhal,230108063,CS 352,,--,Approved,,2025,July-Nov
 13562,Shubham Singhal,230108063,EE 312,,--,Approved,,2025,July-Nov
 13563,Shubham Singhal,230108063,EE 331,,--,Approved,,2025,July-Nov
 13564,Shubham Singhal,230108063,EE 340,,--,Approved,,2025,July-Nov
 13565,Shubham Singhal,230108063,EE 351,,--,Approved,,2025,July-Nov
 13566,Shubham Singhal,230108063,EE 380,,--,Approved,,2025,July-Nov
 13567,Shubham Singhal,230108063,HS 141,,--,Approved,,2025,July-Nov
+13568,Srivardhan Seshasai Karuturi,230108078,CH 426,,--,Approved,,2025,July-Nov
 13570,Srivardhan Seshasai Karuturi,230108078,CS 322M,,--,Approved,,2025,July-Nov
 13571,Srivardhan Seshasai Karuturi,230108078,EE 312,,--,Approved,,2025,July-Nov
 13572,Srivardhan Seshasai Karuturi,230108078,EE 331,,--,Approved,,2025,July-Nov
@@ -11700,6 +11710,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13674,Ayush Dixit,230102110,EE 340,,--,Approved,,2025,July-Nov
 13675,Ayush Dixit,230102110,EE 351,,--,Approved,,2025,July-Nov
 13676,Ayush Dixit,230102110,HS 123,,--,Approved,,2025,July-Nov
+13677,G Jayagiri,230108067,CH 426,,--,Approved,,2025,July-Nov
 13678,G Jayagiri,230108067,CS 322M,,--,Approved,,2025,July-Nov
 13679,G Jayagiri,230108067,EE 312,,--,Approved,,2025,July-Nov
 13680,G Jayagiri,230108067,EE 331,,--,Approved,,2025,July-Nov
@@ -11707,6 +11718,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13682,G Jayagiri,230108067,EE 351,,--,Approved,,2025,July-Nov
 13683,G Jayagiri,230108067,EE 380,,--,Approved,,2025,July-Nov
 13684,G Jayagiri,230108067,HS 147,,--,Approved,,2025,July-Nov
+13685,Ishaan Bahl,230108068,CS 452,,--,Approved,,2025,July-Nov
 13686,Ishaan Bahl,230108068,DA 321M,,--,Approved,,2025,July-Nov
 13687,Ishaan Bahl,230108068,EE 312,,--,Approved,,2025,July-Nov
 13688,Ishaan Bahl,230108068,EE 331,,--,Approved,,2025,July-Nov
@@ -11714,6 +11726,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13690,Ishaan Bahl,230108068,EE 351,,--,Approved,,2025,July-Nov
 13691,Ishaan Bahl,230108068,EE 380,,--,Approved,,2025,July-Nov
 13692,Ishaan Bahl,230108068,HS 119,,--,Approved,,2025,July-Nov
+13693,Kartik Gupta,230108079,CS 352,,--,Approved,,2025,July-Nov
 13694,Kartik Gupta,230108079,EE 312,,--,Approved,,2025,July-Nov
 13695,Kartik Gupta,230108079,EE 331,,--,Approved,,2025,July-Nov
 13696,Kartik Gupta,230108079,EE 340,,--,Approved,,2025,July-Nov
@@ -11728,6 +11741,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13705,Pranav Shalya,230103128,ME 313,,--,Approved,,2025,July-Nov
 13706,Pranav Shalya,230103128,ME 314,,--,Approved,,2025,July-Nov
 13707,Pranav Shalya,230103128,ME 315,,--,Approved,,2025,July-Nov
+13708,Saanchi Gupta,230108073,CH 426,,--,Approved,,2025,July-Nov
 13709,Saanchi Gupta,230108073,EE 312,,--,Approved,,2025,July-Nov
 13710,Saanchi Gupta,230108073,EE 331,,--,Approved,,2025,July-Nov
 13711,Saanchi Gupta,230108073,EE 340,,--,Approved,,2025,July-Nov
@@ -11737,6 +11751,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13715,Shirshendu Sen Gupta,230108072,CS 322M,,--,Approved,,2025,July-Nov
 13716,Shirshendu Sen Gupta,230108072,EE 312,,--,Approved,,2025,July-Nov
 13717,Shirshendu Sen Gupta,230108072,EE 331,,--,Approved,,2025,July-Nov
+13718,Shirshendu Sen Gupta,230108072,EE 339,,--,Approved,,2025,July-Nov
 13719,Shirshendu Sen Gupta,230108072,EE 340,,--,Approved,,2025,July-Nov
 13720,Shirshendu Sen Gupta,230108072,EE 351,,--,Approved,,2025,July-Nov
 13721,Shirshendu Sen Gupta,230108072,EE 380,,--,Approved,,2025,July-Nov
@@ -11745,6 +11760,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13724,Shyam,230108070,CS 322M,,--,Approved,,2025,July-Nov
 13725,Shyam,230108070,EE 312,,--,Approved,,2025,July-Nov
 13726,Shyam,230108070,EE 331,,--,Approved,,2025,July-Nov
+13727,Shyam,230108070,EE 339,,--,Approved,,2025,July-Nov
 13728,Shyam,230108070,EE 340,,--,Approved,,2025,July-Nov
 13729,Shyam,230108070,EE 351,,--,Approved,,2025,July-Nov
 13730,Shyam,230108070,EE 380,,--,Approved,,2025,July-Nov
@@ -11880,6 +11896,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13871,Anant Sharma,230150034,DA 331,,--,Approved,,2025,July-Nov
 13872,Anant Sharma,230150034,DA 341,,--,Approved,,2025,July-Nov
 13873,Anant Sharma,230150034,DA 351,,--,Approved,,2025,July-Nov
+13875,Aryan,230108064,CS 352,,--,Approved,,2025,July-Nov
 13876,Aryan,230108064,DA 321M,,--,Approved,,2025,July-Nov
 13877,Aryan,230108064,EE 312,,--,Approved,,2025,July-Nov
 13878,Aryan,230108064,EE 331,,--,Approved,,2025,July-Nov
@@ -11913,6 +11930,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13909,Vasudev Krishna Kottra Chal,230102113,HS 123,,--,Approved,,2025,July-Nov
 13911,Shubh Singh,230108080,EE 312,,--,Approved,,2025,July-Nov
 13912,Shubh Singh,230108080,EE 331,,--,Approved,,2025,July-Nov
+13913,Shubh Singh,230108080,EE 339,,--,Approved,,2025,July-Nov
 13914,Shubh Singh,230108080,EE 340,,--,Approved,,2025,July-Nov
 13915,Shubh Singh,230108080,EE 351,,--,Approved,,2025,July-Nov
 13916,Shubh Singh,230108080,EE 380,,--,Approved,,2025,July-Nov
