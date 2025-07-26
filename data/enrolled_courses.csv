@@ -289,7 +289,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 288,Abhideep Bishui,220101001,HS 214,,--,Pending,,2025,July-Nov
 289,Aman Saraswat,220108004,EE 205,,--,Approved,,2025,July-Nov
 290,Aman Saraswat,220108004,EE 623,,--,Approved,,2025,July-Nov
-291,Aman Saraswat,220108004,EE 639,,--,Rejected,,2025,July-Nov
 292,Aman Saraswat,220108004,EE 672,,--,Approved,,2025,July-Nov
 293,Aman Saraswat,220108004,EE604,,--,Approved,,2025,July-Nov
 294,Aman Saraswat,220108004,HS 212,,--,Approved,,2025,July-Nov
@@ -344,8 +343,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 343,Mastram Meena,220106045,HS 212,,--,Approved,,2025,July-Nov
 344,Mohd Fahad Javed,220123036,HS 214,,--,Pending,,2025,July-Nov
 345,Mokshith.T.J.,220106049,BT 401,,--,Approved,,2025,July-Nov
-346,Mokshith.T.J.,220106049,BT 406,,--,Rejected,,2025,July-Nov
-347,Mokshith.T.J.,220106049,BT 408,,--,Rejected,,2025,July-Nov
 348,Mokshith.T.J.,220106049,BT 418,,--,Approved,,2025,July-Nov
 349,Mokshith.T.J.,220106049,BT 421,,--,Approved,,2025,July-Nov
 350,Mokshith.T.J.,220106049,HS 214,,--,Approved,,2025,July-Nov
@@ -378,7 +375,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 377,Niradkumar Chaudhary,220103078,HS 212,,--,Approved,,2025,July-Nov
 378,Niradkumar Chaudhary,220103078,ME 401,,--,Approved,,2025,July-Nov
 379,Niradkumar Chaudhary,220103078,ME 532,,--,Approved,,2025,July-Nov
-380,Niradkumar Chaudhary,220103078,ME 550,,--,Rejected,,2025,July-Nov
 381,Niradkumar Chaudhary,220103078,ME 678,,--,Approved,,2025,July-Nov
 382,Niradkumar Chaudhary,220103078,ME 679,,--,Approved,,2025,July-Nov
 383,Piyush Kumar,220102104,EE 639,,--,Approved,,2025,July-Nov
@@ -732,7 +728,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 731,Amey Shriram Mindewar,226154002,PhD5,,--,Pending,,2025,July-Nov
 732,Sanjana Sinha,226154003,PhD4,,--,Approved,,2025,July-Nov
 733,Maisang Kamei Salice,226155001,PhD4,,--,Approved,,2025,July-Nov
-734,Arijit Dey,226156001,PhD5,,--,Rejected,,2025,July-Nov
 735,Kishore Kumar Padi,226156002,PhD5,,--,Approved,,2025,July-Nov
 736,Kumar Rahul,226156003,PhD5,,--,Approved,,2025,July-Nov
 737,Sanjoy Das,226156004,PhD4,,--,Approved,,2025,July-Nov
@@ -796,7 +791,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 795,Ramvilash Kumar Poddar,230102079,EE 339,,--,Pending,,2025,July-Nov
 796,Ramvilash Kumar Poddar,230102079,EE 340,,--,Approved,,2025,July-Nov
 797,Ramvilash Kumar Poddar,230102079,EE 351,,--,Approved,,2025,July-Nov
-798,Ramvilash Kumar Poddar,230102079,EE 398,,--,Rejected,,2025,July-Nov
 799,Ramvilash Kumar Poddar,230102079,HS 106,,--,Approved,,2025,July-Nov
 800,Abhishek Kumar,220101002,CS 498,,--,Approved,,2025,July-Nov
 801,Abhishek Kumar,220101002,CS 503,,--,Approved,,2025,July-Nov
@@ -817,7 +811,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 816,Adarsh Manupati,220101004,HS 236,,--,Approved,,2025,July-Nov
 817,Aditya Kumar,220101005,HS 242,,--,Approved,,2025,July-Nov
 818,Aditya Nanda,220101006,CE 411,,--,Approved,,2025,July-Nov
-819,Aditya Nanda,220101006,CS 503,,--,Rejected,,2025,July-Nov
 820,Aditya Nanda,220101006,CS 560,,--,Approved,,2025,July-Nov
 821,Aditya Nanda,220101006,CS 578,,--,Approved,,2025,July-Nov
 822,Aditya Nanda,220101006,DA 422,,--,Approved,,2025,July-Nov
@@ -851,7 +844,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 850,Alampally Khushi,220101010,MA 411M,,--,Approved,,2025,July-Nov
 851,Alampally Khushi,220101010,MA 506,,--,Approved,,2025,July-Nov
 852,Alku Mandal,220101011,CE 446,,--,Approved,,2025,July-Nov
-853,Alku Mandal,220101011,CS 452,,--,Rejected,,2025,July-Nov
 854,Alku Mandal,220101011,CS 503,,--,Approved,,2025,July-Nov
 855,Alku Mandal,220101011,CS 560,,--,Approved,,2025,July-Nov
 856,Alku Mandal,220101011,CS 566,,--,Approved,,2025,July-Nov
@@ -863,14 +855,12 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 862,Anga Sai Girish,220101012,HS 211,,--,Approved,,2025,July-Nov
 863,Angati John Banyan,220101013,HS 212,,--,Pending,,2025,July-Nov
 864,Anushka Gupta,220101014,CS 498,,--,Approved,,2025,July-Nov
-865,Anushka Gupta,220101014,CS 510,,--,Rejected,,2025,July-Nov
 866,Anushka Gupta,220101014,CS 542,,--,Approved,,2025,July-Nov
 867,Anushka Gupta,220101014,CS 549,,--,Approved,,2025,July-Nov
 868,Anushka Gupta,220101014,CS 560,,--,Approved,,2025,July-Nov
 869,Anushka Gupta,220101014,DA 422,,--,Approved,,2025,July-Nov
 870,Anushka Gupta,220101014,HS 242,,--,Approved,,2025,July-Nov
 871,Aradhya Jain,220101015,CS 498,,--,Approved,,2025,July-Nov
-872,Aradhya Jain,220101015,CS 510,,--,Rejected,,2025,July-Nov
 873,Aradhya Jain,220101015,CS 542,,--,Approved,,2025,July-Nov
 874,Aradhya Jain,220101015,CS 549,,--,Approved,,2025,July-Nov
 875,Aradhya Jain,220101015,CS 560,,--,Approved,,2025,July-Nov
@@ -895,7 +885,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 894,Aryan Arya,220101018,CS 542,,--,Approved,,2025,July-Nov
 895,Aryan Arya,220101018,CS 549,,--,Approved,,2025,July-Nov
 896,Aryan Arya,220101018,CS 560,,--,Approved,,2025,July-Nov
-897,Aryan Arya,220101018,CS 578,,--,Rejected,,2025,July-Nov
 898,Aryan Arya,220101018,DA 422,,--,Approved,,2025,July-Nov
 899,Aryan Arya,220101018,HS 242,,--,Approved,,2025,July-Nov
 900,Aryan Raj,220101019,CS 498,,--,Approved,,2025,July-Nov
@@ -904,7 +893,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 903,Aryan Raj,220101019,HS 203,,--,Approved,,2025,July-Nov
 904,Aryan Raj,220101019,NPT0040,,--,Pending,,2025,July-Nov
 905,Ashish Raj,220101020,CE 446,,--,Approved,,2025,July-Nov
-906,Ashish Raj,220101020,CS 452,,--,Rejected,,2025,July-Nov
 907,Ashish Raj,220101020,CS 498,,--,Approved,,2025,July-Nov
 908,Ashish Raj,220101020,CS 510,,--,Approved,,2025,July-Nov
 909,Ashish Raj,220101020,CS 560,,--,Approved,,2025,July-Nov
@@ -925,11 +913,9 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 924,Ayush Savar,220101022,HS 242,,--,Pending,,2025,July-Nov
 925,Bonda Jnana Sai,220101025,CS 498,,--,Approved,,2025,July-Nov
 926,Bonda Jnana Sai,220101025,CS 542,,--,Approved,,2025,July-Nov
-927,Bonda Jnana Sai,220101025,CS 566,,--,Rejected,,2025,July-Nov
 928,Bonda Jnana Sai,220101025,DA 422,,--,Approved,,2025,July-Nov
 929,Bonda Jnana Sai,220101025,HS 236,,--,Approved,,2025,July-Nov
 930,Boorna Vishnu Teja,220101026,BT 421,,--,Approved,,2025,July-Nov
-931,Boorna Vishnu Teja,220101026,CS 498,,--,Rejected,,2025,July-Nov
 932,Boorna Vishnu Teja,220101026,CS 503,,--,Approved,,2025,July-Nov
 933,Boorna Vishnu Teja,220101026,CS 549,,--,Approved,,2025,July-Nov
 934,Boorna Vishnu Teja,220101026,CS 560,,--,Approved,,2025,July-Nov
@@ -959,8 +945,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 958,Chepuri Rajiv Kumar,220101030,BT 421,,--,Approved,,2025,July-Nov
 959,Chepuri Rajiv Kumar,220101030,CS 498,,--,Approved,,2025,July-Nov
 960,Chepuri Rajiv Kumar,220101030,CS 503,,--,Approved,,2025,July-Nov
-961,Chepuri Rajiv Kumar,220101030,CS 560,,--,Rejected,,2025,July-Nov
-962,Chepuri Rajiv Kumar,220101030,CS 566,,--,Rejected,,2025,July-Nov
 963,Chepuri Rajiv Kumar,220101030,EE 658,,--,Approved,,2025,July-Nov
 964,Chepuri Rajiv Kumar,220101030,HS 242,,--,Approved,,2025,July-Nov
 965,Chouhan Shreyan,220101031,BT 421,,--,Pending,,2025,July-Nov
@@ -1047,9 +1031,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1046,Kanishk Mehta,220101047,HS 201,,--,Approved,,2025,July-Nov
 1047,Kareddy Hrushikesh Reddy,220101048,CS 498,,--,Approved,,2025,July-Nov
 1048,Kareddy Hrushikesh Reddy,220101048,CS 542,,--,Approved,,2025,July-Nov
-1049,Kareddy Hrushikesh Reddy,220101048,CS 549,,--,Rejected,,2025,July-Nov
-1050,Kareddy Hrushikesh Reddy,220101048,CS 560,,--,Rejected,,2025,July-Nov
-1051,Kareddy Hrushikesh Reddy,220101048,CS 566,,--,Rejected,,2025,July-Nov
 1052,Kareddy Hrushikesh Reddy,220101048,EE 658,,--,Approved,,2025,July-Nov
 1053,Kareddy Hrushikesh Reddy,220101048,HS 242,,--,Approved,,2025,July-Nov
 1054,Kasani Keerthi Sarika,220101049,CS 498,,--,Approved,,2025,July-Nov
@@ -1075,29 +1056,23 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1074,Kavali Sai Shradha,220101052,CS 343,,--,Approved,,2025,July-Nov
 1075,Kavali Sai Shradha,220101052,CS 344,,--,Approved,,2025,July-Nov
 1076,Kavali Sai Shradha,220101052,CS 498,,--,Approved,,2025,July-Nov
-1077,Kavali Sai Shradha,220101052,CS 578,,--,Rejected,,2025,July-Nov
-1078,Kavali Sai Shradha,220101052,EE 658,,--,Rejected,,2025,July-Nov
 1079,Kavali Sai Shradha,220101052,HS 133,,--,Approved,,2025,July-Nov
 1080,Kavali Sai Shradha,220101052,ME 609,,--,Approved,,2025,July-Nov
 1081,Kethavath Durga Prasad,220101053,CE 411,,--,Approved,,2025,July-Nov
 1082,Kethavath Durga Prasad,220101053,CH 429,,--,Approved,,2025,July-Nov
 1083,Kethavath Durga Prasad,220101053,CS 542,,--,Approved,,2025,July-Nov
 1084,Kethavath Durga Prasad,220101053,CS 560,,--,Approved,,2025,July-Nov
-1085,Kethavath Durga Prasad,220101053,CS 566,,--,Rejected,,2025,July-Nov
 1086,Kethavath Durga Prasad,220101053,HS 222,,--,Approved,,2025,July-Nov
 1087,Kevin Thomas Jacob,220101054,CS 498,,--,Approved,,2025,July-Nov
 1088,Kevin Thomas Jacob,220101054,CS 549,,--,Approved,,2025,July-Nov
 1089,Kevin Thomas Jacob,220101054,CS 560,,--,Approved,,2025,July-Nov
 1090,Kevin Thomas Jacob,220101054,EE 658,,--,Approved,,2025,July-Nov
 1091,Kevin Thomas Jacob,220101054,HS 236,,--,Approved,,2025,July-Nov
-1092,Kevin Thomas Jacob,220101054,ME 609,,--,Rejected,,2025,July-Nov
 1093,Kishore K,220101055,BT 418,,--,Pending,,2025,July-Nov
 1094,Kishore K,220101055,ME 609,,--,Pending,,2025,July-Nov
 1095,Kondapalli Soumith,220101056,CS 498,,--,Approved,,2025,July-Nov
-1096,Kondapalli Soumith,220101056,CS 503,,--,Rejected,,2025,July-Nov
 1097,Kondapalli Soumith,220101056,CS 542,,--,Approved,,2025,July-Nov
 1098,Kondapalli Soumith,220101056,CS 549,,--,Approved,,2025,July-Nov
-1099,Kondapalli Soumith,220101056,CS 578,,--,Rejected,,2025,July-Nov
 1100,Kondapalli Soumith,220101056,DA 422,,--,Approved,,2025,July-Nov
 1101,Kondapalli Soumith,220101056,HS 222,,--,Approved,,2025,July-Nov
 1102,Kondeti Vignesh,220101057,CE 411,,--,Approved,,2025,July-Nov
@@ -1153,8 +1128,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1152,Marala Sai Sudhamsh,220101066,CH 429,,--,Approved,,2025,July-Nov
 1153,Marala Sai Sudhamsh,220101066,CS 498,,--,Approved,,2025,July-Nov
 1154,Marala Sai Sudhamsh,220101066,CS 542,,--,Approved,,2025,July-Nov
-1155,Marala Sai Sudhamsh,220101066,CS 549,,--,Rejected,,2025,July-Nov
-1156,Marala Sai Sudhamsh,220101066,CS 566,,--,Rejected,,2025,July-Nov
 1157,Marala Sai Sudhamsh,220101066,HS 201,,--,Approved,,2025,July-Nov
 1158,Mayank Choudhary,220101067,CE 411,,--,Pending,,2025,July-Nov
 1159,Mayank Choudhary,220101067,CS 498,,--,Approved,,2025,July-Nov
@@ -1231,8 +1204,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1230,Pihul Lalotra,220101079,CE 411,,--,Approved,,2025,July-Nov
 1231,Pihul Lalotra,220101079,CS 510,,--,Approved,,2025,July-Nov
 1232,Pihul Lalotra,220101079,CS 542,,--,Approved,,2025,July-Nov
-1233,Pihul Lalotra,220101079,CS 560,,--,Rejected,,2025,July-Nov
-1234,Pihul Lalotra,220101079,CS 578,,--,Rejected,,2025,July-Nov
 1235,Pihul Lalotra,220101079,DA 422,,--,Approved,,2025,July-Nov
 1236,Pihul Lalotra,220101079,HS 222,,--,Approved,,2025,July-Nov
 1237,Pilakatupula Venkata Siva Rao,220101080,BT 421,,--,Pending,,2025,July-Nov
@@ -1268,7 +1239,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1267,Ram Bansal,220101085,CS 498,,--,Approved,,2025,July-Nov
 1268,Ram Bansal,220101085,CS 542,,--,Approved,,2025,July-Nov
 1269,Ram Bansal,220101085,CS 560,,--,Approved,,2025,July-Nov
-1270,Ram Bansal,220101085,CS 578,,--,Rejected,,2025,July-Nov
 1271,Ram Bansal,220101085,HS 203,,--,Approved,,2025,July-Nov
 1272,Ravipati Swarna,220101086,CS 498,,--,Approved,,2025,July-Nov
 1273,Ravipati Swarna,220101086,CS 578,,--,Approved,,2025,July-Nov
@@ -1353,7 +1323,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1352,Tanmay Mittal,220101099,HS 242,,--,Pending,,2025,July-Nov
 1353,Tanmay Mittal,220101099,MA 506,,--,Pending,,2025,July-Nov
 1354,Tanmay Mittal,220101099,PH 443,,--,Pending,,2025,July-Nov
-1355,Tanmoy Sarkar,220101100,CE 446,,--,Rejected,,2025,July-Nov
 1356,Tanmoy Sarkar,220101100,CS 542,,--,Approved,,2025,July-Nov
 1357,Tanmoy Sarkar,220101100,CS 560,,--,Approved,,2025,July-Nov
 1358,Tanmoy Sarkar,220101100,CS 566,,--,Approved,,2025,July-Nov
@@ -1362,11 +1331,9 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1361,Tanush Reddy Kolagatla,220101101,CS 498,,--,Approved,,2025,July-Nov
 1362,Tanush Reddy Kolagatla,220101101,CS 542,,--,Approved,,2025,July-Nov
 1363,Tanush Reddy Kolagatla,220101101,CS 549,,--,Approved,,2025,July-Nov
-1364,Tanush Reddy Kolagatla,220101101,CS 560,,--,Rejected,,2025,July-Nov
 1365,Tanush Reddy Kolagatla,220101101,CS 566,,--,Approved,,2025,July-Nov
 1366,Tanush Reddy Kolagatla,220101101,HS 242,,--,Approved,,2025,July-Nov
 1367,Tanush Reddy Kolagatla,220101101,MA 502,,--,Approved,,2025,July-Nov
-1368,Tanush Reddy Kolagatla,220101101,MA 506,,--,Rejected,,2025,July-Nov
 1369,Tanvi Doshi,220101102,BT 421,,--,Approved,,2025,July-Nov
 1370,Tanvi Doshi,220101102,CS 498,,--,Approved,,2025,July-Nov
 1371,Tanvi Doshi,220101102,CS 549,,--,Approved,,2025,July-Nov
@@ -1374,7 +1341,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1373,Tanvi Doshi,220101102,DA 421M,,--,Approved,,2025,July-Nov
 1374,Tanvi Doshi,220101102,HS 242,,--,Approved,,2025,July-Nov
 1375,Tanvi Doshi,220101102,PH 443,,--,Approved,,2025,July-Nov
-1376,Tarun Kumar Chaudhary,220101103,CE 446,,--,Rejected,,2025,July-Nov
 1377,Tarun Kumar Chaudhary,220101103,CS 542,,--,Approved,,2025,July-Nov
 1378,Tarun Kumar Chaudhary,220101103,CS 560,,--,Approved,,2025,July-Nov
 1379,Tarun Kumar Chaudhary,220101103,CS 566,,--,Approved,,2025,July-Nov
@@ -1390,9 +1356,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1389,Tarun Raj,220101104,ME 609,,--,Pending,,2025,July-Nov
 1390,Twinkle Hitesh Patel,220101105,HS 250,,--,Pending,,2025,July-Nov
 1391,Udbhav Gupta,220101106,CE 411,,--,Approved,,2025,July-Nov
-1392,Udbhav Gupta,220101106,CS 452,,--,Rejected,,2025,July-Nov
 1393,Udbhav Gupta,220101106,CS 498,,--,Approved,,2025,July-Nov
-1394,Udbhav Gupta,220101106,CS 510,,--,Rejected,,2025,July-Nov
 1395,Udbhav Gupta,220101106,CS 542,,--,Approved,,2025,July-Nov
 1396,Udbhav Gupta,220101106,CS 566,,--,Approved,,2025,July-Nov
 1397,Udbhav Gupta,220101106,HS 242,,--,Approved,,2025,July-Nov
@@ -1443,7 +1407,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1442,Vivek Kumar,220101114,CS 549,,--,Approved,,2025,July-Nov
 1443,Vivek Kumar,220101114,CS 578,,--,Approved,,2025,July-Nov
 1444,Vivek Kumar,220101114,HS 211,,--,Approved,,2025,July-Nov
-1445,Vivek Kumar,220101114,ME 532,,--,Rejected,,2025,July-Nov
 1446,Vivek Kumar,220101114,ME 609,,--,Approved,,2025,July-Nov
 1447,Yash Jain,220101115,BT 421,,--,Pending,,2025,July-Nov
 1448,Yash Jain,220101115,CS 498,,--,Approved,,2025,July-Nov
@@ -1477,8 +1440,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1476,Akash Rai,220102005,CH 426,,--,Approved,,2025,July-Nov
 1477,Akash Rai,220102005,CS 452,,--,Approved,,2025,July-Nov
 1478,Akash Rai,220102005,EE 610,,--,Approved,,2025,July-Nov
-1479,Akash Rai,220102005,EE 616,,--,Rejected,,2025,July-Nov
-1480,Akash Rai,220102005,EE 791,,--,Rejected,,2025,July-Nov
 1481,Akash Rai,220102005,HS 133,,--,Approved,,2025,July-Nov
 1482,Akash Rai,220102005,HS 212,,--,Approved,,2025,July-Nov
 1483,Akshaya Sridhar,220102006,EE 321,,--,Approved,,2025,July-Nov
@@ -1592,7 +1553,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1591,Bhukya Tanuj Nayak,220102024,EE604,,--,Approved,,2025,July-Nov
 1592,Bhukya Tanuj Nayak,220102024,HS 212,,--,Approved,,2025,July-Nov
 1593,Bodanapu Varshitha,220102025,EE 601,,--,Approved,,2025,July-Nov
-1594,Bodanapu Varshitha,220102025,EE 623,,--,Rejected,,2025,July-Nov
 1595,Bodanapu Varshitha,220102025,EE 658,,--,Approved,,2025,July-Nov
 1596,Bodanapu Varshitha,220102025,EE604,,--,Approved,,2025,July-Nov
 1597,Bodanapu Varshitha,220102025,HS 242,,--,Approved,,2025,July-Nov
@@ -1673,12 +1633,10 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1672,Hardik Jain,220102039,EE 498,,--,Approved,,2025,July-Nov
 1673,Hardik Jain,220102039,EE 616,,--,Approved,,2025,July-Nov
 1674,Hardik Jain,220102039,EE 658,,--,Approved,,2025,July-Nov
-1675,Hardik Jain,220102039,EE 693,,--,Rejected,,2025,July-Nov
 1676,Hardik Jain,220102039,EE604,,--,Approved,,2025,July-Nov
 1677,Hardik Jain,220102039,HS 213,,--,Approved,,2025,July-Nov
 1678,Hari Hrishikesh Vardhan,220102040,CS 441M,,--,Approved,,2025,July-Nov
 1679,Hari Hrishikesh Vardhan,220102040,EE 601,,--,Approved,,2025,July-Nov
-1680,Hari Hrishikesh Vardhan,220102040,EE 623,,--,Rejected,,2025,July-Nov
 1681,Hari Hrishikesh Vardhan,220102040,EE 658,,--,Approved,,2025,July-Nov
 1682,Hari Hrishikesh Vardhan,220102040,EE604,,--,Approved,,2025,July-Nov
 1683,Hari Hrishikesh Vardhan,220102040,HS 214,,--,Approved,,2025,July-Nov
@@ -1690,7 +1648,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1689,Hrishikeshan A Namboodiri,220102041,PH 443,,--,Approved,,2025,July-Nov
 1690,Isha Roy,220102042,CH 429,,--,Approved,,2025,July-Nov
 1691,Isha Roy,220102042,EE 601,,--,Approved,,2025,July-Nov
-1692,Isha Roy,220102042,EE 623,,--,Rejected,,2025,July-Nov
 1693,Isha Roy,220102042,EE604,,--,Approved,,2025,July-Nov
 1694,Isha Roy,220102042,HS 213,,--,Approved,,2025,July-Nov
 1695,Jalam Shraman,220102043,CH 429,,--,Approved,,2025,July-Nov
@@ -1712,13 +1669,11 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1711,K Vasanthakumaaran,220102045,HS 211,,--,Approved,,2025,July-Nov
 1712,Karanam Divij,220102046,CoS 05,,--,Pending,,2025,July-Nov
 1713,Karanam Divij,220102046,EE 610,,--,Approved,,2025,July-Nov
-1714,Karanam Divij,220102046,EE 616,,--,Rejected,,2025,July-Nov
 1715,Karanam Divij,220102046,EE 693,,--,Approved,,2025,July-Nov
 1716,Karanam Divij,220102046,HS 212,,--,Approved,,2025,July-Nov
 1717,Karanam Divij,220102046,ME 532,,--,Approved,,2025,July-Nov
 1718,Kasipuram Vaishnavi,220102047,CH 429,,--,Approved,,2025,July-Nov
 1719,Kasipuram Vaishnavi,220102047,EE 601,,--,Approved,,2025,July-Nov
-1720,Kasipuram Vaishnavi,220102047,EE 623,,--,Rejected,,2025,July-Nov
 1721,Kasipuram Vaishnavi,220102047,EE604,,--,Approved,,2025,July-Nov
 1722,Kasipuram Vaishnavi,220102047,HS 236,,--,Approved,,2025,July-Nov
 1723,Katravath Mahender,220102048,EE 601,,--,Approved,,2025,July-Nov
@@ -1728,7 +1683,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1727,Katravath Mahender,220102048,HS 214,,--,Approved,,2025,July-Nov
 1728,Kavya Deepak Lamture,220102049,CH 429,,--,Approved,,2025,July-Nov
 1729,Kavya Deepak Lamture,220102049,EE 601,,--,Approved,,2025,July-Nov
-1730,Kavya Deepak Lamture,220102049,EE 623,,--,Rejected,,2025,July-Nov
 1731,Kavya Deepak Lamture,220102049,EE604,,--,Approved,,2025,July-Nov
 1732,Kavya Deepak Lamture,220102049,HS 231,,--,Approved,,2025,July-Nov
 1733,Khyati Chouhan,220102050,CS 452,,--,Approved,,2025,July-Nov
@@ -1807,7 +1761,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1806,Nakka Aravind,220102064,HS 203,,--,Approved,,2025,July-Nov
 1807,Nikhil Kumar,220102065,CH 429,,--,Approved,,2025,July-Nov
 1808,Nikhil Kumar,220102065,EE 601,,--,Approved,,2025,July-Nov
-1809,Nikhil Kumar,220102065,EE 623,,--,Rejected,,2025,July-Nov
 1810,Nikhil Kumar,220102065,EE604,,--,Approved,,2025,July-Nov
 1811,Nikhil Kumar,220102065,HS 222,,--,Approved,,2025,July-Nov
 1812,Nilesh Singla,220123078,DA 421M,,--,Approved,,2025,July-Nov
@@ -1818,7 +1771,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1817,Nilesh Singla,220123078,MA 562,,--,Approved,,2025,July-Nov
 1818,Nitish Kumar Singh,220102067,CS 452,,--,Approved,,2025,July-Nov
 1819,Nitish Kumar Singh,220102067,EE 601,,--,Approved,,2025,July-Nov
-1820,Nitish Kumar Singh,220102067,EE 623,,--,Rejected,,2025,July-Nov
 1821,Nitish Kumar Singh,220102067,EE604,,--,Approved,,2025,July-Nov
 1822,Nitish Kumar Singh,220102067,HS 222,,--,Approved,,2025,July-Nov
 1823,Om Kumar,220101117,CH 429,,--,Pending,,2025,July-Nov
@@ -1829,7 +1781,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1828,Om Kumar,220101117,HS 236,,--,Pending,,2025,July-Nov
 1829,Palab Rana,220102069,CH 429,,--,Approved,,2025,July-Nov
 1830,Palab Rana,220102069,EE 601,,--,Approved,,2025,July-Nov
-1831,Palab Rana,220102069,EE 623,,--,Rejected,,2025,July-Nov
 1832,Palab Rana,220102069,EE604,,--,Approved,,2025,July-Nov
 1833,Palab Rana,220102069,HS 222,,--,Approved,,2025,July-Nov
 1834,Piyush Dhar Patel,220102070,EE 610,,--,Approved,,2025,July-Nov
@@ -1871,7 +1822,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1870,Rangari Akshat Pruthviraj,220102076,MA 411M,,--,Approved,,2025,July-Nov
 1871,Rathod Sujal Jignesh,220102077,DA 421M,,--,Approved,,2025,July-Nov
 1872,Rathod Sujal Jignesh,220102077,EE 610,,--,Approved,,2025,July-Nov
-1873,Rathod Sujal Jignesh,220102077,EE 623,,--,Rejected,,2025,July-Nov
 1874,Rathod Sujal Jignesh,220102077,EE 791,,--,Approved,,2025,July-Nov
 1875,Rathod Sujal Jignesh,220102077,HS 236,,--,Approved,,2025,July-Nov
 1876,Rathod Sujal Jignesh,220102077,MA 502,,--,Approved,,2025,July-Nov
@@ -1913,7 +1863,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1912,Sahil,220102084,CoS 05,,--,Pending,,2025,July-Nov
 1913,Sahil,220102084,CS 441M,,--,Approved,,2025,July-Nov
 1914,Sahil,220102084,EE 601,,--,Approved,,2025,July-Nov
-1915,Sahil,220102084,EE 623,,--,Rejected,,2025,July-Nov
 1916,Sahil,220102084,EE 639,,--,Approved,,2025,July-Nov
 1917,Sahil,220102084,EE604,,--,Approved,,2025,July-Nov
 1918,Sahil,220102084,HS 242,,--,Approved,,2025,July-Nov
@@ -1946,7 +1895,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1945,Sarvagna Grandhi,220102089,HS 211,,--,Approved,,2025,July-Nov
 1946,Sarvesh Murkute,220102090,EE 601,,--,Approved,,2025,July-Nov
 1947,Sarvesh Murkute,220102090,EE 639,,--,Approved,,2025,July-Nov
-1948,Sarvesh Murkute,220102090,EE 693,,--,Rejected,,2025,July-Nov
 1949,Sarvesh Murkute,220102090,EE604,,--,Approved,,2025,July-Nov
 1950,Sarvesh Murkute,220102090,HS 213,,--,Approved,,2025,July-Nov
 1951,Shashwat Sharma,220102091,CS 441M,,--,Approved,,2025,July-Nov
@@ -1971,7 +1919,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 1970,Shreyash Sachindrakumar Bharati,220102094,EE 498,,--,Approved,,2025,July-Nov
 1971,Shreyash Sachindrakumar Bharati,220102094,EE 610,,--,Approved,,2025,July-Nov
 1972,Shreyash Sachindrakumar Bharati,220102094,EE 623,,--,Approved,,2025,July-Nov
-1973,Shreyash Sachindrakumar Bharati,220102094,EE 693,,--,Rejected,,2025,July-Nov
 1974,Shreyash Sachindrakumar Bharati,220102094,HS 242,,--,Approved,,2025,July-Nov
 1975,Shriya Surya,220102095,EE 610,,--,Approved,,2025,July-Nov
 1976,Shriya Surya,220102095,EE 623,,--,Approved,,2025,July-Nov
@@ -2102,7 +2049,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2101,Anirudh Cheedella,220103014,CH 429,,--,Approved,,2025,July-Nov
 2102,Anirudh Cheedella,220103014,HS 222,,--,Approved,,2025,July-Nov
 2103,Anirudh Cheedella,220103014,ME 401,,--,Approved,,2025,July-Nov
-2104,Anirudh Cheedella,220103014,ME 498,,--,Rejected,,2025,July-Nov
 2105,Anirudh Cheedella,220103014,ME 531,,--,Approved,,2025,July-Nov
 2106,Anirudh Cheedella,220103014,ME 660,,--,Approved,,2025,July-Nov
 2107,Anirudh Cheedella,220103014,ME 693,,--,Approved,,2025,July-Nov
@@ -2158,7 +2104,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2157,Ashok Santosh Menon,220103023,ME 401,,--,Approved,,2025,July-Nov
 2158,Ashok Santosh Menon,220103023,ME 512,,--,Approved,,2025,July-Nov
 2159,Ashok Santosh Menon,220103023,ME 609,,--,Approved,,2025,July-Nov
-2160,Ashok Santosh Menon,220103023,ME 628,,--,Rejected,,2025,July-Nov
 2161,Ashok Santosh Menon,220103023,ME 660,,--,Approved,,2025,July-Nov
 2162,Atmakuri Manoj Kumar,220103024,BT 421,,--,Approved,,2025,July-Nov
 2163,Atmakuri Manoj Kumar,220103024,DA 422,,--,Approved,,2025,July-Nov
@@ -2192,7 +2137,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2191,Bathula Kavya Lekha,220103029,CS 452,,--,Approved,,2025,July-Nov
 2192,Bathula Kavya Lekha,220103029,HS 222,,--,Approved,,2025,July-Nov
 2193,Bathula Kavya Lekha,220103029,ME 401,,--,Approved,,2025,July-Nov
-2194,Bathula Kavya Lekha,220103029,ME 498,,--,Rejected,,2025,July-Nov
 2195,Bathula Kavya Lekha,220103029,ME 512,,--,Approved,,2025,July-Nov
 2196,Bathula Kavya Lekha,220103029,ME 551,,--,Approved,,2025,July-Nov
 2197,Bathula Kavya Lekha,220103029,ME 660,,--,Approved,,2025,July-Nov
@@ -2200,9 +2144,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2199,Bhawana,220103030,EE 424M,,--,Approved,,2025,July-Nov
 2200,Bhawana,220103030,HS 250,,--,Approved,,2025,July-Nov
 2201,Bhawana,220103030,ME 401,,--,Approved,,2025,July-Nov
-2202,Bhawana,220103030,ME 498,,--,Rejected,,2025,July-Nov
 2203,Bhawana,220103030,ME 543,,--,Approved,,2025,July-Nov
-2204,Bhawana,220103030,ME 551,,--,Rejected,,2025,July-Nov
 2205,Bhawana,220103030,ME 674,,--,Approved,,2025,July-Nov
 2206,Bishan Inghi,220103032,HS 203,,--,Approved,,2025,July-Nov
 2207,Bishan Inghi,220103032,ME 401,,--,Approved,,2025,July-Nov
@@ -2318,7 +2260,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2317,Girish Dhakar,220103049,HS 211,,--,Approved,,2025,July-Nov
 2318,Girish Dhakar,220103049,ME 401,,--,Approved,,2025,July-Nov
 2319,Girish Dhakar,220103049,ME 512,,--,Approved,,2025,July-Nov
-2320,Girish Dhakar,220103049,ME 628,,--,Rejected,,2025,July-Nov
 2321,Girish Dhakar,220103049,ME 660,,--,Approved,,2025,July-Nov
 2322,Gonna Hemant,220103050,BT 418,,--,Approved,,2025,July-Nov
 2323,Gonna Hemant,220103050,BT 421,,--,Approved,,2025,July-Nov
@@ -2349,7 +2290,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2348,Hemanga Bharali,220103054,ME 693,,--,Approved,,2025,July-Nov
 2349,Hemant Kumar,220103055,EE 658,,--,Approved,,2025,July-Nov
 2350,Hemant Kumar,220103055,HS 250,,--,Approved,,2025,July-Nov
-2351,Hemant Kumar,220103055,ME 311,,--,Rejected,,2025,July-Nov
 2352,Hemant Kumar,220103055,ME 401,,--,Approved,,2025,July-Nov
 2353,Hemant Kumar,220103055,ME 498,,--,Approved,,2025,July-Nov
 2354,Hemant Kumar,220103055,ME 512,,--,Approved,,2025,July-Nov
@@ -2430,7 +2370,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2429,Kshitij M Gajbhiye,220108076,HS 236,,--,Approved,,2025,July-Nov
 2430,Kunal Valmik Mahale,220103068,HS 212,,--,Approved,,2025,July-Nov
 2431,Kunal Valmik Mahale,220103068,ME 401,,--,Approved,,2025,July-Nov
-2432,Kunal Valmik Mahale,220103068,ME 498,,--,Rejected,,2025,July-Nov
 2433,Kunal Valmik Mahale,220103068,ME 532,,--,Approved,,2025,July-Nov
 2434,Kunal Valmik Mahale,220103068,ME 543,,--,Approved,,2025,July-Nov
 2435,Kunal Valmik Mahale,220103068,ME 550,,--,Approved,,2025,July-Nov
@@ -2467,13 +2406,11 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2466,More Hrishikesh Narayan,220103074,CH 429,,--,Pending,,2025,July-Nov
 2467,More Hrishikesh Narayan,220103074,HS 214,,--,Pending,,2025,July-Nov
 2468,More Hrishikesh Narayan,220103074,ME 401,,--,Approved,,2025,July-Nov
-2469,More Hrishikesh Narayan,220103074,ME 498,,--,Rejected,,2025,July-Nov
 2470,More Hrishikesh Narayan,220103074,ME 512,,--,Approved,,2025,July-Nov
 2471,More Hrishikesh Narayan,220103074,ME 660,,--,Approved,,2025,July-Nov
 2472,Mrigendra Hansdah,220103075,CE 446,,--,Pending,,2025,July-Nov
 2473,Mrigendra Hansdah,220103075,HS 222,,--,Pending,,2025,July-Nov
 2474,Mrigendra Hansdah,220103075,ME 401,,--,Approved,,2025,July-Nov
-2475,Mrigendra Hansdah,220103075,ME 498,,--,Rejected,,2025,July-Nov
 2476,Mrigendra Hansdah,220103075,ME 532,,--,Pending,,2025,July-Nov
 2477,Mrigendra Hansdah,220103075,ME 550,,--,Approved,,2025,July-Nov
 2478,Mrigendra Hansdah,220103075,ME 690,,--,Approved,,2025,July-Nov
@@ -2693,13 +2630,11 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2692,Thirumala Punith Kumar Naidu,220102124,DA 422,,--,Approved,,2025,July-Nov
 2693,Thirumala Punith Kumar Naidu,220102124,EE 610,,--,Approved,,2025,July-Nov
 2694,Thirumala Punith Kumar Naidu,220102124,EE 616,,--,Approved,,2025,July-Nov
-2695,Thirumala Punith Kumar Naidu,220102124,EE 693,,--,Rejected,,2025,July-Nov
 2696,Thirumala Punith Kumar Naidu,220102124,HS 203,,--,Approved,,2025,July-Nov
 2697,V. Sanjay,220103112,BT 421,,--,Approved,,2025,July-Nov
 2698,V. Sanjay,220103112,CH 429,,--,Approved,,2025,July-Nov
 2699,V. Sanjay,220103112,HS 213,,--,Approved,,2025,July-Nov
 2700,V. Sanjay,220103112,ME 401,,--,Approved,,2025,July-Nov
-2701,V. Sanjay,220103112,ME 498,,--,Rejected,,2025,July-Nov
 2702,V. Sanjay,220103112,ME 551,,--,Approved,,2025,July-Nov
 2703,V. Sanjay,220103112,ME 679,,--,Approved,,2025,July-Nov
 2704,Vaibhav Kumar,220103113,CoS 05,,--,Pending,,2025,July-Nov
@@ -2753,7 +2688,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 2752,Yash Puniya,220103120,EE 639,,--,Approved,,2025,July-Nov
 2753,Yash Puniya,220103120,HS 203,,--,Approved,,2025,July-Nov
 2754,Yash Puniya,220103120,ME 401,,--,Approved,,2025,July-Nov
-2755,Yash Puniya,220103120,ME 531,,--,Rejected,,2025,July-Nov
 2756,Yash Puniya,220103120,ME 609,,--,Approved,,2025,July-Nov
 2757,Yash Puniya,220103120,ME 628,,--,Approved,,2025,July-Nov
 2758,Yash Puniya,220103120,ME 660,,--,Approved,,2025,July-Nov
@@ -3576,7 +3510,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3575,Nirjana Das,220106053,BT 408,,--,Approved,,2025,July-Nov
 3576,Nirjana Das,220106053,BT 421,,--,Approved,,2025,July-Nov
 3577,Nirjana Das,220106053,EE 658,,--,Approved,,2025,July-Nov
-3578,Nirjana Das,220106053,HS 214,,--,Rejected,,2025,July-Nov
 3579,Nitish Kumar,220106054,BT 401,,--,Approved,,2025,July-Nov
 3580,Nitish Kumar,220106054,BT 406,,--,Approved,,2025,July-Nov
 3581,Nitish Kumar,220106054,BT 408,,--,Approved,,2025,July-Nov
@@ -3590,7 +3523,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3589,Paogousang Changsan,220106056,BT 408,,--,Approved,,2025,July-Nov
 3590,Paogousang Changsan,220106056,BT 418,,--,Approved,,2025,July-Nov
 3591,Paogousang Changsan,220106056,CE 446,,--,Approved,,2025,July-Nov
-3592,Paogousang Changsan,220106056,HS 214,,--,Rejected,,2025,July-Nov
 3593,Pinge Rushikesh Dilip,220106057,BT 401,,--,Approved,,2025,July-Nov
 3594,Pinge Rushikesh Dilip,220106057,BT 406,,--,Approved,,2025,July-Nov
 3595,Pinge Rushikesh Dilip,220106057,BT 408,,--,Approved,,2025,July-Nov
@@ -3602,7 +3534,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3601,Pranav Jori,220103126,EE 424M,,--,Approved,,2025,July-Nov
 3602,Pranav Jori,220103126,HS 203,,--,Approved,,2025,July-Nov
 3603,Pranav Jori,220103126,ME 401,,--,Approved,,2025,July-Nov
-3604,Pranav Jori,220103126,ME 498,,--,Rejected,,2025,July-Nov
 3605,Pranav Jori,220103126,ME 660,,--,Approved,,2025,July-Nov
 3606,Pranav Jori,220103126,ME 679,,--,Approved,,2025,July-Nov
 3607,Priyansh Mathur,220106059,BT 401,,--,Approved,,2025,July-Nov
@@ -3640,7 +3571,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3639,Rohit Nigam,220106065,BT 408,,--,Approved,,2025,July-Nov
 3640,Rohit Nigam,220106065,BT 421,,--,Approved,,2025,July-Nov
 3641,Rohit Nigam,220106065,CL 630,,--,Approved,,2025,July-Nov
-3642,Rohit Nigam,220106065,HS 211,,--,Rejected,,2025,July-Nov
 3643,Rohit Nigam,220106065,MA 101,,--,Approved,,2025,July-Nov
 3644,Rohit Nigam,220106065,PH 101,,--,Approved,,2025,July-Nov
 3645,Sahil Anand,220106066,BT 401,,--,Approved,,2025,July-Nov
@@ -3664,8 +3594,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3663,Satvik Mudgal Tyagi,220107104,CL 498,,--,Approved,,2025,July-Nov
 3664,Satvik Mudgal Tyagi,220107104,CL 612,,--,Approved,,2025,July-Nov
 3665,Satvik Mudgal Tyagi,220107104,CL 614,,--,Approved,,2025,July-Nov
-3666,Satvik Mudgal Tyagi,220107104,CL 629,,--,Rejected,,2025,July-Nov
-3667,Satvik Mudgal Tyagi,220107104,CL 630,,--,Rejected,,2025,July-Nov
 3668,Satvik Mudgal Tyagi,220107104,EE 639,,--,Approved,,2025,July-Nov
 3669,Satvik Mudgal Tyagi,220107104,HS 213,,--,Approved,,2025,July-Nov
 3670,Satvik Mudgal Tyagi,220107104,ME 609,,--,Approved,,2025,July-Nov
@@ -3825,7 +3753,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3824,Aayush Sinha,220103122,ME 674,,--,Pending,,2025,July-Nov
 3825,Aayush Sinha,220103122,ME 693,,--,Approved,,2025,July-Nov
 3826,Abhay Dubey,220102112,EE 623,,--,Approved,,2025,July-Nov
-3827,Abhay Dubey,220102112,EE 791,,--,Rejected,,2025,July-Nov
 3828,Abhay Dubey,220102112,EE604,,--,Approved,,2025,July-Nov
 3829,Abhay Dubey,220102112,HS 222,,--,Approved,,2025,July-Nov
 3830,Abhay Dubey,220102112,PH 443,,--,Approved,,2025,July-Nov
@@ -3844,7 +3771,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3843,Aditya Vaibhav Kanagalekar,220107005,CL 649,,--,Approved,,2025,July-Nov
 3844,Aditya Vaibhav Kanagalekar,220107005,CS 452,,--,Approved,,2025,July-Nov
 3845,Aditya Vaibhav Kanagalekar,220107005,HS 250,,--,Approved,,2025,July-Nov
-3846,Aditya Vaibhav Kanagalekar,220107005,MA 506,,--,Rejected,,2025,July-Nov
 3847,Agam Tyagi,220102120,CS 441M,,--,Approved,,2025,July-Nov
 3848,Agam Tyagi,220102120,CS 452,,--,Approved,,2025,July-Nov
 3849,Agam Tyagi,220102120,EE 601,,--,Approved,,2025,July-Nov
@@ -3887,7 +3813,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3886,Ankit Kumar Singh,220107012,HS 222,,--,Approved,,2025,July-Nov
 3887,Anuj Dubey,220102117,CS 441M,,--,Approved,,2025,July-Nov
 3888,Anuj Dubey,220102117,EE 601,,--,Approved,,2025,July-Nov
-3889,Anuj Dubey,220102117,EE 693,,--,Rejected,,2025,July-Nov
 3890,Anuj Dubey,220102117,EE604,,--,Approved,,2025,July-Nov
 3891,Anuj Dubey,220102117,HS 242,,--,Approved,,2025,July-Nov
 3892,Anuj Dubey,220102117,MA 502,,--,Approved,,2025,July-Nov
@@ -3895,7 +3820,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 3894,Anushka Shruti,220107014,CL 612,,--,Approved,,2025,July-Nov
 3895,Anushka Shruti,220107014,CL 629,,--,Approved,,2025,July-Nov
 3896,Anushka Shruti,220107014,CL 630,,--,Approved,,2025,July-Nov
-3897,Anushka Shruti,220107014,CL 649,,--,Rejected,,2025,July-Nov
 3898,Anushka Shruti,220107014,HS 133,,--,Approved,,2025,July-Nov
 3899,Archchisman Banerjee,220107015,CH 429,,--,Approved,,2025,July-Nov
 3900,Archchisman Banerjee,220107015,CL 498,,--,Approved,,2025,July-Nov
@@ -4026,7 +3950,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 4025,Fursule Dhruv Shashank,220107038,CL 629,,--,Approved,,2025,July-Nov
 4026,Fursule Dhruv Shashank,220107038,EE 658,,--,Approved,,2025,July-Nov
 4027,Fursule Dhruv Shashank,220107038,HS 242,,--,Approved,,2025,July-Nov
-4028,Ghadage Hitesh Nilakanth,220107039,BT 418,,--,Rejected,,2025,July-Nov
 4029,Ghadage Hitesh Nilakanth,220107039,BT 421,,--,Approved,,2025,July-Nov
 4030,Ghadage Hitesh Nilakanth,220107039,CL 612,,--,Approved,,2025,July-Nov
 4031,Ghadage Hitesh Nilakanth,220107039,CL 630,,--,Approved,,2025,July-Nov
@@ -4458,7 +4381,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 4457,Girish Kumar,220123079,MA 498,,--,Approved,,2025,July-Nov
 4458,Girish Kumar,220123079,MA 510,,--,Approved,,2025,July-Nov
 4459,Harsh,220108024,BT 418,,--,Pending,,2025,July-Nov
-4460,Harsh,220108024,EE 205,,--,Rejected,,2025,July-Nov
 4461,Harsh,220108024,EE 210,,--,Approved,,2025,July-Nov
 4462,Harsh,220108024,EE 623,,--,Approved,,2025,July-Nov
 4463,Harsh,220108024,EE 672,,--,Approved,,2025,July-Nov
@@ -4795,7 +4717,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 4794,Darla Aditya Vardhini,220121023,PH 415,,--,Approved,,2025,July-Nov
 4795,Darla Aditya Vardhini,220121023,PH 419,,--,Approved,,2025,July-Nov
 4796,Darla Aditya Vardhini,220121023,PH 421,,--,Approved,,2025,July-Nov
-4797,Drishti,220121025,CE 446,,--,Rejected,,2025,July-Nov
 4798,Drishti,220121025,CS 441M,,--,Pending,,2025,July-Nov
 4799,Drishti,220121025,HS 231,,--,Approved,,2025,July-Nov
 4800,Drishti,220121025,PH 413,,--,Approved,,2025,July-Nov
@@ -4868,8 +4789,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 4867,Nabarun Das,220121036,BT 418,,--,Pending,,2025,July-Nov
 4868,Nabarun Das,220121036,CoS 05,,--,Pending,,2025,July-Nov
 4869,Nabarun Das,220121036,HS 212,,--,Pending,,2025,July-Nov
-4870,Nabarun Das,220121036,PH 301,,--,Rejected,,2025,July-Nov
-4871,Nabarun Das,220121036,PH 303,,--,Rejected,,2025,July-Nov
 4872,Nabarun Das,220121036,PH 305,,--,Approved,,2025,July-Nov
 4873,Nabarun Das,220121036,PH 413,,--,Approved,,2025,July-Nov
 4874,Nabarun Das,220121036,PH 415,,--,Approved,,2025,July-Nov
@@ -4926,7 +4845,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 4925,Priyanshu Sagar,220121045,CoS 05,,--,Pending,,2025,July-Nov
 4926,Priyanshu Sagar,220121045,HS 214,,--,Pending,,2025,July-Nov
 4927,Priyanshu Sagar,220121045,PH 201,,--,Approved,,2025,July-Nov
-4928,Priyanshu Sagar,220121045,PH 301,,--,Rejected,,2025,July-Nov
 4929,Priyanshu Sagar,220121045,PH 309,,--,Approved,,2025,July-Nov
 4930,Priyanshu Sagar,220121045,PH 413,,--,Approved,,2025,July-Nov
 4931,Priyanshu Sagar,220121045,PH 415,,--,Approved,,2025,July-Nov
@@ -5166,12 +5084,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 5165,Brijesh Singh Bhartiya,220122018,CH 434,,--,Approved,,2025,July-Nov
 5166,Brijesh Singh Bhartiya,220122018,CH 498,,--,Approved,,2025,July-Nov
 5167,Brijesh Singh Bhartiya,220122018,HS 231,,--,Approved,,2025,July-Nov
-5168,Dara Bhavya Sri,220122020,BT 421,,--,Rejected,,2025,July-Nov
-5169,Dara Bhavya Sri,220122020,CE 560,,--,Rejected,,2025,July-Nov
-5170,Dara Bhavya Sri,220122020,CH 221,,--,Rejected,,2025,July-Nov
-5171,Dara Bhavya Sri,220122020,CH 231,,--,Rejected,,2025,July-Nov
-5172,Dara Bhavya Sri,220122020,CH 401,,--,Rejected,,2025,July-Nov
-5173,Dara Bhavya Sri,220122020,CH 427,,--,Rejected,,2025,July-Nov
 5174,Dara Bhavya Sri,220122020,CH 498,,--,Approved,,2025,July-Nov
 5175,Dara Bhavya Sri,220122020,HS 212,,--,Approved,,2025,July-Nov
 5176,Dara Bhavya Sri,220122020,MA 201,,--,Approved,,2025,July-Nov
@@ -5181,17 +5093,13 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 5180,Daruwale Rudresh Sanjay,220122021,CH 498,,--,Approved,,2025,July-Nov
 5181,Daruwale Rudresh Sanjay,220122021,HS 250,,--,Approved,,2025,July-Nov
 5182,Daruwale Rudresh Sanjay,220122021,MA 502,,--,Approved,,2025,July-Nov
-5183,Devashruti Saikia,220122022,CE 446,,--,Rejected,,2025,July-Nov
 5184,Devashruti Saikia,220122022,CH 301,,--,Approved,,2025,July-Nov
 5185,Devashruti Saikia,220122022,CH 302,,--,Approved,,2025,July-Nov
 5186,Devashruti Saikia,220122022,CH 314,,--,Approved,,2025,July-Nov
 5187,Devashruti Saikia,220122022,CH 316,,--,Approved,,2025,July-Nov
-5188,Devashruti Saikia,220122022,CH 331,,--,Rejected,,2025,July-Nov
 5189,Devashruti Saikia,220122022,CH 401,,--,Approved,,2025,July-Nov
-5190,Devashruti Saikia,220122022,CH 426,,--,Rejected,,2025,July-Nov
 5191,Devashruti Saikia,220122022,CH 427,,--,Approved,,2025,July-Nov
 5192,Devashruti Saikia,220122022,CH 498,,--,Approved,,2025,July-Nov
-5193,Devashruti Saikia,220122022,HS 113,,--,Rejected,,2025,July-Nov
 5194,Devendra Kumar,220122023,CH 401,,--,Approved,,2025,July-Nov
 5195,Devendra Kumar,220122023,CH 427,,--,Approved,,2025,July-Nov
 5196,Devendra Kumar,220122023,CH 498,,--,Approved,,2025,July-Nov
@@ -8079,7 +7987,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 8078,Tarun Naik Banavathu,230102097,EE 331,,--,Approved,,2025,July-Nov
 8079,Tarun Naik Banavathu,230102097,EE 340,,--,Approved,,2025,July-Nov
 8080,Tarun Naik Banavathu,230102097,EE 351,,--,Approved,,2025,July-Nov
-8081,Tarun Naik Banavathu,230102097,EE 398,,--,Rejected,,2025,July-Nov
 8082,Tarun Naik Banavathu,230102097,HS 133,,--,Pending,,2025,July-Nov
 8083,Thadikamalla Sowmya Sri,230102098,CH 426,,--,Approved,,2025,July-Nov
 8084,Thadikamalla Sowmya Sri,230102098,EE 312,,--,Approved,,2025,July-Nov
@@ -8335,7 +8242,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 8334,Deepanshu Kumar,230103032,ME 313,,--,Approved,,2025,July-Nov
 8335,Deepanshu Kumar,230103032,ME 314,,--,Approved,,2025,July-Nov
 8336,Deepanshu Kumar,230103032,ME 315,,--,Approved,,2025,July-Nov
-8337,Devanandika P,230103033,DA 321M,,--,Rejected,,2025,July-Nov
 8338,Devanandika P,230103033,EE 380,,--,Approved,,2025,July-Nov
 8339,Devanandika P,230103033,HS 147,,--,Approved,,2025,July-Nov
 8340,Devanandika P,230103033,ME 311,,--,Approved,,2025,July-Nov
@@ -8422,11 +8328,9 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 8421,Karri Asha Saritha Kumari,230103046,ME 313,,--,Approved,,2025,July-Nov
 8422,Karri Asha Saritha Kumari,230103046,ME 314,,--,Approved,,2025,July-Nov
 8423,Karri Asha Saritha Kumari,230103046,ME 315,,--,Approved,,2025,July-Nov
-8424,Kasagani Lakshmi Venkata Praveen,230103047,EE 380,,--,Rejected,,2025,July-Nov
 8425,Kasagani Lakshmi Venkata Praveen,230103047,HS 133,,--,Approved,,2025,July-Nov
 8426,Kasagani Lakshmi Venkata Praveen,230103047,MA 201,,--,Approved,,2025,July-Nov
 8427,Kasagani Lakshmi Venkata Praveen,230103047,ME 214,,--,Approved,,2025,July-Nov
-8428,Kasagani Lakshmi Venkata Praveen,230103047,ME 311,,--,Rejected,,2025,July-Nov
 8429,Kasagani Lakshmi Venkata Praveen,230103047,ME 312,,--,Approved,,2025,July-Nov
 8430,Kasagani Lakshmi Venkata Praveen,230103047,ME 313,,--,Approved,,2025,July-Nov
 8431,Kasagani Lakshmi Venkata Praveen,230103047,ME 314,,--,Approved,,2025,July-Nov
@@ -10041,8 +9945,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 10040,Parnika Pundlik Pawar,230106048,BT 304,,--,Approved,,2025,July-Nov
 10041,Parnika Pundlik Pawar,230106048,BT 311,,--,Approved,,2025,July-Nov
 10042,Parnika Pundlik Pawar,230106048,BT 312,,--,Approved,,2025,July-Nov
-10043,Parnika Pundlik Pawar,230106048,DD 310M,,--,Rejected,,2025,July-Nov
-10044,Parnika Pundlik Pawar,230106048,HS 119,,--,Rejected,,2025,July-Nov
 10045,Parth Prashant Patil,230106049,BT 301,,--,Approved,,2025,July-Nov
 10046,Parth Prashant Patil,230106049,BT 302,,--,Approved,,2025,July-Nov
 10047,Parth Prashant Patil,230106049,BT 303,,--,Approved,,2025,July-Nov
@@ -10102,7 +10004,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 10101,Rushil Lakdawala,230106058,BT 311,,--,Approved,,2025,July-Nov
 10102,Rushil Lakdawala,230106058,BT 312,,--,Approved,,2025,July-Nov
 10103,Rushil Lakdawala,230106058,CS 322M,,--,Pending,,2025,July-Nov
-10104,Rushil Lakdawala,230106058,EE 339,,--,Rejected,,2025,July-Nov
 10105,Rushil Lakdawala,230106058,HS 123,,--,Pending,,2025,July-Nov
 10106,Sahaj Kumar,230106059,BT 301,,--,Approved,,2025,July-Nov
 10107,Sahaj Kumar,230106059,BT 302,,--,Approved,,2025,July-Nov
@@ -10623,7 +10524,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 10622,Rudra Pratap Keshri,230107058,CL 311,,--,Approved,,2025,July-Nov
 10623,Rudra Pratap Keshri,230107058,CS 352,,--,Approved,,2025,July-Nov
 10624,Rudra Pratap Keshri,230107058,HS 133,,--,Approved,,2025,July-Nov
-10625,Rudra Pratap Keshri,230107058,MA 506,,--,Rejected,,2025,July-Nov
 10626,Rudraksh B Nair,230107059,CL 301,,--,Approved,,2025,July-Nov
 10627,Rudraksh B Nair,230107059,CL 302,,--,Approved,,2025,July-Nov
 10628,Rudraksh B Nair,230107059,CL 303,,--,Approved,,2025,July-Nov
@@ -10750,7 +10650,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 10749,Sumit Prabhakar,230107081,CL 310,,--,Approved,,2025,July-Nov
 10750,Sumit Prabhakar,230107081,CL 311,,--,Approved,,2025,July-Nov
 10751,Sumit Prabhakar,230107081,CS 452,,--,Approved,,2025,July-Nov
-10752,Sumit Prabhakar,230107081,DA 321M,,--,Rejected,,2025,July-Nov
 10753,Sumit Prabhakar,230107081,HS 119,,--,Approved,,2025,July-Nov
 10754,Sundaram Pandey,230107082,CL 301,,--,Approved,,2025,July-Nov
 10755,Sundaram Pandey,230107082,CL 302,,--,Approved,,2025,July-Nov
@@ -11475,7 +11374,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 11474,Prem Kondru,230121042,PH 305,,--,Approved,,2025,July-Nov
 11475,Prem Kondru,230121042,PH 307,,--,Approved,,2025,July-Nov
 11476,Prem Kondru,230121042,PH 309,,--,Approved,,2025,July-Nov
-11477,Priya Gawshinde,230121043,DA 321M,,--,Rejected,,2025,July-Nov
 11478,Priya Gawshinde,230121043,HS 113,,--,Pending,,2025,July-Nov
 11479,Priya Gawshinde,230121043,PH 301,,--,Approved,,2025,July-Nov
 11480,Priya Gawshinde,230121043,PH 303,,--,Approved,,2025,July-Nov
@@ -11490,12 +11388,10 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 11489,R Kiruthika,230121044,PH 309,,--,Approved,,2025,July-Nov
 11490,Rabi Sonowal,230121045,HS 113,,--,Pending,,2025,July-Nov
 11491,Rabi Sonowal,230121045,PH 301,,--,Approved,,2025,July-Nov
-11492,Rabi Sonowal,230121045,PH 303,,--,Rejected,,2025,July-Nov
 11493,Rabi Sonowal,230121045,PH 305,,--,Approved,,2025,July-Nov
 11494,Rabi Sonowal,230121045,PH 307,,--,Approved,,2025,July-Nov
 11495,Rabi Sonowal,230121045,PH 309,,--,Approved,,2025,July-Nov
 11496,Sahastransh Mandhana,230121048,HS 141,,--,Pending,,2025,July-Nov
-11497,Sahastransh Mandhana,230121048,MA 225,,--,Rejected,,2025,July-Nov
 11498,Sahastransh Mandhana,230121048,PH 301,,--,Approved,,2025,July-Nov
 11499,Sahastransh Mandhana,230121048,PH 303,,--,Approved,,2025,July-Nov
 11500,Sahastransh Mandhana,230121048,PH 305,,--,Approved,,2025,July-Nov
@@ -11512,9 +11408,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 11511,Sayantan Das,230121050,PH 101,,--,Approved,,2025,July-Nov
 11512,Sayantan Das,230121050,PH 203,,--,Approved,,2025,July-Nov
 11513,Sayantan Das,230121050,PH 301,,--,Approved,,2025,July-Nov
-11514,Sayantan Das,230121050,PH 305,,--,Rejected,,2025,July-Nov
 11515,Sayantan Das,230121050,PH 307,,--,Approved,,2025,July-Nov
-11516,Sayantan Das,230121050,PH 309,,--,Rejected,,2025,July-Nov
 11517,Shivasheesh,230121051,HS 141,,--,Pending,,2025,July-Nov
 11518,Shivasheesh,230121051,PH 301,,--,Approved,,2025,July-Nov
 11519,Shivasheesh,230121051,PH 303,,--,Approved,,2025,July-Nov
@@ -12207,7 +12101,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 12206,Jay Rajnikant Amin,230123027,CS 344,,--,Approved,,2025,July-Nov
 12207,Jay Rajnikant Amin,230123027,HS 158,,--,Approved,,2025,July-Nov
 12208,Jay Rajnikant Amin,230123027,MA 222,,--,Approved,,2025,July-Nov
-12209,Jay Rajnikant Amin,230123027,MA 225,,--,Rejected,,2025,July-Nov
 12210,Jay Rajnikant Amin,230123027,MA 321,,--,Approved,,2025,July-Nov
 12211,Jay Rajnikant Amin,230123027,MA 323,,--,Approved,,2025,July-Nov
 12212,Jay Rajnikant Amin,230123027,MA 372,,--,Approved,,2025,July-Nov
@@ -12533,7 +12426,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 12532,Vanjari Vedant Sunil,230123069,CS 342,,--,Approved,,2025,July-Nov
 12533,Vanjari Vedant Sunil,230123069,CS 343,,--,Approved,,2025,July-Nov
 12534,Vanjari Vedant Sunil,230123069,CS 344,,--,Approved,,2025,July-Nov
-12535,Vanjari Vedant Sunil,230123069,CS 352,,--,Rejected,,2025,July-Nov
 12536,Vanjari Vedant Sunil,230123069,HS 141,,--,Approved,,2025,July-Nov
 12537,Vanjari Vedant Sunil,230123069,MA 321,,--,Approved,,2025,July-Nov
 12538,Vanjari Vedant Sunil,230123069,MA 323,,--,Approved,,2025,July-Nov
@@ -13748,7 +13640,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 13747,Tripti Rakesh Kumar,230102126,EE 339,,--,Approved,,2025,July-Nov
 13748,Tripti Rakesh Kumar,230102126,EE 340,,--,Approved,,2025,July-Nov
 13749,Tripti Rakesh Kumar,230102126,EE 351,,--,Approved,,2025,July-Nov
-13750,Tripti Rakesh Kumar,230102126,HS 106,,--,Rejected,,2025,July-Nov
 13751,Vaibhav Singh,230103130,EE 380,,--,Approved,,2025,July-Nov
 13752,Vaibhav Singh,230103130,HS 141,,--,Pending,,2025,July-Nov
 13753,Vaibhav Singh,230103130,ME 311,,--,Approved,,2025,July-Nov
@@ -16048,9 +15939,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 16047,Chandra Mohan,240103038,ME 214,,--,Approved,,2025,July-Nov
 16048,Chandra Mohan,240103038,ME 215,,--,Approved,,2025,July-Nov
 16049,Chandra Mohan,240103038,ME 216,,--,Approved,,2025,July-Nov
-16050,Chinmayi Pillamarapu,240103039,MA 201,,--,Rejected,,2025,July-Nov
 16051,Chinmayi Pillamarapu,240103039,ME 211,,--,Approved,,2025,July-Nov
-16052,Chinmayi Pillamarapu,240103039,ME 212,,--,Rejected,,2025,July-Nov
 16053,Chinmayi Pillamarapu,240103039,ME 213,,--,Approved,,2025,July-Nov
 16054,Chinmayi Pillamarapu,240103039,ME 214,,--,Approved,,2025,July-Nov
 16055,Chinmayi Pillamarapu,240103039,ME 215,,--,Approved,,2025,July-Nov
@@ -16357,7 +16246,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 16356,Parikshith Kattepura Vivek,240103081,ME 214,,--,Approved,,2025,July-Nov
 16357,Parikshith Kattepura Vivek,240103081,ME 215,,--,Approved,,2025,July-Nov
 16358,Parikshith Kattepura Vivek,240103081,ME 216,,--,Approved,,2025,July-Nov
-16359,Phani Venkata Mahendra Varma Bhupathiraju,240103082,DA 241M,,--,Rejected,,2025,July-Nov
 16360,Phani Venkata Mahendra Varma Bhupathiraju,240103082,MA 201,,--,Approved,,2025,July-Nov
 16361,Phani Venkata Mahendra Varma Bhupathiraju,240103082,ME 211,,--,Approved,,2025,July-Nov
 16362,Phani Venkata Mahendra Varma Bhupathiraju,240103082,ME 212,,--,Approved,,2025,July-Nov
@@ -18237,7 +18125,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 18236,Kaushal Singh,240107044,CL 204,,--,Approved,,2025,July-Nov
 18237,Kaushal Singh,240107044,MA 201,,--,Approved,,2025,July-Nov
 18238,Kaushal Singh,240107044,ME 212,,--,Approved,,2025,July-Nov
-18239,Kaushal Singh,240107044,PH 101,,--,Rejected,,2025,July-Nov
 18240,Kaustubh Goel,240102267,CS 205M,,--,Approved,,2025,July-Nov
 18241,Kaustubh Goel,240102267,EE 203,,--,Approved,,2025,July-Nov
 18242,Kaustubh Goel,240102267,EE 205,,--,Approved,,2025,July-Nov
@@ -18257,7 +18144,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 18256,Lakshyaraj Mandloi,240107047,CL 204,,--,Approved,,2025,July-Nov
 18257,Lakshyaraj Mandloi,240107047,MA 201,,--,Approved,,2025,July-Nov
 18258,Lakshyaraj Mandloi,240107047,ME 212,,--,Approved,,2025,July-Nov
-18259,Lakshyaraj Mandloi,240107047,PH 101,,--,Rejected,,2025,July-Nov
 18260,Manasvi Bhushan,240107048,CL 201,,--,Approved,,2025,July-Nov
 18261,Manasvi Bhushan,240107048,CL 202,,--,Approved,,2025,July-Nov
 18262,Manasvi Bhushan,240107048,CL 203,,--,Approved,,2025,July-Nov
@@ -18336,12 +18222,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 18335,Priyanshu Raj,240107060,CL 204,,--,Approved,,2025,July-Nov
 18336,Priyanshu Raj,240107060,MA 201,,--,Approved,,2025,July-Nov
 18337,Priyanshu Raj,240107060,ME 212,,--,Approved,,2025,July-Nov
-18338,Rachit Sinha,240102122,EE 203,,--,Rejected,,2025,July-Nov
-18339,Rachit Sinha,240102122,EE 204,,--,Rejected,,2025,July-Nov
-18340,Rachit Sinha,240102122,EE 210,,--,Rejected,,2025,July-Nov
-18341,Rachit Sinha,240102122,EE 211,,--,Rejected,,2025,July-Nov
-18342,Rachit Sinha,240102122,EE 220,,--,Rejected,,2025,July-Nov
-18343,Rachit Sinha,240102122,MA 201,,--,Rejected,,2025,July-Nov
 18344,Rachit Sinha,240102122,MA 211M,,--,Pending,,2025,July-Nov
 18345,Raunak Khetan,240107062,CL 201,,--,Approved,,2025,July-Nov
 18346,Raunak Khetan,240107062,CL 202,,--,Approved,,2025,July-Nov
@@ -18386,13 +18266,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 18385,Ronik Hazra,240107069,CL 204,,--,Approved,,2025,July-Nov
 18386,Ronik Hazra,240107069,MA 201,,--,Approved,,2025,July-Nov
 18387,Ronik Hazra,240107069,ME 212,,--,Approved,,2025,July-Nov
-18388,Rudra Patel,240123076,CS 221,,--,Rejected,,2025,July-Nov
 18389,Rudra Patel,240123076,DA 241M,,--,Pending,,2025,July-Nov
-18390,Rudra Patel,240123076,MA 201,,--,Rejected,,2025,July-Nov
-18391,Rudra Patel,240123076,MA 221,,--,Rejected,,2025,July-Nov
-18392,Rudra Patel,240123076,MA 222,,--,Rejected,,2025,July-Nov
-18393,Rudra Patel,240123076,MA 225,,--,Rejected,,2025,July-Nov
-18394,Rudra Patel,240123076,MA 251,,--,Rejected,,2025,July-Nov
 18395,Sadar Samruddhi Sudhir,240107072,CL 201,,--,Approved,,2025,July-Nov
 18396,Sadar Samruddhi Sudhir,240107072,CL 202,,--,Approved,,2025,July-Nov
 18397,Sadar Samruddhi Sudhir,240107072,CL 203,,--,Approved,,2025,July-Nov
@@ -18418,7 +18292,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 18417,Sanjay Saini,240107076,CL 204,,--,Approved,,2025,July-Nov
 18418,Sanjay Saini,240107076,MA 201,,--,Approved,,2025,July-Nov
 18419,Sanjay Saini,240107076,ME 212,,--,Approved,,2025,July-Nov
-18420,Sarla Sai Krishna,240107077,CL 201,,--,Rejected,,2025,July-Nov
 18421,Sarla Sai Krishna,240107077,CL 202,,--,Approved,,2025,July-Nov
 18422,Sarla Sai Krishna,240107077,CL 203,,--,Approved,,2025,July-Nov
 18423,Sarla Sai Krishna,240107077,CL 204,,--,Approved,,2025,July-Nov
@@ -18956,8 +18829,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 18955,Abhishek Kumar,240122004,CL 201,,--,Approved,,2025,July-Nov
 18956,Abhishek Kumar,240122004,CL 202,,--,Approved,,2025,July-Nov
 18957,Abhishek Kumar,240122004,MA 201,,--,Approved,,2025,July-Nov
-18958,Abhishek Kumar,240122004,MA 323,,--,Rejected,,2025,July-Nov
-18959,Abhishek Kumar,240122004,MA 372,,--,Rejected,,2025,July-Nov
 18960,Aniket Mandal,240122006,CH 212,,--,Approved,,2025,July-Nov
 18961,Aniket Mandal,240122006,CH 221,,--,Approved,,2025,July-Nov
 18962,Aniket Mandal,240122006,CH 231,,--,Approved,,2025,July-Nov
@@ -19855,12 +19726,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 19854,Jaypal Malviya,240150013,DA 241,,--,Approved,,2025,July-Nov
 19855,Jaypal Malviya,240150013,DA 242,,--,Approved,,2025,July-Nov
 19856,Jaypal Malviya,240150013,DA 251,,--,Approved,,2025,July-Nov
-19857,Kanhav Purohit,240150014,DA 211,,--,Rejected,,2025,July-Nov
-19858,Kanhav Purohit,240150014,DA 212,,--,Rejected,,2025,July-Nov
-19859,Kanhav Purohit,240150014,DA 231,,--,Rejected,,2025,July-Nov
-19860,Kanhav Purohit,240150014,DA 241,,--,Rejected,,2025,July-Nov
-19861,Kanhav Purohit,240150014,DA 242,,--,Rejected,,2025,July-Nov
-19862,Kanhav Purohit,240150014,DA 251,,--,Rejected,,2025,July-Nov
 19863,Kolli Shyamm Kisshore,240150015,DA 211,,--,Approved,,2025,July-Nov
 19864,Kolli Shyamm Kisshore,240150015,DA 212,,--,Approved,,2025,July-Nov
 19865,Kolli Shyamm Kisshore,240150015,DA 231,,--,Approved,,2025,July-Nov
@@ -20235,7 +20100,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 20234,Chinmay Rahul Phalke,240205017,DD 204,,--,Approved,,2025,July-Nov
 20235,Chinmay Rahul Phalke,240205017,DD 205,,--,Approved,,2025,July-Nov
 20236,Chinmay Rahul Phalke,240205017,DD 206,,--,Approved,,2025,July-Nov
-20237,Chinmay Rahul Phalke,240205017,DT 601,,--,Rejected,,2025,July-Nov
 20238,Chinmay Rahul Phalke,240205017,EN 303,,--,Approved,,2025,July-Nov
 20239,Dev Tiwari,240205018,DD 201,,--,Approved,,2025,July-Nov
 20240,Dev Tiwari,240205018,DD 202,,--,Approved,,2025,July-Nov
@@ -20317,7 +20181,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 20316,Liya Fathima,240205030,DD 205,,--,Approved,,2025,July-Nov
 20317,Liya Fathima,240205030,DD 206,,--,Approved,,2025,July-Nov
 20318,Lucky Vishnu Sharma,240205031,BM 521H,,--,Pending,,2025,July-Nov
-20319,Lucky Vishnu Sharma,240205031,CL 631,,--,Rejected,,2025,July-Nov
 20320,Lucky Vishnu Sharma,240205031,DD 201,,--,Approved,,2025,July-Nov
 20321,Lucky Vishnu Sharma,240205031,DD 202,,--,Approved,,2025,July-Nov
 20322,Lucky Vishnu Sharma,240205031,DD 203,,--,Approved,,2025,July-Nov
@@ -21233,7 +21096,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21232,Prashant Kumar Chauhan,242123021,MA 562,,--,Approved,,2025,July-Nov
 21233,Prashant Kumar Chauhan,242123021,MA 572,,--,Approved,,2025,July-Nov
 21234,Prashant Kumar Chauhan,242123021,MA 593,,--,Approved,,2025,July-Nov
-21235,Prashu,242123022,DA 331,,--,Rejected,,2025,July-Nov
 21236,Prashu,242123022,MA 514,,--,Pending,,2025,July-Nov
 21237,Prashu,242123022,MA 543,,--,Pending,,2025,July-Nov
 21238,Prashu,242123022,MA 572,,--,Pending,,2025,July-Nov
@@ -21260,7 +21122,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21259,Sudeep Basu,242123026,MA 543,,--,Approved,,2025,July-Nov
 21260,Sudeep Basu,242123026,MA 550,,--,Approved,,2025,July-Nov
 21261,Sudeep Basu,242123026,MA 572,,--,Approved,,2025,July-Nov
-21262,Varssha,242123027,DA 331,,--,Rejected,,2025,July-Nov
 21263,Varssha,242123027,MA 514,,--,Pending,,2025,July-Nov
 21264,Varssha,242123027,MA 543,,--,Pending,,2025,July-Nov
 21265,Varssha,242123027,MA 572,,--,Pending,,2025,July-Nov
@@ -21279,11 +21140,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21278,Bikash Darjee,242123030,MA 543,,--,Pending,,2025,July-Nov
 21279,Bikash Darjee,242123030,MA 572,,--,Pending,,2025,July-Nov
 21280,Bikash Darjee,242123030,MA 593,,--,Pending,,2025,July-Nov
-21281,Parash Sharma,242123031,MA 502,,--,Rejected,,2025,July-Nov
-21282,Parash Sharma,242123031,MA 514,,--,Rejected,,2025,July-Nov
-21283,Parash Sharma,242123031,MA 541,,--,Rejected,,2025,July-Nov
-21284,Parash Sharma,242123031,MA 543,,--,Rejected,,2025,July-Nov
-21285,Parash Sharma,242123031,MA 572,,--,Rejected,,2025,July-Nov
 21286,Aditya Jayant,242123101,MA 543,,--,Approved,,2025,July-Nov
 21287,Aditya Jayant,242123101,MA 550,,--,Approved,,2025,July-Nov
 21288,Aditya Jayant,242123101,MA 567,,--,Approved,,2025,July-Nov
@@ -21341,7 +21197,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21340,Narender Kumar,242123112,MA 593,,--,Approved,,2025,July-Nov
 21341,Navjot Lovely,242123113,MA 511,,--,Approved,,2025,July-Nov
 21342,Navjot Lovely,242123113,MA 541,,--,Approved,,2025,July-Nov
-21343,Navjot Lovely,242123113,MA 550,,--,Rejected,,2025,July-Nov
 21344,Navjot Lovely,242123113,MA 567,,--,Approved,,2025,July-Nov
 21345,Navjot Lovely,242123113,MA 572,,--,Approved,,2025,July-Nov
 21346,Nikhil Yadav,242123114,MA 502,,--,Approved,,2025,July-Nov
@@ -21354,7 +21209,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21353,Pankaj Chahar,242123115,MA 567,,--,Approved,,2025,July-Nov
 21354,Pankaj Chahar,242123115,MA 572,,--,Approved,,2025,July-Nov
 21355,Pankaj Chahar,242123115,MA 593,,--,Approved,,2025,July-Nov
-21356,Payal Pandey,242123116,MA 510,,--,Rejected,,2025,July-Nov
 21357,Payal Pandey,242123116,MA 511,,--,Approved,,2025,July-Nov
 21358,Payal Pandey,242123116,MA 543,,--,Approved,,2025,July-Nov
 21359,Payal Pandey,242123116,MA 550,,--,Approved,,2025,July-Nov
@@ -21424,10 +21278,8 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21423,Vasundhara Jat,242123128,MA 593,,--,Approved,,2025,July-Nov
 21424,Wonchibeni N Yanthan,242123129,MA 511,,--,Approved,,2025,July-Nov
 21425,Wonchibeni N Yanthan,242123129,MA 543,,--,Approved,,2025,July-Nov
-21426,Wonchibeni N Yanthan,242123129,MA 550,,--,Rejected,,2025,July-Nov
 21427,Wonchibeni N Yanthan,242123129,MA 567,,--,Approved,,2025,July-Nov
 21428,Wonchibeni N Yanthan,242123129,MA 572,,--,Approved,,2025,July-Nov
-21429,Wonchibeni N Yanthan,242123129,MA 593,,--,Rejected,,2025,July-Nov
 21430,Aftab Alam,242241002,HS 520,,--,Pending,,2025,July-Nov
 21431,Aftab Alam,242241002,HS 603,,--,Pending,,2025,July-Nov
 21432,Aftab Alam,242241002,HS 608,,--,Pending,,2025,July-Nov
@@ -21849,13 +21701,11 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21848,Nanda Kishor P S,244103314,ME 504,,--,Approved,,2025,July-Nov
 21849,Neeraj Kumar,244103315,ME 504,,--,Approved,,2025,July-Nov
 21850,Nikil Kumar,244103316,ME 504,,--,Approved,,2025,July-Nov
-21851,Nikil Kumar,244103316,ME 609,,--,Rejected,,2025,July-Nov
 21852,Nitesh Madhukar Madankar,244103317,ME 504,,--,Approved,,2025,July-Nov
 21853,Nripendra Prajapati,244103318,ME 504,,--,Approved,,2025,July-Nov
 21854,Police Harsha Vardhan Reddy,244103319,ME 504,,--,Approved,,2025,July-Nov
 21855,Prakash Kumar,244103321,ME 504,,--,Approved,,2025,July-Nov
 21856,Praveer Kumar Mistry,244103322,ME 504,,--,Approved,,2025,July-Nov
-21857,Praveer Kumar Mistry,244103322,ME 609,,--,Rejected,,2025,July-Nov
 21858,Praveer Kumar Mistry,244103322,ME 674,,--,Pending,,2025,July-Nov
 21859,Pedada Sai Ram,244103323,ME 504,,--,Approved,,2025,July-Nov
 21860,Sarvesh Tiwari,244103325,ME 504,,--,Approved,,2025,July-Nov
@@ -21865,7 +21715,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21864,Ajit Kumar,244103402,ME 504,,--,Approved,,2025,July-Nov
 21865,Aman Kumar,244103403,ME 504,,--,Approved,,2025,July-Nov
 21866,Anand Raj Singh,244103404,ME 504,,--,Approved,,2025,July-Nov
-21867,Anand Raj Singh,244103404,ME 609,,--,Rejected,,2025,July-Nov
 21868,Angshuman Barman,244103405,ME 504,,--,Approved,,2025,July-Nov
 21869,Ankit Kumar Jha,244103406,ME 504,,--,Approved,,2025,July-Nov
 21870,Aonish Kumar,244103407,ME 504,,--,Approved,,2025,July-Nov
@@ -21874,7 +21723,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 21873,Arun Kumar,244103409,ME 504,,--,Approved,,2025,July-Nov
 21874,Ashi,244103410,ME 504,,--,Approved,,2025,July-Nov
 21875,Ashi,244103410,ME 543,,--,Approved,,2025,July-Nov
-21876,Ashi,244103410,ME 609,,--,Rejected,,2025,July-Nov
 21877,Ayush Tiwari,244103411,ME 504,,--,Approved,,2025,July-Nov
 21878,Ayush Tiwari,244103411,ME 543,,--,Approved,,2025,July-Nov
 21879,Balaram Sau,244103412,ME 504,,--,Approved,,2025,July-Nov
@@ -22320,7 +22168,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 22319,Sonal Dhan,244205030,DD 512,,--,Approved,,2025,July-Nov
 22320,Sonal Dhan,244205030,DD 515,,--,Approved,,2025,July-Nov
 22321,Sonal Dhan,244205030,DD 527,,--,Approved,,2025,July-Nov
-22322,Sonal Dhan,244205030,DD 560,,--,Rejected,,2025,July-Nov
 22323,Sonal Dhan,244205030,DD 603,,--,Approved,,2025,July-Nov
 22324,Soumya Mondal,244205031,DD 515,,--,Approved,,2025,July-Nov
 22325,Soumya Mondal,244205031,DD 527,,--,Approved,,2025,July-Nov
@@ -22369,7 +22216,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 22368,Devanshu Garg,244205110,DD 513,,--,Approved,,2025,July-Nov
 22369,Devanshu Garg,244205110,DD 608,,--,Approved,,2025,July-Nov
 22370,Devanshu Garg,244205110,DD 609,,--,Approved,,2025,July-Nov
-22371,Kausthubh Sai Rama T,244205111,DD 504,,--,Rejected,,2025,July-Nov
 22372,Kausthubh Sai Rama T,244205111,DD 513,,--,Approved,,2025,July-Nov
 22373,Kausthubh Sai Rama T,244205111,DD 608,,--,Approved,,2025,July-Nov
 22374,Kausthubh Sai Rama T,244205111,DD 609,,--,Approved,,2025,July-Nov
@@ -22427,7 +22273,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 22426,Suraj Pratap Biswas,244205130,DD 513,,--,Pending,,2025,July-Nov
 22427,Suraj Pratap Biswas,244205130,DD 608,,--,Pending,,2025,July-Nov
 22428,Suraj Pratap Biswas,244205130,DD 609,,--,Pending,,2025,July-Nov
-22429,Chirag Rathore,244351002,DA 462,,--,Rejected,,2025,July-Nov
 22430,Chirag Rathore,244351002,EN 698,,--,Approved,,2025,July-Nov
 22431,Gaurav Sarmah,244351003,EN 698,,--,Approved,,2025,July-Nov
 22432,Jajjalya Bikash Kashyap,244351004,EN 698,,--,Approved,,2025,July-Nov
@@ -22492,7 +22337,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 22491,Shaik Mushraf Parvez,246103011,PhD4,,--,Approved,,2025,July-Nov
 22492,Shanti Natta,246103012,PhD1,,--,Approved,,2025,July-Nov
 22493,Shashi Kant,246103013,ME 510,,--,Approved,,2025,July-Nov
-22494,Shashi Kant,246103013,ME 512,,--,Rejected,,2025,July-Nov
 22495,Shashi Kant,246103013,PhD1,,--,Approved,,2025,July-Nov
 22496,Successful Khlem,246103014,PhD1,,--,Approved,,2025,July-Nov
 22497,Niranjan Damodhar Padawale,246103015,PhD3,,--,Approved,,2025,July-Nov
@@ -22558,8 +22402,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 22557,Chitra Sharma,246107006,PhD1,,--,Approved,,2025,July-Nov
 22558,Deepali,246107007,PhD1,,--,Approved,,2025,July-Nov
 22559,Diwakar Rai Srivastava,246107008,PhD1,,--,Approved,,2025,July-Nov
-22560,Eden Reang,246107009,CL 513,,--,Rejected,,2025,July-Nov
-22561,Eden Reang,246107009,PhD1,,--,Rejected,,2025,July-Nov
 22562,Hrishikesh Sarma,246107010,PhD1,,--,Pending,,2025,July-Nov
 22563,Koushik Ghosh,246107011,PhD1,,--,Approved,,2025,July-Nov
 22564,Kumar Shivam,246107012,PhD1,,--,Approved,,2025,July-Nov
@@ -22640,7 +22482,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 22639,Shrutimoyee Gogoi,246122049,PhD3,,--,Pending,,2025,July-Nov
 22640,CHAUGULE SOMESH SHEKHAR,246122050,PhD1,,--,Pending,,2025,July-Nov
 22641,Soumen Maity,246122052,PhD1,,--,Approved,,2025,July-Nov
-22642,Srimila Mallick,246122053,CH 434,,--,Rejected,,2025,July-Nov
 22643,Srimila Mallick,246122053,PhD1,,--,Approved,,2025,July-Nov
 22644,Sudip Kumar Ghosh,246122054,PhD1,,--,Approved,,2025,July-Nov
 22645,Sujan Sarkar,246122055,PhD1,,--,Approved,,2025,July-Nov
@@ -22839,7 +22680,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 22838,Kautillya Saragadam,244103329,ME 504,,--,Approved,,2025,July-Nov
 22839,Pallavi Verma,244103331,ME 504,,--,Approved,,2025,July-Nov
 22840,Shrangesh Gupta,244103334,ME 504,,--,Approved,,2025,July-Nov
-22841,Shrangesh Gupta,244103334,ME 609,,--,Rejected,,2025,July-Nov
 22842,Shubham,244103335,ME 504,,--,Approved,,2025,July-Nov
 22843,Sri Ram Vana,244103336,ME 504,,--,Approved,,2025,July-Nov
 22844,Sri Ram Vana,244103336,ME 660,,--,Approved,,2025,July-Nov
@@ -23087,7 +22927,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 23086,Nalinikanta Swain,246121105,PH 707,,--,Approved,,2025,July-Nov
 23087,Preeti Choudhary,246121106,PH 701,,--,Approved,,2025,July-Nov
 23088,Preeti Choudhary,246121106,PH 707,,--,Approved,,2025,July-Nov
-23089,Sandip Naskar,246121107,PH 701,,--,Rejected,,2025,July-Nov
 23090,Sandip Naskar,246121107,PH 705,,--,Approved,,2025,July-Nov
 23091,Sandip Naskar,246121107,PH 707,,--,Approved,,2025,July-Nov
 23092,Surendra Mund,246121109,PH 705,,--,Approved,,2025,July-Nov
@@ -23127,7 +22966,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 23126,Manas Kumar Barik,246122122,CH 601,,--,Approved,,2025,July-Nov
 23127,Manas Kumar Barik,246122122,CH 626,,--,Approved,,2025,July-Nov
 23128,Upasana,246122124,PhD1,,--,Pending,,2025,July-Nov
-23129,Mukesh Paul,246123101,MA 502,,--,Rejected,,2025,July-Nov
 23130,Mukesh Paul,246123101,MA 550,,--,Approved,,2025,July-Nov
 23131,Mukesh Paul,246123101,MA 746,,--,Approved,,2025,July-Nov
 23132,Rajashree Bar,246123102,CS 503,,--,Approved,,2025,July-Nov
@@ -23181,7 +23019,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 23180,RACHIBE LIEGISE,246150103,DA 626,,--,Approved,,2025,July-Nov
 23181,Abhas Kumar Sinha,246150104,DA 527,,--,Pending,,2025,July-Nov
 23182,Abhas Kumar Sinha,246150104,DA 626,,--,Pending,,2025,July-Nov
-23183,KANTHIMALA DAS,246151101,CL 640,,--,Rejected,,2025,July-Nov
 23184,KANTHIMALA DAS,246151101,EE 601,,--,Approved,,2025,July-Nov
 23185,KANTHIMALA DAS,246151101,EN 680,,--,Approved,,2025,July-Nov
 23186,RIYA SHARMA,246151103,PhD1,,--,Approved,,2025,July-Nov
@@ -23223,11 +23060,8 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 23222,BOGGAVARAPU VEERA VENKATA KIRAN KRISHNA,246151105,DT 601,,--,Approved,,2025,July-Nov
 23223,AL SAHEBA RAZINA AKTHARA CHOUDHURY,246151102,PhD1,,--,Approved,,2025,July-Nov
 23224,Shailesh Chandra Pandey,246102106,PhD1,,--,Pending,,2025,July-Nov
-23225,RIJU PRAMANIK,242123130,MA 502,,--,Rejected,,2025,July-Nov
 23226,RIJU PRAMANIK,242123130,MA 511,,--,Approved,,2025,July-Nov
 23227,RIJU PRAMANIK,242123130,MA 541,,--,Approved,,2025,July-Nov
-23228,RIJU PRAMANIK,242123130,MA 543,,--,Rejected,,2025,July-Nov
-23229,RIJU PRAMANIK,242123130,MA 550,,--,Rejected,,2025,July-Nov
 23230,RIJU PRAMANIK,242123130,MA 567,,--,Approved,,2025,July-Nov
 23231,RIJU PRAMANIK,242123130,MA 572,,--,Approved,,2025,July-Nov
 23232,Samyak Sukhadev Gaikwad,242241031,HS 520,,--,Pending,,2025,July-Nov
@@ -25699,7 +25533,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 25698,BENOJIR RAHAMAN,256104005,CE 541,,--,Approved,,2025,July-Nov
 25699,BENOJIR RAHAMAN,256104005,CE 542,,--,Approved,,2025,July-Nov
 25700,BENOJIR RAHAMAN,256104005,HS 730,,--,Pending,,2025,July-Nov
-25701,BENOJIR RAHAMAN,256104005,PhD1,,--,Rejected,,2025,July-Nov
 25702,BHAKTARAJ MAIBAM,256104006,CE 581,,--,Approved,,2025,July-Nov
 25703,BHAKTARAJ MAIBAM,256104006,CE 602,,--,Approved,,2025,July-Nov
 25704,CHUNCHUN KUMAR,256104007,CE 501,,--,Pending,,2025,July-Nov
@@ -26088,7 +25921,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 26087,TISROTA DHAR CHOWDHURY,256123014,MA 593,,--,Approved,,2025,July-Nov
 26088,TISROTA DHAR CHOWDHURY,256123014,MA 625,,--,Approved,,2025,July-Nov
 26089,TISROTA DHAR CHOWDHURY,256123014,MA 642,,--,Approved,,2025,July-Nov
-26090,UMANG TIWARI,256123015,HS 555,,--,Rejected,,2025,July-Nov
 26091,UMANG TIWARI,256123015,MA 625,,--,Approved,,2025,July-Nov
 26092,UMANG TIWARI,256123015,MA 642,,--,Approved,,2025,July-Nov
 26093,UMANG TIWARI,256123015,MA 662,,--,Approved,,2025,July-Nov
@@ -26390,7 +26222,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 26389,Himashree Kalita,196102004,PhD5,,--,Pending,,2025,July-Nov
 26390,Jegyasu,196102005,PhD7,,--,Approved,,2025,July-Nov
 26391,Priyanka,196102008,PhD5,,--,Approved,,2025,July-Nov
-26392,Riyaj Uddin Khan,196102009,PhD5,,--,Rejected,,2025,July-Nov
 26393,Saras Mani Mishra,196102010,PhD5,,--,Approved,,2025,July-Nov
 26394,Soibam Aruna Chanu,196102014,PhD7,,--,Approved,,2025,July-Nov
 26395,Subhadip Poria,196102015,PhD4,,--,Pending,,2025,July-Nov
@@ -26415,7 +26246,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 26414,Kumar Pijush Kataky,196103110,ME 501,,--,Approved,,2025,July-Nov
 26415,Kumar Pijush Kataky,196103110,ME 521,,--,Approved,,2025,July-Nov
 26416,Kumar Pijush Kataky,196103110,PhD4,,--,Approved,,2025,July-Nov
-26417,Lalit Kumar,196103111,PhD7,,--,Rejected,,2025,July-Nov
 26418,Madhumita Mohanty,196103112,PhD4,,--,Approved,,2025,July-Nov
 26419,Rahul Kumar,196103115,PhD5,,--,Approved,,2025,July-Nov
 26420,Ranajit Mahanti,196103116,PhD6,,--,Approved,,2025,July-Nov
@@ -26566,7 +26396,6 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 26565,Abhyuday Bhardwaj,206102034,PhD4,,--,Approved,,2025,July-Nov
 26566,Rajeshkumar Kripashankar Mishra,206102035,PhD4,,--,Approved,,2025,July-Nov
 26567,Om Jee Singh,206102103,PhD6,,--,Pending,,2025,July-Nov
-26568,Puja Kumari,206102104,PhD5,,--,Rejected,,2025,July-Nov
 26569,Rajarshi Saha,206102105,PhD4,,--,Pending,,2025,July-Nov
 26570,Shahbaz Ahmad,206102107,PhD4,,--,Pending,,2025,July-Nov
 26571,Suraj Kumar,206156105,PhD5,,--,Approved,,2025,July-Nov
