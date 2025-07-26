@@ -5,7 +5,6 @@ import helper
 # This script initialises the default times of each course according to its slot
 
 def add_timings_to_course_csv(url: str):
-    url = "data/courses_csv.csv"
     try:
         course_df = pd.read_csv(url)
         # Create new columns with empty string as default value
@@ -19,7 +18,6 @@ def add_timings_to_course_csv(url: str):
         num_row, _ = course_df.shape
         for row in range(num_row):
             slot = course_df.loc[row, 'slot']
-            print(slot)
             if pd.isnull(slot):
                 continue
             else:
@@ -34,5 +32,3 @@ def add_timings_to_course_csv(url: str):
     except Exception as e:
         print(e)
         return pd.DataFrame()
-
-add_timings_to_course_csv("data/courses_csv.csv")

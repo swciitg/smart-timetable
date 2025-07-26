@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
       branches:
-      - "hacktober"
+      - "dev"
     
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -25,7 +25,14 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         script: |
             cd /webapps/test-servers/smart-timetable
-            git checkout hacktober
-            git pull origin hacktober
+            git checkout dev
+            git pull origin dev
             git status
+            # Create logs directory if it doesn't exist
+            mkdir -p logs
+            # Stop existing containers
+            docker-compose -f docker-compose.test.yml down
+            # Build and start new containers
             docker-compose -f docker-compose.test.yml up -d --build
+            # Show container status
+            docker-compose -f docker-compose.test.yml ps

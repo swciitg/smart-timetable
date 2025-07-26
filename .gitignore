@@ -1,3 +1,37 @@
 env/
 __pycache__/
 backend/__pycache__/
+venv/
+*.backup*
+
+# Log files (generated at runtime)
+*.log
+cron.log
+enrollment_fetcher.log
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/

@@ -1,6 +1,6 @@
-FRESHER_YEAR = '24'        # Starting 2 digits of this users freshers roll number
-# SEM_SESSION = 'July-Nov'    # Session of semester 
-SEM_SESSION = 'Jan-May'
+FRESHER_YEAR = '25'        # Starting 2 digits of this users freshers roll number
+SEM_SESSION = 'July-Nov'    # Session of semester 
+# SEM_SESSION = 'Jan-May'
 SEM_YEAR = '2025'          # Year of the session
 
 # Mid sem and End sem timings according to slots

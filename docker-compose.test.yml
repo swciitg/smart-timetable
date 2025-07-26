@@ -8,9 +8,18 @@ services:
       context: .
       dockerfile: Dockerfile-test
     volumes:
-            - "./data:/code/data"
+      # Mount data directory for CSV files
+      - "./data:/code/data"
+      # Mount logs directory for monitoring
+      - "./logs:/code/logs"
     ports:
       - "9021:5000"
     environment:
-            - COMPOSE_PROJECT_NAME=testsmarttimetable
-
+      - COMPOSE_PROJECT_NAME=testsmarttimetable
+    # Health check to ensure the service is running properly
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
