@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.11-slim
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \
@@ -11,11 +11,45 @@ ENV PYTHONFAULTHANDLER=1 \
     PIPENV_NOSPIN=true \
     PIPENV_DOTENV_LOCATION=.env
 
-RUN apt-get update && apt-get install -y curl python3-dev build-essential && rm -rf /var/lib/apt/lists/*
+# Install required system packages including cron
+RUN apt-get update && apt-get install -y \
+    curl \
+    python3-dev \
+    build-essential \
+    cron \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /code
+
+# Copy requirements and install Python packages
 COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
+
+# Copy application code
 COPY . .
 
-CMD ["uvicorn","main:app","--host","0.0.0.0","--port","5000","--root-path","/smartTimetable"]
+# Create necessary directories
+RUN mkdir -p /code/data /code/logs
 
+# Set up cron job for enrollment updates
+RUN echo "0 * * * * cd /code && python3 enrollment_fetcher.py >> /code/logs/cron.log 2>&1" | crontab -
+
+# Create a startup script that starts both cron and the web server
+RUN echo '#!/bin/bash\n\
+# Start cron service\n\
+service cron start\n\
+\n\
+# Run initial enrollment fetch\n\
+echo "Running initial enrollment fetch..."\n\
+python3 enrollment_fetcher.py || echo "Initial fetch failed, will retry on next cron run"\n\
+\n\
+# Start the web server\n\
+exec uvicorn main:app --host 0.0.0.0 --port 5000 --root-path "/smartTimetable"' > /code/start.sh
+
+RUN chmod +x /code/start.sh
+
+# Expose the port
+EXPOSE 5000
+
+# Use the startup script as the entry point
+CMD ["/code/start.sh"]

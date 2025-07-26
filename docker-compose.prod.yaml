@@ -7,7 +7,10 @@ services:
     build:
       context: .
     volumes:
-            - "./data:/code/data"
+      # Mount data directory for CSV files
+      - "./data:/code/data"
+      # Mount logs directory for monitoring
+      - "./logs:/code/logs"
     ports:
       - "9020:5000"
     environment:

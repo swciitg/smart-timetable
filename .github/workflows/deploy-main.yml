@@ -26,5 +26,7 @@ jobs:
             git checkout main
             git pull
             git status
+            # Create logs directory if it doesn't exist
+            mkdir -p logs
             docker-compose -f docker-compose.prod.yaml up -d --build
             mongosh ${{ secrets.ONESTOP_DB_NAME }} --eval 'db.lastupdates.updateOne({},{$set:{timetable: new Date()}})'
