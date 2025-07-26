@@ -115,8 +115,9 @@ def parse_html_to_csv(html_content):
             }
             
             # Only include approved courses
-            # if course_data['approval_status'].lower() == 'approved':
-            courses_data.append(course_data)
+            status = course_data['approval_status'].lower()
+            if status == 'approved' or status == 'pending':
+                courses_data.append(course_data)
     
     logging.info(f"Parsed {len(courses_data)} approved course enrollments")
     return courses_data
