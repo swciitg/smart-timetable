@@ -15,4 +15,8 @@ services:
       - "9020:5000"
     environment:
             - COMPOSE_PROJECT_NAME=smarttimetable
-
+    networks:
+            - backend_welfare-board-strapi
+networks:
+  backend_welfare-board-strapi:
+    external: true

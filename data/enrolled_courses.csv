@@ -5372,9 +5372,11 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 6442,Bhabesh Mali,236101001,PhD4,,--,Approved,,2025,July-Nov
 6443,Monika Singh,236101002,PhD4,,--,Approved,,2025,July-Nov
 6444,Suklav Ghosh,236101005,PhD4,,--,Approved,,2025,July-Nov
+6445,Aditi Chakraborty,236102001,PhD4,,--,Approved,,2025,July-Nov
 6446,Arindam Majhi,236102002,PhD5,,--,Approved,,2025,July-Nov
 6447,Ashlesha Medhi,236102003,PhD4,,--,Approved,,2025,July-Nov
 6448,Himashri Deka,236102004,PhD4,,--,Approved,,2025,July-Nov
+6449,Manash Gogoi,236102005,PhD4,,--,Approved,,2025,July-Nov
 6450,Narendra Sona,236102006,EE 523,,--,Approved,,2025,July-Nov
 6451,Narendra Sona,236102006,EE 601,,--,Approved,,2025,July-Nov
 6452,Narendra Sona,236102006,ME 501,,--,Approved,,2025,July-Nov
@@ -13276,6 +13278,62 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 17374,Swarup Suhas Kshirsagar,240104101,CE 212,,--,Approved,,2025,July-Nov
 17375,Swarup Suhas Kshirsagar,240104101,CE 214,,--,Approved,,2025,July-Nov
 17376,Swarup Suhas Kshirsagar,240104101,MA 201,,--,Approved,,2025,July-Nov
+17377,Swayam Kapila,240104102,CE 202,,--,Approved,,2025,July-Nov
+17378,Swayam Kapila,240104102,CE 203,,--,Approved,,2025,July-Nov
+17379,Swayam Kapila,240104102,CE 207,,--,Approved,,2025,July-Nov
+17380,Swayam Kapila,240104102,CE 208,,--,Approved,,2025,July-Nov
+17381,Swayam Kapila,240104102,CE 211,,--,Approved,,2025,July-Nov
+17382,Swayam Kapila,240104102,CE 212,,--,Approved,,2025,July-Nov
+17383,Swayam Kapila,240104102,CE 214,,--,Approved,,2025,July-Nov
+17384,Swayam Kapila,240104102,MA 201,,--,Approved,,2025,July-Nov
+17385,Tanishq Reddy,240104103,CE 202,,--,Approved,,2025,July-Nov
+17386,Tanishq Reddy,240104103,CE 203,,--,Approved,,2025,July-Nov
+17387,Tanishq Reddy,240104103,CE 207,,--,Approved,,2025,July-Nov
+17388,Tanishq Reddy,240104103,CE 208,,--,Approved,,2025,July-Nov
+17389,Tanishq Reddy,240104103,CE 211,,--,Approved,,2025,July-Nov
+17390,Tanishq Reddy,240104103,CE 212,,--,Approved,,2025,July-Nov
+17391,Tanishq Reddy,240104103,CE 214,,--,Approved,,2025,July-Nov
+17392,Tanishq Reddy,240104103,MA 201,,--,Approved,,2025,July-Nov
+17393,Tanmay Satyaj Dwivedi,240104104,CE 202,,--,Approved,,2025,July-Nov
+17394,Tanmay Satyaj Dwivedi,240104104,CE 203,,--,Approved,,2025,July-Nov
+17395,Tanmay Satyaj Dwivedi,240104104,CE 207,,--,Approved,,2025,July-Nov
+17396,Tanmay Satyaj Dwivedi,240104104,CE 208,,--,Approved,,2025,July-Nov
+17397,Tanmay Satyaj Dwivedi,240104104,CE 211,,--,Approved,,2025,July-Nov
+17398,Tanmay Satyaj Dwivedi,240104104,CE 212,,--,Approved,,2025,July-Nov
+17399,Tanmay Satyaj Dwivedi,240104104,CE 214,,--,Approved,,2025,July-Nov
+17400,Tanmay Satyaj Dwivedi,240104104,MA 201,,--,Approved,,2025,July-Nov
+17408,Tanushree Rao Inna,240104106,CE 202,,--,Approved,,2025,July-Nov
+17409,Tanushree Rao Inna,240104106,CE 203,,--,Approved,,2025,July-Nov
+17410,Tanushree Rao Inna,240104106,CE 207,,--,Approved,,2025,July-Nov
+17411,Tanushree Rao Inna,240104106,CE 208,,--,Approved,,2025,July-Nov
+17412,Tanushree Rao Inna,240104106,CE 211,,--,Approved,,2025,July-Nov
+17413,Tanushree Rao Inna,240104106,CE 212,,--,Approved,,2025,July-Nov
+17414,Tanushree Rao Inna,240104106,CE 214,,--,Approved,,2025,July-Nov
+17415,Tanushree Rao Inna,240104106,MA 201,,--,Approved,,2025,July-Nov
+17416,Tushar Raj Prasad,240104107,CE 202,,--,Approved,,2025,July-Nov
+17417,Tushar Raj Prasad,240104107,CE 203,,--,Approved,,2025,July-Nov
+17418,Tushar Raj Prasad,240104107,CE 207,,--,Approved,,2025,July-Nov
+17419,Tushar Raj Prasad,240104107,CE 208,,--,Approved,,2025,July-Nov
+17420,Tushar Raj Prasad,240104107,CE 211,,--,Approved,,2025,July-Nov
+17421,Tushar Raj Prasad,240104107,CE 212,,--,Approved,,2025,July-Nov
+17422,Tushar Raj Prasad,240104107,CE 214,,--,Approved,,2025,July-Nov
+17423,Tushar Raj Prasad,240104107,MA 201,,--,Approved,,2025,July-Nov
+17424,Uddipta Bhaskar Sarma,240104108,CE 202,,--,Approved,,2025,July-Nov
+17425,Uddipta Bhaskar Sarma,240104108,CE 203,,--,Approved,,2025,July-Nov
+17426,Uddipta Bhaskar Sarma,240104108,CE 207,,--,Approved,,2025,July-Nov
+17427,Uddipta Bhaskar Sarma,240104108,CE 208,,--,Approved,,2025,July-Nov
+17428,Uddipta Bhaskar Sarma,240104108,CE 211,,--,Approved,,2025,July-Nov
+17429,Uddipta Bhaskar Sarma,240104108,CE 212,,--,Approved,,2025,July-Nov
+17430,Uddipta Bhaskar Sarma,240104108,CE 214,,--,Approved,,2025,July-Nov
+17431,Uddipta Bhaskar Sarma,240104108,MA 201,,--,Approved,,2025,July-Nov
+17432,Udit Dev Mourya,240104109,CE 202,,--,Approved,,2025,July-Nov
+17433,Udit Dev Mourya,240104109,CE 203,,--,Approved,,2025,July-Nov
+17434,Udit Dev Mourya,240104109,CE 207,,--,Approved,,2025,July-Nov
+17435,Udit Dev Mourya,240104109,CE 208,,--,Approved,,2025,July-Nov
+17436,Udit Dev Mourya,240104109,CE 211,,--,Approved,,2025,July-Nov
+17437,Udit Dev Mourya,240104109,CE 212,,--,Approved,,2025,July-Nov
+17438,Udit Dev Mourya,240104109,CE 214,,--,Approved,,2025,July-Nov
+17439,Udit Dev Mourya,240104109,MA 201,,--,Approved,,2025,July-Nov
 17440,Utpal Doley,240104110,CE 202,,--,Approved,,2025,July-Nov
 17441,Utpal Doley,240104110,CE 203,,--,Approved,,2025,July-Nov
 17442,Utpal Doley,240104110,CE 207,,--,Approved,,2025,July-Nov
@@ -19712,6 +19770,7 @@ sl_no,student_name,roll_number,course_code,course_name,credit_audit,approval_sta
 26342,Abhijit Dey,186103102,PhD6,,--,Approved,,2025,July-Nov
 26343,Kuldeep Kalita,186104018,PhD7,,--,Approved,,2025,July-Nov
 26344,Prajna Parmita,186104026,PhD4,,--,Approved,,2025,July-Nov
+26345,Prinza Priya Loying,186104027,PhD7,,--,Approved,,2025,July-Nov
 26346,Priyanka Kotoky,186104028,PhD5,,--,Approved,,2025,July-Nov
 26347,Uma Narayan M,186104033,PhD6,,--,Approved,,2025,July-Nov
 26348,Sumantra Chaudhuri,186104103,PhD7,,--,Approved,,2025,July-Nov
