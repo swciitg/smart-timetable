@@ -13,7 +13,7 @@ import string
 
 # importing helper modules
 from data import fetch_courses_df
-from courses import get_course_codes
+from courses import get_course_codes_from_csv
 from fresher_courses import get_fresher_courses
 from semester_constants import FRESHER_YEAR
 from helper import *
@@ -50,7 +50,7 @@ def get_my_courses(data: requestMyCourses):
         return get_fresher_courses(roll_number)
         
     # Acquire user course codes
-    course_codes = get_course_codes(roll_number)
+    course_codes = get_course_codes_from_csv(roll_number)
     print(course_codes)
     
     # Store all courses data in a DF 
@@ -88,8 +88,8 @@ def get_my_courses(data: requestMyCourses):
             'slot': ensure_string(df_entry['slot']),
             'instructor': ensure_string(df_entry['prof']),
             'venue': ensure_string(df_entry['venue']),
-            'midsem': mid_time(df_entry['slot']),
-            'endsem': end_time(df_entry['slot']),
+            'midsem': mid_time(df_entry['exam_slot']),
+            'endsem': end_time(df_entry['exam_slot']),
             'timings': timing_json,
             'midsemVenue': exam_venue(df_entry['code'], roll_number, True),
             'endsemVenue': exam_venue(df_entry['code'], roll_number, False),

@@ -225,7 +225,15 @@ def main():
         
         # Add timings to the course CSV
         try:
-            add_timings_to_course_csv(csv_path)
+            df_with_timings = add_timings_to_course_csv(csv_path)
+            if not df_with_timings.empty:
+                print("\n🕒 Courses with timing adjustments:")
+                print("=" * 80)
+                print(df_with_timings.to_string(index=False, max_colwidth=15))
+                print("=" * 80)
+                print(f"📊 Total courses with timings: {len(df_with_timings)}")
+            else:
+                print("⚠️  No timing data available to display")
         except Exception as e:
             print(f"⚠️  Warning: Could not add timings - {e}")
         
