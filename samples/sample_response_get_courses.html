@@ -1,598 +1,475 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Welcome to Academic Affairs,IITG</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="text/plain" http-equiv="Content-Type">
-  <meta content="utf-8" http-equiv="encoding">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Tempusdominus Bbootstrap 4 -->
-  <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="../plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- JQVMap -->
-  <link rel="stylesheet" href="../plugins/jqvmap/jqvmap.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
-  <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="../plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="../plugins/daterangepicker/daterangepicker.css">
-  <!-- summernote -->
-  <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.css">
-  <!-- Google Font: Source Sans Pro -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-  <link rel="stylesheet" href="../plugins/datatables-bs4/css/dataTables.bootstrap4.css">
-  <link rel="stylesheet" href="../plugins/jquery-ui/jquery-ui.css">
-  <link rel="stylesheet" href="../plugins/datatables-colreorder/css/colReorder.bootstrap4.css">
-  <link rel="stylesheet" href="../plugins/datatables-responsive/css/responsive.bootstrap4.css">
-  <link rel="shortcut icon" href="../dist/img/iitg-logo.png" type="image/x-icon"> 
-  <script type="text/javascript" src="../dist/js/sweetalert.js"></script>
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<!-- saved from url=(0038)https://iitg.ac.in/acad/time_table.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
-</head>
-<body class="hold-transition sidebar-mini layout-fixed sidebar-collapse" >
-<div class="wrapper">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+  <title>Indian Institute of Technology Guwahati</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="https://iitg.ac.in/acad/assets/img/favicon.png" rel="icon">
+  <link href="https://iitg.ac.in/acad/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   
- 
 
-<style>
-        .card-header{
-                height:45px; !important
+  <!-- Google Fonts -->
+  <link href="./Indian Institute of Technology Guwahati_files/css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="./Indian Institute of Technology Guwahati_files/aos.css" rel="stylesheet">
+  <link href="./Indian Institute of Technology Guwahati_files/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Indian Institute of Technology Guwahati_files/bootstrap-icons.min.css">
+  <!--link href="https://iitg.ac.in/acad/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"-->
+  <link rel="stylesheet" href="./Indian Institute of Technology Guwahati_files/boxicons.min.css">
+  <!--link href="https://iitg.ac.in/acad/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"-->
+  <link href="./Indian Institute of Technology Guwahati_files/glightbox.min.css" rel="stylesheet">
+  <link href="./Indian Institute of Technology Guwahati_files/remixicon.css" rel="stylesheet">
+  <link href="./Indian Institute of Technology Guwahati_files/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./Indian Institute of Technology Guwahati_files/font-awesome.min.css">
+  <!--link rel="stylesheet" href="https://iitg.ac.in/acad/assets/vendor/font-awesome/css/font-awesome.min.css"-->
+
+
+  <!-- Template Main CSS File -->
+  <link href="./Indian Institute of Technology Guwahati_files/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Presento - v3.7.0
+  * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    .transition-background {      
+      background-color: #FFFFFF; /* Start with grayish blue */
+      animation: colorTransition 5s ease infinite alternate;
+    }
+
+    @keyframes colorTransition {
+      0% {
+        background-color: #FFFFFF; /* Grayish blue */
+      }
+      100% {
+        background-color: #e9ecef; /* White */
+      }
+    }
+  </style>
+<link href="./Indian Institute of Technology Guwahati_files/jquery.dataTables.min.css" rel="stylesheet"><link href="./Indian Institute of Technology Guwahati_files/fixedHeader.dataTables.min.css" rel="stylesheet"><style>
+  .marquee 
+        {
+          margin-top: 20px;
+          overflow: hidden;
+          font-size: 22px;
+          color: #dc3545;
+          background-color: #F2F2F1;
+          border-radius: 5px;
         }
-</style>
+        .card{
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  thead input {
+        width: 100%;
+    }
+</style></head>
 
 
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Course List for 200101071 </h1>
+<body>
 
+  <!-- ======= Header ======= -->  
+
+      <header id="header" class="fixed-top d-flex align-items-center transition-backgrounds">
+	<div class="container d-flex align-items-center" style="max-height: 50px;">
+		<h1 class="logo me-auto" style="padding-top: 20px;"><a href="https://iitg.ac.in/acad">IITG<span>&nbsp;</span><br><span style="font-size: 20px;position: relative;top: -15px;">Academics</span></a></h1>
+		<!-- Uncomment below if you prefer to use an image logo -->
+		<!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
+		<!-- Navbar -->
+		<nav id="navbar" class="navbar order-last order-lg-0">
+			<ul>
+				<li><a class="nav-link" href="https://iitg.ac.in/acad">Home</a></li>
+				<li><a class="nav-link" href="https://iitg.ac.in/acad/admission" target="_blank">Admissions</a></li>
+				<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Programmes</span> <i class="fa fa-chevron-down"></i></a>
+					<ul>
+						<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Doctoral</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/doctoral.php/#phd">PhD</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/doctoral.php/#dualmtechphd">Dual MTech + PhD</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/doctoral.php/#dualmsphd">Dual MS + PhD</a></li>
+							</ul>
+						</li>
+								
+						<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Master's</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/masters.php/#msr">Master of Science (by Research)</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/masters.php/#mtech">Master of Technology</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/masters.php/#mdes">Master of Design</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/masters.php/#ma">Master of Arts</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/masters.php/#msc">Master of Science</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/masters.php/#mba">Master of Business Administration</a></li>
+							</ul>
+						</li>
+							
+						<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Bachelor's</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/bachelors.php/#btech">Bachelor of Technology</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/bachelors.php/#bdes">Bachelor of Design</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/bachelors.php/#bs">Bachelor of Science</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/programmes/bachelors.php/#minor">B.Tech Minor</a></li>
+							</ul>
+						</li>
+							
+						<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Online Programmes</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://iitg.ac.in/oes/odp">B.Sc (Hons) in DS &amp; AI</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Resources</span> <i class="fa fa-chevron-down"></i></a>
+					<ul>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/academic_ordinance.php">Academic Ordinances</a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/academic_calendar.php">Academic Calendar</a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/time_table.php"><span>Class Timetable</span></a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/offered_courses.php">Current Semester Courses</a></li>
+						<!--li><a class="a_link" href="https://academic.iitg.ac.in/acad/coursewise_student_list/">CourseWise Students List</a></li-->
+						<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php"><span>Forms</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/forms.php/#general">General</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/forms.php/#ug">UG</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/forms.php/#pg">PG</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/forms.php/#phd">PhD</a></li>								
+							</ul>
+						</li>
+					</ul>
+				</li>
+
+				<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#about"><span>For Alumni</span> <i class="fa fa-chevron-down"></i></a>
+					<ul>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/alumni/alumni.php">Transcript</a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/alumni/verification.php">Degree Verification</a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/certificates.php/#certificates">Certificates</a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/certificates.php/#notifications">Notifications</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Team</span> <i class="fa fa-chevron-down"></i></a>
+					<ul>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/acadc.php">Academic Courses</a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/acadr.php">Academic Research</a></li>
+						<li><a class="a_link" href="https://iitg.ac.in/acad/team.php">Staff</a></li>						
+						<!--li class="dropdown"><a href="https://iitg.ac.in/acad/team.php/#staff"><span>Staff</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/team.php/#pstaff">Postgraduate</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/team.php/#ustaff">Undergraduate</a></li>
+								<li><a class="a_link" href="https://iitg.ac.in/acad/team.php/#cstaff">Common Matters</a></li>
+							</ul>
+						</li-->
+						<li><a class="a_link" href="https://iitg.ac.in/oes/team.php" target="_blank">Online Degree Programmes</a></li>
+					</ul>
+				</li>
+
+				<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Intranet</span> <i class="fa fa-chevron-down"></i></a>
+					<ul>
+						<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Committees</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/committees/senate/">Senate</a></li>
+								<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/committees/ippc/">IPPC</a></li>
+								<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/committees/iupc/">IUPC</a></li>
+								<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/committees/iadc/">IADC</a></li>
+								<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/committees/ttc/">TTC</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a href="https://iitg.ac.in/acad/time_table.php#"><span>Statistics</span> <i class="fa fa-chevron-right"></i></a>
+							<ul>
+								<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/statistics/graduates.php">Graduates</a></li>
+								<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/statistics/cur_sem_stat.php">Current</a></li>
+							</ul>
+						</li>
+						<li><a class="a_link" href="https://local.iitg.ac.in/hb" target="_blank">Classroom Booking</a></li>
+						<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/PhD_Leave_Rules_Revised.pdf" target="_blank">Leave Rules</a></li>
+						<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/forms_faculty.php">Faculty Forms</a></li>
+						<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/miscellaneous.php" target="_blank">Other Links</a></li>
+						<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/" target="_blank">Notifications</a></li>
+						<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/classtt/" target="_blank">Class Time Table</a></li>
+						<li><a class="a_link" href="https://intranet.iitg.ac.in/acad/index_old.php" target="_blank">Old Website</a></li>
+					</ul>
+				</li>
+
+			</ul>
+			<i class="bi bi-list mobile-nav-toggle"></i>
+		</nav><!-- End Navbar -->
+
+		<a href="https://academic.iitg.ac.in/sso" class="get-started-btn scrollto" style="padding-left: 10px; padding-right: 10px;">Academic ERP</a>
+	</div>
+</header><!-- End Header -->
+  <!-- End Header -->
+
+  
+  <!-- ======= #main ======= -->
+
+  <main id="main" style="position: relative; margin-top: 30px;">
+
+    <section id="portfolio" class="portfolio">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Time Table</h2>
+        </div>
+		
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<h3 class="text-center">July-November 2025</h3>
+					<img src="./Indian Institute of Technology Guwahati_files/tt.jpg" style="width: 100%;height: 100%; /*padding-right: 15px; padding-left: 15px;*/ top: 100px;">
+				</div>
+			</div>
+			<br>
+			<hr>
+		</div>
+		
+		
+		<div class="card">
+          <div class="card-body">
+			<div class="table-responsive">
+			<div id="dataTable_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="dataTable_length"><label>Show <select name="dataTable_length" aria-controls="dataTable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="dataTable_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="dataTable"></label></div><table class="table table-bordered table-hover dataTable no-footer" id="dataTable" style="padding-top: 10px; width: 1267px;" aria-describedby="dataTable_info"><thead><tr><th class="sorting sorting_asc" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Course Code: activate to sort column descending" style="width: 64px;">Course Code</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Course Name: activate to sort column ascending" style="width: 195px;">Course Name</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="L: activate to sort column ascending" style="width: 10px;">L</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="T: activate to sort column ascending" style="width: 10px;">T</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="P: activate to sort column ascending" style="width: 11px;">P</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="C: activate to sort column ascending" style="width: 12px;">C</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Exam Slot: activate to sort column ascending" style="width: 50px;">Exam Slot</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Class Slot: activate to sort column ascending" style="width: 93px;">Class Slot</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Class room/ Lab: activate to sort column ascending" style="width: 179px;">Class room/ Lab</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label="Faculty List (email): activate to sort column ascending" style="width: 202px;">Faculty List (email)</th><th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="width: 1px;"></th></tr><tr class="filters"><th rowspan="1" colspan="1" style="width: 80px;"><input type="text" placeholder="Course Code"></th><th rowspan="1" colspan="1" style="width: 211px;"><input type="text" placeholder="Course Name"></th><th rowspan="1" colspan="1" style="width: 26px;"><input type="text" placeholder="L"></th><th rowspan="1" colspan="1" style="width: 26px;"><input type="text" placeholder="T"></th><th rowspan="1" colspan="1" style="width: 27px;"><input type="text" placeholder="P"></th><th rowspan="1" colspan="1" style="width: 28px;"><input type="text" placeholder="C"></th><th rowspan="1" colspan="1" style="width: 66px;"><input type="text" placeholder="Exam Slot"></th><th rowspan="1" colspan="1" style="width: 109px;"><input type="text" placeholder="Class Slot"></th><th rowspan="1" colspan="1" style="width: 195px;"><input type="text" placeholder="Class room/ Lab"></th><th rowspan="1" colspan="1" style="width: 218px;"><input type="text" placeholder="Faculty List (email)"></th><th rowspan="1" colspan="1" style="width: 17px;"><input type="text" placeholder=""></th></tr></thead>
+            <tbody><tr class="odd"><td class="sorting_1">BT 418</td><td>Systems Biology</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>5G4</td><td>biplabbose</td><td></td></tr><tr class="even"><td class="sorting_1">BT 421</td><td>Neuroscience</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>5G3</td><td>cngupta</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 202</td><td>Solid Mechanics</td><td>3</td><td>1</td><td>0</td><td>8</td><td>B</td><td>B</td><td>1</td><td>arunasis</td><td></td></tr><tr class="even"><td class="sorting_1">CE 203</td><td>Fluid Mechanics</td><td>3</td><td>0</td><td>0</td><td>6</td><td>C</td><td>C</td><td>1</td><td>sreeja</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 207</td><td>Engineering Geology</td><td>3</td><td>0</td><td>0</td><td>6</td><td>D</td><td>A</td><td>1</td><td>nair.archana, rbharti</td><td></td></tr><tr class="even"><td class="sorting_1">CE 208</td><td>Engineering Geology Lab</td><td>0</td><td>0</td><td>2</td><td>2</td><td></td><td>AL1,AL2</td><td></td><td>sayantan_c</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 211</td><td>Civil Engineering Materials</td><td>3</td><td>0</td><td>0</td><td>6</td><td>E</td><td>E</td><td>1</td><td>bulu</td><td></td></tr><tr class="even"><td class="sorting_1">CE 212</td><td>Civil Engineering Materials Laboratory</td><td>0</td><td>0</td><td>3</td><td>3</td><td></td><td>AL3,AL4</td><td></td><td>bulu</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 214</td><td>Fluid Mechanics Lab</td><td>0</td><td>0</td><td>2</td><td>2</td><td></td><td>AL1,AL2</td><td></td><td>sreeja</td><td></td></tr><tr class="even"><td class="sorting_1">CE 302</td><td>Structural Analysis II</td><td>3</td><td>1</td><td>0</td><td>8</td><td>A1</td><td>A1</td><td>1</td><td>romanbabu</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 303</td><td>Geotechnical Engg. II</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B1</td><td>B1</td><td>1</td><td>abhiak</td><td></td></tr><tr class="even"><td class="sorting_1">CE 304</td><td>Transportation Engg. I</td><td>3</td><td>0</td><td>0</td><td>6</td><td>C1</td><td>C1</td><td>1</td><td>rajandce</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 305</td><td>Reinforced Concrete Design</td><td>3</td><td>1</td><td>0</td><td>8</td><td>D1</td><td>D1</td><td>1</td><td>amitsh</td><td></td></tr><tr class="even"><td class="sorting_1">CE 313</td><td>Geotechnical Engineering II Lab</td><td>0</td><td>0</td><td>2</td><td>2</td><td></td><td>ML1,ML2</td><td></td><td>vivekp</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 314</td><td>Transportation Engineering I Lab</td><td>0</td><td>0</td><td>2</td><td>2</td><td></td><td>ML1,ML2</td><td></td><td>sak</td><td></td></tr><tr class="even"><td class="sorting_1">CE 316</td><td>Environmental Engineering II</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F1</td><td>F1</td><td>1</td><td>kajay</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 402</td><td>Design Project</td><td>1</td><td>0</td><td>3</td><td>5</td><td></td><td>A4,AL5</td><td></td><td>hemantbk</td><td></td></tr><tr class="even"><td class="sorting_1">CE 411</td><td>Dynamic of structure</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>2</td><td>shrishi</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 411</td><td>Dynamic of structure</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>4G1</td><td> 	shrishi</td><td></td></tr><tr class="even"><td class="sorting_1">CE 415</td><td>Prestressed Concrete and Industrial Structures</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B1</td><td>B1</td><td>2</td><td>skdeb</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 416</td><td>Bridge Engineering</td><td>3</td><td>0</td><td>0</td><td>6</td><td>C1</td><td>C1</td><td>2</td><td>kd</td><td></td></tr><tr class="even"><td class="sorting_1">CE 446</td><td>Urban Transportation System Planning</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>4</td><td>rb.sharmila</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 446</td><td>Urban Transportation System Planning</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>4208</td><td></td><td></td></tr><tr class="even"><td class="sorting_1">CE 501</td><td>Continuum Mechanics</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F1</td><td>F1</td><td>3</td><td>arvind</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 502</td><td>Finite Element Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>D1</td><td>D1</td><td>3</td><td>adutta</td><td></td></tr><tr class="even"><td class="sorting_1">CE 503</td><td>Structural Dynamics</td><td>3</td><td>0</td><td>0</td><td>6</td><td>E1</td><td>E1</td><td>3</td><td>sandip.das</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 512</td><td>Structural Engineering Laboratory</td><td>0</td><td>0</td><td>3</td><td>3</td><td></td><td>ML3</td><td></td><td>darun</td><td></td></tr><tr class="even"><td class="sorting_1">CE 514</td><td>Plates, Shells and Elastic Stability</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B1</td><td>B1</td><td>3</td><td>abhi.verma</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 521</td><td>Process Chemistry for Water and Wastewater Treatment</td><td>3</td><td>0</td><td>2</td><td>8</td><td>G</td><td>G</td><td>5</td><td>saswati</td><td></td></tr><tr class="even"><td class="sorting_1">CE 522</td><td>Physico Chemical Processes in Environmental Engineering</td><td>3</td><td>0</td><td>0</td><td>6</td><td>C</td><td>C</td><td>5</td><td>pkghosh</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 523</td><td>Air and Noise Pollution</td><td>3</td><td>0</td><td>2</td><td>8</td><td>E</td><td>B</td><td>5</td><td>sharadbg</td><td></td></tr><tr class="even"><td class="sorting_1">CE 527</td><td>Design of Environmental Engineering Systems</td><td>0</td><td>0</td><td>2</td><td>2</td><td></td><td></td><td></td><td>kajay</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 531</td><td>Advanced Soil Mechanics</td><td>3</td><td>0</td><td>2</td><td>8</td><td>B1</td><td>B1</td><td>4</td><td>ravi.civil</td><td></td></tr><tr class="even"><td class="sorting_1">CE 532</td><td>Dynamics of Soil and Foundations</td><td>3</td><td>1</td><td>0</td><td>8</td><td>C1</td><td>C1</td><td>3</td><td>arindam.dey</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 541</td><td>Infrastructure Planning</td><td>3</td><td>0</td><td>0</td><td>6</td><td>E1</td><td>E1</td><td>5</td><td>boeing</td><td></td></tr><tr class="even"><td class="sorting_1">CE 542</td><td>Project Management in Construction</td><td>3</td><td>0</td><td>0</td><td>6</td><td>G1</td><td>G1</td><td>5</td><td>sparshjohari</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 543</td><td>Infrastructure Projects - Construction Methods and Equipment Management</td><td>3</td><td>0</td><td>0</td><td>6</td><td>C1</td><td>C1</td><td>5</td><td>skar</td><td></td></tr><tr class="even"><td class="sorting_1">CE 551</td><td>Surface Water Hydrology</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>3</td><td>subashisa</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 553</td><td>Advanced Hydraulic Engineering</td><td>3</td><td>0</td><td>2</td><td>8</td><td>C</td><td>C</td><td>3</td><td>aks</td><td></td></tr><tr class="even"><td class="sorting_1">CE 554</td><td>Advanced Fluid Mechanics</td><td>3</td><td>0</td><td>0</td><td>6</td><td>D</td><td>D</td><td>3</td><td>kartha</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 560</td><td>Computational Methods in Hydraulics and Environmental Engineering Applications</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>2</td><td>g_barua</td><td></td></tr><tr class="even"><td class="sorting_1">CE 560</td><td>Computational Methods in Hydraulics and Environmental Engineering Applications</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>4G1</td><td>g_barua</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 567</td><td>Sediment Dynamics in Fluvial Systems</td><td>2</td><td>0</td><td>2</td><td>6</td><td>E</td><td>E</td><td>3</td><td>bimk</td><td></td></tr><tr class="even"><td class="sorting_1">CE 581</td><td>Urban Transportation Systems Planning</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>4</td><td>rb.sharmila</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 582</td><td>Pavement Materials</td><td>3</td><td>0</td><td>2</td><td>8</td><td>C1</td><td>C1</td><td>4</td><td>lyngdoh</td><td></td></tr><tr class="even"><td class="sorting_1">CE 587</td><td>Expansive Soil</td><td>3</td><td>0</td><td>0</td><td>6</td><td>D1</td><td>D1</td><td>2</td><td>anilmishra</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 591</td><td>Earth System Dynamics</td><td>3</td><td>0</td><td>0</td><td>6</td><td>E</td><td>A</td><td>4</td><td>sayantan_c</td><td></td></tr><tr class="even"><td class="sorting_1">CE 592</td><td>Exploration Geoscience</td><td>3</td><td>0</td><td>0</td><td>6</td><td>D</td><td>D</td><td>4</td><td>nair.archana</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 593</td><td>Advanced Remote Sensing</td><td>3</td><td>0</td><td>2</td><td>8</td><td>G</td><td>G</td><td>2</td><td>rbharti</td><td></td></tr><tr class="even"><td class="sorting_1">CE 602</td><td>Optimization Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td>A1</td><td>2</td><td>rkbc</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 602</td><td>Optimization Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td></td><td></td><td>rkbc</td><td></td></tr><tr class="even"><td class="sorting_1">CE 602</td><td>Optimization Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td></td><td></td><td>rkbc</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 602</td><td>Optimization Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td></td><td></td><td>rkbc</td><td></td></tr><tr class="even"><td class="sorting_1">CE 602</td><td>Optimization Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td></td><td></td><td>rkbc</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 602</td><td>Optimization Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td></td><td></td><td>rkbc</td><td></td></tr><tr class="even"><td class="sorting_1">CE 602</td><td>Optimization Methods</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td></td><td></td><td>rkbc</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 626</td><td>Economic Evaluation and Analysis of Transportation Projects</td><td>3</td><td>0</td><td>0</td><td>6</td><td>G1</td><td>G1</td><td>4</td><td>nbharadwaj</td><td></td></tr><tr class="even"><td class="sorting_1">CE 641</td><td>Reinforced Soil Structures</td><td>3</td><td>0</td><td>0</td><td>6</td><td>E1</td><td>E1</td><td>4</td><td>baleshwar</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 642</td><td>Subsurface Invstigation and Instrumentation</td><td>3</td><td>0</td><td>0</td><td>6</td><td>G1</td><td>G1</td><td>2</td><td>kaling.taki</td><td></td></tr><tr class="even"><td class="sorting_1">CE 650</td><td>Geotechnical Practice for Waste Disposal</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F1</td><td>F1</td><td>4</td><td>srees</td><td></td></tr><tr class="odd"><td class="sorting_1">CE 651</td><td>Road Safety Engineering</td><td>3</td><td>0</td><td>0</td><td>6</td><td>D1</td><td>D1</td><td>4</td><td>maurya</td><td></td></tr><tr class="even"><td class="sorting_1">CE 652</td><td>Precision Remote Sensing</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>4</td><td>abd</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 212</td><td>Inorganic Chemistry    </td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>E</td><td>5006</td><td>MR </td><td></td></tr><tr class="even"><td class="sorting_1">CH 221</td><td>Organic Chemistry    </td><td>3</td><td>1</td><td>0</td><td>8</td><td>E</td><td>B</td><td>5006</td><td>ASA</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 231</td><td>Introduction to Quantum Chemistry </td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>5006</td><td>AC</td><td></td></tr><tr class="even"><td class="sorting_1">CH 301</td><td>Environmental Chemistry</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B 1</td><td>B1</td><td>5006</td><td>SKS</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 302</td><td>Technical Report Presentation</td><td>0</td><td>0</td><td>3</td><td>3</td><td></td><td>ML5</td><td>3003</td><td>SD</td><td></td></tr><tr class="even"><td class="sorting_1">CH 314</td><td>Chemical Technology Lab - II (Inorganic)</td><td>0</td><td>0</td><td>6</td><td>6</td><td></td><td>ML3,ML4</td><td></td><td>CM</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 316</td><td>Frontiers of Coordination Chemistry </td><td>3</td><td>0</td><td>0</td><td>6</td><td>C1</td><td>C1</td><td>5006</td><td>AD</td><td></td></tr><tr class="even"><td class="sorting_1">CH 331</td><td>Chemical Kinetics and Electrochemistry</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td>A1 (except 2-3)</td><td>5006</td><td>KS</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 401</td><td>Modern Chemical Technology</td><td>3</td><td>0</td><td>0</td><td>6</td><td>E</td><td>E</td><td>5106</td><td>DPD</td><td></td></tr><tr class="even"><td class="sorting_1">CH 410</td><td>Chemistry of p-and d-Block Elements</td><td>3</td><td>1</td><td>0</td><td>8</td><td>C</td><td>C</td><td>3202</td><td>SPB </td><td></td></tr><tr class="odd"><td class="sorting_1">CH 417</td><td>Organometallic Chemistry</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B</td><td>B</td><td>5106</td><td>VM</td><td></td></tr><tr class="even"><td class="sorting_1">CH 420 </td><td>Principles of Organic Chemistry</td><td>3</td><td>1</td><td>0</td><td>8</td><td>D</td><td>D</td><td>3202</td><td>AKS  </td><td></td></tr><tr class="odd"><td class="sorting_1">CH 426</td><td>Green Chemistry and Technology</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F1</td><td>F1</td><td></td><td>ATK</td><td></td></tr><tr class="even"><td class="sorting_1">CH 426</td><td>Green Chemistry and Technology</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F1</td><td>F1</td><td>5302</td><td>atk,span</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 427</td><td>Medicinal Chemistry</td><td>3</td><td>0</td><td>0</td><td>6</td><td>C</td><td>C</td><td>5106</td><td>BhM</td><td></td></tr><tr class="even"><td class="sorting_1">CH 429</td><td>Petroleums and Petrochemicals</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>5401</td><td>patel,pki</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 430 </td><td>Quantum Chemistry </td><td>3</td><td>1</td><td>0</td><td>8</td><td>A</td><td>A</td><td>3202</td><td>AP + ANP</td><td></td></tr><tr class="even"><td class="sorting_1">CH 431</td><td>Group Theory and Spectroscopy</td><td>3</td><td>1</td><td>0</td><td>8</td><td>F</td><td>B</td><td>3202</td><td>GK</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 434</td><td> Machine Learning in Chemistry</td><td>2</td><td>0</td><td>2</td><td>6</td><td>D</td><td>D,AL1</td><td>5106</td><td>KB</td><td></td></tr><tr class="even"><td class="sorting_1">CH 435</td><td>Physical Chemistry Laboratory&nbsp;</td><td>0</td><td>0</td><td>9</td><td>9</td><td></td><td>AL1, AL2, AL3</td><td></td><td>KR+UM</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 498</td><td>Project - I</td><td>0</td><td>0</td><td>12</td><td>12</td><td></td><td></td><td></td><td></td><td></td></tr><tr class="even"><td class="sorting_1">CH 511</td><td>Principles of Bioinorganic Chemistry</td><td>3</td><td>1</td><td>0</td><td>8</td><td>C</td><td>C</td><td>3003</td><td>BM</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 515</td><td>Inorganic Chemistry Laboratory   </td><td>0</td><td>0</td><td>9</td><td>9</td><td></td><td>AL2, AL3,AL4</td><td></td><td>GD</td><td></td></tr><tr class="even"><td class="sorting_1">CH 520</td><td>Concepts in Organic Synthesis</td><td>3</td><td>1</td><td>0</td><td>8</td><td>D</td><td>D</td><td>3003</td><td>SSB+TP</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 521</td><td>Bio-organic Chemistry</td><td>3</td><td>1</td><td>0</td><td>8</td><td>F</td><td>B</td><td>3003</td><td>LMK</td><td></td></tr><tr class="even"><td class="sorting_1">CH 530</td><td>Classical and Statistical Thermodynamics</td><td>3</td><td>1</td><td>0</td><td>8</td><td>A</td><td>A</td><td>3003</td><td>SP</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 601</td><td>Physical Methods in Chemistry</td><td>3</td><td>0</td><td>0</td><td>6</td><td>G</td><td>G</td><td>5106</td><td>KR+UM</td><td></td></tr><tr class="even"><td class="sorting_1">CH 626</td><td>Art in Organic Synthesis</td><td>3</td><td>0</td><td>0</td><td>6</td><td>B1</td><td>B1</td><td>5106</td><td>CKJ</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 628</td><td>Chemistry of Biological Macromolecules</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A1</td><td>A1 </td><td>5106</td><td>SC</td><td></td></tr><tr class="even"><td class="sorting_1">CH 633</td><td>Chemical Applications of Group Theory</td><td>3</td><td>0</td><td>0</td><td>6</td><td>E1</td><td>E1</td><td>5106</td><td>AKG</td><td></td></tr><tr class="odd"><td class="sorting_1">CH 637</td><td>Computational Methods in Chemistry</td><td>2</td><td>0</td><td>2</td><td>6</td><td>F</td><td>F, AL2</td><td>5106</td><td>DD</td><td></td></tr><tr class="even"><td class="sorting_1">CH 645</td><td>Scientific Writing and Presentation</td><td>3</td><td>0</td><td>0</td><td>6</td><td>C1</td><td>C1 (except 2.00-2.55)</td><td>5106</td><td>MS</td><td></td></tr><tr class="odd"><td class="sorting_1">CH429</td><td>Petroleum Chemistry</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td></td><td>BKP+PKI</td><td></td></tr><tr class="even"><td class="sorting_1">CH614</td><td>Supramolecules concept and applications</td><td>3</td><td>0</td><td>0</td><td>6</td><td>A</td><td>A</td><td>5106</td><td>JBB</td><td></td></tr><tr class="odd"><td class="sorting_1">CL 201</td><td>Chemical Process Calculations</td><td>2</td><td>1</td><td>0</td><td>6</td><td>C</td><td>C</td><td>5006</td><td></td><td></td></tr><tr class="even"><td class="sorting_1">CL 202</td><td>Fluid Mechanics</td><td>2</td><td>1</td><td>0</td><td>6</td><td>D</td><td>D</td><td>5006</td><td></td><td></td></tr><tr class="odd"><td class="sorting_1">CL 623</td><td>Polymer Science and Technology</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>5402</td><td>vkatiyar</td><td></td></tr><tr class="even"><td class="sorting_1">CL 630</td><td>Composites Materials</td><td>3</td><td>0</td><td>0</td><td>6</td><td>F</td><td>F</td><td>5205</td><td>cdas</td><td></td></tr></tbody>	
+			</table><div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1 to 100 of 303 entries</div><div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate"><a class="paginate_button previous disabled" aria-controls="dataTable" data-dt-idx="0" tabindex="-1" id="dataTable_previous">Previous</a><span><a class="paginate_button current" aria-controls="dataTable" data-dt-idx="1" tabindex="0">1</a><a class="paginate_button " aria-controls="dataTable" data-dt-idx="2" tabindex="0">2</a><a class="paginate_button " aria-controls="dataTable" data-dt-idx="3" tabindex="0">3</a><a class="paginate_button " aria-controls="dataTable" data-dt-idx="4" tabindex="0">4</a></span><a class="paginate_button next" aria-controls="dataTable" data-dt-idx="5" tabindex="0" id="dataTable_next">Next</a></div></div>
+			<br>
+			</div>
+          </div>
+        </div>
+	  </div>
+    </section>
+
+  </main><!-- End #main -->
+
+ <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 footer-contact">
+            <h3>Contact<span>.</span></h3>
+            <p>
+              Academic Affairs Section<br>
+              Indian Institute of Technology Guwahati<br>
+              Guwahati-781039<br>
+              Assam, India<br>
+              Email: acadoff@iitg.ac.in<br>
+              Fax: +91-0361-2582192
+            </p>
           </div>
 
-          <!-- /.col -->
-        </div><!-- /.row -->
-      </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content-header -->
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Important Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.iitg.ac.in/acad/convocation/" target="_blank">Convocation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.iitg.ac.in/acad/pmrf.php" target="_blank">PMRF Scholars</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://iitg.ac.in/sab/" target="_blank">Students' Academic Board (SAB)</a></li>
+			  <!--li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li-->
+            </ul>
+          </div>
 
-    
-<section class="content">
-    <div class="container-fluid">
-        <div class="col-md-12">
-                        <div class="card card-primary">
-                                <div class="card-body">
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Related Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.iitg.ac.in/" target="_blank">IIT Guwahati</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.jeeadv.ac.in/" target="_blank">JEE (Advanced)</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://www.iitg.ac.in/gate-jam/" target="_blank">GATE-JAM</a></li>
+			</ul>
+          </div>        
 
-                                        <table class='table table-striped'>
-<thead><tr style='background-color:#007bff; color:#FFF'>
-<th class='col' style='width:10%'>Course Code</th>
-<th class='col' style='width:25%'>Course Name</th>
-<th class='col' style='width:10%'>Credit/Audit</th>
-<th class='col' style='width:10%'>Course Type</th>
-<th class='col' style='width:10%'>Registration Type</th>
-<th class='col' style='width:10%'>Approval Status</th>
-<th class='col' style='width:5%'>Year</th>
-<th class='col' style='width:10%'>Session</th>
-</tr></thead>
-<tr>
-<td data-label='Couse Code'>CS 201</td>
-<td data-label='Couse Name' >Discrete Mathematics</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 203</td>
-<td data-label='Couse Name' >Algorithms and Data Structures</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 204</td>
-<td data-label='Couse Name' >Algorithms and Data Structures Laboratory</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 221</td>
-<td data-label='Couse Name' >Digital Design</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 242</td>
-<td data-label='Couse Name' >System Software Laboratory</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>HS 200</td>
-<td data-label='Couse Name' >Sustainable Development Goals</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>MA 222</td>
-<td data-label='Couse Name' >Elementary Number Theory and Algebra</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>MA 225</td>
-<td data-label='Couse Name' >Probability Theory and Random Processes</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>SA 215</td>
-<td data-label='Couse Name' >Yoga-2</td>
-<td data-label='Status'>Audit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'></td>
-<td data-label='Status'>Approved</td>
-<td>2021</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 205</td>
-<td data-label='Couse Name' >Formal Languages, Automata Theory, and Computation</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 207</td>
-<td data-label='Couse Name' >Design and Analysis of Algorithms</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 223</td>
-<td data-label='Couse Name' >Computer Architecture and Organization</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 224</td>
-<td data-label='Couse Name' >Hardware Lab</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 245</td>
-<td data-label='Couse Name' >Database Management Systems</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 246</td>
-<td data-label='Couse Name' >Database Management Systems Lab</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>HS 135</td>
-<td data-label='Couse Name' >Topics in Bilingualism </td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>SA 315</td>
-<td data-label='Couse Name' >Yoga-4</td>
-<td data-label='Status'>Audit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>NCC</td>
-<td data-label='Couse Name' >NCC</td>
-<td data-label='Status'>Audit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 323</td>
-<td data-label='Couse Name' >Introduction to NLP</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 341</td>
-<td data-label='Couse Name' >Computer Networks</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 342</td>
-<td data-label='Couse Name' >Computer Networks Laboratory</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 343</td>
-<td data-label='Couse Name' >Operating Systems</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 344</td>
-<td data-label='Couse Name' >Operating Systems Lab.</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>HS 129</td>
-<td data-label='Couse Name' >Economic Theory: An Introduction</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>MA 321</td>
-<td data-label='Couse Name' >Optimization</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2022</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 331</td>
-<td data-label='Couse Name' >Programming Languages Lab</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 345</td>
-<td data-label='Couse Name' >Software Engineering</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 346</td>
-<td data-label='Couse Name' >Software Engineering Lab</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 348</td>
-<td data-label='Couse Name' >Implementation of Programming Languages Lab</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 361</td>
-<td data-label='Couse Name' >Machine Learning</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 528</td>
-<td data-label='Couse Name' >High Performance Computing</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 577</td>
-<td data-label='Couse Name' >C Based VLSI Design</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 501</td>
-<td data-label='Couse Name' >Parallel Algorithms</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 502</td>
-<td data-label='Couse Name' >Computational Geometry</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 525</td>
-<td data-label='Couse Name' >Formal Methods For System Verification</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 535</td>
-<td data-label='Couse Name' >Hardware Security</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 590</td>
-<td data-label='Couse Name' >Deep Learning</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>HS 253</td>
-<td data-label='Couse Name' >Social Movements in India</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2023</td>
-<td>July-Nov</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CE 616</td>
-<td data-label='Couse Name' >Blast and Impact Resistant Design</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2024</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 508</td>
-<td data-label='Couse Name' >Optimization Methods</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2024</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 561</td>
-<td data-label='Couse Name' >Artificial Intelligence</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2024</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>CS 581</td>
-<td data-label='Couse Name' >Blockchain science and technology</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2024</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>HS 247</td>
-<td data-label='Couse Name' >Engineering Psychology</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2024</td>
-<td>Jan-May</td>
-</tr>
-<tr>
-<td data-label='Couse Code'>ME 620</td>
-<td data-label='Couse Name' >Fundamentals of Artificial Intelligence</td>
-<td data-label='Status'>Credit</td>
-<td data-label='Status'>--</td>
-<td data-label='Status'>Regular</td>
-<td data-label='Status'>Approved</td>
-<td>2024</td>
-<td>Jan-May</td>
-</tr>
-</tbody></table>
-
-                                </div>
-                        </div>
-                </div>
-    </div>
-</section>
-<!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <div class="footer">
-        <div class="container-fluid">
-                <div class="row">
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-dark text-right">
-                                &copy; 2024 Academic Affairs, IITG
-                        </div>
-                </div>
         </div>
-</div>
+      </div>
+    </div>
 
-  </footer>
+    <div class="container d-md-flex py-4">
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
-</div>
-<!-- ./wrapper -->
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          © 2022 <strong><span>Indian Institute of Technology Guwahati</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://www.iitg.ac.in/acad/" target="_blank">Academic Affairs</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <a href="https://x.com/IITGuwahati" class="twitter" target="_blank"><i class="bx"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="6 3 16 27"><g fill="none" fill-rule="evenodd"><path d="M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036c-.01-.003-.019 0-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"></path><path fill="currentColor" d="M19.753 4.659a1 1 0 0 0-1.506-1.317l-5.11 5.84L8.8 3.4A1 1 0 0 0 8 3H4a1 1 0 0 0-.8 1.6l6.437 8.582l-5.39 6.16a1 1 0 0 0 1.506 1.317l5.11-5.841L15.2 20.6a1 1 0 0 0 .8.4h4a1 1 0 0 0 .8-1.6l-6.437-8.582l5.39-6.16ZM16.5 19L6 5h1.5L18 19z"></path></g></svg></i></a>
+        <a href="https://www.facebook.com/iitgwt/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/iitgwt/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/school/iitg/" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.youtube.com/IITGuwahatiOfficial" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
 
-<!-- jQuery -->
-<script src="../plugins/jquery/jquery.min.js"></script>
-<!-- jQuery UI 1.11.4 -->
-<script src="../plugins/jquery-ui/jquery-ui.min.js"></script>
-<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+  <a href="https://iitg.ac.in/acad/time_table.php#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+    <script src="./Indian Institute of Technology Guwahati_files/bootstrap.min.js"></script>
+  <script src="./Indian Institute of Technology Guwahati_files/bootstrap.bundle.min.js"></script>
+
+  <script src="./Indian Institute of Technology Guwahati_files/jquery.min.js"></script>
+  <script src="./Indian Institute of Technology Guwahati_files/jquery.marquee.min.js"></script>
+  <script src="./Indian Institute of Technology Guwahati_files/jquery.doubleScroll.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="./Indian Institute of Technology Guwahati_files/main.js"></script>
+  
+  <script>
+  $(document).ready(function () {
+
+    $('.a_link').click(function() {
+      $('nav.navbar-mobile').removeClass('navbar-mobile');
+      $('i.bi.mobile-nav-toggle').removeClass('bi-x').addClass('bi-list');
+    });
+
+    $('a[href*=\\#]:not([href=\\#])').click(function() {
+      var el = document.createElement('a');
+      el.href = $(this).attr('href');
+      url_pathname = window.location.pathname;
+      link_pathname = el.pathname;
+      if(url_pathname == link_pathname){
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: (target.offset().top - 100)
+            }, 100);
+            return false;
+        }
+      }
+    });    
+
+    $('.marquee').marquee({
+        duplicated: true,
+        duration: 5000,
+        pauseOnHover: true,
+      });
+
+  });
+
+  
+        /* Show the overview content by default
+        $("#overview-content").show();
+        
+        $(".list-group-item").click(function(){
+            // Hide all content sections
+            $(".content-section").hide();
+            
+            // Get the ID of the content section corresponding to the clicked item
+            var contentId = $(this).data("content-id");
+            
+            // Show the corresponding content section
+            $("#" + contentId).show();
+        });*/
+		// Show the overview content by default
+		$("#overview-content").show();
+
+		$(".list-group-item").click(function(e){
+			e.preventDefault(); // Prevent the default anchor behavior
+			
+			// Hide all content sections
+			$(".content-section").hide();
+			
+			// Get the ID of the content section corresponding to the clicked item
+			var contentId = $(this).data("content-id");
+			
+			// Show the corresponding content section
+			$("#" + contentId).show();
+
+			// Calculate the offset to scroll to the first line of the content
+			var offset = $("#" + contentId).offset().top - $(".navbar").height(); // Adjust for any fixed navbar height
+
+			// Scroll to the content section
+			$('html, body').animate({
+				scrollTop: offset
+			}, 1000);
+		});
+		
+		
+   
+	
+   // Array of different texts
+    const texts = [
+        "Recognised Bachelor's Honours degree",
+        "INR 3,49,000 total tuition fee",
+        "Hands-on experience"
+    ];
+
+    // Function to update text every few seconds
+    let index = 0;
+    setInterval(() => {
+        document.getElementById("text1").textContent = texts[index % texts.length];
+        document.getElementById("text2").textContent = texts[(index + 1) % texts.length];
+        document.getElementById("text3").textContent = texts[(index + 2) % texts.length];
+        index++;
+    }, 3000);
+	
+
+
+  </script>
+  
+
+
+
+<script src="./Indian Institute of Technology Guwahati_files/jquery.dataTables.min.js"></script>
+<script src="./Indian Institute of Technology Guwahati_files/dataTables.fixedHeader.min.js"></script>
 <script>
-  $.widget.bridge('uibutton', $.ui.button)
+$(document).ready(function () {
+    $('#dataTable thead tr')
+        .clone(true)
+        .addClass('filters')
+        .appendTo('#dataTable thead');
+ 
+    var table = $('#dataTable').DataTable({
+        orderCellsTop: true,
+        fixedHeader: true,
+        initComplete: function () {
+            var api = this.api();
+            api
+                .columns()
+                .eq(0)
+                .each(function (colIdx) {
+                    var cell = $('.filters th').eq(
+                        $(api.column(colIdx).header()).index()
+                    );
+                    var title = $(cell).text();
+                    $(cell).html('<input type="text" placeholder="' + title + '" />');
+                    $(
+                        'input',
+                        $('.filters th').eq($(api.column(colIdx).header()).index())
+                    )
+                        .off('keyup change')
+                        .on('change', function (e) {
+                            $(this).attr('title', $(this).val());
+                            var regexr = '({search})';
+                            var cursorPosition = this.selectionStart;
+                            api
+                                .column(colIdx)
+                                .search(
+                                    this.value != ''
+                                        ? regexr.replace('{search}', '(((' + this.value + ')))')
+                                        : '',
+                                    this.value != '',
+                                    this.value == ''
+                                )
+                                .draw();
+                        })
+                        .on('keyup', function (e) {
+                            e.stopPropagation();
+ 
+                            $(this).trigger('change');
+                            $(this)
+                                .focus()[0]
+                                .setSelectionRange(cursorPosition, cursorPosition);
+                        });
+                });
+        },
+    });
+});
 </script>
-<!-- Bootstrap 4 -->
-<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- ChartJS -->
-<script src="../plugins/chart.js/Chart.min.js"></script>
-<!-- Sparkline -->
-<script src="../plugins/sparklines/sparkline.js"></script>
-<!-- JQVMap -->
-<script src="../plugins/jqvmap/jquery.vmap.min.js"></script>
-
-<script src="../plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-<!-- jQuery Knob Chart -->
-<script src="../plugins/jquery-knob/jquery.knob.min.js"></script>
-<!-- daterangepicker -->
-<script src="../plugins/moment/moment.min.js"></script>
-<script src="../plugins/daterangepicker/daterangepicker.js"></script>
-<!-- Tempusdominus Bootstrap 4 -->
-<script src="../plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-<!-- Summernote -->
-<script src="../plugins/summernote/summernote-bs4.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="../plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE App -->
-<script src="../dist/js/adminlte.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="../dist/js/pages/dashboard.js"></script>
-<!-- AdminLTE for demo purposes -->
-<script src="../dist/js/demo.js"></script>
-
-
-<script src="../plugins/datatables/jquery.dataTables.js"></script>
-<script src="../plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
-<script src="../dist/js/tableToExcel.js"></script>
-
-</body>
-</html>
+</body></html>
