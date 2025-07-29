@@ -35,3 +35,6 @@ __pycache__/
 venv/
 env/
 ENV/
+
+# Enrolled courses
+data/enrolled_courses.csv
