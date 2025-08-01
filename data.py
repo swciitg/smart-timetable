@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def fetch_courses_df():
     '''
     Fetches all the courses from a saved CSV file
