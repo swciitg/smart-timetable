@@ -101,11 +101,15 @@ def parse_html_to_csv(html_content):
     for row in rows:
         cells = row.find_all('td')
         if len(cells) >= 10:  # Ensure we have all required columns
+            # Clean up course code by removing all spaces (e.g., "ME 679" -> "ME679")
+            course_code = cells[3].text.strip()
+            course_code = ''.join(course_code.split())  # Remove all spaces
+            
             course_data = {
                 'sl_no': cells[0].text.strip(),
                 'student_name': cells[1].text.strip(),
                 'roll_number': cells[2].text.strip(),
-                'course_code': cells[3].text.strip(),
+                'course_code': course_code,
                 'course_name': cells[4].text.strip(),
                 'credit_audit': cells[5].text.strip(),
                 'approval_status': cells[6].text.strip(),

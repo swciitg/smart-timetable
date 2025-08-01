@@ -151,6 +151,10 @@ def save_to_csv(df, filename="data/courses_csv.csv"):
     # Clean up data before expanding slots
     df_mapped = df_mapped.fillna('')  # Replace NaN with empty strings
     
+    # Clean up course codes - remove all spaces (e.g., "ME 679" -> "ME679")
+    if 'code' in df_mapped.columns:
+        df_mapped['code'] = df_mapped['code'].apply(lambda x: re.sub(r'\s+', '', str(x)) if pd.notna(x) else '')
+    
     # Clean up professor names - remove email addresses and extra whitespace
     if 'prof' in df_mapped.columns:
         df_mapped['prof'] = df_mapped['prof'].apply(lambda x: re.sub(r'\s*\([^)]*\)', '', str(x)) if pd.notna(x) else '')
