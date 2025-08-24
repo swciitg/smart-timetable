@@ -32,18 +32,24 @@ def get_fresher_courses_enhanced(roll_number):
     """
     Get courses for freshers with enhanced filtering based on pre/post midsem
     
+    Process:
+    1. Get all enrolled courses for the student from enrolled_courses.csv
+    2. Get course details from courses_csv.csv
+    3. Apply freshers_courses.csv updates (venues, pre-mid filtering)
+    4. Only drop courses based on pre-mid value, not based on presence in freshers_courses.csv
+    
     Args:
         roll_number (str): Student roll number
         
     Returns:
-        dict: Course data with proper filtering
+        DataFrame: Filtered course data
     """
     # Check if this is a fresher
     if not (roll_number.startswith(FRESHER_YEAR + '01') or 
             roll_number.startswith(FRESHER_YEAR + '0205')):
         return None
     
-    # First, get the student's enrolled courses
+    # Step 1: Get the student's enrolled courses
     try:
         enrolled_df = pd.read_csv('data/enrolled_courses.csv')
         enrolled_df['roll_number'] = enrolled_df['roll_number'].astype(str)
@@ -61,69 +67,82 @@ def get_fresher_courses_enhanced(roll_number):
     except FileNotFoundError:
         raise Exception("Enrolled courses CSV file not found")
     
-    # Load fresher courses data for venue and pre/post midsem info
-    try:
-        freshers_df = pd.read_csv('data/freshers_courses.csv')
-    except FileNotFoundError:
-        print("Warning: Freshers courses CSV file not found, using main courses only")
-        freshers_df = pd.DataFrame()
-    
-    # Load main courses data for additional details
+    # Step 2: Get course details from main courses CSV
     try:
         main_courses_df = pd.read_csv('data/courses_csv.csv')
     except FileNotFoundError:
         raise Exception("Main courses CSV file not found")
     
-    # Filter main courses to only include the student's enrolled courses
+    # Get all enrolled courses from main courses data
     my_courses_df = main_courses_df[main_courses_df['code'].isin(enrolled_course_codes)].copy()
     
     if len(my_courses_df) == 0:
         print(f"No course details found in main CSV for enrolled courses")
         return pd.DataFrame()
     
-    # Apply pre/post midsem filtering if fresher course data is available
-    if not freshers_df.empty:
-        # Filter based on pre/post midsem
-        before_midsem = is_before_midsem()
+    print(f"Found {len(my_courses_df)} courses in main CSV")
+    
+    # Step 3: Apply freshers_courses.csv updates
+    try:
+        freshers_df = pd.read_csv('data/freshers_courses.csv')
         
-        if before_midsem:
-            # Before midsem: include courses where pre-mid is True or empty
-            valid_pre_mid_courses = freshers_df[
-                (freshers_df['pre-mid'] == True) | 
-                (freshers_df['pre-mid'].isna()) |
-                (freshers_df['pre-mid'] == '')
-            ]['code'].tolist()
-        else:
-            # After midsem: include courses where pre-mid is False or empty
-            valid_pre_mid_courses = freshers_df[
-                (freshers_df['pre-mid'] == False) | 
-                (freshers_df['pre-mid'].isna()) |
-                (freshers_df['pre-mid'] == '')
-            ]['code'].tolist()
-        
-        # Further filter by pre/post midsem validity
-        my_courses_df = my_courses_df[my_courses_df['code'].isin(valid_pre_mid_courses)]
-        
-        # Merge with fresher-specific venue information
+        # Merge to get fresher-specific updates
         my_courses_df = my_courses_df.merge(
-            freshers_df[['code', 'venue']], 
+            freshers_df[['code', 'venue', 'pre-mid']], 
             on='code', 
             how='left',
             suffixes=('_main', '_fresher')
         )
         
-        # Use fresher venue if available, otherwise use main venue
+        # Use fresher venue if available, otherwise keep main venue
         my_courses_df['venue'] = my_courses_df['venue_fresher'].fillna(my_courses_df['venue_main'])
         
-        # Convert venue to string and handle NaN values
+        # Step 4: Apply pre/post midsem filtering
+        before_midsem = is_before_midsem()
+        print(f"Before midsem: {before_midsem}")
+        
+        # Create a mask for courses to keep
+        keep_course_mask = []
+        
+        for _, row in my_courses_df.iterrows():
+            course_code = row['code']
+            pre_mid = row['pre-mid']
+            
+            # Default: keep the course (for courses not in freshers_courses.csv)
+            keep_course = True
+            
+            # Apply pre-mid filtering only if the course has pre-mid info
+            if pd.notna(pre_mid):
+                if before_midsem:
+                    # Before midsem: keep if pre-mid is True
+                    keep_course = (pre_mid == True)
+                else:
+                    # After midsem: keep if pre-mid is False
+                    keep_course = (pre_mid == False)
+                    
+                print(f"  {course_code}: pre-mid={pre_mid}, keep={keep_course}")
+            else:
+                print(f"  {course_code}: no pre-mid info, keeping course")
+            
+            keep_course_mask.append(keep_course)
+        
+        # Apply the filter
+        my_courses_df = my_courses_df[keep_course_mask]
+        
+        # Drop temporary columns
+        cols_to_drop = [col for col in my_courses_df.columns if col.endswith(('_main', '_fresher'))]
+        my_courses_df = my_courses_df.drop(columns=cols_to_drop)
+        
+    except FileNotFoundError:
+        print("Warning: Freshers courses CSV file not found, using main courses only")
+    
+    # Convert venue to string and handle NaN values
+    if 'venue' in my_courses_df.columns:
         my_courses_df['venue'] = my_courses_df['venue'].fillna('').astype(str)
         my_courses_df['venue'] = my_courses_df['venue'].replace('nan', '')  # Replace 'nan' strings with empty
         
         # Remove .0 suffix from venue numbers (e.g., "5401.0" -> "5401")
         my_courses_df['venue'] = my_courses_df['venue'].str.replace(r'\.0$', '', regex=True)
-        
-        # Drop temporary columns
-        my_courses_df = my_courses_df.drop(columns=['venue_main', 'venue_fresher'])
     
     # Drop duplicates for each course code, keeping the first entry
     my_courses_df = my_courses_df.drop_duplicates(subset=['code'], keep='first')
