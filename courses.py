@@ -1,36 +1,10 @@
-import requests
 import os
 import csv
 import logging
 from semester_constants import *
-from bs4 import BeautifulSoup
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
-
-# OLD API - No longer used but kept for reference
-# POST request params
-url = "https://academic.iitg.ac.in/sso/gen/student2.jsp"
-headers = {
-    'Content-Type': 'application/x-www-form-urlencoded'
-}
-
-def get_courses(roll_number):
-    '''
-    DEPRECATED: Gets all courses taken by a person from the old API
-    
-    This function is kept for backward compatibility but is no longer used.
-    The new system reads data from enrolled_courses.csv file.
-
-    Arguments:
-        roll_number: a string
-    Returns:
-        A list of all courses of the person in HTML format
-    '''
-    logging.warning("get_courses() is deprecated. Use get_course_codes_from_csv() instead.")
-    payload = 'rno={}'.format(roll_number)
-    response = requests.request("POST", url, headers=headers, data=payload)
-    return response.text
 
 def get_course_codes_from_csv(roll_number):
     '''
@@ -80,53 +54,3 @@ def get_course_codes_from_csv(roll_number):
         logging.error(f"Error reading enrolled courses CSV: {e}")
         return []
 
-def get_course_codes_legacy(roll_number):
-    '''
-    DEPRECATED: Gets all course codes of the user for the current semester using old API
-
-    This function makes use of get_courses and generates a list of
-    all courses of an individual. This is kept for backward compatibility.
-
-    ['CE 616', 'CS 508', 'CS 561', 'CS 581', 'HS 247', 'ME 620']
-
-    Arguments:
-        roll_number: a string
-    Returns:
-        All list of course codes taken by an individual
-    '''
-    logging.warning("get_course_codes_legacy() is deprecated and may not work with the new IITG backend")
-    
-    jsp_response = get_courses(roll_number)
-    course_code_list = []
-
-    # FIXME: Make sure to change/update this erroneous string later if needed
-    data_label = 'Couse Code'
-    sem_session = SEM_SESSION
-    sem_year = SEM_YEAR
-    parsed_html = BeautifulSoup(jsp_response, features="html.parser")
-
-    all_rows = parsed_html.body.find_all('tr')
-    for row in all_rows:
-        descendants = list(row.descendants)
-        # Check if its the correct sem since all sem courses are displayed:
-        if (sem_session in descendants and sem_year in descendants):
-          # Add only if course is approved
-            approval_status = row.find_all('td',{"data-label": "Status"})[-1].text
-            if (approval_status == "Approved" or approval_status == ""):
-              course_code_list.append(
-                row.find('td', {"data-label": data_label}).text)
-    
-    # The following is a temporary measure since HSS do not update in sso soon
-    # Comment the below once sso is updated
-    # roll_to_code = {}
-    # with open('data/hss.csv', 'r', newline='',encoding='utf-8-sig') as csvfile:
-    #     reader = csv.DictReader(csvfile)
-    #     for row in reader:
-    #         print(row)
-    #         roll_to_code[row['roll']] = row['code']
-    
-    # if roll_number in roll_to_code:
-    #     if roll_to_code[roll_number] not in course_code_list:
-    #         course_code_list.append(roll_to_code[roll_number])
-
-    return course_code_list

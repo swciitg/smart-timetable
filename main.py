@@ -51,7 +51,6 @@ def get_my_courses(data: requestMyCourses):
         
     # Acquire user course codes
     course_codes = get_course_codes_from_csv(roll_number)
-    print(course_codes)
     
     # Store all courses data in a DF 
     all_courses_df = fetch_courses_df()
@@ -65,6 +64,9 @@ def get_my_courses(data: requestMyCourses):
     # Find all course details given the course code list
     my_courses_df = all_courses_df.loc[all_courses_df['code'].isin(
         course_codes)]
+    
+    # Drop duplicates for each course code, keeping the first entry
+    my_courses_df = my_courses_df.drop_duplicates(subset=['code'], keep='first')
     
     print(my_courses_df)
 
@@ -81,7 +83,6 @@ def get_my_courses(data: requestMyCourses):
                 if df_entry[day]!="":
                     timing_json[day] = df_entry[day]
         
-        print(df_entry['code'])
         my_courses_nullable = {
             'code': ensure_string(df_entry['code']),
             'course': ensure_string(df_entry['name']),
