@@ -118,16 +118,16 @@ def save_to_csv(df, filename="data/courses_csv.csv"):
     
     # Map based on the actual column names from time table
     for col in df.columns:
-        col_lower = col.lower()
-        if 'course code' in col_lower or col_lower == 'course code':
+        col_lower = col.lower().replace(' ', '')
+        if col_lower == 'coursecode':
             column_mapping[col] = 'code'
-        elif 'course name' in col_lower or col_lower == 'course name':
+        elif col_lower == 'coursename':
             column_mapping[col] = 'name'
-        elif 'class slot' in col_lower or col_lower == 'class slot':
+        elif col_lower == 'classslot':
             column_mapping[col] = 'slot'
-        elif 'exam slot' in col_lower or col_lower == 'exam slot':
+        elif col_lower == 'examslot':
             column_mapping[col] = 'exam_slot'
-        elif 'class room' in col_lower or 'classroom' in col_lower or 'lab' in col_lower:
+        elif 'classroom' in col_lower or 'classroom' in col_lower or 'lab' in col_lower:
             column_mapping[col] = 'venue'
         elif 'faculty' in col_lower or 'instructor' in col_lower or 'email' in col_lower:
             column_mapping[col] = 'prof'
@@ -167,9 +167,11 @@ def save_to_csv(df, filename="data/courses_csv.csv"):
         slot_value = str(row['slot']).strip()
         
         # Check if slot contains multiple values separated by comma
-        if ',' in slot_value and slot_value != '':
-            # Split by comma and create separate rows for each slot
-            slots = [s.strip() for s in slot_value.split(',') if s.strip()]
+            # Split by both ',' and '+' and create separate rows for each slot
+        if (',' in slot_value or '+' in slot_value) and slot_value != '':
+            # Replace both delimiters with comma, then split
+            slot_value_clean = slot_value.replace('+', ',')
+            slots = [s.strip() for s in slot_value_clean.split(',') if s.strip()]
             for slot in slots:
                 new_row = row.copy()
                 new_row['slot'] = slot
@@ -235,7 +237,7 @@ def main():
                 print("=" * 80)
                 print(df_with_timings.to_string(index=False, max_colwidth=15))
                 print("=" * 80)
-                print(f"📊 Total courses with timings: {len(df_with_timings)}")
+                # print(f"📊 Total courses with timings: {len(df_with_timings)}")
             else:
                 print("⚠️  No timing data available to display")
         except Exception as e:
