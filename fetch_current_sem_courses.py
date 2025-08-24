@@ -108,6 +108,167 @@ def extract_iitg_courses():
     
     return df
 
+def parse_day_time_to_lab_code(slot_text):
+    """
+    Convert day+time patterns like 'FRI (2-5 PM)' to lab codes like 'AL5'
+    
+    Args:
+        slot_text (str): Slot text like 'FRI (2-5 PM)', 'MON (9-12 AM)', etc.
+    
+    Returns:
+        str: Lab code like 'AL5', 'ML1', or original text if no pattern matches
+    """
+    if not slot_text or not isinstance(slot_text, str):
+        return slot_text
+        
+    slot_upper = slot_text.upper().strip()
+    
+    # Day mapping
+    day_to_num = {
+        'MON': '1',
+        'TUE': '2', 
+        'WED': '3',
+        'THU': '4',
+        'FRI': '5'
+    }
+    
+    # Find day abbreviation
+    day_num = None
+    for day_abbr, num in day_to_num.items():
+        if day_abbr in slot_upper:
+            day_num = num
+            break
+    
+    if not day_num:
+        return slot_text
+    
+    # Determine if morning or afternoon based on time pattern
+    # Look for patterns like (2-5 PM), (9-12 AM), etc.
+    is_afternoon = False
+    is_morning = False
+    
+    if 'PM' in slot_upper:
+        # Check if it's afternoon lab timing (2-5 PM pattern)
+        if any(time_pattern in slot_upper for time_pattern in ['2-5', '2:00-5', '14:00-17']):
+            is_afternoon = True
+    elif 'AM' in slot_upper:
+        # Check if it's morning lab timing (9-12 AM pattern)  
+        if any(time_pattern in slot_upper for time_pattern in ['9-12', '9:00-12', '09:00-12']):
+            is_morning = True
+    
+    # Generate lab code
+    if is_afternoon:
+        return f'AL{day_num}'
+    elif is_morning:
+        return f'ML{day_num}'
+    else:
+        # Default to afternoon if PM but unclear timing, morning if AM
+        if 'PM' in slot_upper:
+            return f'AL{day_num}'
+        elif 'AM' in slot_upper:
+            return f'ML{day_num}'
+    
+    return slot_text
+
+def get_lab_timing(lab_code):
+    """
+    Get the timing string for a lab code
+    
+    Args:
+        lab_code (str): Lab code like 'ML1', 'AL5', etc.
+    
+    Returns:
+        str: Timing string like '9:00 - 11:55 AM' or '2:00 - 4:55 PM'
+    """
+    if not lab_code or not isinstance(lab_code, str):
+        return ''
+        
+    if lab_code.startswith('ML'):
+        return "9:00 - 11:55 AM"
+    elif lab_code.startswith('AL'):  
+        return "2:00 - 4:55 PM"
+    
+    return ''
+
+def get_day_from_lab_code(lab_code):
+    """
+    Extract day name from lab code
+    
+    Args:
+        lab_code (str): Lab code like 'ML1', 'AL5', etc.
+    
+    Returns:
+        str: Day name like 'Monday', 'Friday', or empty string
+    """
+    if not lab_code or len(lab_code) != 3:
+        return ''
+        
+    day_mapping = {
+        '1': 'Monday',
+        '2': 'Tuesday', 
+        '3': 'Wednesday',
+        '4': 'Thursday',
+        '5': 'Friday'
+    }
+    
+    if lab_code.startswith(('ML', 'AL')):
+        day_num = lab_code[2]
+        return day_mapping.get(day_num, '')
+    
+    return ''
+
+def process_slot_for_days(slot, row):
+    """
+    Process slot and set appropriate day columns based on lab codes or day abbreviations
+    
+    Args:
+        slot (str): The slot value to process
+        row (pandas.Series): The row data to update
+    
+    Returns:
+        pandas.Series: Updated row with day columns filled
+    """
+    new_row = row.copy()
+    
+    # First, try to convert day+time patterns to lab codes
+    processed_slot = parse_day_time_to_lab_code(slot)
+    
+    # Update the slot if it was converted
+    if processed_slot != slot:
+        new_row['slot'] = processed_slot
+        slot = processed_slot
+    
+    # Now process the (possibly converted) slot for day assignments
+    if slot.startswith(('ML', 'AL')) and len(slot) == 3:
+        # It's a proper lab code
+        day_name = get_day_from_lab_code(slot)
+        timing = get_lab_timing(slot)
+        
+        if day_name and timing:
+            new_row[day_name] = timing
+    else:
+        # Handle other slot patterns that might contain day abbreviations
+        slot_upper = slot.upper()
+        day_checks = [
+            ('MON', 'Monday'),
+            ('TUE', 'Tuesday'), 
+            ('WED', 'Wednesday'),
+            ('THU', 'Thursday'),
+            ('FRI', 'Friday')
+        ]
+        
+        for day_abbr, day_name in day_checks:
+            if day_abbr in slot_upper:
+                # Try to determine timing from context
+                if 'ML' in slot_upper or 'MORNING' in slot_upper or '9' in slot_upper:
+                    new_row[day_name] = "9:00 - 11:55 AM"
+                elif 'AL' in slot_upper or 'AFTERNOON' in slot_upper or '2' in slot_upper:
+                    new_row[day_name] = "2:00 - 4:55 PM"
+                else:
+                    new_row[day_name] = slot  # Use original slot if timing unclear
+    
+    return new_row
+
 def save_to_csv(df, filename="data/courses_csv.csv"):
     """Save DataFrame to CSV file with required columns mapped to match courses_csv.csv format"""
     
@@ -161,13 +322,13 @@ def save_to_csv(df, filename="data/courses_csv.csv"):
         df_mapped['prof'] = df_mapped['prof'].apply(lambda x: re.sub(r'\s+', ' ', str(x)).strip() if pd.notna(x) else '')
     
     # Handle multiple slots in the slot column (e.g., "ML3,ML4" -> separate rows)
+    # Also process lab codes and day assignments
     expanded_rows = []
     
     for _, row in df_mapped.iterrows():
         slot_value = str(row['slot']).strip()
         
         # Check if slot contains multiple values separated by comma
-            # Split by both ',' and '+' and create separate rows for each slot
         if (',' in slot_value or '+' in slot_value) and slot_value != '':
             # Replace both delimiters with comma, then split
             slot_value_clean = slot_value.replace('+', ',')
@@ -175,10 +336,16 @@ def save_to_csv(df, filename="data/courses_csv.csv"):
             for slot in slots:
                 new_row = row.copy()
                 new_row['slot'] = slot
+                # Process this slot for day assignments
+                new_row = process_slot_for_days(slot, new_row)
                 expanded_rows.append(new_row)
         else:
-            # Single slot or empty, keep as is
-            expanded_rows.append(row)
+            # Single slot or empty, keep as is but process for day assignments
+            if slot_value != '':
+                new_row = process_slot_for_days(slot_value, row)
+            else:
+                new_row = row.copy()
+            expanded_rows.append(new_row)
     
     # Create new dataframe from expanded rows
     df_expanded = pd.DataFrame(expanded_rows)

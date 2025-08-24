@@ -15,6 +15,7 @@ import string
 from data import fetch_courses_df
 from courses import get_course_codes_from_csv
 from fresher_courses import get_fresher_courses
+from enhanced_fresher_courses import format_fresher_courses_response
 from semester_constants import FRESHER_YEAR
 from helper import *
 
@@ -44,10 +45,11 @@ def get_my_courses(data: requestMyCourses):
     roll_number = data.roll_number
 
     # Handle BDes and BTech freshers respectively
-    if roll_number.startswith(FRESHER_YEAR+'0205'):
-        return get_fresher_courses(roll_number,True)
-    elif roll_number.startswith(FRESHER_YEAR+'01'):
-        return get_fresher_courses(roll_number)
+    if roll_number.startswith(FRESHER_YEAR+'0205') or roll_number.startswith(FRESHER_YEAR+'01'):
+        fresher_response = format_fresher_courses_response(roll_number)
+        if fresher_response:
+            return fresher_response
+        # If no fresher data, fall through to regular processing
         
     # Acquire user course codes
     course_codes = get_course_codes_from_csv(roll_number)
@@ -83,12 +85,16 @@ def get_my_courses(data: requestMyCourses):
                 if df_entry[day]!="":
                     timing_json[day] = df_entry[day]
         
+        venue_str = str(df_entry['venue']) if pd.notna(df_entry['venue']) else ''
+        # Remove .0 suffix from venue numbers
+        venue_str = venue_str.replace('.0', '') if venue_str.endswith('.0') else venue_str
+        
         my_courses_nullable = {
             'code': ensure_string(df_entry['code']),
             'course': ensure_string(df_entry['name']),
             'slot': ensure_string(df_entry['slot']),
             'instructor': ensure_string(df_entry['prof']),
-            'venue': ensure_string(df_entry['venue']),
+            'venue': ensure_string(venue_str),
             'midsem': mid_time(df_entry['exam_slot']),
             'endsem': end_time(df_entry['exam_slot']),
             'timings': timing_json,

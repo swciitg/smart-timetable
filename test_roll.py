@@ -5,7 +5,7 @@ import json
 
 # Test the API with roll number
 # Start server with python -m uvicorn main:app --reload --host 0.0.0.0 --port 8002
-roll = "220150032"
+roll = "250101001"
 url = "http://localhost:8002/get-my-courses"
 data = {"roll_number": roll}
 
