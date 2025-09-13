@@ -1,5 +1,4 @@
 code,name,slot,venue,prof,exam_slot,Monday,Tuesday,Wednesday,Thursday,Friday
-DD401,Check,F,5G4,cc,F,12:00 - 12:55 PM ,,,,
 BT418,Systems Biology,F,5G4,biplabbose,F,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 BT421,Neuroscience,B,5304,cngupta,B,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 BT101BSBE,Biochemistry,E,5401,vtrivedi,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
