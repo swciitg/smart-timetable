@@ -226,7 +226,7 @@ CS556,"Performance Modeling, Analysis and Evaluation",A1,5004,moumita.patra@iitg
 CS533,ML for EDA,F1,5G2,sukantab@iitg.ac.in,F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 CS525,Formal Methods for System Verification,G,5G2,ckarfa@iitg.ac.in,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 CS544,Topics in Networks,B1,5004,t.venkat@iitg.ac.in,B1,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
-CS691,Concurrency Theory,B,5004,khushraj@iitg.ac.in,B,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
+CS691,Concurrency Theory,C,5004,khushraj@iitg.ac.in,C,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 CS590,Deep Learning,A,5G2,ranbir@iitg.ac.in,A,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CS534,Approximation Algorithms,A1,5401,rinkulu@iitg.ac.in,A1,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 DA243,Introduction to Optimization,A,5205,akmahto,A,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
@@ -432,11 +432,11 @@ ME322,Machine Design,B1,"5102, 5103","kpmech, ssvelan",B1,4:00 - 4:55 PM,3:00 - 
 ME323,Mechanical Measurements,C1,"5102, 5103","shock, pandabiranchi",C1,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
 ME324,Industrial Engineering and Operations Research,D1,"5102, 5103","uday, dsharma",D1,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 ME325,Control Systems,E1,"5102, 5103","karuna.kalita, atanub",E1,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-ME503,Technical Writing,A,1G2,uday,A,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-ME511,Engineering Materials and Characterization,A1,L3,pkhanikar,A1,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME503,Technical Writing,A,1G2,uday,C1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+ME511,Engineering Materials and Characterization,A1,L3,pkhanikar,A,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 ME513,Physics of Deformation Processes,D,L3,swarupbag,D,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-ME522,Convective Heat Transfer,A1,1G2,amaresh,A1,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
-ME541,Continuum Mechanics,A1,L4,nipaldeka,A1,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME522,Convective Heat Transfer,A1,1G2,amaresh,A,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+ME541,Continuum Mechanics,A1,L4,nipaldeka,A,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 ME542,Numerical Analysis,E,"1G2, CAD Lab",ssg,E,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 ME552,Aircraft Propulsion,D,1G2,"saha, shock",D,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 ME553,Gas Dynamics,F1,1G2,bhaskark,F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
@@ -623,9 +623,9 @@ PH706,Gravitation and Cosmology,D(Mon),4005,bibhas.majhi@iitg.ac.in,A1,,,,,
 PH706,Gravitation and Cosmology,C(Tues),4005,bibhas.majhi@iitg.ac.in,A1,,,,,
 PH706,Gravitation and Cosmology,A(Thurs),4005,bibhas.majhi@iitg.ac.in,A1,,,,,
 PH708,Mini Project,,,,,,,,,
-HT113,Biochemistry,C,5405,rajubej,C,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-HT114,Human Anatomy and Physiology,E,5405,sundareswaranl@aiimsguwahati.ac.in,E,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HT116,CAD Laboratory,G,5405,rahulag,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HT113,Biochemistry,C,5405,rajubej,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HT114,Human Anatomy and Physiology,E,5405,sundareswaranl@aiimsguwahati.ac.in,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+HT116,CAD Laboratory,G,5405,rahulag,G1,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 HT506,Biotechniques and Bioinstrumentation Laboratory,,,rajubej,AL2,,,,,
 HT507,Diagnostics & Devices Laboratory,,,rajivkar,AL3,,,,,
 HT508,Product Design and Prototyping Laboratory,,5406,erwin,AL4,,,,,
@@ -633,10 +633,10 @@ HT509,Regenerative Medicine and Stem Cells Laboratory,,,rajubej,AL3,,,,,
 HT510,Tissue Engineering and Regenerative Medicines,A,5406,biman.mandal,A,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 HT511,Stem Cells and Therapeutics,C,5406,bithiahgj,C,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 HT601,"Medical Diagnostic Devices, BioMEMS, and Biosensors",A,4003,rajivkar,A,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-HT602,Regulatory Affairs of Biomedical Devices,C,4003,erwin,C,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-HT604,MRI Systems and Applications: From Hardware to Diagnostic,D,5406,erwin,D,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+HT602,Regulatory Affairs of Biomedical Devices,C,4003,erwin,B,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+HT604,MRI Systems and Applications: From Hardware to Diagnostic,D,5406,erwin,G,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 HT605,Biomicrofluidics,E,5406,rahulag,E,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-HT606,Data Science for Biomedical Engineering,F,5406,rajivkar,F,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+HT606,Data Science for Biomedical Engineering,F,5406,rajivkar,D,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 BT415,Tissue Engineering and Stem Cell,F1,5G3,kapgupta,F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 CH419,Consumer Chemistry,F1,5G4,"pki,patel",F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 EE696,Introduction to Quantum Computing,F1,5105,aloshious,F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
