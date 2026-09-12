@@ -28,7 +28,7 @@ BT5172L,Experimental Techniques in Bioengineering,AL4 & AL5 (2 – 5 PM),Lab,vtr
 BT6300S,M. Tech. Seminar,,,kapgupta,,,,,,
 BT6301P,M Tech Project I,,,bithiahgj,,,,,,
 BT6302P,M Tech Project I,,,bithiahgj,,,,,,
-BT6019,Essential of Genetics,A1,5104,rakhi_chaturvedi,A1,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
+BT6019,Essential of Genetics,A1,5005,rakhi_chaturvedi,A1,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 BT6005,Gene Therapy,B1,5406,sachinku,B1,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 BT6004,Enzymology,B1,5104,amul,B1,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 BT6045,Introduction to IPR and Ethics,C1,5104,lrangan,C1,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM
@@ -265,7 +265,7 @@ CL6029,Membranes,G,5004,kmohanty; bpmandal,G,,,12:00 - 12:55 PM ,12:00 - 12:55 P
 CL6030,Composite Materials,A1,5004,cdas,A1,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,
 CL6031,Smart materials,D1,5004,mihir,D1,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
 CL6040,Research Methodology and Scientific Writinng,E1,5004,ramgopalu,E1,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM,
-CL6046,Carbon Capture Utilization and Storage,G,2201,s_kumar,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+CL6046,Carbon Capture Utilization and Storage,G,2201,s_kumar,G1,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 CL6049,Polymer Soft Lithography,G1,5004,psgp,G1,,,1:00 - 1:55 PM,1:00 - 1:55 PM,1:00 - 1:55 PM
 CL655,Enhanced Oil Recovery,B1,5004,abhijitkakati,,4:00 - 4:55 PM,3:00 - 3:55 PM,2:00 - 2:55 PM,,5:00 - 5:55 PM
 FT6001,Advanced Food Processing,D1,2201,o.deshmukh; anandalakshmi,C,2:00 - 2:55 PM,,5:00 - 5:55 PM,4:00 - 4:55 PM,3:00 - 3:55 PM
@@ -294,7 +294,7 @@ DA4021,FATE in AI Models,E,5202,saradhi,E,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 -
 DA4061,Bioinformatics,B,5202+Lab,TBD,B,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 DA4061,Bioinformatics,AL3,5202+Lab,TBD,B,,,2:00 - 4:55 PM,,
 DA4062,Data Analytics for Finance,C,5202,mdipankar,C,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-DA6024,NLP with Large Language Models(Department Elective),D,5202,chiranjib,,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DA6024,NLP with Large Language Models(Department Elective),D,5202,chiranjib,D,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 DA6075,Fuzzy Systems and Applications (Department Elective),D,2101,teena,D,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 DA6071,Introduction to Reinforcement Learning(Department Elective),D,2102,arghyadip,D,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 DA4098P,BTP Project I,,,,,,,,,
@@ -314,7 +314,7 @@ HS4005,Quantitative Research Methods in Social Sciences,9-955 (Th,4205,bsengupta
 HS4005,Quantitative Research Methods in Social Sciences,Fr),4205,bsengupta,E,,,,,
 HS4005,Quantitative Research Methods in Social Sciences,10-1055 (Mo,4205,bsengupta,E,,,,,
 HS4005,Quantitative Research Methods in Social Sciences,Tu),4205,bsengupta,E,,,,,
-HS4011,Theories and Thinkers: The Concept of Culture,12-1255 (Th,4206,sukanya,B,,,,,
+HS4011,Theories and Thinkers: The Concept of Culture,10-1055 (Th,4206,sukanya,B,,,,,
 HS4011,Theories and Thinkers: The Concept of Culture,Fr),4206,sukanya,B,,,,,
 HS4011,Theories and Thinkers: The Concept of Culture,14-1455 (Mo,4206,sukanya,B,,,,,
 HS4011,Theories and Thinkers: The Concept of Culture,Tu),4206,sukanya,B,,,,,
@@ -465,7 +465,7 @@ CS3106L,Operating Systems Laboratory,E1(Tuesday),5101,satyajit.das @ iitg.ac.in,
 CS5002L/CS5004L,Data Structures Lab,B(Friday),5101,rinkulu @ iitg.ac.in,,,,,,
 HS2031,Development and its Discontents,G,5406,vasundharaj,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 HS2022,Introduction to Phonetics,G,5003,priyankoo,G1,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
-HS2008,Leadership and Communication in Historical Drama,G,5404,rohini,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
+HS2008,Leadership and Communication in Historical Drama,G,5G6,rohini,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 HS2011,Sociology of Science,G,5G1,sambit,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 HS2018,Introduction to Psychology,G,5G2,nkashyap,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
 HS2027,Introduction to Microeconomics,G,5G3,bhaskar.neog,G,,,12:00 - 12:55 PM ,12:00 - 12:55 PM ,12:00 - 12:55 PM 
@@ -503,9 +503,9 @@ PH4650,Optoelectronics,F,5006,"alika, s.bhaumik",F,12:00 - 12:55 PM ,12:00 - 12:
 CL6023,Polymer Science and Technology,F1,5004,vkatiyar,F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 CS3001,OOPs and Data Structures,F1,5406,saradhi,F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
 EE5042,Optimization Techniques,F1,5403,kuntaldeka,F1,1:00 - 1:55 PM,1:00 - 1:55 PM,,,2:00 - 2:55 PM
-CS1113,Introduction to Programming,A,5405,deepkesh,A1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-CS1115,Discrete Mathematics,E,5405,khushraj,D1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-CS1116H,Introduction to Computer Systems,C,5405,t.venkat,C,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
+CS1113,Introduction to Programming,A,5405,deepkesh,D1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
+CS1115,Discrete Mathematics,E,5405,khushraj,A1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+CS1116H,Introduction to Computer Systems,C,5405,t.venkat,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 EE1101H,Electric Circuits,D,5405,deb.sikdar,F1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 EE1105H,Digital and Analog Electronics,D,5405,deb.sikdar,F1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 MA1301H,Single Variable Calculus,B,5405,pati,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
@@ -514,8 +514,8 @@ CS1114L,Programming Lab,AL1,,deepkesh,,2:00 - 4:55 PM,,,,
 EE1109L,Basic Electronics Lab,AL5,,sonkar,,,,,,2:00 - 4:55 PM
 CS1101,Programming and Data Structures,F,5403,"moumita.patra, r.duttabaruah",A1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 ME1101,Engineering Mechanics,D,5403,uday,D1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-PH1110H,Introductory Classical Mechanics,E,5403,sayan.chakrabarti,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH1310H,Modern Physics,E,5403,aksarma,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1110H,Introductory Classical Mechanics,E,5403,sayan.chakrabarti,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1310H,Modern Physics,E,5403,aksarma,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 EE1113,Circuit Theory,C,5403,sreenathjg,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 MA1302H,Single Variable Calculus,B,5403,kvsrikanth,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 MA1502H,Multi Variable Calculus,B,5403,kvsrikanth,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
@@ -523,15 +523,15 @@ CS1105L,Programming and Data Structures Lab,AL3,,"moumita.patra, r.duttabaruah",
 EE1114L,Electronics Workshop,AL4,,mahimaarrawatia,,,,,2:00 - 4:55 PM,
 CS1102,Programming and Data Structures,A,5302,"hemangee, jatin",A1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 ME1102,Engineering Mechanics,D,5301,pankaj.biswas,D1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-PH1111H,Introductory Classical Mechanics,E,5301,pamu,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH1311H,Modern Physics,E,5301,soumitra.nandi,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1111H,Introductory Classical Mechanics,E,5301,pamu,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1311H,Modern Physics,E,5301,soumitra.nandi,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 EE1115,Principles of Electrical Engineering,C,5306,snath,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 MA1303H,Single Variable Calculus,B,5301,rupam,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 MA1503H,Multi Variable Calculus,B,5301,rupam,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 CS1106L,Programming and Data Structures Lab,AL4,,"hemangee, jatin",,,,,2:00 - 4:55 PM,
 EE1116L,Electrical Workshop,AL3,,snath,,,,2:00 - 4:55 PM,,
 CS1103,Programming and Data Structures,F,5303,"hemangee, jatin",A1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
-ME1111,Manufacturing Practices,E,5303/5306,"snj, spal, rkmittal,ganu",F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+ME1111,Manufacturing Practices,E,5303/5306,"snj, spal, rkmittal,ganu",,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 EE1102H,Electric Circuits,D,5303,chitra,F1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 EE1106H,Digital and Analog Electronics,D,5303,chitra,F1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 ME1112,Engineering Materials,A,5303/5306,"kanagaraj, pkhanikar",C1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
@@ -543,14 +543,14 @@ CE1101,Introduction to Civil Engineering,F,5404,darun,,12:00 - 12:55 PM ,12:00 -
 CE1102,Probability and Statistics in Civil Engineering,A,5404,c.mallikarjuna,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CE1103,Structural Mechanics,D,5404,budhaditya.hazra,,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CE1104,Introduction to Geospatial Engineering,C,5404,"rbharti, nair.archana",,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-PH1112H,Introductory Classical Mechanics,E,5404,dborah,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1112H,Introductory Classical Mechanics,E,5404,dborah,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 MA1305H,Single Variable Calculus,B,5404,satyajitp,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 MA1505H,Multi Variable Calculus,B,5404,shyamashree,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 ME1108L,Workshop Practice,AL3,,kanagaraj,,,,2:00 - 4:55 PM,,
 CH1101H,Basic Inorganic Chemistry,C,5406,akshaikumar,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 CH1106H,Basic Organic Chemistry,C,5406,bmandal,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 CL1102,Fundamentals of Process Calculations,A,5406,v.prabu,A1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
-PH1312H,Modern Physics,E,5406,dpal,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1312H,Modern Physics,E,5406,dpal,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 ME1103,Engineering Mechanics,D,5406,vinayak,D1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 MA1306H,Single Variable Calculus,B,5406,mgpp,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 MA1506H,Multi Variable Calculus,B,5406,mgpp,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
@@ -560,7 +560,7 @@ CH1102H,Basic Inorganic Chemistry,C,5304,sastricv,C1,10:00 - 10:55 AM,11:00 - 11
 CH1107H,Basic Organic Chemistry,C,5304,dsrimani,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 EE1103H,Electric Circuits,D,5304,smajhi,F1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 EE1107H,Digital and Analog Electronics,D,5304,sureshsundaram,F1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-PH1113H,Introductory Classical Mechanics,E,5304,sbdas,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1113H,Introductory Classical Mechanics,E,5304,sbdas,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 MA1307H,Single Variable Calculus,F,5304,satyajitp,B1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 MA1507H,Multi Variable Calculus,F,5304,shyamashree,B1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 CL1101,Chemical Engineering Fundamentals,A,5304,vmoholkar,A1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
@@ -572,14 +572,14 @@ CS1104,Programming and Data Structures,A,5302,"hemangee, jatin",A1,8:00 - 8:55 A
 ME1104,Engineering Mechanics,E,5302,bsandeepr,D1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 MA1308H,Single Variable Calculus,B,5302,anjankc,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 MA1508H,Multi Variable Calculus,B,5302,anjankc,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-PH1130,Classical Mechanics,D,5302,udaymaiti,F1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+PH1130,Classical Mechanics,D,5302,udaymaiti,E1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CS1108L,Programming and Data Structures Lab,AL4,,"hemangee, jatin",,,,,2:00 - 4:55 PM,
 ME1109L,Workshop Practice,AL2,,kanagaraj,,,2:00 - 4:55 PM,,,
 PH1100L,General Physics Lab - I,AL1,,"bkhazra, pamu, subhra",,2:00 - 4:55 PM,,,,
 CL1103,Fundamentals of Process Calculations,A,5301,rprasanna,A1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 ME1105,Engineering Mechanics,D,5301,pankaj.biswas,D1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-PH1114H,Introductory Classical Mechanics,E,5301,pamu,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH1313H,Modern Physics,E,5301,soumitra.nandi,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1114H,Introductory Classical Mechanics,E,5301,pamu,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1313H,Modern Physics,E,5301,soumitra.nandi,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 MA1309H,Single Variable Calculus,B,5301,rupam,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 MA1509H,Multi Variable Calculus,B,5301,rupam,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 CH1112,Organic Chemistry,C,5301,span,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
@@ -587,20 +587,20 @@ CH1113L,Chemical Technology Lab - I,AL2,,"achalkumar,kbhabak",,,2:00 - 4:55 PM,,
 PH1102L,Physics Lab,AL3,,"bkhazra, pamu, subhra",,,,2:00 - 4:55 PM,,
 CH1104H,Basic Inorganic Chemistry,C,5305,gdas,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
 CH1108H,Basic Organic Chemistry,C,5305,ckjana,C1,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM
-PH1115H,Introductory Classical Mechanics,E,5305,padmakumarp,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH1314H,Modern Physics,E,5305,pratima,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1115H,Introductory Classical Mechanics,E,5305,padmakumarp,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1314H,Modern Physics,E,5305,pratima,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 MA1310H,Single Variable Calculus,F,5305,anjankc,B1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 MA1510H,Multi Variable Calculus,F,5305,anjankc,B1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 ME1106,Engineering Mechanics,D,5305,tapan.mankodi,D1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
 CS1109,Introduction to Computing,A,5305,"moumita.patra, r.duttabaruah",A1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CH1110L,Chmistry Lab,AL3,,"achalkumar,kbhabak",,,,2:00 - 4:55 PM,,
 CS1111L,Computing Lab,AL2,,"moumita.patra, r.duttabaruah",,,2:00 - 4:55 PM,,,
-PH1116H,Introductory Classical Mechanics,E,5305,padmakumarp,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
-PH1315H,Modern Physics,E,5305,pratima,F1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1116H,Introductory Classical Mechanics,E,5305,padmakumarp,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
+PH1315H,Modern Physics,E,5305,pratima,E1,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,
 MA1311H,Single Variable Calculus,B,5302,anjankc,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
 MA1511H,Multi Variable Calculus,B,5302,anjankc,B1,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,,8:00 - 8:55 AM
-DA1102,Introduction to Data Science,D,5306,"pwpatil,dneog",A1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
-DA1103,Foundations of Artificial Intelligence,F,5306,neerajs,B1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
+DA1102,Introduction to Data Science,D,5306,"pwpatil,dneog",C1,11:00 - 11:55 AM,,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM
+DA1103,Foundations of Artificial Intelligence,F,5306,neerajs,D1,12:00 - 12:55 PM ,12:00 - 12:55 PM ,,,11:00 - 11:55 AM
 CS1110,Introduction to Computing,A,5305,"moumita.patra, r.duttabaruah",A1,8:00 - 8:55 AM,9:00 - 9:55 AM,10:00 - 10:55 AM,11:00 - 11:55 AM,
 CS1112L,Computing Lab,AL2,,"moumita.patra, r.duttabaruah",,,2:00 - 4:55 PM,,,
 PH1103L,Physics Lab,AL3,,"bkhazra, pamu, subhra",,,,2:00 - 4:55 PM,,
